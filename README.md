@@ -13,6 +13,7 @@
 - [backend/](backend/) — 백엔드, DB, API, 성능
 - [frontend/](frontend/) — 프론트엔드, UX, 웹 플랫폼
 - [ai/](ai/) — LLM, 프롬프트, AI 제품/도구
+- [career/](career/) — 커리어, 협업, 시니어십, 성장
 - [templates/](templates/) — 글 작성 템플릿
 
 ---
@@ -20,6 +21,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-04
+- [시니어 엔지니어로서 배운 것들](career/2026-04-23-things-ive-learned-as-a-senior-engineer.md) — 10년+ 경력 개발자가 풀어놓은 커리어·코드·협업·돈에 대한 솔직한 교훈
 - [소프트웨어 공학의 법칙들](engineering/2026-04-23-laws-of-software-engineering.md) — 56가지 원칙을 훑으며 정리한 엔지니어링 사고의 지도
 
 ---
