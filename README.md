@@ -21,6 +21,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-04
+- [과도한 고민, 범위 확장, 구조적 diff로 프로젝트를 망치는 법](engineering/2026-04-27-overthinking-scope-creep-structural-diffs.md) — Kevin Lynagh가 자기 사이드 프로젝트들을 해부하며 풀어내는 YAGNI·성공 기준 내면화 이야기
 - [기술 부채, 인지 부채, 의도 부채](engineering/2026-04-24-technical-cognitive-intent-debt.md) — 마틴 파울러가 짚는 LLM 시대 세 층위의 부채와 검증 중심 엔지니어링으로의 이동
 - [시니어 엔지니어로서 배운 것들](career/2026-04-23-things-ive-learned-as-a-senior-engineer.md) — 10년+ 경력 개발자가 풀어놓은 커리어·코드·협업·돈에 대한 솔직한 교훈
 - [소프트웨어 공학의 법칙들](engineering/2026-04-23-laws-of-software-engineering.md) — 56가지 원칙을 훑으며 정리한 엔지니어링 사고의 지도
