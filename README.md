@@ -14,6 +14,7 @@
 - [frontend/](frontend/) — 프론트엔드, UX, 웹 플랫폼
 - [ai/](ai/) — LLM, 프롬프트, AI 제품/도구
 - [career/](career/) — 커리어, 협업, 시니어십, 성장
+- [weekly/](weekly/) — 주간 다이제스트 큐레이션 (GeekNews Weekly 등)
 - [templates/](templates/) — 글 작성 템플릿
 
 ---
@@ -21,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-04
+- [GeekNews Weekly #355 (2026-W17) — 잃어버린 기본기를 찾아서](weekly/2026-W17-geeknews-355.md) — 이번 주 메인 테마와 사이드 트랙 큐레이션 + 다음 주 정리 후보 4개
 - [자신보다 뛰어난 사람을 채용하는 법](career/2026-04-27-how-to-hire-someone-better-than-yourself.md) — Jason Cohen이 제시하는, 도메인을 몰라도 작동하는 6가지 채용 평가 휴리스틱과 레퍼런스 체크 재설계
 - [과도한 고민, 범위 확장, 구조적 diff로 프로젝트를 망치는 법](engineering/2026-04-27-overthinking-scope-creep-structural-diffs.md) — Kevin Lynagh가 자기 사이드 프로젝트들을 해부하며 풀어내는 YAGNI·성공 기준 내면화 이야기
 - [기술 부채, 인지 부채, 의도 부채](engineering/2026-04-24-technical-cognitive-intent-debt.md) — 마틴 파울러가 짚는 LLM 시대 세 층위의 부채와 검증 중심 엔지니어링으로의 이동
