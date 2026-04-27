@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-04
+- [AI 에이전트가 프로덕션 데이터베이스를 삭제했다 — 9초의 사고](ai/2026-04-27-ai-agent-deleted-production-database.md) — Cursor + Railway 사례로 본 토큰 권한·백업 격리·destructive op 가드의 5겹 실패와 적용 체크리스트
 - [GeekNews Weekly #355 (2026-W17) — 잃어버린 기본기를 찾아서](weekly/2026-W17-geeknews-355.md) — 이번 주 메인 테마와 사이드 트랙 큐레이션 + 다음 주 정리 후보 4개
 - [자신보다 뛰어난 사람을 채용하는 법](career/2026-04-27-how-to-hire-someone-better-than-yourself.md) — Jason Cohen이 제시하는, 도메인을 몰라도 작동하는 6가지 채용 평가 휴리스틱과 레퍼런스 체크 재설계
 - [과도한 고민, 범위 확장, 구조적 diff로 프로젝트를 망치는 법](engineering/2026-04-27-overthinking-scope-creep-structural-diffs.md) — Kevin Lynagh가 자기 사이드 프로젝트들을 해부하며 풀어내는 YAGNI·성공 기준 내면화 이야기
