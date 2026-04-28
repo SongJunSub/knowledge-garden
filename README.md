@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-04
+- [하네스 엔지니어링: 모델보다 중요한 작업 환경 설계의 시대](ai/2026-04-28-agent-harness-engineering.md) — Addy Osmani의 Agent = Model + Harness 공식, Ratchet 원칙, 하네스 6영역, AGENTS.md 설계 가이드
 - [만들기 전에 고려해야 할 3가지 제약](engineering/2026-04-28-three-constraints-before-i-build-anything.md) — Jordan Lord의 one-pager / core tech 분리 / defining constraint 3-차원 빌드 거절 체크리스트
 - [AI는 사고를 대체하지 말고 끌어올려야 한다](ai/2026-04-28-ai-should-elevate-your-thinking-not-replace-it.md) — 레버리지 vs 모방의 갈림길, 경력 초반에 더 위험한 이유, 30분 룰 같은 적용 규칙 도출
 - [AI 에이전트가 프로덕션 데이터베이스를 삭제했다 — 9초의 사고](ai/2026-04-27-ai-agent-deleted-production-database.md) — Cursor + Railway 사례로 본 토큰 권한·백업 격리·destructive op 가드의 5겹 실패와 적용 체크리스트
