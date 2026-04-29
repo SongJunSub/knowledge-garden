@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-04
+- [YC RFS Summer 2026 — 호스피탈리티 IT 관점 분석](engineering/2026-04-29-yc-rfs-summer-2026-hospitality-it.md) — 15개 RFS 매핑 + 호스피탈리티 IT 직접 기회·위협 7개 + 지금 해야 할 5가지 액션
 - [Claude Code가 작성한 코드의 소유자는 누구인가?](ai/2026-04-29-who-owns-the-code-claude-wrote.md) — Sena Evren이 분해하는 저작권/고용/라이선스 3축, 4가지 즉시 실무 행동, M&A 실사에서 폭발하는 이유
 - [Claude for Creative Work — Anthropic의 창작 도구 커넥터 발표](ai/2026-04-29-claude-for-creative-work.md) — Blender·Adobe·Ableton 등 8개 통합. MCP가 코딩 너머 전문 도메인까지 확산되는 첫 큰 신호
 - [mattpocock/skills vs MangoLove — 내 워크플로우와의 비교·합칠 후보](ai/2026-04-29-mattpocock-skills-vs-mangolove.md) — 22개 스킬을 내 `/strict` 워크플로우와 매핑하고, 4가지 공백(grill·CONTEXT.md·diagnose·write-a-skill)에 우선순위 매김
