@@ -21,6 +21,9 @@
 
 ## 🗂 인덱스 (최신순)
 
+### 2026-05
+- [신용카드는 브루트포스 유형 공격에 취약함](backend/2026-05-03-credit-cards-vulnerable-to-brute-force.md) — PG 응답 정밀도가 공격 신호로 작동, 3DS의 한계, 호스피탈리티/CRS 결제 시스템 5가지 즉시 점검 액션
+
 ### 2026-04
 - [UX의 법칙들](frontend/2026-04-30-laws-of-ux.md) — 30개 UX 원칙을 7개 의미 그룹으로 재분류 + 호스피탈리티/B2C(PickMe·CRS Admin) 적용 후보, `/ux-review` 스킬 후보
 - [YC RFS Summer 2026 — 호스피탈리티 IT 관점 분석](engineering/2026-04-29-yc-rfs-summer-2026-hospitality-it.md) — 15개 RFS 매핑 + 호스피탈리티 IT 직접 기회·위협 7개 + 지금 해야 할 5가지 액션
