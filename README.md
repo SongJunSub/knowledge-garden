@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-05
+- [Amazon에서 1,000번 면접하며 얻은 교훈](career/2026-05-04-learnings-from-1000-interviews-at-amazon.md) — Amazon Bar Raiser의 4축 레벨 매트릭스 + 빨간 신호 + Jason Cohen 채용 글과 거울 짝
 - [Mercury의 200만 줄 Haskell 프로덕션 엔지니어링](engineering/2026-05-04-mercury-couple-million-lines-of-haskell.md) — 언어 무관 6가지 운영 패턴(순수성=경계, 안전한 경로=쉬운 경로, Temporal, 도메인 에러, 타입 인코딩 균형, Records of Functions) + Kotlin/CRS 적용
 - [GeekNews Weekly #356 (2026-W18) — 자신보다 나은 사람 뽑는 법](weekly/2026-W18-geeknews-356.md) — 이번 주 7개가 이미 가든에 있음 + 다음 주 정리 후보 5개 + 백엔드 보안 시리즈 묶음 후보
 - [신용카드는 브루트포스 유형 공격에 취약함](backend/2026-05-03-credit-cards-vulnerable-to-brute-force.md) — PG 응답 정밀도가 공격 신호로 작동, 3DS의 한계, 호스피탈리티/CRS 결제 시스템 5가지 즉시 점검 액션
