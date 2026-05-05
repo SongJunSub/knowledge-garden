@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-05
+- [Redis Array — antirez의 4개월 AI 협업 시스템 개발기](engineering/2026-05-05-redis-array-antirez-4-months-with-ai.md) — *Agentic Coding Trap*의 정확한 대척점. AI = "난이도 천장 상승기" 사례. 4단계 협업 패턴 + 가든 입장 스펙트럼 *현실적 채택 모델* 위치
 - [OpenAI의 대규모 저지연 음성 AI 인프라 — Relay + Transceiver 분리](architecture/2026-05-05-openai-low-latency-voice-ai-at-scale.md) — `architecture/` 첫 글. ICE ufrag를 라우팅 힌트로 재활용한 stateless/stateful 분리 패턴 + CRS Connectivity 적용 후보
 - [Agentic Coding은 함정이다 — 비판적 관점](ai/2026-05-05-agentic-coding-is-a-trap.md) — 감독의 역설·디버깅 47% 감소·벤더 종속에 대한 회의론. **가든의 균형 실험 — 채택 옹호 6 vs 회의론 1 비율 보정**
 - [장기 실행 에이전트 — 며칠 동안 실행되면 무엇이 달라지는가](ai/2026-05-04-long-running-agents.md) — Addy Osmani의 하네스 엔지니어링 후속작. Brain/Hands/Session 3분리, Ralph Loop, Checkpoint-and-Resume, done-condition 우선 원칙
