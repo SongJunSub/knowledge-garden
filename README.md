@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-05
+- [Agentic Coding은 함정이다 — 비판적 관점](ai/2026-05-05-agentic-coding-is-a-trap.md) — 감독의 역설·디버깅 47% 감소·벤더 종속에 대한 회의론. **가든의 균형 실험 — 채택 옹호 6 vs 회의론 1 비율 보정**
 - [장기 실행 에이전트 — 며칠 동안 실행되면 무엇이 달라지는가](ai/2026-05-04-long-running-agents.md) — Addy Osmani의 하네스 엔지니어링 후속작. Brain/Hands/Session 3분리, Ralph Loop, Checkpoint-and-Resume, done-condition 우선 원칙
 - [나만의 GitHub를 만든다면 — Forge에 대한 9가지 wishlist](engineering/2026-05-04-if-i-could-make-my-own-github.md) — Mat Duggan의 forge 비판 + push 전 hook·비이분법 승인·stacked PR·LLM 자동 승인·서명된 Actions
 - [이메일 주소 심층 분석 — RFC와 현실, 검증 함정, 두 발신자](backend/2026-05-04-email-addresses-deep-dive.md) — Gmail 점 정규화·envelope vs From·검증기 버그 8가지 + 호스피탈리티/CRS 5가지 즉시 적용 액션
