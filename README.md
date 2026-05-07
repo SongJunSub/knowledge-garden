@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-05
+- [최고의 직원이 최악의 관리자가 되는 이유](career/2026-05-07-best-employee-becomes-worst-manager.md) — Peter Principle, *관리직은 새 직업*, 3축 평가(사회 지능/비즈니스 감각/개인 인성), 행동 기반 인터뷰, 150% 규칙. **채용·관리 4부작 완성** + 진단 매트릭스
 - [생산적 미루기 — 왜 해야 할 일 대신 다른 생산적인 일을 하게 되는가](career/2026-05-07-productive-procrastination.md) — 신경과학으로 본 분주함의 함정. *70% 실험* vs *생산적 미루기* 자가 진단 질문 + 가든 큐레이션 자기 점검
 - [확률적 창업자의 부상 — AI 네이티브 시대 리더십](career/2026-05-05-rise-of-the-probabilistic-founder.md) — antirez 글의 *조직 레벨 버전*. 70/30 실험-로드맵, **Agent-Default Posture**, 가든 6점 입장 스펙트럼 정리
 - [Redis Array — antirez의 4개월 AI 협업 시스템 개발기](engineering/2026-05-05-redis-array-antirez-4-months-with-ai.md) — *Agentic Coding Trap*의 정확한 대척점. AI = "난이도 천장 상승기" 사례. 4단계 협업 패턴 + 가든 입장 스펙트럼 *현실적 채택 모델* 위치
