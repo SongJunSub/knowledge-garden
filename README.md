@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-05
+- [AI의 세 가지 역법칙](ai/2026-05-07-inverse-laws-of-robotics.md) — 의인화/맹목적 신뢰/책임 포기 금지 3원칙. 가든 *Agent-Default Posture 시리즈*의 *원칙 층위* + MangoLove 4번째 원칙 추가 후보
 - [LLM-from-Scratch — 1시간짜리 GPT 학습 워크숍](ai/2026-05-07-llm-from-scratch-workshop.md) — 가든 내 *주말 프로젝트 후보*로 기록. 3 제약 만족 평가 + 우선순위 ★★★ (이번 분기 후순위, Q3 실험 슬롯 후보)
 - [모두가 AI를 가져도 회사는 여전히 아무것도 배우지 못할 때](engineering/2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md) — *조직 차원 AI 학습*의 빠진 층 채움. Agent Operations / Loop Intelligence / Agent Capabilities 3축 + 회사 자가 진단 + Token-to-Learning 메트릭
 - [AI가 당신의 DB를 삭제한 게 아니라, 당신이 삭제한 것이다](ai/2026-05-07-ai-didnt-delete-your-database-you-did.md) — 9초 사고의 *책임 귀속* 짝. *"왜 그런 API가 존재하는가?"* 한 문장 진단 + CRS·Connectivity·PickMe destructive 엔드포인트 감사 액션
