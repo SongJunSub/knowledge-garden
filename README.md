@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-05
+- [Vibe coding과 agentic engineering이 내가 원하는 것보다 가까워지고 있다](ai/2026-05-07-vibe-coding-agentic-engineering-converging.md) — Simon Willison의 *자기 고백*. 책임 없는 신뢰, 외형 동일 = 평가 불가, 사용량 = 새 증거, 병목 이동 + PR 메타데이터 vibe/hybrid/agentic 3단계
 - [직장에서 생산적으로 보이기 — 산출물과 역량의 분리](ai/2026-05-07-appearing-productive-in-the-workplace.md) — *신호 비판*. AI가 산출물-역량 연결 끊음, "느림이 진짜 일이었다", 동의 ≠ 근거, Cross-domain 위험, 신뢰가 새 차별 자산
 - [Claude Code는 당신의 제품을 더 좋게 만들지 않는다](ai/2026-05-07-claude-code-not-making-your-product-better.md) — Ethan Ding의 *기능 비판*. K자형 곡선·복리 효과 부재·코드 줄 수 = 비용 + Camry vs Ferrari 라인 구분, 호스피탈리티 적용
 - [AI의 세 가지 역법칙](ai/2026-05-07-inverse-laws-of-robotics.md) — 의인화/맹목적 신뢰/책임 포기 금지 3원칙. 가든 *Agent-Default Posture 시리즈*의 *원칙 층위* + MangoLove 4번째 원칙 추가 후보
