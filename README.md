@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-05
+- [LLM-from-Scratch — 1시간짜리 GPT 학습 워크숍](ai/2026-05-07-llm-from-scratch-workshop.md) — 가든 내 *주말 프로젝트 후보*로 기록. 3 제약 만족 평가 + 우선순위 ★★★ (이번 분기 후순위, Q3 실험 슬롯 후보)
 - [모두가 AI를 가져도 회사는 여전히 아무것도 배우지 못할 때](engineering/2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md) — *조직 차원 AI 학습*의 빠진 층 채움. Agent Operations / Loop Intelligence / Agent Capabilities 3축 + 회사 자가 진단 + Token-to-Learning 메트릭
 - [AI가 당신의 DB를 삭제한 게 아니라, 당신이 삭제한 것이다](ai/2026-05-07-ai-didnt-delete-your-database-you-did.md) — 9초 사고의 *책임 귀속* 짝. *"왜 그런 API가 존재하는가?"* 한 문장 진단 + CRS·Connectivity·PickMe destructive 엔드포인트 감사 액션
 - [최고의 직원이 최악의 관리자가 되는 이유](career/2026-05-07-best-employee-becomes-worst-manager.md) — Peter Principle, *관리직은 새 직업*, 3축 평가(사회 지능/비즈니스 감각/개인 인성), 행동 기반 인터뷰, 150% 규칙. **채용·관리 4부작 완성** + 진단 매트릭스
