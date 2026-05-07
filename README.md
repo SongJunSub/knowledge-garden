@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-05
+- [직장에서 생산적으로 보이기 — 산출물과 역량의 분리](ai/2026-05-07-appearing-productive-in-the-workplace.md) — *신호 비판*. AI가 산출물-역량 연결 끊음, "느림이 진짜 일이었다", 동의 ≠ 근거, Cross-domain 위험, 신뢰가 새 차별 자산
 - [Claude Code는 당신의 제품을 더 좋게 만들지 않는다](ai/2026-05-07-claude-code-not-making-your-product-better.md) — Ethan Ding의 *기능 비판*. K자형 곡선·복리 효과 부재·코드 줄 수 = 비용 + Camry vs Ferrari 라인 구분, 호스피탈리티 적용
 - [AI의 세 가지 역법칙](ai/2026-05-07-inverse-laws-of-robotics.md) — 의인화/맹목적 신뢰/책임 포기 금지 3원칙. 가든 *Agent-Default Posture 시리즈*의 *원칙 층위* + MangoLove 4번째 원칙 추가 후보
 - [LLM-from-Scratch — 1시간짜리 GPT 학습 워크숍](ai/2026-05-07-llm-from-scratch-workshop.md) — 가든 내 *주말 프로젝트 후보*로 기록. 3 제약 만족 평가 + 우선순위 ★★★ (이번 분기 후순위, Q3 실험 슬롯 후보)
