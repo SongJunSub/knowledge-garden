@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-05
+- [소프트웨어를 만들어서 무료로 나눠주기](career/2026-05-08-write-software-give-it-away-for-free.md) — 가든 *왜 만드는가* 회귀. $600 만들고 월 $5로 수십만 사용자 운영. *취미 = 수익화 안 한 선택의 결과* + BugSip·가든·docs-ko 수익화 정책 명시 후보
 - [SQLite는 미국 의회도서관 권장 저장 형식이다](backend/2026-05-08-sqlite-loc-recommended-storage-format.md) — 비판 시리즈 잠시 벗어난 *기술 자산* 글. 7가지 평가 기준, *데이터베이스가 아카이브 형식으로 인정* + 호스피탈리티 Cold Storage·정산 봉인·가든 분기 export 후보
 - [프로그래밍은 여전히 형편없다 — AI는 희생양, 진짜 원인은 탐욕](career/2026-05-08-programming-still-sucks.md) — *AI 비판 시리즈 9번째, 메타 비판*. 도제식 성장 붕괴, Goodhart 함정, *Sara의 cron job* 우화(가든 4개 글의 메타포 압축), "주니어가 없다" + Sara 식별·Goodhart 자가 진단 액션
 - [AI가 끌어올린 바닥, 우리의 천장은 어디인가](career/2026-05-07-ai-floor-and-our-ceiling.md) — 가든 *AI 비판 시리즈 한국어 첫 글*. 바닥/천장 메타포(=Camry/Ferrari 다른 표현), T형 인재, "실행 위임 가능, 책임 외주화 불가" + MangoLove 4번째 원칙 한국어 표현 후보
