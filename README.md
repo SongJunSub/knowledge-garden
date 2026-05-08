@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-05
+- [SQLite는 미국 의회도서관 권장 저장 형식이다](backend/2026-05-08-sqlite-loc-recommended-storage-format.md) — 비판 시리즈 잠시 벗어난 *기술 자산* 글. 7가지 평가 기준, *데이터베이스가 아카이브 형식으로 인정* + 호스피탈리티 Cold Storage·정산 봉인·가든 분기 export 후보
 - [프로그래밍은 여전히 형편없다 — AI는 희생양, 진짜 원인은 탐욕](career/2026-05-08-programming-still-sucks.md) — *AI 비판 시리즈 9번째, 메타 비판*. 도제식 성장 붕괴, Goodhart 함정, *Sara의 cron job* 우화(가든 4개 글의 메타포 압축), "주니어가 없다" + Sara 식별·Goodhart 자가 진단 액션
 - [AI가 끌어올린 바닥, 우리의 천장은 어디인가](career/2026-05-07-ai-floor-and-our-ceiling.md) — 가든 *AI 비판 시리즈 한국어 첫 글*. 바닥/천장 메타포(=Camry/Ferrari 다른 표현), T형 인재, "실행 위임 가능, 책임 외주화 불가" + MangoLove 4번째 원칙 한국어 표현 후보
 - [병목은 결코 코드가 아니었다](engineering/2026-05-07-bottleneck-was-never-the-code.md) — 진짜 병목은 *협상·공유 맥락·조직 일관성*. 제번스 역설(가속 = 더 만들기), "맥락은 침투할 수 없다", 다음 10년 우위는 일관성 유지 회사 + Spec 적대적 리뷰 격상 후보
