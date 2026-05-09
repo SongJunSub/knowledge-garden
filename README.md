@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-05
+- [Agents에는 더 많은 프롬프트가 아니라 제어 흐름이 필요하다](ai/2026-05-09-agents-need-control-flow.md) — *"MANDATORY 쓰면 한계 도달"* 진단. 결정적 스캐폴딩 + LLM 컴포넌트 + 결정적 도구 3층. MangoLove `strict.md`의 강제 표현을 코드로 이전할 후보 매핑
 - [Lean Analytics, AI와 에이전트 시대에 맞춰 돌아보기](engineering/2026-05-08-lean-analytics-reconsidered.md) — 가든 *측정 메트릭* 결의 첫 글. 6+3 지표 변화, *가치 밀도*, *성공 태스크당 비용* + 호스피탈리티 KPI 재설계 매핑
 - [다크 마켓플레이스 — AI 에이전트가 거래를 대행하는 커머스의 미래](engineering/2026-05-08-the-dark-marketplace.md) — Anthropic Project Deal 실험 + 4단계 여정 + *Memory가 해자*. 호스피탈리티 IT 직격 — *3세대 OTA = 다크 마켓플레이스* 시대, B2B Connectivity가 1번 적용 후보
 - [소프트웨어를 만들어서 무료로 나눠주기](career/2026-05-08-write-software-give-it-away-for-free.md) — 가든 *왜 만드는가* 회귀. $600 만들고 월 $5로 수십만 사용자 운영. *취미 = 수익화 안 한 선택의 결과* + BugSip·가든·docs-ko 수익화 정책 명시 후보
