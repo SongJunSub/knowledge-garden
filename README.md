@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-05
+- [AI가 두 취약점 공개 문화를 깨뜨리고 있다](backend/2026-05-09-ai-breaking-vulnerability-cultures.md) — *백엔드 보안 시리즈 3번째*. 9시간 패치 윈도우 시대. 조율된 공개·조용한 패치 둘 다 무너짐. 공격 표면 축소 5개 후보 + MangoLove Critical Security Hotfix 트랙 후보
 - [Agents에는 더 많은 프롬프트가 아니라 제어 흐름이 필요하다](ai/2026-05-09-agents-need-control-flow.md) — *"MANDATORY 쓰면 한계 도달"* 진단. 결정적 스캐폴딩 + LLM 컴포넌트 + 결정적 도구 3층. MangoLove `strict.md`의 강제 표현을 코드로 이전할 후보 매핑
 - [Lean Analytics, AI와 에이전트 시대에 맞춰 돌아보기](engineering/2026-05-08-lean-analytics-reconsidered.md) — 가든 *측정 메트릭* 결의 첫 글. 6+3 지표 변화, *가치 밀도*, *성공 태스크당 비용* + 호스피탈리티 KPI 재설계 매핑
 - [다크 마켓플레이스 — AI 에이전트가 거래를 대행하는 커머스의 미래](engineering/2026-05-08-the-dark-marketplace.md) — Anthropic Project Deal 실험 + 4단계 여정 + *Memory가 해자*. 호스피탈리티 IT 직격 — *3세대 OTA = 다크 마켓플레이스* 시대, B2B Connectivity가 1번 적용 후보
