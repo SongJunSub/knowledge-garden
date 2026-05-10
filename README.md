@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-05
+- [이름에 대한 프로그래머의 오해들 (2010)](backend/2026-05-10-falsehoods-programmers-believe-about-names.md) — *backend 운영 위생 시리즈 4번째*. Patrick McKenzie 클래식. 호스피탈리티는 글로벌 게스트 이름 처리의 최전선 — CRS Falsehoods 8개 점검 + Falsehoods 시리즈 인덱스 후보
 - [클로드 코드 사용하기: HTML의 놀라운 효율성](ai/2026-05-10-claude-code-html-effectiveness.md) — 가든의 *구체 활용 팁* 결 첫 글. HTML이 Markdown보다 시각화·상호작용 풍부. 5가지 활용 + Markdown vs HTML 분리 기준 + 가든 분기 HTML export 시범
 - [확률적 엔지니어링과 24/7 직원](engineering/2026-05-10-probabilistic-engineering-and-24-7-employee.md) — Tim Davis(Modular) 직접 글 — 가든 *확률적 창업자* 인용의 원전 보강. 역할 분화·생성-검증 비대칭·Jevons 역설·24/7 직원·훈련 위기. 호스피탈리티 24/7 직원 매핑 후보
 - [AI가 두 취약점 공개 문화를 깨뜨리고 있다](backend/2026-05-09-ai-breaking-vulnerability-cultures.md) — *백엔드 보안 시리즈 3번째*. 9시간 패치 윈도우 시대. 조율된 공개·조용한 패치 둘 다 무너짐. 공격 표면 축소 5개 후보 + MangoLove Critical Security Hotfix 트랙 후보
