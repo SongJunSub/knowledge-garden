@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-05
+- [GeekNews Weekly #357 (2026-W19) — 확률적 창업자와 확률적 엔지니어링](weekly/2026-W19-geeknews-357.md) — 3주 연속 매칭 패턴 완성. 메인 특집 2개 = 가든 2개. 다이제스트 22개 가든. 다음 주 후보 Top 5 + 메타 정리 시작 시점
 - [이름에 대한 프로그래머의 오해들 (2010)](backend/2026-05-10-falsehoods-programmers-believe-about-names.md) — *backend 운영 위생 시리즈 4번째*. Patrick McKenzie 클래식. 호스피탈리티는 글로벌 게스트 이름 처리의 최전선 — CRS Falsehoods 8개 점검 + Falsehoods 시리즈 인덱스 후보
 - [클로드 코드 사용하기: HTML의 놀라운 효율성](ai/2026-05-10-claude-code-html-effectiveness.md) — 가든의 *구체 활용 팁* 결 첫 글. HTML이 Markdown보다 시각화·상호작용 풍부. 5가지 활용 + Markdown vs HTML 분리 기준 + 가든 분기 HTML export 시범
 - [확률적 엔지니어링과 24/7 직원](engineering/2026-05-10-probabilistic-engineering-and-24-7-employee.md) — Tim Davis(Modular) 직접 글 — 가든 *확률적 창업자* 인용의 원전 보강. 역할 분화·생성-검증 비대칭·Jevons 역설·24/7 직원·훈련 위기. 호스피탈리티 24/7 직원 매핑 후보
