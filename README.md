@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-05
+- [ClickHouse 입문 — 컬럼 지향 OLAP DB의 개념·SQL·사용 사례](backend/2026-05-11-clickhouse-overview.md) — 학습 노트. 컬럼 지향·MergeTree·표준 SQL·자체 분석 함수·OLTP와의 결정적 차이. 호스피탈리티/CRS 적용 후보 5개 + Spring Boot 연동 가이드 + 도입 체크리스트
 - [로컬 AI가 표준이 되어야 한다](ai/2026-05-11-local-ai-needs-to-be-the-norm.md) — *AI 채택의 세 번째 방향: 클라우드를 줄이자*. Apple FoundationModels로 요약·분류·추출. 호스피탈리티 PII 보호와 로컬 AI 자연 결합 + MangoLove *외부 API 필요한가?* 자문 후보
 - [요즘 노트북은 모두 내장 보안 토큰을 갖고 있다](backend/2026-05-11-builtin-security-tokens.md) — *backend 운영 위생 시리즈 5번째*. YubiKey 없이 Secure Enclave/TPM/Windows Hello 활용. SSH·git 서명·sudo 강화 + 회사 *서명된 커밋만 머지* 정책 후보
 - [GeekNews Weekly #357 (2026-W19) — 확률적 창업자와 확률적 엔지니어링](weekly/2026-W19-geeknews-357.md) — 3주 연속 매칭 패턴 완성. 메인 특집 2개 = 가든 2개. 다이제스트 22개 가든. 다음 주 후보 Top 5 + 메타 정리 시작 시점
