@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-05
+- [M4 24GB 메모리에서 로컬 모델 실행하기](ai/2026-05-12-running-local-models-on-m4-24gb.md) — *로컬 AI 3부작 완성* (이론·도구·실측). Qwen 3.5-9B Q4 + LM Studio, 40 tok/s + 128K. 가능/불가능 표 + MangoLove 태스크별 권장 라우팅 매트릭스
 - [Rapid-MLX — Apple Silicon 전용 초고속 로컬 AI 엔진](ai/2026-05-12-rapid-mlx-apple-silicon-local-ai.md) — 어제 *로컬 AI 표준* 이론의 **실행 도구**. Ollama 4.2배, OpenAI API 호환 드롭인. 가든 *행동 후보 ★★★★* + MangoLove 로컬 우선 라우팅·CRS PoC 1개 후보
 - [ClickHouse 입문 — 컬럼 지향 OLAP DB의 개념·SQL·사용 사례](backend/2026-05-11-clickhouse-overview.md) — 학습 노트. 컬럼 지향·MergeTree·표준 SQL·자체 분석 함수·OLTP와의 결정적 차이. 호스피탈리티/CRS 적용 후보 5개 + Spring Boot 연동 가이드 + 도입 체크리스트
 - [로컬 AI가 표준이 되어야 한다](ai/2026-05-11-local-ai-needs-to-be-the-norm.md) — *AI 채택의 세 번째 방향: 클라우드를 줄이자*. Apple FoundationModels로 요약·분류·추출. 호스피탈리티 PII 보호와 로컬 AI 자연 결합 + MangoLove *외부 API 필요한가?* 자문 후보
