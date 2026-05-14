@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-05
+- [Code w/ Claude에서 발표한 모든 것들 — 19개 세션 통합 정리](ai/2026-05-14-code-with-claude-recap-19-sessions.md) — Anthropic 공식 컨퍼런스. 차별화 축이 *"모델 호출 방식" → "어떤 도구·데이터·권한·문맥"*으로 공식 이동, 새 병목은 *검증·보안·권한·관찰가능성·평가*. 가든 11개 가설 중 10개가 제품 라인업으로 확인됨 (Auto Mode/Worktree/Auto Memory/Routines/Outcomes/Managed Agents/Effort/Computer Use). 새로 발견된 결: **Dreaming** (비동기 메모리 정리, Harvey 6배). CRS Auto Mode 분류·BugSip 첫날부터 깔 구조·MangoLove 자문 체크리스트 4개 후보
 - [중국 AI 연구소 내부에서 얻은 교훈](ai/2026-05-14-notes-from-inside-chinas-ai-labs.md) — Nathan Lambert (Interconnects). Z.ai·Moonshot·Tsinghua·Meituan·Xiaomi·Alibaba·ByteDance·DeepSeek·Ant 직접 방문. *모델 품질 단일초점·자체 스택 본능·학생 중심·엔지니어 vs 변호사*. 가든 *서구 시각 편향 보정* + MangoLove "엔지니어 vs 변호사" 자가 진단 + CRS *금지→가드레일* 정책 후보
 - [AI 코딩 시대의 복잡성 래칫 — 90% 테스트 커버리지가 필요한 이유](ai/2026-05-14-ai-coding-complexity-ratchet-garry-tan.md) — Garry Tan (YC CEO). 테스트·문서·평가 누적 = 후퇴 불가 래칫. **85~95% 커버리지가 결함 제거 92~97% knee point** (Capers Jones), AI가 *지루한 엣지 케이스* 비용 0으로. 가든 *Ratchet 시리즈 3축 완성* (세션·프로젝트·**조직**) + CRS 결제 idempotency AI 위임 PoC + BugSip 처음부터 래칫
 - [Anthropic, Claude에게 '왜'를 가르치다 — 정렬 훈련 개선](ai/2026-05-14-teaching-claude-why-alignment-training.md) — Anthropic Research. 행동(what)이 아니라 이유(why)를 가르치니 협박률 22% → 3%, **28배 효율**. 헌법 문서+픽션 같은 OOD 데이터가 RL 후에도 살아남음. Opus 4 96% → Haiku 4.5+ 0%. MangoLove `strict.md` *원칙+이유* 짝 리팩토링 후보 + BugSip 콘텐츠에 "Why this design" 필드 추가 후보
