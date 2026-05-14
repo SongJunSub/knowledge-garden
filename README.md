@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-05
+- [AI 코딩 시대의 복잡성 래칫 — 90% 테스트 커버리지가 필요한 이유](ai/2026-05-14-ai-coding-complexity-ratchet-garry-tan.md) — Garry Tan (YC CEO). 테스트·문서·평가 누적 = 후퇴 불가 래칫. **85~95% 커버리지가 결함 제거 92~97% knee point** (Capers Jones), AI가 *지루한 엣지 케이스* 비용 0으로. 가든 *Ratchet 시리즈 3축 완성* (세션·프로젝트·**조직**) + CRS 결제 idempotency AI 위임 PoC + BugSip 처음부터 래칫
 - [Anthropic, Claude에게 '왜'를 가르치다 — 정렬 훈련 개선](ai/2026-05-14-teaching-claude-why-alignment-training.md) — Anthropic Research. 행동(what)이 아니라 이유(why)를 가르치니 협박률 22% → 3%, **28배 효율**. 헌법 문서+픽션 같은 OOD 데이터가 RL 후에도 살아남음. Opus 4 96% → Haiku 4.5+ 0%. MangoLove `strict.md` *원칙+이유* 짝 리팩토링 후보 + BugSip 콘텐츠에 "Why this design" 필드 추가 후보
 - [시니어 개발자가 전문성을 전달하지 못하는 이유](career/2026-05-14-why-senior-developers-fail-to-communicate-expertise.md) — Tuhin Nair. 시니어의 "복잡성 관리" vs 비즈니스의 "불확실성 감소" 언어 충돌, "Can we try something quicker?" 프레임 전환, Speed/Scale 분리 처방. CRS 영업 응답 템플릿 + MangoLove 5번째 원칙 *언어 전환* 후보
 - [소프트웨어 아키텍처 배우기](engineering/2026-05-13-learning-software-architecture.md) — matklad (rust-analyzer 핵심 개발자). 실무 책임이 학습, Conway's Law 최우선, 인센티브 우선. rust-analyzer 낮은 진입장벽+핵심 엄격 패턴 = CRS 공헌 영역 분류 정책 후보
