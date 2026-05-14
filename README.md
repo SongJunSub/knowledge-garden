@@ -22,6 +22,7 @@
 ## 🗂 인덱스 (최신순)
 
 ### 2026-05
+- [시니어 개발자가 전문성을 전달하지 못하는 이유](career/2026-05-14-why-senior-developers-fail-to-communicate-expertise.md) — Tuhin Nair. 시니어의 "복잡성 관리" vs 비즈니스의 "불확실성 감소" 언어 충돌, "Can we try something quicker?" 프레임 전환, Speed/Scale 분리 처방. CRS 영업 응답 템플릿 + MangoLove 5번째 원칙 *언어 전환* 후보
 - [소프트웨어 아키텍처 배우기](engineering/2026-05-13-learning-software-architecture.md) — matklad (rust-analyzer 핵심 개발자). 실무 책임이 학습, Conway's Law 최우선, 인센티브 우선. rust-analyzer 낮은 진입장벽+핵심 엄격 패턴 = CRS 공헌 영역 분류 정책 후보
 - [Redis와 야망의 대가](engineering/2026-05-13-redis-and-cost-of-ambition.md) — antirez Redis Array 글의 **정확한 반론**. 기능 팽창 vs 단순성, "반쯤 익은 기능", Valkey 시장 평결. MangoLove *정체성 점검 자문* 후보 + CRS 기능 사용률 자가 진단
 - [Interaction Models — 인간-AI 협업을 위한 확장 가능한 접근법](ai/2026-05-13-interaction-models-thinking-machines.md) — Thinking Machines Lab (Mira Murati) 첫 큰 발표. 200ms 마이크로턴 full-duplex 모델. OpenAI Realtime 인프라 차원과 *모델 차원* 짝 + Ferrari 라인 새 가능성
