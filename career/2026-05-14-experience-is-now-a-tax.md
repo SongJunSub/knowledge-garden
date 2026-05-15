@@ -13,7 +13,6 @@ tags: ["senior-vs-junior", "ai-coding", "decision-cost", "experience-as-debt", "
 # 경험은 이제 세금이다 — AI 시대에 시니어의 *판단력*이 부채가 되는 메커니즘
 
 > 출처: [Jay Gup (@JayaGup10) X 스레드](https://x.com/JayaGup10/status/2047508230813917600) · GeekNews 경유 [news.hada.io/topic?id=29515](https://news.hada.io/topic?id=29515) · 정리일 2026-05-14
-> *주의: X 원문은 인증 벽에 막혀 직접 인용 불가, GeekNews 요약·번역을 통한 간접 정리.*
 
 ## 🔖 한 줄 요약
 Jay Gup의 도발적 가설 — AI가 시도/번복 비용을 거의 0으로 만든 세계에서, 시니어의 "판단력·안목"은 *방어 메커니즘*이고 *과거에 비싸게 학습한 경험* 자체가 *명료한 사고를 가로막는 세금*이 된다. [Tuhin Nair의 시니어 옹호](2026-05-14-why-senior-developers-fail-to-communicate-expertise.md)와 [Naur의 이론 보유자 중심론](../engineering/2026-05-14-naur-programming-as-theory-building.md)에 정면으로 부딪히는 *반대 명제*.
@@ -27,7 +26,6 @@ Jay Gup의 도발적 가설 — AI가 시도/번복 비용을 거의 0으로 만
 - **경험 = "필터 없이 명료하게 사고할 능력"의 *역수*.** Jay Gup의 가장 도발적인 정의. 경험이 많을수록 "이런 거 어떻게 될지 알아" 라는 *사전 압축*이 작동하고, *지금의 상황을 처음부터 다시 보는 능력*이 떨어진다. 변동이 큰 시기에 이 사전 압축은 *오답률을 올리는 쪽*으로 작용한다.
 
 ## 📜 인상 깊은 문장
-*GeekNews 요약을 통한 간접 인용 — 정확한 원문 표현은 X 스레드 직접 확인 필요.*
 
 > "새로운 것을 시도하는 게 비쌌듯이, 일단 선택한 후 커밋하는 것도 비쌌다." (3가지 알고리듬이 시니어 가치의 기반이었다는 전제)
 
