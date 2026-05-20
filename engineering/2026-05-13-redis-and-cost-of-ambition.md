@@ -14,10 +14,10 @@ tags: ["Redis", "Valkey", "기능팽창", "단순성", "라이선스변경", "�
 
 > 출처: [Charles Leifer — Redis and the cost of ambition](https://charlesleifer.com/blog/redis-and-the-cost-of-ambition/) · 레퍼러: [GeekNews 29451](https://news.hada.io/topic?id=29451) · 정리일 2026-05-13
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 Redis가 *단순한 인메모리 딕셔너리 서버*에서 *모든 것을 위한 도구*가 되려다 **원래의 강점(단순성·일관성)을 잃었다**는 비판. **antirez Redis Array 글의 정확한 반론**.
 
-## 🧩 핵심 주장
+## 핵심 주장
 
 ### Redis의 기능 팽창 역사
 2011년경 *우아한 advanced key-value store* → 이후 *MongoDB·Elasticsearch·Kafka 모방* 시작:
@@ -56,7 +56,7 @@ Redis가 *단순한 인메모리 딕셔너리 서버*에서 *모든 것을 위�
 - 멀티스레드 성능·메모리 효율·클러스터 안정 *개선만*
 - *야망 없이 안정성*에 집중하는 게 *시장의 답*
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### [antirez Redis Array 글](2026-05-05-redis-array-antirez-4-months-with-ai.md)의 정확한 반론
 어제 정리한 [Tim Davis 글](2026-05-10-probabilistic-engineering-and-24-7-employee.md)이 [확률적 창업자](../career/2026-05-05-rise-of-the-probabilistic-founder.md)의 *원전 보강*이었다면, 이번 글은 **antirez의 정확한 반대편**:
@@ -127,12 +127,12 @@ Redis가 *단순한 인메모리 딕셔너리 서버*에서 *모든 것을 위�
 
 5개 글이 *제품·정체성·야망 관리*라는 *느슨한 클러스터* 형성. 가든의 5번째 결로 분류 가능.
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **MangoLove `/strict`에 *정체성 점검 자문* 추가** — *"이 변경이 제품 정체성을 또렷하게 하는가, 흐리게 하는가?"*
 2. **CRS·Connectivity *기능 사용률 자가 진단* 분기 후보** — 3개월 미사용 기능 식별
 3. **오픈소스 의존성 *라이선스 리스크* 점검** — AGPLv3 전환 가능성 + 대체 후보 매핑
 
-## 🔗 연관 자료
+## 연관 자료
 - [`engineering/2026-05-05-redis-array-antirez-4-months-with-ai.md`](2026-05-05-redis-array-antirez-4-months-with-ai.md) — **이 글의 정확한 반론 짝**
 - [`engineering/2026-04-28-three-constraints-before-i-build-anything.md`](2026-04-28-three-constraints-before-i-build-anything.md) — defining constraint 유지 X = 정체성 손실
 - [`engineering/2026-04-27-overthinking-scope-creep-structural-diffs.md`](2026-04-27-overthinking-scope-creep-structural-diffs.md) — 성공 기준 내면화
@@ -142,7 +142,7 @@ Redis가 *단순한 인메모리 딕셔너리 서버*에서 *모든 것을 위�
 - [`engineering/2026-05-10-probabilistic-engineering-and-24-7-employee.md`](2026-05-10-probabilistic-engineering-and-24-7-employee.md) — Tim Davis 같은 위험 패턴
 - 비교: Valkey (https://valkey.io)
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] MangoLove `/strict`에 *정체성 점검 자문*이 추가됐는가
 - [ ] CRS·Connectivity 기능 사용률 자가 진단을 시도했는가
 - [ ] 오픈소스 의존성 *AGPLv3 위험* 점검 메모를 작성했는가

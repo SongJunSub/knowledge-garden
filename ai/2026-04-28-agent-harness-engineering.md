@@ -14,10 +14,10 @@ tags: ["AI에이전트", "하네스", "AGENTS.md", "컨텍스트관리", "Claude
 
 > 출처: [Addy Osmani — Agent Harness Engineering](https://addyosmani.com/blog/agent-harness-engineering/) · 레퍼러: [GeekNews 28966](https://news.hada.io/topic?id=28966) · 정리일 2026-04-28
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 **Agent = Model + Harness.** 모델 성능 향상을 기다리는 것보다 **현재 모델 주변의 하네스(프롬프트·도구·컨텍스트·훅·관찰성)를 정교하게 설계**하는 것이 실질적 개선을 만든다.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 ### 핵심 공식
 > "Agent = Model + Harness. If you're not the model, you're the harness." — Viv Trivedy
@@ -121,7 +121,7 @@ tags: ["AI에이전트", "하네스", "AGENTS.md", "컨텍스트관리", "Claude
 - 모델은 파일시스템, Bash, 계획, 서브에이전트 디스패치에 *특화*되어 있다
 - 그래서 **Opus 4.6은 Claude Code 안에서와 다른 하네스에서 다르게 작동**한다 — 모델 단독 평가가 무의미해지는 이유.
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "Agent = Model + Harness. If you're not the model, you're the harness." — Viv Trivedy
 
@@ -137,7 +137,7 @@ tags: ["AI에이전트", "하네스", "AGENTS.md", "컨텍스트관리", "Claude
 
 > "Harnesses don't shrink, they move."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 - **Ratchet 원칙은 즉시 도입**할 만하다. 지금까지 Claude/Cursor가 같은 실수를 반복할 때마다 그때만 잡고 넘어갔는데, 이걸 **`AGENTS.md` / `CLAUDE.md` / 훅 / 서브에이전트 룰**의 어딘가에 *영구 규칙*으로 박는 습관으로 바꾸자. **MangoLove의 셀프 리뷰 단계 → 실패 발견 → 즉시 영구 규칙화** 흐름을 명문화.
 - **"줄마다 정당화"** 가 가장 강력한 자기 검증 도구. 지금 내 `CLAUDE.md`/`MEMORY.md` 항목들 중 *과거 실패 사례를 짚을 수 없는 줄*은 모두 의심 대상이다. 한 번 정리할 가치가 있다 — 메모리 항목별로 *왜 들어왔는지* 한 줄 메모를 단다.
@@ -146,16 +146,16 @@ tags: ["AI에이전트", "하네스", "AGENTS.md", "컨텍스트관리", "Claude
 - **AI 사고의 9초 사건과 짝**: 어제 정리한 [9초 사고](2026-04-27-ai-agent-deleted-production-database.md) 는 *하네스 부재가 만든 참사*다. 이 글의 7항 안전 체크리스트는 결국 *destructive op에 대한 하네스 설계 가이드라인*이었음을 재확인.
 - **AI 사고의 위임 분리와 짝**: [Koshy John 글](2026-04-28-ai-should-elevate-your-thinking-not-replace-it.md)은 *사람 측의 사고 위임*을 다뤘다면, 이 글은 *기계 측의 행동 위임*을 어떻게 안전하게 가둘지를 다룬다. 두 글을 함께 읽으면 **"AI를 어디에 어떻게 가둘 것인가"**의 양면이 완성된다.
 - **즉시 적용 후보**:
-  1. CRS·PickMe의 `CLAUDE.md`를 60줄 이하로 다이어트, 줄마다 *근거 사례* 주석 달기
-  2. `precommit-check.sh` 형태의 하드 가드를 모든 활성 프로젝트에 표준화
-  3. Claude Code 슬래시 커맨드 `/ratchet` 만들기 — 발견된 실패를 입력받아 적절한 위치(skill, hook, AGENTS.md)에 인코딩하도록
+ 1. CRS·PickMe의 `CLAUDE.md`를 60줄 이하로 다이어트, 줄마다 *근거 사례* 주석 달기
+ 2. `precommit-check.sh` 형태의 하드 가드를 모든 활성 프로젝트에 표준화
+ 3. Claude Code 슬래시 커맨드 `/ratchet` 만들기 — 발견된 실패를 입력받아 적절한 위치(skill, hook, AGENTS.md)에 인코딩하도록
 
-## 🔗 연관 자료
+## 연관 자료
 - [`ai/2026-04-27-ai-agent-deleted-production-database.md`](2026-04-27-ai-agent-deleted-production-database.md) — 하네스 부재가 만든 9초 사고. 이 글이 그 안전 체크리스트의 이론적 토대를 제공
 - [`ai/2026-04-28-ai-should-elevate-your-thinking-not-replace-it.md`](2026-04-28-ai-should-elevate-your-thinking-not-replace-it.md) — 사람 측 사고 위임 / 이 글 = 기계 측 행동 위임. 짝으로 읽기
 - [`weekly/2026-W17-geeknews-355.md`](../weekly/2026-W17-geeknews-355.md) — Addy Osmani의 70% 문제(28716)와 같은 저자, 같은 흐름의 후속작
 - [`engineering/2026-04-24-technical-cognitive-intent-debt.md`](../engineering/2026-04-24-technical-cognitive-intent-debt.md) — `AGENTS.md` 줄마다 의도 추적 = 의도 부채에 대한 직접적 처방
 - 관련 도구: Claude Agent SDK, OpenAI Agents SDK, Cline, Aider
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 <!-- CLAUDE.md 60줄 다이어트 / Ratchet 슬래시 커맨드 / precommit 하드 가드 표준화 — 셋 중 어디까지 갔는지 한 달 뒤 점검. -->

@@ -14,10 +14,10 @@ tags: ["AI사고", "시스템설계", "권한분리", "책임경계", "자동화
 
 > 출처: [Ibrahim Diallo — AI didn't delete your database, you did](https://idiallo.com/blog/ai-didnt-delete-your-database-you-did) · 레퍼러: [GeekNews 29213](https://news.hada.io/topic?id=29213) · 정리일 2026-05-07
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 AI 에이전트가 프로덕션 DB를 삭제한 사건의 진짜 원인은 **"전체 DB를 *공개 API로* 삭제할 수 있는 시스템"** — AI가 아니어도 언젠가 누군가 그 버튼을 누른다.
 
-## 🧩 핵심 주장
+## 핵심 주장
 
 ### 1. 진짜 질문 — 왜 그런 API가 *존재*하는가?
 > "Why does a public-facing API that can delete all your production databases even exist?"
@@ -56,7 +56,7 @@ AI 에이전트가 프로덕션 DB를 삭제한 사건의 진짜 원인은 **"�
 - **샌드박스 필요성**: 크로스플랫폼 샌드박싱 기술
 - **책임 분배 논쟁**: *도구 사용자 책임* vs *설명 불가능 AI 시스템 자체에 대한 기업 책임*
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "Why does a public-facing API that can delete all your production databases even exist?"
 
@@ -68,7 +68,7 @@ AI 에이전트가 프로덕션 DB를 삭제한 사건의 진짜 원인은 **"�
 
 > "Build a process where competent developers use it as a tool to augment their work, not a way to avoid accountability."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 내 *9초 사고 시리즈* 두 번째
 지난 [9초 사고 글](2026-04-27-ai-agent-deleted-production-database.md)이 *5겹 시스템 실패 분석*이었다면, 이 글은 같은 사건의 **책임 귀속 강조**. 두 글이 짝:
@@ -114,19 +114,19 @@ AI 에이전트가 프로덕션 DB를 삭제한 사건의 진짜 원인은 **"�
 - 핵심은 *없애기*가 아니라 *제대로 가드된 채널로만 노출*. *공개 API*에서 *별도 관리 콘솔*로 옮기는 것만으로도 위험은 100배 감소.
 - *"AI는 자동화가 아니다"*는 강한 표현. 실제로는 *결정적 부분(테스트·파이프라인)*과 *확률적 부분(에이전트 결정)*을 *분리해서* 자동화로 활용 가능. [하네스 엔지니어링](2026-04-28-agent-harness-engineering.md)의 정확한 처방.
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **CRS·Connectivity·PickMe 백엔드의 destructive 엔드포인트 전수 감사** — *공개 API*에 노출돼 있으면 *관리 채널*로 이동
 2. **운영 토큰 권한 매트릭스** — 단일 토큰으로 destructive op 가능한 곳 식별 후 분리
 3. **재해 복구 시나리오에서 *AI든 사람이든 같은 가드* 적용 검토** — Diallo의 SVN 사례처럼 *CI/CD 자동화*가 답이었듯, *AI 시대의 같은 답*은 무엇인가?
 
-## 🔗 연관 자료
+## 연관 자료
 - [`ai/2026-04-27-ai-agent-deleted-production-database.md`](2026-04-27-ai-agent-deleted-production-database.md) — **같은 사건 5겹 분석**. 메커니즘 ↔ 이 글 책임 귀속
 - [`career/2026-05-05-rise-of-the-probabilistic-founder.md`](../career/2026-05-05-rise-of-the-probabilistic-founder.md) — *Agent-Default Posture*의 *인프라 층위* 적용
 - [`ai/2026-04-28-agent-harness-engineering.md`](2026-04-28-agent-harness-engineering.md) — *위험을 좁은 경계 뒤에* 두는 하네스 처방
 - [`engineering/2026-05-04-mercury-couple-million-lines-of-haskell.md`](../engineering/2026-05-04-mercury-couple-million-lines-of-haskell.md) — *경계의 출력은 보수적* + Records of Functions
 - [`ai/2026-05-05-agentic-coding-is-a-trap.md`](2026-05-05-agentic-coding-is-a-trap.md) — 같은 비판적 흐름
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] CRS·Connectivity·PickMe destructive 엔드포인트 감사를 시작했는가
 - [ ] 운영 토큰 권한 매트릭스가 도큐먼트로 존재하는가
 - [ ] *공개 API → 관리 채널 분리*가 한 곳이라도 적용됐는가

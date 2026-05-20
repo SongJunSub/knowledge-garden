@@ -14,10 +14,10 @@ tags: ["조직학습", "AI도입", "Loop-Intelligence", "Agent-Operations", "변
 
 > 출처: [Robert Glaser — When Everyone Has AI and the Company Still Learns Nothing](https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/) · 레퍼러: [GeekNews 29217](https://news.hada.io/topic?id=29217) · 정리일 2026-05-07
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 **개인 AI 생산성 ≠ 조직 학습.** 모두가 Claude를 쓰는데 회사가 *집단으로* 더 똑똑해지지 않는 진짜 이유 — *학습이 일어나는 단위*가 *조직·팀*이 아니라 **"업무 안의 루프(loop)"** 로 옮겨갔는데 회사 시스템이 그걸 모른다.
 
-## 🧩 핵심 주장
+## 핵심 주장
 
 ### 1. 진단 — *사이보그 개인 + 학습 못 하는 회사*
 > "People may get faster, write better, analyze more, automate more, or quietly become cyborg versions of themselves. The company may still learn almost nothing."
@@ -75,7 +75,7 @@ tags: ["조직학습", "AI도입", "Loop-Intelligence", "Agent-Operations", "변
 - **지식 공유 거부**: 고용주 우위 시장에서 개인은 *AI 노하우를 영업비밀로* 다루는 게 합리적 — *조직이 학습 못 하는* 진짜 이유
 - **역할 경계 모호화**: *"이건 내 일인가?"*가 무너지면서 *AI 고급 사용자를 보상하는 명확한 체계*가 없으면 도입이 정체
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "People may get faster, write better, analyze more, or quietly become cyborg versions of themselves. The company may still learn almost nothing."
 
@@ -87,7 +87,7 @@ tags: ["조직학습", "AI도입", "Loop-Intelligence", "Agent-Operations", "변
 
 > "Organizational learning cannot be rented in the same way."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든의 *빠진 층위*를 채운다
 가든 AI 시리즈가 그동안 *개인 사용*과 *시장 흐름*은 다뤘지만 **조직·팀 차원**은 비어 있었다. 이 글이 정확히 그 층을 채운다.
@@ -127,30 +127,30 @@ tags: ["조직학습", "AI도입", "Loop-Intelligence", "Agent-Operations", "변
 
 ### MangoLove에 즉시 추가할 수 있는 것
 - *현재 MangoLove는 내 개인 도구*. 이 글이 시사하는 다음 단계: **MangoLove의 일부를 *팀 공유 가능한 형태*로 결정화**
-  - `~/.mangolove/skills/` → 팀 git repo로 이동 가능한 부분 분리
-  - `CLAUDE.md` 같은 프로젝트 레벨 파일을 *우리 회사 표준*으로
-  - 이게 정확히 [mattpocock 비교 글](../ai/2026-04-29-mattpocock-skills-vs-mangolove.md)에서 도입 후보로 메모한 *CONTEXT.md / `/diagnose` / `/grill`*의 구체적 적용
+ - `~/.mangolove/skills/` → 팀 git repo로 이동 가능한 부분 분리
+ - `CLAUDE.md` 같은 프로젝트 레벨 파일을 *우리 회사 표준*으로
+ - 이게 정확히 [mattpocock 비교 글](../ai/2026-04-29-mattpocock-skills-vs-mangolove.md)에서 도입 후보로 메모한 *CONTEXT.md / `/diagnose` / `/grill`*의 구체적 적용
 
 ### 회사 단위 측정 후보
 *"우리 회사는 AI를 잘 쓰는가?"* 를 측정한다면:
-- ❌ Claude 토큰 사용량 (token-to-output)
-- ❌ AI 도구 라이선스 보유율
-- ✅ **새로운 prompt·skill·CONTEXT.md가 *공유 폴더*에 추가된 횟수**
-- ✅ **분기마다 *학습 사례* 회고 횟수와 깊이**
-- ✅ **한 사람이 만든 자산이 *다른 사람*에게 적용된 사례 수**
+- Claude 토큰 사용량 (token-to-output)
+- AI 도구 라이선스 보유율
+- **새로운 prompt·skill·CONTEXT.md가 *공유 폴더*에 추가된 횟수**
+- **분기마다 *학습 사례* 회고 횟수와 깊이**
+- **한 사람이 만든 자산이 *다른 사람*에게 적용된 사례 수**
 
 ### 반론·균형점
 - *Loop Intelligence Hub*가 *직원 감시*로 변질될 위험은 글에서 명시 — 한국 컨텍스트에선 더 민감
 - *공유 가능한 자산화*는 *시간 비용*이 든다. *내가 쓰는 도구*를 *남이 쓸 수 있게* 만드는 작업은 별도 공수 — 이 비용을 감당할 *명시적 슬롯*(예: 격주 1시간)이 없으면 안 일어남
 - 이 글이 *실행 가이드*가 부족하다는 한계 — 3축 개념은 명확하지만 *구체 도구·메트릭·프로세스*는 빈약. 가든이 *그 빈자리*를 채울 수 있는 영역
 
-## 🎯 즉시 시도할 액션 4가지
+## 즉시 시도할 액션 4가지
 1. **회사 자가 진단** — Agent Operations / Loop Intelligence / Agent Capabilities 3축으로 *현재 위치* 1페이지 메모
 2. **`team-skills/` 또는 `team-prompts/` repo 시작** — MangoLove의 일부를 *공유 가능한 형태*로 떼어내기 (Agent Capabilities 시작점)
 3. **PR 설명에 *AI 사용 단계 1줄* 추가 실험** — Loop Intelligence의 가벼운 시작
 4. **분기 학습 회고 — *Token-to-Learning* 정성 메모** — *"AI가 이번 분기 우리 작업을 어떻게 바꿨고, 무엇을 배웠나?"* 5줄
 
-## 🔗 연관 자료
+## 연관 자료
 - [`ai/2026-04-28-agent-harness-engineering.md`](../ai/2026-04-28-agent-harness-engineering.md) — 하네스 = 개인 단위 / Agent Capabilities = 조직 단위
 - [`ai/2026-05-04-long-running-agents.md`](../ai/2026-05-04-long-running-agents.md) — Brain/Hands/Session ↔ Agent Operations/Loop Intelligence/Agent Capabilities
 - [`ai/2026-04-29-mattpocock-skills-vs-mangolove.md`](../ai/2026-04-29-mattpocock-skills-vs-mangolove.md) — Agent Capabilities 자산화의 실제 사례
@@ -158,7 +158,7 @@ tags: ["조직학습", "AI도입", "Loop-Intelligence", "Agent-Operations", "변
 - [`ai/2026-05-07-ai-didnt-delete-your-database-you-did.md`](../ai/2026-05-07-ai-didnt-delete-your-database-you-did.md) — Agent Operations의 가장 시급한 영역
 - [`engineering/2026-04-24-technical-cognitive-intent-debt.md`](2026-04-24-technical-cognitive-intent-debt.md) — *인지 부채*의 조직 적용이 *Loop Intelligence가 안 되는 상태*
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] 회사 3축 자가 진단 메모 작성했는가
 - [ ] `team-skills/` 또는 유사한 공유 자산 repo 시작했는가
 - [ ] PR 설명에 *AI 사용 단계 메타데이터*를 한 번이라도 추가했는가

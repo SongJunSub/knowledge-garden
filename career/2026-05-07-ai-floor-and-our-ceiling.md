@@ -14,10 +14,10 @@ tags: ["AI시대", "커리어", "T형인재", "비판적사고", "FOMO", "한국
 
 > 출처: [최홍찬 — AI가 끌어올린 바닥, 우리의 천장은 어디인가](https://brunch.co.kr/@hongchanchoi/11) · 레퍼러: [GeekNews 29254](https://news.hada.io/topic?id=29254) · 정리일 2026-05-07
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 1839년 사진기 발명에 *"회화는 죽었다"* 던 탄식과 AI 시대 불안을 비교 — **AI는 바닥을 끌어올리지만 천장은 여전히 인간의 영역**. 화가들이 인상주의·초현실주의로 *새 천장*을 개척했듯, 우리도 *책임·비판·창의성*에서 새 천장을 찾아야 한다.
 
-## 🧩 세 가지 화두
+## 세 가지 화두
 
 ### 1. FOMO 극복
 - 불안 = *외부 위협이 아니라 내면 감정*
@@ -34,7 +34,7 @@ tags: ["AI시대", "커리어", "T형인재", "비판적사고", "FOMO", "한국
 - AI 결과 비판적 분석
 - 자기 성찰 — *언제 AI 사용을 멈출지* 아는 능력
 
-## 📜 짧은 인용
+## 짧은 인용
 
 > "오늘로써 회화는 죽었다." — 폴 들라로슈 (1839)
 
@@ -46,7 +46,7 @@ tags: ["AI시대", "커리어", "T형인재", "비판적사고", "FOMO", "한국
 
 > "AI 사용을 언제 멈춰야 할지 아는 것, 사람이 개입하여 마무리 지어야 하는 타이밍을 아는 능력도 중요하다."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 *AI 비판 시리즈*의 *한국어 첫 글*
 지금까지 가든 AI 시리즈는 모두 영어권 저자였다 — Trap·Ding·Glaser·No One's Happy·Willison·*.txt* 등 7개. 이번 글이 **한국어 첫 글**.
@@ -92,12 +92,12 @@ tags: ["AI시대", "커리어", "T형인재", "비판적사고", "FOMO", "한국
 - *T형 인재* 모델은 오래된 처방. *AI 시대 새로움*은 *T의 가로획(시야)*에 *AI 활용 능력*이 추가된다는 점
 - *책임 외주화 불가*가 *법적 명제*인지 *윤리적 명제*인지 한국 환경에서 *모호* — [Diallo](../ai/2026-05-07-ai-didnt-delete-your-database-you-did.md)의 *"왜 그런 API가 존재하는가"* 질문이 한국에서도 그대로 적용됨
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **MangoLove 4번째 원칙 한국어 표현 확정** — *"실행은 위임 가능, 결과 책임은 외주화 불가"* 1줄로 박기
 2. **셀프 리뷰에 *"지금이 AI 사용을 멈출 시점인가?"* 자문 추가**
 3. ***바닥/천장 메타포*를 1on1·회의 *설명 도구*로 시범 사용** — Camry/Ferrari보다 직관적 한국어 표현
 
-## 🔗 연관 자료
+## 연관 자료
 - [`career/2026-05-05-rise-of-the-probabilistic-founder.md`](2026-05-05-rise-of-the-probabilistic-founder.md) — Agent-Default Posture의 영문 버전
 - [`ai/2026-05-07-claude-code-not-making-your-product-better.md`](../ai/2026-05-07-claude-code-not-making-your-product-better.md) — Camry/Ferrari = 같은 메타포 다른 표현
 - [`ai/2026-05-07-appearing-productive-in-the-workplace.md`](../ai/2026-05-07-appearing-productive-in-the-workplace.md) — 산출물-역량 분리
@@ -106,7 +106,7 @@ tags: ["AI시대", "커리어", "T형인재", "비판적사고", "FOMO", "한국
 - [`career/2026-05-07-productive-procrastination.md`](2026-05-07-productive-procrastination.md) — *언제 멈출지* 자가 진단
 - [`engineering/2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md`](../engineering/2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md) — 함께 학습 = Loop Intelligence
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] MangoLove 4번째 원칙 한국어 1줄 명문화했는가
 - [ ] *바닥/천장* 메타포를 1on1·회의에서 한 번이라도 사용했는가
 - [ ] *AI 사용을 언제 멈출지* 자문이 셀프 리뷰에 들어갔는가

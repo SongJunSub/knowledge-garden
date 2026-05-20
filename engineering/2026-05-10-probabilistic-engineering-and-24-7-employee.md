@@ -14,10 +14,10 @@ tags: ["확률적엔지니어링", "AI에이전트", "검증병목", "Jevons역�
 
 > 출처: [Tim Davis — Probabilistic Engineering and the 24/7 Employee](https://www.timdavis.com/blog/probabilistic-engineering-and-the-24-7-employee) · 레퍼러: [GeekNews 29345](https://news.hada.io/topic?id=29345) · 정리일 2026-05-10
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 **Modular CEO Tim Davis의 직접 글** — *결정론에서 확률론으로의 전환*과 *24/7 에이전트 함대*가 만드는 새 조직 구조. 가든의 [확률적 창업자 글](../career/2026-05-05-rise-of-the-probabilistic-founder.md)에서 인용된 *"이 시대의 베팅"* 발언의 **원전**.
 
-## 🧩 핵심 주장 5가지
+## 핵심 주장 5가지
 
 ### 1. 엔지니어 역할의 분화 (상승 + 하강)
 - *최상위*: 상위로 이동 — 아키텍처·전략·취향
@@ -55,7 +55,7 @@ tags: ["확률적엔지니어링", "AI에이전트", "검증병목", "Jevons역�
 
 > "정확성은 *알던 것*에서 *믿는 것*으로 변한다."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 그래프 — *원전 보강*의 효과
 [확률적 창업자 글](../career/2026-05-05-rise-of-the-probabilistic-founder.md)에서 인용했던 *Tim Davis*의 *"이 시대의 베팅은 인간이 루프에서 충분히 날카롭고 정직하고 훈련되어 루프 안에 있을 가치가 있는지"* 가 **이 글에서 발전된 형태로 등장**:
@@ -110,12 +110,12 @@ tags: ["확률적엔지니어링", "AI에이전트", "검증병목", "Jevons역�
 - *24/7 직원*은 *분리 가능한 작업*에만 적용. *대인 협상·정성적 판단*은 여전히 사람 시간 필요
 - *연봉 격차 심화*는 *시장 충격*이지 *경영진 결정*은 아니라는 부분에 동의 — 그러나 *완화 가능한 정책*은 분명 존재
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **호스피탈리티 *24/7 직원 매핑*** — 밤에 에이전트가 처리·아침 매니저 triage 후보 5개 식별
 2. **가든 *위험 인덱스*** 시범 — *Jevons 역설·생성-검증 비대칭* 같이 *두 번 이상 등장한 위험*을 따로 모음
 3. **PR 헤더 *축약 통합*** — 누적된 6-7 후보를 3-4개로 압축할 후보 제안
 
-## 🔗 연관 자료
+## 연관 자료
 - [`career/2026-05-05-rise-of-the-probabilistic-founder.md`](../career/2026-05-05-rise-of-the-probabilistic-founder.md) — Tim Davis 인용의 *원전 보강*
 - [`engineering/2026-05-07-bottleneck-was-never-the-code.md`](2026-05-07-bottleneck-was-never-the-code.md) — Jevons 역설의 같은 결
 - [`ai/2026-05-04-long-running-agents.md`](../ai/2026-05-04-long-running-agents.md) — 24/7 직원이 도달하는 자연스러운 조직 형태
@@ -124,7 +124,7 @@ tags: ["확률적엔지니어링", "AI에이전트", "검증병목", "Jevons역�
 - [`engineering/2026-05-05-redis-array-antirez-4-months-with-ai.md`](2026-05-05-redis-array-antirez-4-months-with-ai.md) — 시니어 측 모범, 이 글의 정반대편
 - [`engineering/2026-04-29-yc-rfs-summer-2026-hospitality-it.md`](2026-04-29-yc-rfs-summer-2026-hospitality-it.md) — #15 AI OS와 24/7 직원 결합
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] 호스피탈리티 24/7 직원 매핑(밤 에이전트·아침 triage 후보 5개)을 작성했는가
 - [ ] 가든 *위험 인덱스* 시범을 시작했는가
 - [ ] PR 헤더 6-7 후보의 축약 통합 시도가 있었는가

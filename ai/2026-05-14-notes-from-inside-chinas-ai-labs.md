@@ -14,10 +14,10 @@ tags: ["AI", "중국", "생태계", "연구문화", "오픈소스", "지정학"]
 
 > 출처: [Notes from inside China's AI labs](https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs) (Nathan Lambert / Interconnects) · 레퍼러: [GeekNews 29487](https://news.hada.io/topic?id=29487) · 정리일 2026-05-14
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 Nathan Lambert가 중국의 주요 AI 랩(Z.ai, Moonshot, Tsinghua, Alibaba, ByteDance, DeepSeek, Ant 등)을 직접 방문해 본 인상 — **개인 명성보다 모델 품질에 수렴된 실용주의 문화 + 자체 기술 스택 소유 본능**이 미국과는 *카테고리가 다른* AI 생태계를 만들고 있다.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 ### 0. 글의 자격 — 직접 방문 기록
 - 저자 **Nathan Lambert** (Interconnects, AI2 출신)가 **2026년 5월 초** 중국 현장 방문 기록.
@@ -38,9 +38,9 @@ Nathan Lambert가 중국의 주요 AI 랩(Z.ai, Moonshot, Tsinghua, Alibaba, Byt
 
 ### 3. 정부 지원의 *실제 모양*
 - 존재하나 **범위가 불명확**:
-  - 지방 정부 차원의 *허가·인허가 간소화*는 관찰됨.
-  - **칩 밀반입의 구체적 증거는 부재**.
-  - 정부가 **기술적 결정에 영향을 준다는 증거도 부재**.
+ - 지방 정부 차원의 *허가·인허가 간소화*는 관찰됨.
+ - **칩 밀반입의 구체적 증거는 부재**.
+ - 정부가 **기술적 결정에 영향을 준다는 증거도 부재**.
 - 즉 서구의 *국가 지원 = 통제* 모델은 적용되지 않는다.
 
 ### 4. 개발자 도구 시장의 역설
@@ -64,7 +64,7 @@ Nathan Lambert가 중국의 주요 AI 랩(Z.ai, Moonshot, Tsinghua, Alibaba, Byt
 - 미국발 행정명령 루머에는 *"신뢰감을 주지 못한다"*고 평가.
 - 핵심 질문: **두 생태계가 *의미 있게 다른 종류*의 모델을 만들 것인가?**
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "China is run by engineers; the US is run by lawyers." *(중국 연구자가 Dan Wang을 인용)*
 
@@ -76,7 +76,7 @@ Nathan Lambert가 중국의 주요 AI 랩(Z.ai, Moonshot, Tsinghua, Alibaba, Byt
 
 > "If you map the Chinese AI industry through American frameworks, you'll get the wrong answer."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든의 *서구 시각 편향* 보정
 지금까지 가든의 AI 글은 거의 전부 *서구 발신자*다 — Anthropic, OpenAI, Simon Willison, Addy Osmani, Ethan Ding, Mira Murati, Garry Tan. 본 글은 **방문기 형식으로 동측 생태계의 *내부 시점*을 일부 가져온 첫 글**. 가든 분류축에 *발신자 권역*을 추가할 만한 이유.
@@ -108,7 +108,7 @@ Dan Wang 인용은 한국 IT 업계에 대한 거울처럼 작동한다. 자가 
 - 차라리 **승인된 사용 패턴 + 데이터 가드레일**을 설계하는 게 합리적.
 - CRS·Connectivity 관련 사내 가이드 갱신 후보.
 
-## 🔗 연관 자료
+## 연관 자료
 
 - [로컬 AI가 표준이 되어야 한다](2026-05-11-local-ai-needs-to-be-the-norm.md) — *자체 기술 스택 통제* 본능의 인프라 차원 짝.
 - [Rapid-MLX — Apple Silicon 로컬 AI](2026-05-12-rapid-mlx-apple-silicon-local-ai.md) — Apple 차원의 *자체 스택* 표현. 중국 산업 차원과 비교.
@@ -118,7 +118,7 @@ Dan Wang 인용은 한국 IT 업계에 대한 거울처럼 작동한다. 자가 
 - [확률적 창업자의 부상](../career/2026-05-05-rise-of-the-probabilistic-founder.md) — *서구식 Agent-Default Posture*. 본 글은 *동측 Model-Default Posture* 짝.
 - 외부 추천: Dan Wang의 *Engineering vs Lawyer* 명제 — 본 글의 인용 원전.
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 <!-- 2026-06-14 즈음:
 - MangoLove "엔지니어 vs 변호사" 자가 진단 항목 정식 추가 여부
 - CRS 사내 LLM 사용 가이드를 *금지 → 가드레일* 방향으로 한 줄이라도 갱신했는지

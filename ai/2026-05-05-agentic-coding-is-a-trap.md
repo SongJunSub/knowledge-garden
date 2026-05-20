@@ -14,10 +14,10 @@ tags: ["AI에이전트", "비판적관점", "인지부채", "기술위축", "벤
 
 > 출처: [Lars Faye — Agentic Coding is a Trap](https://larsfaye.com/articles/agentic-coding-is-a-trap) · 레퍼러: [GeekNews 29155](https://news.hada.io/topic?id=29155) · 정리일 2026-05-05
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 **감독의 역설**: Claude를 *효과적으로* 쓰려면 감독해야 하는데, *Claude를 감독하는 능력*이 바로 *Claude 사용으로 위축되는 능력*이다 — 디버깅 능력 47% 감소가 수개월 단위로 진행된다.
 
-## 🧩 비판적 주장 6가지
+## 비판적 주장 6가지
 
 ### 1. 감독의 역설 (Paradox of Supervision)
 Anthropic 연구의 자기 모순:
@@ -53,7 +53,7 @@ Anthropic 연구의 자기 모순:
 | **리뷰 가능성 원칙** | 한 세션에서 검토 가능한 양만 생성 |
 | **역량 범위 준수** | 직접 못 하는 작업은 거부 (교육 목적 제외) |
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "Claude를 효과적으로 쓰려면 감독해야 하고, Claude를 감독하려면 위축되는 바로 그 기술이 필요하다." — *감독의 역설*
 
@@ -67,7 +67,7 @@ Anthropic 연구의 자기 모순:
 
 > "배보다 배꼽이 더 크지 않다. 생산성 이득은 실제지만, 지속적 참여로 얻는 이해 또한 실제다."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든의 *균형 실험* — 이 글의 가치
 1주일 전 [Weekly #356 정리](../weekly/2026-W18-geeknews-356.md)에서 *"편집부가 안 다룬 항목 의식 선별 — 가든이 GN 큐레이션의 그림자가 되지 않게"* 메모를 남겼다. 이 글은 *그 균형의 또 다른 축*. 최근 가든의 AI 시리즈가 채택 옹호 쪽으로 기울었던 것을 *의식적으로* 보정.
@@ -76,13 +76,13 @@ Anthropic 연구의 자기 모순:
 
 | 글 | 입장 | 강도 |
 |----|------|------|
-| [하네스 엔지니어링](2026-04-28-agent-harness-engineering.md) | 채택 + 인프라화 | ★★★★★ |
-| [Long-running agents](2026-05-04-long-running-agents.md) | 채택 + 시간 확장 | ★★★★★ |
-| [mattpocock skills](2026-04-29-mattpocock-skills-vs-mangolove.md) | 채택 + 도구화 | ★★★★ |
-| [9초 사고](2026-04-27-ai-agent-deleted-production-database.md) | 채택 + 가드레일 | ★★★ |
-| [코드 소유권](2026-04-29-who-owns-the-code-claude-wrote.md) | 채택 + 법적 위생 | ★★★ |
-| [Elevate vs Replace](2026-04-28-ai-should-elevate-your-thinking-not-replace-it.md) | 조심스러운 채택 | ★★ |
-| **이 글 (Agentic Coding Trap)** | **회의론·후퇴** | **★** |
+| [하네스 엔지니어링](2026-04-28-agent-harness-engineering.md) | 채택 + 인프라화 | |
+| [Long-running agents](2026-05-04-long-running-agents.md) | 채택 + 시간 확장 | |
+| [mattpocock skills](2026-04-29-mattpocock-skills-vs-mangolove.md) | 채택 + 도구화 | |
+| [9초 사고](2026-04-27-ai-agent-deleted-production-database.md) | 채택 + 가드레일 | |
+| [코드 소유권](2026-04-29-who-owns-the-code-claude-wrote.md) | 채택 + 법적 위생 | |
+| [Elevate vs Replace](2026-04-28-ai-should-elevate-your-thinking-not-replace-it.md) | 조심스러운 채택 | |
+| **이 글 (Agentic Coding Trap)** | **회의론·후퇴** | **** |
 
 총 7개 중 *6개가 채택 옹호*, 1개가 *회의론*. 이 비율이 시장 합의와 비슷한지는 별개로 — 내 사고에서 *반대 관점*을 의식적으로 자리 잡게 하는 게 중요.
 
@@ -108,19 +108,19 @@ Anthropic 연구의 자기 모순:
 - 도메인이 깊고 *비즈니스 규칙이 회색지대*인 호스피탈리티는 **AI에게 *도메인 판단*을 위임하면 더 위험**하다. 검색·문서화·테스트 작성에 위임 + *비즈니스 결정은 사람*이라는 분리가 자연스럽다.
 - 신입·주니어가 *Hotel Brain*을 너무 빨리 AI에 의존하면 [기술 위축 47%]가 *도메인 이해*에서도 일어난다. 온보딩 단계에선 *AI 사용 시간 제한* 같은 룰이 필요할 수도 있다.
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **MangoLove `/strict`에 *디버깅 1차 시도는 사람*** 룰 추가 (옵션이 아닌 default)
 2. **이번 달 CRS PR 1개를 *AI 없이* 처리해보고 *체감 차이* 회고** — 근육 측정
 3. **회사 단위 *AI 의존도 지표* 후보 도출** — Claude 호출량 / 토큰 비용 / 장애 시 팀 마비 시간 등
 
-## 🔗 연관 자료
+## 연관 자료
 - [`ai/2026-04-28-ai-should-elevate-your-thinking-not-replace-it.md`](2026-04-28-ai-should-elevate-your-thinking-not-replace-it.md) — 같은 방향, 더 부드러운 톤
 - [`engineering/2026-04-27-overthinking-scope-creep-structural-diffs.md`](../engineering/2026-04-27-overthinking-scope-creep-structural-diffs.md) — *"마찰을 의식적으로 보존"* 관점이 같다
 - [`ai/2026-05-04-long-running-agents.md`](2026-05-04-long-running-agents.md) — **정면 충돌하는 시대 흐름**. 두 글을 *동시에* 보는 게 균형
 - [`ai/2026-04-28-agent-harness-engineering.md`](2026-04-28-agent-harness-engineering.md) — 채택 옹호의 가장 강한 형태와 대비
 - [`weekly/2026-W18-geeknews-356.md`](../weekly/2026-W18-geeknews-356.md) — *균형 실험* 메모의 후속 실행
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] AI 없이 처리한 PR 1개 회고했는가
 - [ ] MangoLove에 *디버깅 1차 시도는 사람* 룰이 들어갔는가
 - [ ] 회사 AI 의존도 지표 1개라도 측정 시작했는가

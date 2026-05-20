@@ -14,10 +14,10 @@ tags: ["goodharts-law", "kpi-distortion", "amazon", "token-economy", "ai-adoptio
 
 > 출처: [Amazon Employees Inflate AI Token Consumption — Fast Company](https://www.fastcompany.com/91541586) · GeekNews 경유 [news.hada.io/topic?id=29568](https://news.hada.io/topic?id=29568) · 정리일 2026-05-17
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 Amazon이 *AI 토큰 소비량*을 직원 활용도 지표로 추적하기 시작하자 *직원들이 토큰을 태우기 위해 불필요한 AI 에이전트를 만든다*는 Fast Company의 내부 보고 — Goodhart's Law("측정이 목표가 되면 측정이 망가진다")의 *AI 시대 노골적 실증*. 가든의 [Hashimoto AI 광기](2026-05-16-hashimoto-ai-mass-psychosis.md)·[Anthropic 공식 매뉴얼](2026-05-16-claude-code-large-codebases.md)·[Code w/ Claude의 Effort 기능](2026-05-14-code-with-claude-recap-19-sessions.md) 라인이 *현장 케이스*로 합쳐진 자리.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 - ***토큰 소비량*을 KPI로 박는 순간 KPI는 게임된다.** Amazon은 *AI 사용 정도*를 *토큰 소비량* 으로 추적했다. 직원들의 합리적 반응: *MeshClaw 같은 내부 도구로 토큰만 태우는 가짜 작업*을 짜서 *지표를 만족*시킨다. *진짜 생산성 향상*과 *토큰 사용량*의 상관관계가 *애초에 약했는데*, 측정 자체가 *그 약한 상관관계를 0으로 끌어내렸다*.
 - ***주간 개발자 80% AI 사용 목표*가 공식·비공식 사이에서 떠다닌다.** 회사는 *공식 부인*하지만 직원들은 *내부에서 그렇게 작동한다*고 보고. *목표가 명문화되지 않을수록* 더 위험 — *공식 부정으로 책임은 면제*되지만 *비공식 압력은 그대로 작동*하는 *책임 비대칭 구조*. [Eric Ries Incorruptible](../career/2026-05-14-eric-ries-incorruptible-mission-protection.md)의 *정관에 미션을 구체적으로 명시*가 *왜 중요한가*의 정확히 반대 사례.
@@ -25,13 +25,13 @@ Amazon이 *AI 토큰 소비량*을 직원 활용도 지표로 추적하기 시�
 - **환경 문제 + 진짜 기회비용.** *생산성과 무관한 토큰*은 *전력·물·GPU 시간*을 *실제로* 소비한다. *낭비된 자원*이 더 큰 문제가 아니라 *진짜 생산성 향상에 쓰일 수 있던 자원을 가린다*는 점이 핵심. *어떤 사용이 진짜 가치인가*를 판단할 *데이터 자체가 오염*된다.
 - **모순된 리더십 발언.** 댓글의 한 FAANG 직원 인용 — *"리더십이 토큰 지출을 지속 장려하면서도 악용 가능성을 인정"*. 이건 [Hashimoto의 *대화 차단*](2026-05-16-hashimoto-ai-mass-psychosis.md)의 *경영진 버전* — *문제를 *인정*하면서 *대안을 제시하지 않는다*. 인정이 *대화 회피*가 아니라 *대화의 종결*로 작동한다.
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > 리더십이 토큰 지출을 지속 장려하면서도 악용 가능성을 인정한다 — *FAANG 직원의 익명 보고*
 
 > *토큰 소비량*이 KPI가 되는 순간, 직원들은 *생산성 향상*이 아니라 *지표 만족*에 최적화한다.
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 **가든의 *지표 왜곡 라인* 의 첫 *실증 케이스*.** 지금까지 가든은 [Hashimoto 광기](2026-05-16-hashimoto-ai-mass-psychosis.md)·[Garry Tan Ratchet의 지표 누적](2026-05-14-ai-coding-complexity-ratchet-garry-tan.md)·[Code w/ Claude의 Effort](2026-05-14-code-with-claude-recap-19-sessions.md)에서 *지표가 왜곡될 수 있다*는 가설을 *이론적*으로만 가지고 있었다. Amazon 사례는 *그 가설이 현장에서 어떻게 작동하는가*의 *증거*. **가설 → 증거의 단계 이동**이 가든 자산의 *성숙*을 보여준다.
 
@@ -51,7 +51,7 @@ Amazon이 *AI 토큰 소비량*을 직원 활용도 지표로 추적하기 시�
 
 **가든 자체에 대한 자가 적용 — 두 번째.** 어제 [Hashimoto 광기 자가 진단](2026-05-16-hashimoto-ai-mass-psychosis.md)이 *"정리 건수 ≠ 이해 깊이"*였다면, 오늘은 더 정밀해진다 — *가든 자체에 AI-Goodhart 시험을 적용*하면 *"매일 글 정리"라는 자가 KPI는 *내가 30분에 게임할 수 있는가?"* 답은 *나는 게임하지 않지만, 게임할 수 있는 구조에 있다*. 그러므로 *Goodhart 면역 자가 지표*가 필요 — *한 달 뒤 회고가 실제로 다시 읽히고 점검되는가*가 그 후보. 정리 *시점*에 가치가 결정되는 게 아니라 *회고 시점에 다시 작동하는가*가 가치를 결정.
 
-## 🔗 연관 자료
+## 연관 자료
 - [Hashimoto — AI 집단 광기](2026-05-16-hashimoto-ai-mass-psychosis.md) — *지표 왜곡* 이론의 *현장 실증*
 - [Anthropic — Claude Code 대규모 코드베이스 사용법](2026-05-16-claude-code-large-codebases.md) — *공식 매뉴얼 + KPI 인센티브 충돌* 메커니즘
 - [Code w/ Claude SF의 *Effort* 기능](2026-05-14-code-with-claude-recap-19-sessions.md) — Anthropic *낭비 줄이기* vs Amazon *낭비 인센티브화* 의 정반대 신호
@@ -60,5 +60,5 @@ Amazon이 *AI 토큰 소비량*을 직원 활용도 지표로 추적하기 시�
 - [Eric Ries — Incorruptible](../career/2026-05-14-eric-ries-incorruptible-mission-protection.md) — *정관에 미션 구체화* 가 *Amazon 모순 리더십*과 정확히 반대 처방
 - [Ptacek — Emacsification](2026-05-14-emacsification-of-software-ptacek.md) — *30분에 게임 도구를 만든다*는 비용 함수가 Goodhart 가속의 본질
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 <!-- 6월 중순: AI-Goodhart 시험("이 KPI를 만족시키는 AI 에이전트를 30분에 만들 수 있는가")을 *실제로* CRS/MangoLove KPI 설계에 1차 점검 항목으로 박았는가? BugSip 초기 KPI 설계에서 *DAU/MAU 같은 양적 지표*를 *1차에서 제외*하고 정성 지표를 1차에 놓았는가? 가든 자체의 *한 달 뒤 회고가 실제로 작동하는가*를 점검하는 메타 회고를 시도했는가? (이 회고 자체가 그 시작) -->

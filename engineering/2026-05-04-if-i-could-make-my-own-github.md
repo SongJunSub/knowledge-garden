@@ -14,10 +14,10 @@ tags: ["DevTools", "Forge", "GitHub", "PR", "stacked-PR", "JJ", "DX"]
 
 > 출처: [Mat Duggan — If I Could Make My Own GitHub](https://matduggan.com/if-i-could-make-my-own-github/) · 레퍼러: [GeekNews 29152](https://news.hada.io/topic?id=29152) · 정리일 2026-05-04
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 GitHub·GitLab·Gitea 모두 *같은 GitHub 설계*를 모방한다. 저자가 원하는 forge는 **git이 아닌 forge가 진짜 워크플로**라는 사실을 인정하고, *push 전 검증·비-이분법 PR 승인·stacked PR 일급 지원·로컬 완전성*을 처음부터 설계한 것이다.
 
-## 🧩 핵심 진단
+## 핵심 진단
 
 **Forge ≠ Git.** 실무에서 git은 *원격 저장소와 push/pull*만 담당하고, 진짜 작업은 PR·Actions·Issues 같은 *forge 기능*에서 일어난다.
 - **Pull Request** = 동료 리뷰 원칙 *강제 방식*
@@ -26,7 +26,7 @@ GitHub·GitLab·Gitea 모두 *같은 GitHub 설계*를 모방한다. 저자가 �
 
 그런데 현 forge들은 *git 기반 도구*인 척하면서 *워크플로 도구*로서의 설계는 부족하다.
 
-## 🎯 9가지 wishlist
+## 9가지 wishlist
 
 ### 1. **Push 전 원격 pre-commit hook**
 - "커밋 *후* 피드백이 아니라 *push 전* 피드백이 필요하다"
@@ -70,7 +70,7 @@ GitHub·GitLab·Gitea 모두 *같은 GitHub 설계*를 모방한다. 저자가 �
 
 JJ 추천 이유는 글에 명시되지 않지만 *stacked PR과 자연스러운 결합*이 핵심으로 보임.
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "Git은 커널 개발에 완벽한 도구. 이메일로 패치를 보내는 워크플로 기반."
 
@@ -80,7 +80,7 @@ JJ 추천 이유는 글에 명시되지 않지만 *stacked PR과 자연스러운
 
 > "12대의 라즈베리파이도 조직이 될 수 있을 정도로 유연해야 한다."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 - **"forge ≠ git" 분리가 진짜 통찰**. 우리 팀도 평소엔 *"GitHub를 쓴다"*고 하지만 실제 의존하는 건 *PR 리뷰 정책·Actions·Linear 연동·서브모듈 권한*이다. *git과 forge의 의존 강도*가 정반대라는 걸 의식하면 *대안 평가*가 더 정확해진다.
 
@@ -96,14 +96,14 @@ JJ 추천 이유는 글에 명시되지 않지만 *stacked PR과 자연스러운
 
 - **반론·균형점**: 9가지 모두 좋아 보이지만 *현실의 forge는 더 단순한 게 이김*. GitHub은 *기본값이 충분히 좋아서* 이긴 것이지, *모든 기능이 우월해서*가 아니다. 새 forge가 만들어지더라도 결국 *기본값이 좋고 docs/Actions/SDK 생태계가 단단한 쪽*이 살아남을 것.
 
-## 🔗 연관 자료
+## 연관 자료
 - [`engineering/2026-04-29-yc-rfs-summer-2026-hospitality-it.md`](2026-04-29-yc-rfs-summer-2026-hospitality-it.md) — #11 SaaS Challengers의 forge 후보 사례
 - [`weekly/2026-W18-geeknews-356.md`](../weekly/2026-W18-geeknews-356.md) — Ghostty의 GitHub 이탈 (같은 흐름의 신호)
 - [`ai/2026-04-28-agent-harness-engineering.md`](../ai/2026-04-28-agent-harness-engineering.md) — AI 통합 forge가 다음 단계
 - [`ai/2026-04-29-mattpocock-skills-vs-mangolove.md`](../ai/2026-04-29-mattpocock-skills-vs-mangolove.md) — 비-이분법 PR 승인 + 트랙별 리뷰 결합 후보
 - 도구: [Jujutsu (JJ)](https://github.com/jj-vcs/jj), [Tangled](https://tangled.org), [Radicle](https://radicle.xyz)
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] 회사 GitHub 의존도 평가 (lock-in 강도별 분류) 작성했는가
 - [ ] JJ를 한 개인 프로젝트(BugSip 등)에서 시범 사용해봤는가
 - [ ] LLM 자동 승인 PR 정책 가능성 검토했는가

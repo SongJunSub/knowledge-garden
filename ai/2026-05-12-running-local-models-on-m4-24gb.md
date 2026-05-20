@@ -14,10 +14,10 @@ tags: ["로컬AI", "M4-Mac", "Qwen3.5", "LM-Studio", "실측", "양자화", "워
 
 > 출처: [Johanna Larsson — Running Local Models on M4](https://jola.dev/posts/running-local-models-on-m4) · 레퍼러: [GeekNews 29385](https://news.hada.io/topic?id=29385) · 정리일 2026-05-12
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 **M4 MacBook Pro 24GB 실측 경험기** — Qwen 3.5-9B Q4 양자화, LM Studio, *40 tok/s + 128K 컨텍스트*. **무엇이 가능하고 무엇이 안 되는지** 명확. 가든 *로컬 AI 3부작* 완성.
 
-## 🧩 핵심 셋업
+## 핵심 셋업
 
 | 항목 | 값 |
 |---|---|
@@ -32,7 +32,7 @@ tags: ["로컬AI", "M4-Mac", "Qwen3.5", "LM-Studio", "실측", "양자화", "워
 
 ## 가능 vs 불가능
 
-| ✅ 가능 | ❌ 불가능 |
+| 가능 | 불가능 |
 |---|---|
 | 코드 린팅 제안 | 복잡한 다중단계 문제 *독립* 해결 |
 | 단계적 디버깅 | 장시간 자율 작업 |
@@ -52,7 +52,7 @@ tags: ["로컬AI", "M4-Mac", "Qwen3.5", "LM-Studio", "실측", "양자화", "워
 
 그러나 **"도구 사용, 합리적 속도로 실행되는 모델 중 최고"**.
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 *로컬 AI 3부작* 완성
 
@@ -96,7 +96,7 @@ tags: ["로컬AI", "M4-Mac", "Qwen3.5", "LM-Studio", "실측", "양자화", "워
 → MangoLove `/strict`에 **태스크별 권장 라우팅 매트릭스** 명시 후보.
 
 ### *내 환경에서 즉시 시도 가능한 셋업*
-- **하드웨어**: M3 Pro 32GB ✅
+- **하드웨어**: M3 Pro 32GB
 - **도구**: LM Studio 또는 Rapid-MLX (둘 다 시도 가치)
 - **모델 후보**: Qwen 3.5-9B Q4 (검증된 베이스) → Qwen 3.5-14B Q4 (한 단계 위)
 - **첫 시도**: Commit 메시지 생성·코드 린팅·문서 요약
@@ -111,7 +111,7 @@ tags: ["로컬AI", "M4-Mac", "Qwen3.5", "LM-Studio", "실측", "양자화", "워
 - PickMe 사용자 검색 히스토리 *기기 내 분석* → **확실히 작동** (9B 양자화 수준 충분)
 - 여권 OCR + 정규화 → **확실히 작동**
 - 리뷰 분류 → **확실히 작동**
-- 운영 자동 의사결정·복잡 추론 → ❌ 여전히 클라우드 필요
+- 운영 자동 의사결정·복잡 추론 → 여전히 클라우드 필요
 
 ### *온라인 과장* 경고
 > *"실제 성능 비교 시 온라인 과장이 많다"* (댓글)
@@ -125,12 +125,12 @@ tags: ["로컬AI", "M4-Mac", "Qwen3.5", "LM-Studio", "실측", "양자화", "워
 - *128K 컨텍스트*는 *기술적 한계*이지 *실용적 활용 영역*과 다름 — 긴 코드베이스 분석은 여전히 한계
 - *오프라인이 진짜 가치인가*는 사용자별 — *비행기·해외·민감 데이터* 영역이 명확하지 않으면 그냥 *느린 클라우드*
 
-## 🎯 즉시 시도할 액션 3가지
-1. **주말 실험 슬롯 ★ — LM Studio + Qwen 3.5-9B Q4 셋업** (M3 Pro 32GB)
+## 즉시 시도할 액션 3가지
+1. **주말 실험 슬롯 — LM Studio + Qwen 3.5-9B Q4 셋업** (M3 Pro 32GB)
 2. **첫 PoC: commit 메시지 자동 생성** — 평소 Claude 호출 비용 대비 실측
 3. **MangoLove `/strict`에 *태스크별 권장 라우팅 매트릭스* 명시** — 5개 작업별 로컬/클라우드 분류
 
-## 🔗 연관 자료
+## 연관 자료
 - [`ai/2026-05-11-local-ai-needs-to-be-the-norm.md`](2026-05-11-local-ai-needs-to-be-the-norm.md) — 이론 (왜)
 - [`ai/2026-05-12-rapid-mlx-apple-silicon-local-ai.md`](2026-05-12-rapid-mlx-apple-silicon-local-ai.md) — 대안 도구
 - [`ai/2026-05-07-claude-code-not-making-your-product-better.md`](2026-05-07-claude-code-not-making-your-product-better.md) — Camry/Ferrari 라인 = 로컬/클라우드 분류
@@ -138,7 +138,7 @@ tags: ["로컬AI", "M4-Mac", "Qwen3.5", "LM-Studio", "실측", "양자화", "워
 - [`career/2026-05-05-rise-of-the-probabilistic-founder.md`](../career/2026-05-05-rise-of-the-probabilistic-founder.md) — Agent-Default Posture 자연 강제
 - [`engineering/2026-05-08-lean-analytics-reconsidered.md`](../engineering/2026-05-08-lean-analytics-reconsidered.md) — 성공 태스크당 비용 변동 → 고정
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] LM Studio + Qwen 3.5-9B 셋업했는가
 - [ ] Commit 메시지 자동 생성 PoC 실측했는가
 - [ ] MangoLove에 *태스크별 권장 라우팅 매트릭스*가 들어갔는가

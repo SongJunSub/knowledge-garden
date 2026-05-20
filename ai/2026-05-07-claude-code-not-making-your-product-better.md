@@ -14,10 +14,10 @@ tags: ["AI생산성", "제품개발", "취향", "복잡성", "K자형곡선", "�
 
 > 출처: [Ethan Ding — Claude Code is not making your product better](https://ethanding.substack.com/p/claude-code-is-not-making-your-product) · 레퍼러: [GeekNews 29225](https://news.hada.io/topic?id=29225) · 정리일 2026-05-07
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 *코드 생산 속도*는 빨라졌지만 *제품 개선 속도*는 그만큼 빨라지지 않았다 — 진짜 병목은 **취향·판단·삭제 능력**이고 AI는 거기를 가속하지 못한다.
 
-## 🧩 핵심 주장
+## 핵심 주장
 
 ### 1. K자형 생산성 곡선
 - *시니어*는 산출량 증가, *주니어*는 정체·감소
@@ -64,7 +64,7 @@ LLM은 *코드 생산*은 가속하지만 *복잡도 억제*는 못한다.
 
 > "we're losing our ability to delay gratification."
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "engineering productivity is a compounding function."
 
@@ -78,7 +78,7 @@ LLM은 *코드 생산*은 가속하지만 *복잡도 억제*는 못한다.
 
 > "we're losing our ability to delay gratification."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 입장 스펙트럼 *재정렬*
 이번 글로 가든의 AI 입장이 더 정밀해진다:
@@ -129,12 +129,12 @@ LLM은 *코드 생산*은 가속하지만 *복잡도 억제*는 못한다.
 - *Linear·Sentry·OpenCode* 모두 *제품 자체가 개발자 도구*. 일반 SaaS·B2B와 *입장 분포*가 다를 수 있음
 - *복리 효과 부재* 논거는 강하지만, *모든 시장에 적용*되진 않을 수도 — *구체 도메인·기간*이 명시 안 됨
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **PR 설명에 *추가 줄/제거 줄* 헤더 1줄 추가** — 코드 줄 수 = 비용 프레임의 가벼운 시작
 2. **호스피탈리티 영역을 *Camry 라인 / Ferrari 라인*으로 분류** — AI 가속 적용 강도 차별화
 3. **MangoLove 셀프 리뷰에 *"코드 줄 수가 늘었다면 이유 있는가?"* 자문 추가**
 
-## 🔗 연관 자료
+## 연관 자료
 - [`ai/2026-05-05-agentic-coding-is-a-trap.md`](2026-05-05-agentic-coding-is-a-trap.md) — *위축* 비판 / 이 글 = *기능* 비판 (다른 경로 같은 결론)
 - [`engineering/2026-05-05-redis-array-antirez-4-months-with-ai.md`](../engineering/2026-05-05-redis-array-antirez-4-months-with-ai.md) — antirez = K자형 *시니어 쪽*의 정확한 사례
 - [`engineering/2026-04-28-three-constraints-before-i-build-anything.md`](../engineering/2026-04-28-three-constraints-before-i-build-anything.md) — *덜 만들기*의 1-pager·core tech·defining constraint
@@ -142,7 +142,7 @@ LLM은 *코드 생산*은 가속하지만 *복잡도 억제*는 못한다.
 - [`career/2026-05-05-rise-of-the-probabilistic-founder.md`](../career/2026-05-05-rise-of-the-probabilistic-founder.md) — 70% 실험과 *복리 부재* 사이의 긴장
 - [`engineering/2026-04-23-laws-of-software-engineering.md`](../engineering/2026-04-23-laws-of-software-engineering.md) — 최고의 코드는 *없는 코드*
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] PR에 *추가/제거 줄* 헤더가 한 번이라도 들어갔는가
 - [ ] 호스피탈리티 영역 *Camry/Ferrari 분류* 메모를 시작했는가
 - [ ] 본업에서 *덜어낸 PR*이 *추가한 PR*과 의식적으로 균형을 이뤘는가

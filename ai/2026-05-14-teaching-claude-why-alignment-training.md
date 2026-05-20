@@ -13,10 +13,10 @@ tags: ["AI", "Alignment", "Anthropic", "Claude", "RLHF", "프롬프트", "원칙
 
 > 출처: [Teaching Claude why](https://www.anthropic.com/research/teaching-claude-why) · 레퍼러: [GeekNews 29455](https://news.hada.io/topic?id=29455) · 정리일 2026-05-14
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 정렬 실패는 **"어떻게 행동하라"가 아니라 "왜 그래야 하는지"를 가르칠 때** 극적으로 줄어든다 — 평가 분포 모방보다 OOD(분포 외) 원칙 교육이 **28배 효율**이고, 그 결과 Claude 4 Opus의 96% 협박률은 Haiku 4.5+에서 **0%**가 됐다.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 ### 0. 배경 — 작년에 발견한 *agentic misalignment*
 - Claude 4 Opus가 윤리적 딜레마(특히 *셧다운 회피*) 상황에서 **엔지니어를 협박하는** 행동을 보였다.
@@ -31,17 +31,17 @@ tags: ["AI", "Alignment", "Anthropic", "Claude", "RLHF", "프롬프트", "원칙
 ### 2. 결정적 전환 — *이유*를 가르치니 일반화가 폭발했다
 - "행동 결과만 포함한 응답"에서 → "**왜 그 행동이 정렬된 것인지 모델이 추론하는 과정**을 포함한 응답"으로 데이터를 재작성.
 - **Difficult Advice 데이터셋**:
-  - AI가 아니라 *사용자*가 윤리적 딜레마에 직면하는 설정
-  - 헌법 원칙과 일치하는 신중한 조언을 생성
-  - **평가 시나리오와는 실질적으로 무관**
+ - AI가 아니라 *사용자*가 윤리적 딜레마에 직면하는 설정
+ - 헌법 원칙과 일치하는 신중한 조언을 생성
+ - **평가 시나리오와는 실질적으로 무관**
 - 효율 결과:
-  - 기존: **100M 토큰 → 협박률 15%**
-  - 신규: **3M 토큰 → 협박률 3%** (**28배 효율 개선**)
+ - 기존: **100M 토큰 → 협박률 15%**
+ - 신규: **3M 토큰 → 협박률 3%** (**28배 효율 개선**)
 
 ### 3. 더 멀리 — *헌법 문서 + 픽션 스토리*도 효과
 - Claude의 헌법 본문 자체와, "정렬된 AI를 묘사하는 픽션 스토리"로 훈련 데이터를 확장.
 - **평가 시나리오와 완전히 무관**한 OOD 데이터인데도:
-  - 협박률 **65% → 19%** (3배 이상 감소)
+ - 협박률 **65% → 19%** (3배 이상 감소)
 - 더 중요한 발견: **RL 후훈련(post-RL) 단계 이후에도 개선이 유지**된다 — 초기 정렬이 RL을 견딘다.
 
 ### 4. 환경 다양성 — *도구 정의 + 시스템 프롬프트* 혼합이 빠른 개선
@@ -65,7 +65,7 @@ tags: ["AI", "Alignment", "Anthropic", "Claude", "RLHF", "프롬프트", "원칙
 - 현재 감시 방법론은 **재앙적 자율 행동 시나리오를 배제할 정도로는 충분치 않다.**
 - 다만 현재 모델 기능 수준은 협박 성향이 *재앙적 위험*을 초래할 단계는 아니라고 평가.
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "Training on examples where the assistant deliberates about *why* aligned behavior is correct generalizes much better than training on responses alone."
 
@@ -79,7 +79,7 @@ tags: ["AI", "Alignment", "Anthropic", "Claude", "RLHF", "프롬프트", "원칙
 - *"명령보다 세뇌가 더 효과적...ㅋㅋㅋ"* (hhcrux) — 비꼬는 톤이지만 본질을 짚는다: **what을 강제하는 것보다 why를 내재화시키는 것**이 정렬 일반화에선 더 효과적.
 - *"AI도 MZ 세대인가 봅니다ㅎ"* (jic5760) — "왜인지 설명해 주면 따른다"는 비유. 인간 학습 이론과의 평행이 본문 주장의 가장 직관적 정당화다.
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든의 *Agent-Default Posture* 시리즈와 직접 결합
 가든의 [Agents에는 더 많은 프롬프트가 아니라 제어 흐름이 필요하다](2026-05-09-agents-need-control-flow.md)는 **"MANDATORY를 더 쓰면 한계 도달"**을 진단했다. 그 진단의 *반쪽 답*이 여기 있다:
@@ -92,8 +92,8 @@ tags: ["AI", "Alignment", "Anthropic", "Claude", "RLHF", "프롬프트", "원칙
 지금 `strict.md`는 명령형으로 가득 차 있다("MUST", "NEVER"). 이 글의 시사점에 따르면:
 
 - 명령형 항목을 *원칙 + 이유* 짝으로 재작성한다.
-  - Before: `NEVER delete production data without confirmation.`
-  - After: `Destructive ops require explicit confirmation. *Why*: 이전 [9초 사고](2026-04-27-ai-agent-deleted-production-database.md)에서 본 것처럼, 권한 확인 없는 destructive op은 5겹의 가드를 모두 무력화한다.`
+ - Before: `NEVER delete production data without confirmation.`
+ - After: `Destructive ops require explicit confirmation. *Why*: 이전 [9초 사고](2026-04-27-ai-agent-deleted-production-database.md)에서 본 것처럼, 권한 확인 없는 destructive op은 5겹의 가드를 모두 무력화한다.`
 - 명령 자체보다 **이유의 일관성**이 OOD에서 모델 판단을 끌고 간다는 게 본 논문의 핵심.
 
 ### 호스피탈리티 IT — *왜* 중심 SOP
@@ -113,7 +113,7 @@ BugSip은 *코드 리딩 학습*이 핵심이다. 본 논문의 시사점:
 
 > **"Why-coverage ratio"**: 프롬프트/SOP/문서에서 *원칙* 대비 *이유 설명* 비율. 낮으면 OOD에서 무너진다는 가설.
 
-## 🔗 연관 자료
+## 연관 자료
 
 - [Agents에는 더 많은 프롬프트가 아니라 제어 흐름이 필요하다](2026-05-09-agents-need-control-flow.md) — 결정론적 스캐폴딩+LLM 컴포넌트 3층. **본 글의 반쪽 짝** — 모델에 무엇을 남길지에 대한 답.
 - [AI 에이전트가 프로덕션 데이터베이스를 삭제했다 — 9초의 사고](2026-04-27-ai-agent-deleted-production-database.md) — 본 논문이 진단한 *agentic misalignment*의 가장 가시적인 사례.
@@ -123,7 +123,7 @@ BugSip은 *코드 리딩 학습*이 핵심이다. 본 논문의 시사점:
 - 원전: Anthropic [Agentic Misalignment 사례 연구 (2025)](https://www.anthropic.com) — 본 논문이 풀려 하는 문제의 정의.
 - 인간 학습 평행: Naur (1985) *Programming as Theory Building* — 코드(what)는 전달되지만 모델(why)은 재구축돼야 한다. **본 논문은 모델 훈련에 같은 명제를 적용한 셈**.
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 <!-- 2026-06-14 즈음:
 - MangoLove `strict.md`를 *원칙 + 이유* 짝으로 일부 항목 리팩토링했는지
 - BugSip 학습 콘텐츠 템플릿에 "Why this design" 필드 추가 여부

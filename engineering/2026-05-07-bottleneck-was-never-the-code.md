@@ -14,10 +14,10 @@ tags: ["AI에이전트", "조직병목", "맥락", "제번스역설", "조직일
 
 > 출처: [The Typical Set — Thoughts on Coding Agents](https://www.thetypicalset.com/blog/thoughts-on-coding-agents) · 레퍼러: [GeekNews 29238](https://news.hada.io/topic?id=29238) · 정리일 2026-05-07
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 코딩 에이전트가 *코드 생산*은 가속했지만, 진짜 병목은 *"무엇을 만들지"에 대한 합의·공유 맥락·조직 일관성*이었다. AI는 새 능력을 추가한 게 아니라 **조직의 기존 문제를 드러내는 도구**.
 
-## 🧩 핵심 주장
+## 핵심 주장
 
 ### 1. 진짜 병목 — *코드가 아니라 협상*
 - *코드 작성*은 표면. *무엇을 만들 것인가에 대한 합의*가 본질
@@ -48,7 +48,7 @@ tags: ["AI에이전트", "조직병목", "맥락", "제번스역설", "조직일
 
 > "좋은 조직은 더 나아졌고, 나쁜 조직은 빠르게 망했다."
 
-## 📜 짧은 인용
+## 짧은 인용
 
 > "소프트웨어는 인간들이 무엇을 만들어야 할지 서로 협상한 후 남은 것이다."
 
@@ -60,7 +60,7 @@ tags: ["AI에이전트", "조직병목", "맥락", "제번스역설", "조직일
 
 > "좋은 조직은 더 나아졌고, 나쁜 조직은 빠르게 망했다."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 *AI 비판 7번째* — *조직 진단*의 가장 명확한 형태
 이번 글로 비판 시리즈가 7개:
@@ -119,12 +119,12 @@ tags: ["AI에이전트", "조직병목", "맥락", "제번스역설", "조직일
 - *조직 일관성 강조*가 *변화 회피의 핑계*로 변질될 위험 — *일관성 ≠ 정체*
 - *제번스 역설*이 *모든 영역*에 적용되진 않음 — 일부 *내부 도구*에선 가속 = 단순 효율 향상
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **MangoLove `/strict`에 *Spec 적대적 리뷰* 단계를 *Medium에서 기본*으로 격상 검토**
 2. **CRS·Connectivity·PickMe의 *Spec 부채* 영역 5개 식별** (결제·재고·요금·환불·OTA 컨트랙트 우선)
 3. **PR 머지 직전 자문 추가**: *"이 변경이 거절(refuse)이 아닌 추가(add)라면, 왜 추가가 정답인가?"* — 제번스 역설 백신
 
-## 🔗 연관 자료
+## 연관 자료
 - [`engineering/2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md`](2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md) — *Loop Intelligence*가 *맥락 침투*의 시도
 - [`ai/2026-05-07-claude-code-not-making-your-product-better.md`](../ai/2026-05-07-claude-code-not-making-your-product-better.md) — *코드 줄 수 = 비용*의 같은 결론
 - [`ai/2026-05-07-appearing-productive-in-the-workplace.md`](../ai/2026-05-07-appearing-productive-in-the-workplace.md) — *신뢰 자산*과 같은 결
@@ -132,7 +132,7 @@ tags: ["AI에이전트", "조직병목", "맥락", "제번스역설", "조직일
 - [`engineering/2026-04-24-technical-cognitive-intent-debt.md`](2026-04-24-technical-cognitive-intent-debt.md) — *의도 부채*가 *맥락 침투 불가*의 비용
 - [`career/2026-05-05-rise-of-the-probabilistic-founder.md`](../career/2026-05-05-rise-of-the-probabilistic-founder.md) — Agent-Default Posture의 조직 적용
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] Spec 적대적 리뷰 격상 검토 진행했는가
 - [ ] CRS Spec 부채 5영역 식별 메모 작성했는가
 - [ ] PR에 *거절 vs 추가* 자문이 한 번이라도 등장했는가

@@ -14,10 +14,10 @@ tags: ["YC", "RFS", "스타트업", "AI네이티브", "호스피탈리티", "산
 
 > 출처: [Y Combinator — Requests for Startups](https://www.ycombinator.com/rfs) · 레퍼러: [GeekNews 29009](https://news.hada.io/topic?id=29009) · 정리일 2026-04-29
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 YC가 제시한 15개 스타트업 아이디어는 **"AI 네이티브가 모든 레이어를 다시 짓는다"** 한 문장으로 요약 가능 — *호스피탈리티 IT* 관점에서는 7개가 직접 기회·위협이고, **PMS·CRS·채널매니저 같은 레거시 SaaS 교체 기회**가 가장 크다.
 
-## 🧩 15개 RFS 빠른 매핑
+## 15개 RFS 빠른 매핑
 
 | # | 제목 | 제안자 | 핵심 |
 |---|------|--------|------|
@@ -48,20 +48,20 @@ YC가 제시한 15개 스타트업 아이디어는 **"AI 네이티브가 모든 
 
 ---
 
-## 🏨 호스피탈리티 IT 관점 분석
+## 호스피탈리티 IT 관점 분석
 
 ### 직접 기회·위협 매트릭스 (호스피탈리티 IT 5개사 컨텍스트)
 *전제: PMS·CRS·채널매니저·B2C 앱·Connectivity API를 만드는 회사 관점.*
 
 | RFS | 기회 (Build) | 위협 (Defend) | 우선순위 |
 |---|---|---|---|
-| **#11 SaaS Challengers** | Opera/Protel/SiteMinder 같은 *레거시 PMS·채널매니저*를 AI 네이티브로 다시 짓기 | 기존 자사 제품도 *동일하게 공격받는다* — UX·자동화에 차별 없으면 위태로움 | 🔴 최상 |
-| **#12 Software for Agents** | OTA·메타서치 통합, 트래블 에이전트(Booking AI 등)와 직접 통신할 *Agent-First Distribution* 게이트웨이 | 우리 API가 *인간 개발자만* 가정하면 AI 에이전트의 자동 예약 트래픽에 *불리한 위치* | 🔴 최상 |
-| **#4 Company Brain** | 호텔 체인·체인내 브랜드별 *운영 지식*(요금 예외 처리, 환불 정책, 컴플리먼터리, OTA별 컨트랙트)을 통합한 GenAI 컨시어지 | — | 🟡 상 |
-| **#2 AI-Native Service Companies** | 프런트오피스·예약콜센터·민원처리·OTA 정산·계약 관리 같은 *서비스 레이어*를 자동화 | 호텔이 자체 인하우스 AI 운영팀을 갖추면 *외부 SaaS 의존도 감소* | 🟡 상 |
-| **#6 Dynamic Software Interfaces** | 어드민 UI를 *역할별*(레비뉴·프런트·하우스키핑·F&B)로 자동 재구성, 게스트 앱은 *행동 패턴별* 재구성 | — | 🟡 상 |
-| **#15 The AI OS for Companies** | 호텔 운영 데이터(점유율·ADR·RevPAR·리뷰·민원·인건비)를 *목표 vs 현황 실시간 비교* 폐쇄 루프 | — | 🟢 중 |
-| **#13 Sell to Huge Companies** | Marriott·Accor·Hilton·아코르·메리어트·롯데호텔·신라 등 *대형 체인 직접 영업*은 AI 시대에 재가능 | — | 🟢 중 |
+| **#11 SaaS Challengers** | Opera/Protel/SiteMinder 같은 *레거시 PMS·채널매니저*를 AI 네이티브로 다시 짓기 | 기존 자사 제품도 *동일하게 공격받는다* — UX·자동화에 차별 없으면 위태로움 | 최상 |
+| **#12 Software for Agents** | OTA·메타서치 통합, 트래블 에이전트(Booking AI 등)와 직접 통신할 *Agent-First Distribution* 게이트웨이 | 우리 API가 *인간 개발자만* 가정하면 AI 에이전트의 자동 예약 트래픽에 *불리한 위치* | 최상 |
+| **#4 Company Brain** | 호텔 체인·체인내 브랜드별 *운영 지식*(요금 예외 처리, 환불 정책, 컴플리먼터리, OTA별 컨트랙트)을 통합한 GenAI 컨시어지 | — | 상 |
+| **#2 AI-Native Service Companies** | 프런트오피스·예약콜센터·민원처리·OTA 정산·계약 관리 같은 *서비스 레이어*를 자동화 | 호텔이 자체 인하우스 AI 운영팀을 갖추면 *외부 SaaS 의존도 감소* | 상 |
+| **#6 Dynamic Software Interfaces** | 어드민 UI를 *역할별*(레비뉴·프런트·하우스키핑·F&B)로 자동 재구성, 게스트 앱은 *행동 패턴별* 재구성 | — | 상 |
+| **#15 The AI OS for Companies** | 호텔 운영 데이터(점유율·ADR·RevPAR·리뷰·민원·인건비)를 *목표 vs 현황 실시간 비교* 폐쇄 루프 | — | 중 |
+| **#13 Sell to Huge Companies** | Marriott·Accor·Hilton·아코르·메리어트·롯데호텔·신라 등 *대형 체인 직접 영업*은 AI 시대에 재가능 | — | 중 |
 
 ### 호스피탈리티 IT가 *지금* 해야 할 5가지
 
@@ -69,9 +69,9 @@ YC가 제시한 15개 스타트업 아이디어는 **"AI 네이티브가 모든 
 - 현재 OTA·CRS·채널 API 설계 가정: *"사람이 보고 있는 화면 너머 개발자가 호출한다"*
 - 다음 가정으로 전환: *"AI 에이전트가 자율적으로 예약·취소·재시도한다"*
 - 구체 액션:
-  - **MCP 서버**로 CRS / Connectivity / 룸 인벤토리 노출 시범 (현재 회사 내부 도구나 파트너 프리뷰 형태)
-  - 멱등성·rate-limit·결정성 가이드를 *human SDK 가이드와 별도로* 작성
-  - 자연어 검색·자연어 캔슬레이션 같은 *에이전트 친화 엔드포인트* 후보 도출
+ - **MCP 서버**로 CRS / Connectivity / 룸 인벤토리 노출 시범 (현재 회사 내부 도구나 파트너 프리뷰 형태)
+ - 멱등성·rate-limit·결정성 가이드를 *human SDK 가이드와 별도로* 작성
+ - 자연어 검색·자연어 캔슬레이션 같은 *에이전트 친화 엔드포인트* 후보 도출
 
 #### 2. **"Hotel Brain" 시범 구축** (#4)
 - 흩어진 자산: PMS 매뉴얼, CRS 운영 스크립트, OTA 컨트랙트, BSA(Booking Suspension Agreement), 컴플레인 가이드, 시즌별 요금 정책, 그룹 블로킹 룰
@@ -80,9 +80,9 @@ YC가 제시한 15개 스타트업 아이디어는 **"AI 네이티브가 모든 
 
 #### 3. **레거시 PMS·채널매니저 교체 위협 방어 시나리오 작성** (#11)
 - 5년 안에 자사 제품이 *AI 네이티브 도전자에게 공격받을* 시나리오 3개를 미리 그려본다.
-  - (a) 호텔 풀스택 AI 컨시어지 + PMS = Opera 대체
-  - (b) 자연어로 채널 컨트롤 + 다이내믹 프라이싱 = SiteMinder/Cloudbeds 대체
-  - (c) 게스트 행동 기반 자동 어카운트 매니지먼트 = Salesforce-for-Hotels 대체
+ - (a) 호텔 풀스택 AI 컨시어지 + PMS = Opera 대체
+ - (b) 자연어로 채널 컨트롤 + 다이내믹 프라이싱 = SiteMinder/Cloudbeds 대체
+ - (c) 게스트 행동 기반 자동 어카운트 매니지먼트 = Salesforce-for-Hotels 대체
 - 각 시나리오에 대한 *데이터 모트 / 운영 지식 모트 / 채널 관계 모트* 평가
 - 모트가 약한 영역에 우선 투자
 
@@ -102,7 +102,7 @@ YC가 제시한 15개 스타트업 아이디어는 **"AI 네이티브가 모든 
 
 ---
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "The total spend on services is many times larger than the spend on software." (#2)
 
@@ -116,7 +116,7 @@ YC가 제시한 15개 스타트업 아이디어는 **"AI 네이티브가 모든 
 
 > "For the first time a 2-3 person team can ship something a Fortune 10 can find useful." (#13)
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 - **호스피탈리티 IT의 진짜 싸움은 #11과 #12의 합집합**에서 일어난다. 레거시 SaaS 교체 + Agent-First Distribution. 둘 중 하나만 잘하면 부족하다 — 자사 제품을 AI 네이티브로 만들면서, 동시에 외부 AI 에이전트의 *주요 공급자*가 되어야 한다.
 - **"Agent-First Distribution"이 새 OTA 시대**: 지금까지 OTA가 사람 트래픽의 게이트키퍼였다면, 다음은 *AI 에이전트의 게이트키퍼*가 된다. ChatGPT/Perplexity/Claude가 *호텔 검색→예약 위임* 시대를 열면, 우리 측 API가 *그들의 1차 선택지*가 되도록 노출 방식·계약 모델을 바꿔야 한다.
@@ -127,7 +127,7 @@ YC가 제시한 15개 스타트업 아이디어는 **"AI 네이티브가 모든 
 - **반론·균형점**: YC RFS는 본질적으로 *YC 포트폴리오 핏*에 맞춘 *공격적 시점*. 호스피탈리티는 규제·계약·신뢰가 무거운 산업이라 *순수 AI 네이티브 챌린저*가 모든 영역을 훑어내기는 쉽지 않다. **"AI 네이티브 + 도메인 깊이"** 의 결합이 진짜 모트가 될 수 있다 — 이 부분이 우리(기존 호스피탈리티 IT)의 자연스러운 우위다.
 - **개인 학습 메모**: 평소 사고 회로를 *기능·기술 관점*에서 *시장·기회 관점*으로 한 번씩 옮겨오는 훈련. 같은 코드 변경이라도 *어떤 RFS와 닿아 있는지*를 PR 설명에 한 줄 적는 실험 가치 있음.
 
-## 🔗 연관 자료
+## 연관 자료
 - [`ai/2026-04-28-agent-harness-engineering.md`](../ai/2026-04-28-agent-harness-engineering.md) — Agent-First 인프라의 *이론*
 - [`ai/2026-04-29-mattpocock-skills-vs-mangolove.md`](../ai/2026-04-29-mattpocock-skills-vs-mangolove.md) — Hotel Brain 시작점 = `CONTEXT.md`
 - [`ai/2026-04-29-claude-for-creative-work.md`](../ai/2026-04-29-claude-for-creative-work.md) — MCP가 도메인 도구로 확산되는 패턴 → 호스피탈리티 도구도 같은 길
@@ -135,7 +135,7 @@ YC가 제시한 15개 스타트업 아이디어는 **"AI 네이티브가 모든 
 - [`ai/2026-04-27-ai-agent-deleted-production-database.md`](../ai/2026-04-27-ai-agent-deleted-production-database.md) — Agent-First API 노출 시 가드레일
 - [`career/2026-04-23-things-ive-learned-as-a-senior-engineer.md`](../career/2026-04-23-things-ive-learned-as-a-senior-engineer.md) — "기술 스택보다 핵심 원칙" — RFS 트래킹은 핵심 원칙 학습의 한 형태
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] 자사 API 중 한 곳을 MCP 서버로 노출 시범했는가
 - [ ] Hotel Brain CONTEXT.md 초안이 만들어졌는가
 - [ ] 레거시 SaaS 교체 위협 시나리오 3개 워킹 도큐먼트가 있는가

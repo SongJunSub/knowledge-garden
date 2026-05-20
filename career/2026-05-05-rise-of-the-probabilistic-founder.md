@@ -14,10 +14,10 @@ tags: ["창업자", "리더십", "AI네이티브", "실험문화", "확률적시
 
 > 출처: [Dan Nguyen-Huu — The Rise of the Probabilistic Founder](https://dannguyenhuu.substack.com/p/the-rise-of-the-probabilistic-founder) · 레퍼러: [GeekNews 29176](https://news.hada.io/topic?id=29176) · 정리일 2026-05-05
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 소프트웨어가 *결정론*에서 *확률론*으로 이동하면서, 창업자상도 **"2년 로드맵을 실행하는 사람"** 에서 **"불확실성 속에서 매주 실험을 정직하게 평가하는 사람"** 으로 이동 — 실험 70% / 로드맵 30%가 새 표준.
 
-## 🧩 핵심 주장
+## 핵심 주장
 
 ### 1. 패러다임 전환
 > "Generation got cheap. Verification didn't."
@@ -72,7 +72,7 @@ AI 네이티브 최상위 팀: **엔지니어링 시간의 ~70% 실험 / 30% 로
 Tim Davis(Modular 공동창업자):
 > "이 시대의 베팅은 인간이 루프에서 *충분히 날카롭고 정직하고 훈련되어* 루프 안에 있을 가치가 있는지 여부다."
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "Generation got cheap. Verification didn't."
 
@@ -86,7 +86,7 @@ Tim Davis(Modular 공동창업자):
 
 > "이 시대의 베팅은 인간이 루프에서 충분히 날카롭고 정직하고 훈련되어 루프 안에 있을 가치가 있는지 여부다."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### antirez 글의 *창업자 버전*
 오늘 정리한 [antirez Redis Array](../engineering/2026-05-05-redis-array-antirez-4-months-with-ai.md)는 *엔지니어 개인의 확률적 작업 모델*이다. 이 글은 같은 사고를 *조직 레벨로 확장*한 것 — 둘이 같은 화폐의 양면.
@@ -143,19 +143,19 @@ Tim Davis(Modular 공동창업자):
 - *"도구를 탓하지 않는다"*가 *"도구의 결함을 인정 안 한다"*로 변질되면 위험. *Agent-Default Posture*는 *기본값*이지 *절대 명령*은 아님
 - 작은 회사·신규 분야에선 적합하지만, *규제·신뢰가 무거운 산업*(금융·의료·호스피탈리티 일부)에선 *결정론적 베이스*가 여전히 필요
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **MangoLove에 *Agent-Default Posture 회고* 룰 추가** — 에이전트가 실수 → "내 명세/리뷰/오케 어디가 부족했나?" 1줄 기록
 2. **개인 사이드 프로젝트(BugSip)에 *주간 실험 슬롯 1개* 도입** — 로드맵 외에 *작은 가설 검증* 1건/주
 3. **회사 컨텍스트에서 *"70/30이 가능한 영역"* 식별** — 어드민/모니터링/내부 도구 같은 *외부 약속 없는* 영역에 한정 시범
 
-## 🔗 연관 자료
+## 연관 자료
 - [`engineering/2026-05-05-redis-array-antirez-4-months-with-ai.md`](../engineering/2026-05-05-redis-array-antirez-4-months-with-ai.md) — **이 글의 엔지니어 개인 버전**. 짝으로 읽기
 - [`ai/2026-05-05-agentic-coding-is-a-trap.md`](../ai/2026-05-05-agentic-coding-is-a-trap.md) — *Agent-Default Posture가 *없는* 위임*에 대한 경고
 - [`ai/2026-04-28-ai-should-elevate-your-thinking-not-replace-it.md`](../ai/2026-04-28-ai-should-elevate-your-thinking-not-replace-it.md) — 사고 위임 금지 = Agent-Default Posture와 같은 결
 - [`engineering/2026-04-29-yc-rfs-summer-2026-hospitality-it.md`](../engineering/2026-04-29-yc-rfs-summer-2026-hospitality-it.md) — *AI 네이티브 서비스* 흐름의 창업자 측면
 - [`engineering/2026-04-27-overthinking-scope-creep-structural-diffs.md`](../engineering/2026-04-27-overthinking-scope-creep-structural-diffs.md) — 성공 기준 내면화 = *명세·검토 책임을 자기에게 두기*
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] *Agent-Default Posture 회고* 룰이 MangoLove 또는 개인 워크플로에 들어갔는가
 - [ ] BugSip에 *주간 실험 슬롯*이 1회라도 작동했는가
 - [ ] 회사에서 *70/30 가능 영역* 식별 도큐먼트 작성했는가

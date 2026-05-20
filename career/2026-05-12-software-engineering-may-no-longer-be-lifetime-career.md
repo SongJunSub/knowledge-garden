@@ -14,10 +14,10 @@ tags: ["AI비판", "경력수명", "개발자커리어", "재훈련", "장기역
 
 > 출처: [Sean Goedecke — Software engineering may no longer be a lifetime career](https://www.seangoedecke.com/software-engineering-may-no-longer-be-a-lifetime-career/) · 레퍼러: [GeekNews 29416](https://news.hada.io/topic?id=29416) · 정리일 2026-05-12
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 *AI 거부 = 일자리 상실, AI 수용 = 장기 역량 저하* — **거부 불가능한 트레이드오프**. 우리가 *프로 운동선수처럼 ~15년 경력 수명*을 가진 *첫 세대*가 될 수 있다.
 
-## 🧩 핵심 주장
+## 핵심 주장
 
 ### 두 가지 비유
 **1. 전동공구 비유** (Power Tool Analogy)
@@ -48,7 +48,7 @@ tags: ["AI비판", "경력수명", "개발자커리어", "재훈련", "장기역
 - **재훈련 경로 부재** = 가장 큰 위기
 - 과거 기술 전환과 본질적 차이 논쟁
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 *AI 비판 시리즈 10번째* — *경력 수명* 각도
 
@@ -122,12 +122,12 @@ tags: ["AI비판", "경력수명", "개발자커리어", "재훈련", "장기역
 - *경력 수명 단축 위험* — 개인 시간 지평의 위기
 - [Jevons·생성-검증 비대칭·훈련 위기·기본값 신뢰·유지보수 비대칭] 다음
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **분기 *AI 없이* 작업 슬롯 룰 명시** — MangoLove `/strict` 회고에 *한 달 한 번 AI 없이* 시간 추가
 2. **호스피탈리티 *도메인 깊이 자산화* 계획** — 비즈니스 규칙·OTA 관계·법규를 *글로 정리* (가든 호스피탈리티 결 확장)
 3. ***A그룹 vs B그룹* 자가 진단** — 최근 PR 5개 중 *라인 단위 검토 비율* 측정
 
-## 🔗 연관 자료
+## 연관 자료
 - [`ai/2026-05-05-agentic-coding-is-a-trap.md`](../ai/2026-05-05-agentic-coding-is-a-trap.md) — 디버깅 47% 감소 = 경력 수명 단축의 일일 증거
 - [`engineering/2026-05-05-redis-array-antirez-4-months-with-ai.md`](../engineering/2026-05-05-redis-array-antirez-4-months-with-ai.md) — B그룹 디시플린 모범
 - [`career/2026-05-05-rise-of-the-probabilistic-founder.md`](2026-05-05-rise-of-the-probabilistic-founder.md) — Agent-Default Posture
@@ -136,7 +136,7 @@ tags: ["AI비판", "경력수명", "개발자커리어", "재훈련", "장기역
 - [`career/2026-05-07-best-employee-becomes-worst-manager.md`](2026-05-07-best-employee-becomes-worst-manager.md) — 한국 듀얼 트랙 부재와 결합 → 2중 위기
 - [`engineering/2026-05-12-ai-must-reduce-maintenance-costs.md`](../engineering/2026-05-12-ai-must-reduce-maintenance-costs.md) — Shore 수학 = 같은 위기의 다른 각도
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] 분기 *AI 없이* 작업 슬롯 룰을 명시했는가
 - [ ] 호스피탈리티 도메인 깊이 자산화 계획 1페이지 메모를 작성했는가
 - [ ] *A그룹 vs B그룹* 자가 진단을 시도했는가 (라인 단위 검토 비율)

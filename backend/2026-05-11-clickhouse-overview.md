@@ -14,10 +14,10 @@ tags: ["ClickHouse", "OLAP", "컬럼지향DB", "데이터분석", "MergeTree", "
 
 > 출처: [ClickHouse Docs](https://clickhouse.com/docs) · 정리일 2026-05-11
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 ClickHouse는 **컬럼 지향 OLAP 데이터베이스**로, 수십억 row를 초 단위로 집계하는 분석 워크로드에 특화되어 있다 — **SQL은 익숙하게 쓰되, 테이블 설계(엔진·정렬 키·파티션)와 데이터 변경(append-only) 방식이 RDBMS와 결정적으로 다르다**.
 
-## 🧩 핵심 개념
+## 핵심 개념
 
 ### 1. 왜 빠른가 — 컬럼 지향 + 벡터화
 
@@ -47,7 +47,7 @@ ClickHouse는 **컬럼 지향 OLAP 데이터베이스**로, 수십억 row를 초
 SELECT user_id, COUNT(*) AS cnt
 FROM events
 WHERE event_date >= '2026-05-01'
-  AND event_type = 'click'
+ AND event_type = 'click'
 GROUP BY user_id
 HAVING cnt > 10
 ORDER BY cnt DESC
@@ -68,9 +68,9 @@ SELECT uniq(user_id), quantile(0.95)(response_time) FROM logs;
 
 -- Funnel 분석 (1시간 윈도우 내 순서)
 SELECT windowFunnel(3600)(timestamp,
-    event = 'view',
-    event = 'cart',
-    event = 'buy'
+ event = 'view',
+ event = 'cart',
+ event = 'buy'
 ) FROM events GROUP BY user_id;
 ```
 
@@ -78,9 +78,9 @@ SELECT windowFunnel(3600)(timestamp,
 
 ```sql
 CREATE TABLE events (
-    user_id   UInt64,
-    event_type String,
-    event_time DateTime
+ user_id UInt64,
+ event_type String,
+ event_time DateTime
 )
 ENGINE = MergeTree()
 PARTITION BY toYYYYMM(event_time)
@@ -103,11 +103,11 @@ ORDER BY (user_id, event_time);
 - **PARTITION BY**: 보통 시간 단위(예: `toYYYYMM(timestamp)`). 파티션 단위 DROP·읽기 최적화.
 - **Materialized View**: INSERT 시점에 자동 집계 테이블로 반영 → 대시보드 쿼리 가속.
 
-## 📜 인상 깊은 포인트
+## 인상 깊은 포인트
 
 > "ClickHouse는 한 번 들어온 데이터가 거의 변하지 않는 워크로드에 최적화되어 있다. UPDATE는 가능하지만, 그것을 자주 한다면 ClickHouse를 잘못 쓰고 있는 것이다."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 호스피탈리티/CRS 관점에서의 후보
 
@@ -136,12 +136,12 @@ ORDER BY (user_id, event_time);
 
 다섯 개 모두 YES면 강력한 후보. 한두 개라도 NO면 PostgreSQL/TimescaleDB가 더 안전할 수 있다.
 
-## 🔗 연관 자료
+## 연관 자료
 
 - [ClickHouse Documentation](https://clickhouse.com/docs)
 - [Altinity Knowledge Base](https://kb.altinity.com/) — 운영·튜닝 노하우
 - [ClickHouse vs Snowflake/Druid/Pinot](https://clickhouse.com/docs/en/about-us/distinctive-features) — 경쟁 OLAP 비교
 - 비교 후보: TimescaleDB(Postgres 확장 시계열), DuckDB(임베디드 OLAP), Apache Doris
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 <!-- 호스피탈리티 도메인에 PoC로 적용해본다면 어떤 도메인이 가장 효과적이었는지, 도입의 ROI는 어느 정도였는지 회고. -->

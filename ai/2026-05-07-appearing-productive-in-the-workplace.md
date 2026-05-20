@@ -14,10 +14,10 @@ tags: ["AI생산성", "조직신호", "AI슬롭", "도관문제", "신뢰자산"
 
 > 출처: [No One's Happy — Appearing Productive in the Workplace](https://nooneshappy.com/article/appearing-productive-in-the-workplace/) · 레퍼러: [GeekNews 29234](https://news.hada.io/topic?id=29234) · 정리일 2026-05-07
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 AI가 *산출물 품질*과 *작성자 역량*의 연결을 끊었다 — 초보자가 전문가 수준의 산출물을 내놓는 게 가능해지면서, 조직의 *신호 시스템 자체가 망가진다*. 그래서 *신뢰할 수 있는 작업*이 오히려 더 큰 차별 자산이 된다.
 
-## 🧩 핵심 주장
+## 핵심 주장
 
 ### 1. 산출물-역량 분리 (Output-Competence Decoupling)
 > "AI has severed that relationship. A novice now produces work that does not betray the novice."
@@ -59,7 +59,7 @@ AI는 *모두에게 동의*하므로 그 동의는 *가치 0* — 비용 없는 
 - *공정하게 일하는 조직*이 경쟁 우위
 - AI 시대에 *신뢰할 수 있다는 평판*이 더 비싸진다
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "AI has severed that relationship. A novice now produces work that does not betray the novice."
 
@@ -71,7 +71,7 @@ AI는 *모두에게 동의*하므로 그 동의는 *가치 0* — 비용 없는 
 
 > "the competitive advantage of a firm whose work can be trusted has not disappeared; it has, if anything, appreciated."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 *AI 채택 비판 시리즈*의 *조직 신호 층위*
 
@@ -131,12 +131,12 @@ AI는 *모두에게 동의*하므로 그 동의는 *가치 0* — 비용 없는 
 - *Cross-domain Generation*이 *모두 나쁘다*는 결론은 과함. 일부 *학습 가속 효과*도 분명 있음
 - *신뢰 자산 부각*은 매력적이지만 *측정·인센티브* 설계가 어려움 — *명성 신호*는 *느린 자산*
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **PR 설명 5줄 이하 실험** — 슬롭 방지 + Ding의 *코드 줄 수 = 비용* 정신
 2. **MangoLove에 *AI 동의 ≠ 근거* 룰 추가** — 3 역법칙 + 이 글 결합
 3. **호스피탈리티 *신뢰 자산 5개* 식별** — *공정 데이터·정확 정산·SLA·서비스 품질·파트너 관계* 중 우리가 *AI로 손상시킬 수 있는* 영역 우선 보호 매핑
 
-## 🔗 연관 자료
+## 연관 자료
 - [`ai/2026-05-07-claude-code-not-making-your-product-better.md`](2026-05-07-claude-code-not-making-your-product-better.md) — *기능 비판* / 이 글 = *신호 비판*
 - [`engineering/2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md`](../engineering/2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md) — Cross-domain Generation = Loop Intelligence 부재
 - [`ai/2026-05-07-inverse-laws-of-robotics.md`](2026-05-07-inverse-laws-of-robotics.md) — *동의 ≠ 근거* + 책임 포기 금지
@@ -144,7 +144,7 @@ AI는 *모두에게 동의*하므로 그 동의는 *가치 0* — 비용 없는 
 - [`career/2026-05-07-productive-procrastination.md`](../career/2026-05-07-productive-procrastination.md) — *지연 만족 능력* = *느림이 진짜 일*의 신경과학
 - [`engineering/2026-04-27-overthinking-scope-creep-structural-diffs.md`](../engineering/2026-04-27-overthinking-scope-creep-structural-diffs.md) — Lynagh의 마찰 보존
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] PR 설명 5줄 이하 실험 시작했는가
 - [ ] *AI 동의 ≠ 근거* 룰이 한 번이라도 회의·PR에서 적용됐는가
 - [ ] 호스피탈리티 신뢰 자산 매핑을 시작했는가

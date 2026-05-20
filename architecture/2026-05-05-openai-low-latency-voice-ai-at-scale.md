@@ -14,10 +14,10 @@ tags: ["WebRTC", "실시간", "저지연", "Kubernetes", "분산시스템", "Ope
 
 > 출처: [OpenAI — Delivering low-latency voice AI at scale](https://openai.com/index/delivering-low-latency-voice-ai-at-scale/) · 레퍼러: [GeekNews 29168](https://news.hada.io/topic?id=29168) · 정리일 2026-05-05
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 9억 명 주간 활성 사용자를 위해 **WebRTC 세션을 *프로토콜 상태(transceiver)*와 *패킷 라우팅(relay)*으로 분리** — *세션당 UDP 포트* 기존 패턴을 *고정 작은 UDP 표면*으로 바꾸고, **ICE ufrag를 라우팅 힌트로 재활용**해 Kubernetes 운영 가능성과 글로벌 저지연을 동시에 확보.
 
-## 🧩 핵심 아키텍처
+## 핵심 아키텍처
 
 ### 두 계층 분리
 
@@ -72,7 +72,7 @@ WebRTC 표준의 **ICE username fragment**를 *라우팅 힌트*로 재활용:
 - **kernel-bypass(DPDK, XDP) 사용 안 함**: 운영 복잡성 증가 우려. 표준 Linux 네트워킹 스택으로 충분한 성능.
 - **Go로 구현**: 가비지 컬렉터를 *프리얼로케이션*으로 회피.
 
-## 📜 인상 깊은 문장 (요약 기반)
+## 인상 깊은 문장 (요약 기반)
 
 > "The transceiver is the only service that owns WebRTC session state."
 
@@ -84,7 +84,7 @@ WebRTC 표준의 **ICE username fragment**를 *라우팅 힌트*로 재활용:
 
 > *(긱뉴스 댓글)* "전송 지연보다 *음성 활동 감지(VAD) 품질*이 사용자 체감에 더 중요하다."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 일반화된 패턴 — *stateless 라우팅 + stateful 처리* 분리
 이 글의 진짜 가치는 *WebRTC 사례*가 아니라 **"상태를 소유하는 노드"와 "패킷을 라우팅하는 노드"를 분리하는 패턴**. 다음 영역에 그대로 적용:
@@ -123,14 +123,14 @@ ICE ufrag 활용이 우아한 이유: **WebRTC 표준 클라이언트가 *그대
 - 이 패턴은 *대규모 트래픽 + 1:1 세션* 가정에서 빛난다. 우리 호스피탈리티의 일반 트래픽은 OpenAI 규모와 다르므로 *오버엔지니어링*이 될 수 있다. **언제 도입할지의 신호는 *수천 개 UDP 포트 노출*이 운영 부담으로 잡히는 시점**.
 - *kernel-bypass 안 쓴다*는 결정도 *조직 역량*과 *복잡성 수용 한도*의 함수. 우리 팀에선 *Go 표준 스택*도 *충분히 멀리 있는* 도구.
 
-## 🔗 연관 자료
+## 연관 자료
 - [`engineering/2026-05-04-mercury-couple-million-lines-of-haskell.md`](../engineering/2026-05-04-mercury-couple-million-lines-of-haskell.md) — Records of Functions = 같은 분리 정신 (코드 층)
 - [`ai/2026-05-04-long-running-agents.md`](../ai/2026-05-04-long-running-agents.md) — Brain/Hands/Session 분리 = 같은 패턴
 - [`engineering/2026-04-29-yc-rfs-summer-2026-hospitality-it.md`](../engineering/2026-04-29-yc-rfs-summer-2026-hospitality-it.md) — SaaS Challengers의 인프라 측면
 - [`ai/2026-04-29-claude-for-creative-work.md`](../ai/2026-04-29-claude-for-creative-work.md) — 음성 인터페이스가 도메인으로 확산되는 흐름
 - 도구: [Pion](https://github.com/pion/webrtc) (Go WebRTC), `SO_REUSEPORT`
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] 우리 Connectivity API의 sticky session 문제를 *ufrag-style 라우팅 힌트*로 풀 수 있는지 검토했는가
 - [ ] CRS 어드민의 실시간 인벤토리 알림 use case에서 WebSocket 도입 검토했는가
 - [ ] *실제 워크로드 분포 확인 후 아키텍처 선택* 원칙을 다음 설계 결정에 적용했는가

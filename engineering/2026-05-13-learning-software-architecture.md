@@ -14,10 +14,10 @@ tags: ["아키텍처", "학습방법", "Conway-Law", "인센티브", "rust-analy
 
 > 출처: [matklad — Learning Software Architecture](https://matklad.github.io/2026/05/12/software-architecture.html) · 레퍼러: [GeekNews 29452](https://news.hada.io/topic?id=29452) · 정리일 2026-05-13
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 **matklad (rust-analyzer 핵심 개발자)** 의 학습론 — *형식 교육보다 실무 책임*, *Conway's Law*, *인센티브 구조가 코드 품질보다 중요*. rust-analyzer가 *낮은 진입장벽 + 핵심 엄격*을 동시에 달성한 사례.
 
-## 🧩 핵심 주장
+## 핵심 주장
 
 ### 1. 실무 책임이 최고의 학습
 - *형식 교육 < 실제 프로젝트 책임*
@@ -53,7 +53,7 @@ tags: ["아키텍처", "학습방법", "Conway-Law", "인센티브", "rust-analy
 - **데이터 모델 > 코드** (수명이 더 길다)
 - *헥사고날 아키텍처·Unix 파이프·REST 패턴* 성공 사례 학습 추천
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 *학습 방법론* 결의 첫 글
 가든이 그동안 *기술 자체·비판·메트릭·실용 팁* 위주였는데, 이 글은 ***학습 방법론*** — 새 결. 이전 글들의 *어떻게 배울까* 자가 검증 도구 역할.
@@ -85,8 +85,8 @@ tags: ["아키텍처", "학습방법", "Conway-Law", "인센티브", "rust-analy
 - 후보: *문서화·인계 활동의 KPI 가중치* 명시
 
 ### *실무 책임 = 학습*은 가든 *행동 후보* 결과 결합
-- [LLM-from-Scratch 워크숍](../ai/2026-05-07-llm-from-scratch-workshop.md): 학습 자료 (★★★)
-- [Rapid-MLX](../ai/2026-05-12-rapid-mlx-apple-silicon-local-ai.md): 실용 도구 (★★★★)
+- [LLM-from-Scratch 워크숍](../ai/2026-05-07-llm-from-scratch-workshop.md): 학습 자료 ()
+- [Rapid-MLX](../ai/2026-05-12-rapid-mlx-apple-silicon-local-ai.md): 실용 도구 ()
 - 이 글: ***책임지는 프로젝트가 진짜 학습***
 - → BugSip·knowledge-garden 같은 *내 책임 프로젝트*가 *학습 자산*
 
@@ -114,12 +114,12 @@ tags: ["아키텍처", "학습방법", "Conway-Law", "인센티브", "rust-analy
 - *Conway's Law*가 *결정론*이면 *개인 노력 무용*. 다만 글은 *적응 가능*이라는 균형
 - *인센티브 우선*은 *기술적 우수성 무시*가 아님 — 둘 다 필요
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **CRS *공헌 영역 분류 정책* 후보 메모** — 빠른 통과 vs 엄격 검증 영역 명시 (rust-analyzer 패턴)
 2. **MangoLove에 *책임진 프로젝트 회고 → 학습 자산* 룰** 추가
 3. **Conway's Law를 가든 *반복 위험·반복 패턴 인덱스*에 추가** (3회 등장)
 
-## 🔗 연관 자료
+## 연관 자료
 - [`engineering/2026-04-23-laws-of-software-engineering.md`](2026-04-23-laws-of-software-engineering.md) — Conway's Law 첫 등장
 - [`engineering/2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md`](2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md) — Loop Intelligence 조직 구조 = 코드 구조
 - [`career/2026-05-08-programming-still-sucks.md`](../career/2026-05-08-programming-still-sucks.md) — *탐욕(인센티브)이 했다* 같은 결
@@ -129,7 +129,7 @@ tags: ["아키텍처", "학습방법", "Conway-Law", "인센티브", "rust-analy
 - [`career/2026-05-12-software-engineering-may-no-longer-be-lifetime-career.md`](../career/2026-05-12-software-engineering-may-no-longer-be-lifetime-career.md) — 재훈련 경로 = 책임 프로젝트
 - 추천: Gary Bernhardt "Boundaries", Ousterhout *Philosophy of Software Design*, *SE at Google*
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] CRS 공헌 영역 분류 정책 메모를 작성했는가
 - [ ] MangoLove에 *책임진 프로젝트 회고 → 학습 자산* 룰이 들어갔는가
 - [ ] Conway's Law가 의사결정에 한 번이라도 의식적으로 적용됐는가

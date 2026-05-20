@@ -14,10 +14,10 @@ tags: ["로컬AI", "온디바이스", "FoundationModels", "프라이버시", "Ap
 
 > 출처: [unix.foo — Local AI Needs to be the Norm](https://unix.foo/posts/local-ai-needs-to-be-norm/) · 레퍼러: [GeekNews 29369](https://news.hada.io/topic?id=29369) · 정리일 2026-05-11
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 *OpenAI·Anthropic API 의존*을 줄이고 **기기 내 Neural Engine** 활용하자는 주장. Apple **FoundationModels**로 *요약·분류·추출·재작성* 같은 데이터 변환을 서버 없이 처리 — *프라이버시·비용·신뢰성*이 동시 개선.
 
-## 🧩 핵심 주장
+## 핵심 주장
 
 ### 1. 클라우드 의존이 *제품 본질을 바꾼다*
 > "그 순간 당신은 제3자 AI 제공업체에 사용자 콘텐츠를 전송함으로써 *제품의 본질을 바꿨습니다*."
@@ -54,7 +54,7 @@ tags: ["로컬AI", "온디바이스", "FoundationModels", "프라이버시", "Ap
 
 > "유용한 소프트웨어가 목표입니다."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 *AI 채택 방향*의 새 결
 지금까지 가든 AI 시리즈가 *클라우드 AI를 어떻게 잘 다룰까* (하네스·Long-running·mattpocock 등) 또는 *클라우드 AI 비판* (Trap·Ding·No One's Happy 등)에 집중했는데, 이 글은 **세 번째 방향 — *클라우드 AI를 줄이자***. 가든의 비판 시리즈가 *대안 제시*까지 가는 자연스러운 발전.
@@ -113,12 +113,12 @@ tags: ["로컬AI", "온디바이스", "FoundationModels", "프라이버시", "Ap
 - *복잡한 reasoning·코드 생성*은 여전히 클라우드 필수
 - 핵심: ***작업 분리** — 변환·요약은 로컬, 추론·생성은 클라우드*
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **PickMe·CRS Admin의 *로컬 AI 후보 작업 5개* 식별** — 사용자 자기 데이터 변환·정규화 영역
 2. **MangoLove `/strict`에 *외부 API 필요한가?* 자문 추가** — 변동 비용·외부 이전 인지 게이트
 3. **호스피탈리티 PII 처리 영역 *로컬 AI 적용 우선순위* 매트릭스** — 여권 OCR·리뷰 분류·자동완성 후보
 
-## 🔗 연관 자료
+## 연관 자료
 - [`ai/2026-05-07-ai-didnt-delete-your-database-you-did.md`](2026-05-07-ai-didnt-delete-your-database-you-did.md) — 위험 표면 의문 / 이 글 = 전송 표면 의문 (같은 정신)
 - [`backend/2026-05-11-builtin-security-tokens.md`](../backend/2026-05-11-builtin-security-tokens.md) — *로컬 우선* 보안 모델의 짝
 - [`engineering/2026-05-08-lean-analytics-reconsidered.md`](../engineering/2026-05-08-lean-analytics-reconsidered.md) — *성공 태스크당 비용*의 로컬 해답
@@ -126,7 +126,7 @@ tags: ["로컬AI", "온디바이스", "FoundationModels", "프라이버시", "Ap
 - [`engineering/2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md`](../engineering/2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md) — 벤더 종속 위험과 결합
 - 도구: Apple FoundationModels, Ollama (로컬 LLM 일반)
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] PickMe·CRS Admin 로컬 AI 후보 작업 5개 메모를 작성했는가
 - [ ] MangoLove에 *외부 API 필요한가?* 자문이 추가됐는가
 - [ ] 한 번이라도 *로컬 작업으로 충분*했는데 *클라우드로 보낸* 사례를 식별했는가

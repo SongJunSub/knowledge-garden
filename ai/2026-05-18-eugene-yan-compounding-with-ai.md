@@ -14,53 +14,53 @@ tags: ["eugene-yan", "ai-collaboration", "claude-code", "harness", "individual-d
 
 > 출처: [Compounding with AI — Eugene Yan](https://eugeneyan.com/writing/compounding-with-ai/) · GeekNews 경유 [news.hada.io/topic?id=29606](https://news.hada.io/topic?id=29606) · 정리일 2026-05-18
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 Eugene Yan(전 Amazon Applied Scientist, ML 분야 유명 블로거)이 정리한 *개인 차원에서 AI와 복리로 성장하는 5가지 원칙* — 컨텍스트 인프라·취향 설정화·검증 자동화·위임 확대·피드백 루프. **[무신사 query-engineer](2026-05-18-musinsa-query-engineer-harness.md)의 *팀 차원 하네스*와 정확히 짝을 이루는 *1인 차원 하네스 종합***. 5가지 원칙이 가든 메타프레임에 원칙별로 직접 매핑되며 *복리(compounding)*라는 새 시간 키워드를 박는다.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 - ***복리*라는 시간 키워드.** 제목의 *compounding* 한 단어가 글 전체의 톤. **하네스 자산은 *한번 잘 만들면 매번 작업에서 가치를 만든다*** — 시간 축에서 *복리*. [Anthropic 매뉴얼 *3~6개월 의도적 검토*](2026-05-16-claude-code-large-codebases.md)·[무신사 *실패에서 하네스 업데이트*](2026-05-18-musinsa-query-engineer-harness.md)의 정확한 *경제학적 단어* — 하네스 ROI는 *선형 누적*이 아니라 *복리*.
 
 - ***5가지 원칙*** —
 
-  ### 1. 컨텍스트 인프라 (Context Infrastructure)
-  - 코드와 지식 작업을 *구조화*
-  - **MCP(Model Context Protocol)로 조직 정보를 모델에 연결**
-  - **프로젝트별 `CLAUDE.md`를 *온보딩 문서처럼* 작성**
+ ### 1. 컨텍스트 인프라 (Context Infrastructure)
+ - 코드와 지식 작업을 *구조화*
+ - **MCP(Model Context Protocol)로 조직 정보를 모델에 연결**
+ - **프로젝트별 `CLAUDE.md`를 *온보딩 문서처럼* 작성**
 
-  [Anthropic 얇은 CLAUDE.md](2026-05-16-claude-code-large-codebases.md) + [무신사 스킬 시스템](2026-05-18-musinsa-query-engineer-harness.md)의 *처방 일치*. "온보딩 문서처럼" 이라는 비유가 결정적 — *새 합류자 = 새 Claude 세션*. *Naur의 이론 보유자*가 *모델*에게도 그대로 적용.
+ [Anthropic 얇은 CLAUDE.md](2026-05-16-claude-code-large-codebases.md) + [무신사 스킬 시스템](2026-05-18-musinsa-query-engineer-harness.md)의 *처방 일치*. "온보딩 문서처럼" 이라는 비유가 결정적 — *새 합류자 = 새 Claude 세션*. *Naur의 이론 보유자*가 *모델*에게도 그대로 적용.
 
-  ### 2. 취향 설정화 (Tastes as Configuration)
-  - `~/.claude` 디렉터리에서 *행동 규칙과 워크플로* 관리
-  - *반복 작업은 스킬로 자동화*
-  - **불필요한 로딩을 피하기 위해 *지연 로딩(lazy loading)*** 구현
+ ### 2. 취향 설정화 (Tastes as Configuration)
+ - `~/.claude` 디렉터리에서 *행동 규칙과 워크플로* 관리
+ - *반복 작업은 스킬로 자동화*
+ - **불필요한 로딩을 피하기 위해 *지연 로딩(lazy loading)*** 구현
 
-  새 키워드 ***지연 로딩***. *얇은 CLAUDE.md*의 *기술적 구현 패턴* — *컨텍스트는 필요할 때만 로드*. **가든의 *frontmatter 카탈로그*가 정확히 지연 로딩 구조** — 전체 글을 다 로드하지 않고 *frontmatter만 보고 연관된 글만 *필요할 때* 로드*.
+ 새 키워드 ***지연 로딩***. *얇은 CLAUDE.md*의 *기술적 구현 패턴* — *컨텍스트는 필요할 때만 로드*. **가든의 *frontmatter 카탈로그*가 정확히 지연 로딩 구조** — 전체 글을 다 로드하지 않고 *frontmatter만 보고 연관된 글만 *필요할 때* 로드*.
 
-  ### 3. 검증 자동화 (Automated Verification)
-  - *린팅·테스트·eval*을 단계별로 구성
-  - **모델이 *스스로 검증*하도록**
-  - **긴 세션에서 *드리프트* 방지를 위해 *페어 프로그래밍 구조* 도입**
+ ### 3. 검증 자동화 (Automated Verification)
+ - *린팅·테스트·eval*을 단계별로 구성
+ - **모델이 *스스로 검증*하도록**
+ - **긴 세션에서 *드리프트* 방지를 위해 *페어 프로그래밍 구조* 도입**
 
-  [무신사 Stage 4.1 정합성 검증](2026-05-18-musinsa-query-engineer-harness.md)·[Hashimoto 완료 환각](2026-05-16-hashimoto-ai-mass-psychosis.md) 처방의 *개인 차원*. *드리프트(drift)*가 LangChain의 *Context Rot*과 같은 현상의 다른 이름. *페어 프로그래밍 구조*가 처방 — *모델이 인간에게 *확인 체크포인트*를 의도적으로 요구*.
+ [무신사 Stage 4.1 정합성 검증](2026-05-18-musinsa-query-engineer-harness.md)·[Hashimoto 완료 환각](2026-05-16-hashimoto-ai-mass-psychosis.md) 처방의 *개인 차원*. *드리프트(drift)*가 LangChain의 *Context Rot*과 같은 현상의 다른 이름. *페어 프로그래밍 구조*가 처방 — *모델이 인간에게 *확인 체크포인트*를 의도적으로 요구*.
 
-  ### 4. 위임 확대 (Expanding Delegation)
-  - *점진적으로 더 큰 작업 단위*를 위임
-  - **병렬 세션 3~6개 동시 운영**
-  - *원격 제어로 AFK 중에도 체크인*
+ ### 4. 위임 확대 (Expanding Delegation)
+ - *점진적으로 더 큰 작업 단위*를 위임
+ - **병렬 세션 3~6개 동시 운영**
+ - *원격 제어로 AFK 중에도 체크인*
 
-  [Code w/ Claude Managed Agents](2026-05-14-code-with-claude-recap-19-sessions.md)의 *기업 차원 멀티 에이전트*가 *개인 차원에서 3~6개 병렬 세션*. [무신사 *4정찰조 병렬*](2026-05-18-musinsa-query-engineer-harness.md)이 *팀 단위에서 자동화된 것*을 *개인 단위에서 *수동 운영*. 새 행동 패턴 — *AFK 중에도 모바일로 승인/체크인*은 [GN#358 Codex 모바일 통합 #29514](../weekly/2026-W20-geeknews-358.md)의 사용자 측 자가 적용.
+ [Code w/ Claude Managed Agents](2026-05-14-code-with-claude-recap-19-sessions.md)의 *기업 차원 멀티 에이전트*가 *개인 차원에서 3~6개 병렬 세션*. [무신사 *4정찰조 병렬*](2026-05-18-musinsa-query-engineer-harness.md)이 *팀 단위에서 자동화된 것*을 *개인 단위에서 *수동 운영*. 새 행동 패턴 — *AFK 중에도 모바일로 승인/체크인*은 [GN#358 Codex 모바일 통합 #29514](../weekly/2026-W20-geeknews-358.md)의 사용자 측 자가 적용.
 
-  ### 5. 피드백 루프 (Feedback Loop)
-  - *공개적 작업*으로 팀 컨텍스트 유지
-  - **과거 *트랜스크립트 마이닝*으로 설정 개선**
-  - *주기적 리팩터링*으로 규칙 충돌 방지
+ ### 5. 피드백 루프 (Feedback Loop)
+ - *공개적 작업*으로 팀 컨텍스트 유지
+ - **과거 *트랜스크립트 마이닝*으로 설정 개선**
+ - *주기적 리팩터링*으로 규칙 충돌 방지
 
-  *과거 트랜스크립트 마이닝*이 가장 새로운 처방 — *내 과거 대화를 *내 하네스 개선의 데이터*로 쓴다*. 이게 *적응형 하네스*([무신사 분류 체계 중 3번째](2026-05-18-musinsa-query-engineer-harness.md))의 *개인 차원 구체화*. 가든의 *한 달 뒤 회고* + *7월 중순 하네스 검토*가 정확히 이 처방의 실행 단위.
+ *과거 트랜스크립트 마이닝*이 가장 새로운 처방 — *내 과거 대화를 *내 하네스 개선의 데이터*로 쓴다*. 이게 *적응형 하네스*([무신사 분류 체계 중 3번째](2026-05-18-musinsa-query-engineer-harness.md))의 *개인 차원 구체화*. 가든의 *한 달 뒤 회고* + *7월 중순 하네스 검토*가 정확히 이 처방의 실행 단위.
 
 - ***인간 팀 협업에도 동일하게 적용 가능한 범용 프레임워크***. 글 마지막 한 줄. **5가지 원칙이 *AI 협업뿐 아니라 인간 팀 협업에도 그대로 작동***. 이건 *Conway's Law*의 다음 단계 진술 — *팀 구조 = 하네스 구조 = 모델 협업 구조* 의 3자 동형이 [matklad](../engineering/2026-05-13-learning-software-architecture.md)에서 본 *조직-소프트웨어-하네스 3자 동형*에 *팀 협업*까지 4자로 확장.
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > AI와의 협업으로 *복리처럼* 성장한다.
 
@@ -74,7 +74,7 @@ Eugene Yan(전 Amazon Applied Scientist, ML 분야 유명 블로거)이 정리�
 
 > 과거 *트랜스크립트 마이닝*으로 설정 개선.
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 **가든 안에서의 *팀 vs 개인 짝 자산 완성***.
 지난 1주간 정리한 가든의 *하네스 라인*이 *4개의 차원으로 정렬*된다:
@@ -120,7 +120,7 @@ Ascetic은 *최소 도구로 깊이를 만든다*. Eugene Yan은 *5가지 인프
 
 *복리*의 증거: *한 글이 다른 글에 인용*되고, *과거 글의 가설이 새 글에서 *확장됨*. 이 점에서 가든은 *복리로 누적*되는 시스템 — [Naur]에서 [Anthropic 매뉴얼]로, [무신사]로, [Luca Valli]로, [a16z]로 *가설이 시간 축으로 *복리* 자라남*. **단, *Ascetic 모드 실험*이 *복리를 끊을 위험*에 있는가?** 답: *복리는 *글의 수*가 아니라 *글이 다른 글에 어떻게 작용하는가*에 달려 있다*. 그러므로 *주 1~3개 선택*이 *복리를 끊지 않는다* — 오히려 *더 깊은 연결을 만들 수 있는 시간을 확보*. **Ascetic 모드 실험이 *복리 친화적임*이 확정된다**.
 
-## 🔗 연관 자료
+## 연관 자료
 - [Anthropic — Claude Code 대규모 코드베이스 사용법](2026-05-16-claude-code-large-codebases.md) — *얇은 CLAUDE.md + 하네스* 라는 *개인 차원의 출발 자리*
 - [무신사 query-engineer](2026-05-18-musinsa-query-engineer-harness.md) — *팀 차원 하네스*의 *완성 짝*
 - [Luca Valli — 플랫폼 엔지니어링](../engineering/2026-05-18-platform-engineering-end-to-end-luca-valli.md) — *조직 차원 하네스*의 *상위 짝*
@@ -131,7 +131,7 @@ Ascetic은 *최소 도구로 깊이를 만든다*. Eugene Yan은 *5가지 인프
 - [Naur — Programming as Theory Building](../engineering/2026-05-14-naur-programming-as-theory-building.md) — *CLAUDE.md를 온보딩 문서처럼*의 처방 근거 (이론 형성 = 온보딩)
 - [matklad — Conway's Law](../engineering/2026-05-13-learning-software-architecture.md) — *3자 동형*이 *팀 협업 4자 동형*으로 확장 (Eugene Yan 마지막 한 줄)
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 <!-- 6월 중순:
 - 5원칙 × 5층 = **25칸 체크리스트**를 *실제로* 만들었는가?
 - CRS의 *프로젝트별 CLAUDE.md를 *온보딩 문서로*가 *명시적*으로 박혔는가? 새 합류자와 새 Claude 세션에 *동일한 진입로*가 제공되는가?

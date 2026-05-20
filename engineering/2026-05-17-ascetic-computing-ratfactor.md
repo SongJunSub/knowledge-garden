@@ -14,10 +14,10 @@ tags: ["ascetic-computing", "minimalism", "unix", "vim", "openbsd", "long-lastin
 
 > 출처: [Ascetic Computing — ratfactor.com](https://ratfactor.com/ascetic-computing) · GeekNews 경유 [news.hada.io/topic?id=29577](https://news.hada.io/topic?id=29577) · 정리일 2026-05-17
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 *금욕(ascesis)의 어원은 *연습*이지 *결핍*이 아니다*에서 시작해, 알림·팝업·자동업데이트로부터 자유로운 *원칙 있는 컴퓨팅 라이프스타일*을 제안하는 글 — Unix·Vim·OpenBSD 같은 *오래가는 기본 도구*에 머무르며 *새로운 것을 좇는 유혹을 거부*하는 자세. AI 시대 *모든 새 도구를 흡수*하는 가든의 기본 자세에 *정확히 반대 방향의 운영 철학*을 제시하는 글.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 - **어원의 회복 — 금욕(ascesis) = 연습.** 글의 출발점이자 가장 무거운 한 줄. 금욕은 *부족함을 견디는 미덕*이 아니라 *최소 도구로 예리함을 *연습*하는 의도된 훈련*. 운동선수·음악가의 *제한된 도구로 깊이를 만든다*는 형식이 컴퓨팅에도 적용된다는 주장. ***결핍*의 미화*가 아니라 *집중의 도구*.
 - **새로운 것을 좇는 유혹 거부.** 핵심 거부 대상 — *알림·팝업·자동 업데이트·새 기능 어필*. 이것들은 *주의력을 *공급자*가 결정하는 구조*. 자기 결정을 회복하려면 *자기 기준을 지키고 *공급자의 신호를 차단*하는 의도된 행동이 필요. 단순한 미니멀리즘이 아니라 *자기 결정권 회복 운동*.
@@ -26,7 +26,7 @@ tags: ["ascetic-computing", "minimalism", "unix", "vim", "openbsd", "long-lastin
 - **저가 하드웨어로 충분.** 8년 된 Lenovo 11E 같은 *중고 기계*가 문서 편집·개발에 *완전히 적합*. 이건 단순한 절약이 아니라 *작업의 본질*이 *최신 하드웨어가 아니라 사고의 깊이*에 있다는 *입장*. *비싼 도구가 좋은 작업의 증거*라는 *대리지표 함정*에 빠지지 않기.
 - **"전자 정원" — 절충의 허용.** 모든 컴퓨터를 *금욕적*으로 쓸 필요는 없다. *여러 저가 컴퓨터*를 *역할별로 운영*하면서 *일부는 편의 도구*로 *허용*. 절대 원칙주의가 아니라 *원칙과 절충의 의식적 분리*. 가장 현실적인 부분.
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > 금욕(askesis)은 *결핍*이 아니라 *연습*이다.
 
@@ -34,7 +34,7 @@ tags: ["ascetic-computing", "minimalism", "unix", "vim", "openbsd", "long-lastin
 
 > 모든 것이 가능하면 *선택 마비*가 생긴다 — 도구를 *계속 쓰는 법*이 새 도구를 배우는 것보다 깊다.
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 **가든 운영 자체에 *가장 어려운 자가 진단*을 강제하는 글.** 지난 며칠간 [Hashimoto 광기 자가 진단 = "정리 건수 ≠ 이해 깊이"](../ai/2026-05-16-hashimoto-ai-mass-psychosis.md)·[Amazon Goodhart 자가 진단 = "한 달 뒤 회고가 실제로 작동하는가"](../ai/2026-05-17-amazon-token-burning-goodharts-law.md)·[Reddit Claude→Codex 자가 진단 = "비판적 글에 대한 편향"](../ai/2026-05-17-claude-to-codex-migration-reddit.md) 까지 가든이 *내부 점검*을 쌓아 왔다. **금욕적 컴퓨팅은 *그 모든 자가 진단의 근저에 있는 질문*을 정직하게 묻는다 — *가든 운영 자체가 *새로운 것을 좇는 유혹*에 굴복한 결과인가?*** 매일 새 글을 흡수하는 자세는 *원칙 정련*인가 *과잉 도구화*인가? 둘 다일 수 있고, *비율이 얼마인지*를 정직하게 다뤄야 한다.
 
@@ -60,7 +60,7 @@ tags: ["ascetic-computing", "minimalism", "unix", "vim", "openbsd", "long-lastin
 
 **가든 자체에 대한 자가 적용 — 다섯 번째이자 가장 신랄한 것.** *가든이 *Ascetic*인가?* 정직한 답: *현재 운영 형태는 Ascetic이 아니다*. *GeekNews에서 들어오는 모든 글에 응답*하는 자세는 *공급자가 내 주의력을 결정*하는 구조. 이걸 정직하게 인정하고, *Ascetic 모드 실험*을 7월 중순 [Anthropic 하네스 검토](../ai/2026-05-16-claude-code-large-codebases.md)에 *명시적 변경 후보*로 박기. 그렇게 하지 않으면 가든은 *원칙 정련*이 아니라 *과잉 도구화의 보조 도구*로 굳을 수 있다. **이 글의 정리 자체가 *Ascetic 모드 실험을 박을 만한 글인가*를 *나중*에 회고해야 한다 — 이 글이 *가든의 자세를 바꾸지 않으면* 정리한 의미가 없다.**
 
-## 🔗 연관 자료
+## 연관 자료
 - [Julia Evans — Tailwind 벗어나기](../frontend/2026-05-17-jvns-moving-away-from-tailwind.md) — *졸업의 순간 vs 졸업 후의 지속 형태*
 - [Ptacek — Emacsification](../ai/2026-05-14-emacsification-of-software-ptacek.md) — *과잉 옵션 문제*에 대한 *정반대 처방* (도구 증식 vs 도구 감산)
 - [Naur — Programming as Theory Building](2026-05-14-naur-programming-as-theory-building.md) — *제약이 깊이를 만든다*는 *이론 형성의 라이프스타일 버전*
@@ -71,5 +71,5 @@ tags: ["ascetic-computing", "minimalism", "unix", "vim", "openbsd", "long-lastin
 - [Amazon — 토큰 태우기 Goodhart](../ai/2026-05-17-amazon-token-burning-goodharts-law.md) — *과잉 토큰 = 광기*에 대한 *개인 차원 처방*
 - [Reddit — Claude → Codex 전환](../ai/2026-05-17-claude-to-codex-migration-reddit.md) — *도구 변동에 응답하는 자세 vs Ascetic의 응답하지 않는 자세*
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 <!-- 6월 중순: *가든 Ascetic 모드 실험*을 *실제로* 시도했는가 — 일주일에 1~3개만 선택적으로 정리, 나머지는 기존 글 재방문 또는 기본 기술 학습. CRS T자 학습 트랙 세로축에 Unix·HTTP·SQL 등 *영구 자산*을 명시했는가? MangoLove 자문 도구에 *영구/임시 도구 분리 진단*이 들어갔는가? BugSip 마케팅에 *Ascetic = 연습*의 어원이 한 줄로 박혔는가? **그리고 가장 중요한 것: 이 글의 정리가 *가든의 자세를 실제로 바꿨는가, 또 다른 글 정리로 *흡수되어 사라졌는가*?** -->

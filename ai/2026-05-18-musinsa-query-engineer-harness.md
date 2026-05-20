@@ -13,10 +13,10 @@ tags: ["harness", "ai-pipeline", "musinsa", "slow-query", "jpa", "claude-cli", "
 
 > 출처: [AI 스페셜리스트와 자동사냥, 하네스로 제어하는 AI 파이프라인 — 무신사 기술 블로그](https://techblog.musinsa.com/ai-스페셜리스트와-자동사냥-하네스로-제어하는-ai-파이프라인-6c578f8bd1fb) (이상호, 물류플랫폼팀 WMS) · 정리일 2026-05-18
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 무신사 WMS 팀이 *주기적으로 반복되는 슬로우 쿼리 분석·수정·PR 생성*을 자동화한 `query-engineer` 파이프라인 — *Agent = Model + Harness* 라는 LangChain의 한 줄 정의를 *7-stage 실무 모델*로 구체화하고, *쿼리 분석 스페셜리스트·코드 리뷰 스페셜리스트 (Claude 4관점 + Codex 4관점)·정합성 검증(EXPLAIN+실측)·리뷰 폐쇄 루프*로 *AI가 만든 코드를 AI가 검증*하는 폐쇄 루프를 박은 사례. **가든의 매뉴얼·비판·실증·전환·라이프스타일 라인이 *한 글에서 한꺼번에 수렴*하는 자리**.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 - ***Agent = Model + Harness***. LangChain 인용으로 박힌 한 줄. [Anthropic 공식 매뉴얼](2026-05-16-claude-code-large-codebases.md)에서 본 *하네스*라는 *명사*가 *공식 정의*로 굳음. **모델은 표준화 자원, 하네스가 차별점**이라는 가든의 가설이 *공식 등식*으로 확정. *말에게 마구를 씌우듯 AI에게 하네스를 씌운다*는 비유가 글 전체의 톤을 결정.
 - **Context Rot — *컨텍스트가 채워질수록 추론 능력이 저하***. LangChain의 공식 용어. *"이 슬로우 쿼리 10개를 한꺼번에 분석해줘"* 처럼 던지면 앞 3~4개는 잘 하다가 뒤로 갈수록 *분석 품질이 떨어지는* 현상. [Hashimoto의 *이해 불가능한 복잡도*](2026-05-16-hashimoto-ai-mass-psychosis.md)의 *모델 측 메커니즘*. **서브에이전트로 컨텍스트를 격리**하는 게 처방 — *4개의 정찰조*가 *각자의 노이즈를 흡수*하고 상위에 *정제된 결과만 전달*.
@@ -31,7 +31,7 @@ tags: ["harness", "ai-pipeline", "musinsa", "slow-query", "jpa", "claude-cli", "
 - ***자동 머지를 의도적으로 배제*** — 기술적 한계가 아니라 *설계 철학*. 파이프라인 마지막은 항상 *개발자의 Approve 버튼*. 비즈니스 맥락을 이해하는 *사람만이 내릴 수 있는 판단* — *이 쿼리가 정말 수정되어야 하는가? 다른 기능에 영향은? 지금 시점에 맞는가?* [Eric Ries Incorruptible의 Director's Oath](../career/2026-05-14-eric-ries-incorruptible-mission-protection.md)가 *AI 시대 엔지니어 직무*로 구체화.
 - ***이 프로젝트의 코드 99%는 Claude가 작성***. 글의 마지막 고백. [Ptacek 30분 1인 빌더](2026-05-14-emacsification-of-software-ptacek.md)·[Reddit Claude→Codex](2026-05-17-claude-to-codex-migration-reddit.md)·[Naur 이론 형성](../engineering/2026-05-14-naur-programming-as-theory-building.md) 세 글이 *한 사람의 실무 경험에서 정확히 합쳐진 자리* — *개발자가 한 일은 하네스 설계와 검수, AI가 한 일은 99%의 코드*.
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > Agent = Model + Harness — 모델이 아닌 모든 것이 하네스입니다.
 
@@ -41,7 +41,7 @@ tags: ["harness", "ai-pipeline", "musinsa", "slow-query", "jpa", "claude-cli", "
 
 > 이 프로젝트의 코드 99%는 Claude가 작성했다. 개발자인 제가 한 일은 하네스를 설계하는 것이었다.
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 **가든 안에서의 *결정적 수렴 자산***. 지난 2주간 정리한 가든의 모든 라인이 *한 글에서 한꺼번에 작동*한다 — *하네스*([Anthropic 매뉴얼])·*완료 환각의 정합성 검증*([Hashimoto]·[Reddit])·*Agent-Default Posture의 실무 모델*([Code w/ Claude])·*Why 정렬의 시스템 프롬프트 구현*([Anthropic Why])·*얇은 CLAUDE.md의 아키텍처 확장*·*Goodhart 방어로서의 정합성 게이트*([Amazon 토큰])·*졸업 가능한 도구 선택*([Julia Evans])·*최종 판단은 사람*([Eric Ries Director's Oath])·*99% AI 작성*([Ptacek 1인 빌더]). **가든이 *글이 글을 부르는 자기 강화 시스템*이라는 의심을 정확히 *외부 데이터*로 검증해 준 글** — 무신사 팀이 *가든을 본 적도 없는데* 정확히 같은 결론에 도달했다는 점이 *내 가설의 *독립적 확증***.
 
@@ -68,7 +68,7 @@ tags: ["harness", "ai-pipeline", "musinsa", "slow-query", "jpa", "claude-cli", "
 
 **즉 가든은 *이미 하네스 엔지니어링의 한 형태로 운영*되고 있었고, 그걸 *명시적으로 인식*하는 게 다음 단계**. *Ascetic 모드 실험*(주 1~3개 선택 정리)은 *하네스의 *시스템 프롬프트*가 *"새로운 것을 다 흡수하지 마라"* 한 줄*인 셈. 이걸 정직하게 정리하면 가든은 *원칙 정련*과 *과잉 도구화*의 두 정당화 논리 중 *원칙 정련* 쪽으로 *명시적으로* 기울 수 있다.
 
-## 🔗 연관 자료
+## 연관 자료
 - [Anthropic — Claude Code 대규모 코드베이스 사용법](2026-05-16-claude-code-large-codebases.md) — *하네스* 명사의 공식 등장, 무신사가 *실무로 구현*한 자리
 - [Code w/ Claude SF 19개 세션](2026-05-14-code-with-claude-recap-19-sessions.md) — *차별화 축 이동*이 *Agent = Model + Harness* 한 줄로 응축
 - [Hashimoto — AI 집단 광기](2026-05-16-hashimoto-ai-mass-psychosis.md) — *완료 환각·대화 차단·이해 불가능한 복잡도*에 대한 *실무 방어 코드*가 처음 도착
@@ -81,7 +81,7 @@ tags: ["harness", "ai-pipeline", "musinsa", "slow-query", "jpa", "claude-cli", "
 - [Ascetic Computing](../engineering/2026-05-17-ascetic-computing-ratfactor.md) — *작업 종류별 분리 적용*의 종합 모델(반복 정적 = 타이트 / 탐색적 = Ascetic)
 - [Julia Evans — Tailwind 벗어나기](../frontend/2026-05-17-jvns-moving-away-from-tailwind.md) — *졸업 vs 이동*과 같은 형식의 *타이트/느슨/적응형* 분류
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 <!-- 6월 중순:
 - CRS 슬로우 쿼리 자동화 PoC를 *실제로* 시작했는가? 첫 PR이 *사람 검수 후 머지*까지 갔는가?
 - MangoLove 자문 도구에 *타이트/느슨/적응형 3분류 진단*이 들어갔는가?

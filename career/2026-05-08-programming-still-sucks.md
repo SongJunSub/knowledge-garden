@@ -14,10 +14,10 @@ tags: ["AI비판", "경영", "도제식성장", "기관지식", "Goodhart법칙"
 
 > 출처: [Steven Langbroek — Programming Still Sucks](https://www.stvn.sh/writing/programming-still-sucks-fqffhyp) · 레퍼러: [GeekNews 29261](https://news.hada.io/topic?id=29261) · 정리일 2026-05-08
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 *"AI가 일자리를 가져갔다"* 는 진단을 *재배치*한다 — **AI는 희생양**, 진짜 원인은 **경영진의 탐욕과 잘못된 의사결정**. 도제식 성장은 끊어졌고, 기관 지식은 사라지고, 지표는 의미를 잃었다.
 
-## 🧩 핵심 주장 4가지
+## 핵심 주장 4가지
 
 ### 1. 도제식 성장의 붕괴
 - 주니어의 *진짜 가치*: 지금의 생산량이 아니라 **시니어로 자라는 과정**
@@ -44,7 +44,7 @@ tags: ["AI비판", "경영", "도제식성장", "기관지식", "Goodhart법칙"
 - 그러나 결과 = *기관 지식 소실 + 도제식 성장 종료*
 - 한 줄: *"주니어가 없다. 2024년에 그들의 장례식이 있었다. 아무도 오지 않았다."*
 
-## 📜 짧은 인용
+## 짧은 인용
 
 > "AI가 직업을 빼앗지 않았다. 탐욕이 했다."
 
@@ -56,7 +56,7 @@ tags: ["AI비판", "경영", "도제식성장", "기관지식", "Goodhart법칙"
 
 > "이사회 회의에는 '가치'라는 단어가 없었다."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 *AI 비판 시리즈 9번째* — 메타 비판
 | # | 글 | 비판 대상 |
@@ -118,12 +118,12 @@ tags: ["AI비판", "경영", "도제식성장", "기관지식", "Goodhart법칙"
 
 이건 [생산적 미루기 자가 진단](2026-05-07-productive-procrastination.md)이 적용되는 시점 — *읽기와 쓰기는 충분하다. 한 번 멈추고 정리할 시점*.
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **CRS·Connectivity·PickMe *Sara 후보 5명* 식별 메모** — 누가 떠나면 *무엇이 멈추는가*
 2. **분기 *Goodhart's Law 자가 진단*** — 자랑하는 지표가 *실제 가치 측정*인지 점검 (가든 commit 수 vs 재참조 수 같은 형태)
 3. **AI 비판 시리즈 9개 *공통점·차이점 매트릭스*** 분기 회고 시 작성 — 가든 메타 정리
 
-## 🔗 연관 자료
+## 연관 자료
 - [`engineering/2026-04-24-technical-cognitive-intent-debt.md`](../engineering/2026-04-24-technical-cognitive-intent-debt.md) — Sara cron의 *왜* 부재 = 의도 부채
 - [`engineering/2026-05-07-bottleneck-was-never-the-code.md`](../engineering/2026-05-07-bottleneck-was-never-the-code.md) — *맥락은 침투할 수 없다* = Sara 인계 불가성
 - [`engineering/2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md`](../engineering/2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md) — *Loop Intelligence 부재*가 Sara를 못 보게 만듦
@@ -131,7 +131,7 @@ tags: ["AI비판", "경영", "도제식성장", "기관지식", "Goodhart법칙"
 - [`ai/2026-05-05-agentic-coding-is-a-trap.md`](../ai/2026-05-05-agentic-coding-is-a-trap.md) / [`ai/2026-05-07-claude-code-not-making-your-product-better.md`](../ai/2026-05-07-claude-code-not-making-your-product-better.md) — 주니어 측 위축의 더 강한 형태
 - [`career/2026-04-27-how-to-hire-someone-better-than-yourself.md`](2026-04-27-how-to-hire-someone-better-than-yourself.md) / [`career/2026-05-04-learnings-from-1000-interviews-at-amazon.md`](2026-05-04-learnings-from-1000-interviews-at-amazon.md) — *그 채용 자체가 일어나지 않는다*는 한 단계 위 비판
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] CRS·Connectivity·PickMe *Sara 후보 5명* 식별 메모 작성했는가
 - [ ] *Goodhart 자가 진단*을 한 번이라도 시도했는가 (가든·BugSip·CRS 중)
 - [ ] AI 비판 시리즈 9개 매트릭스 정리 시간을 잡았는가

@@ -13,17 +13,17 @@ tags: ["AI", "Anthropic", "Claude", "컨퍼런스", "로드맵", "에이전트",
 
 > 출처: [Code w/ Claude SF — All sessions](https://claude.com/code-with-claude/san-francisco) · 레퍼러: [GeekNews 29493](https://news.hada.io/topic?id=29493) · 정리일 2026-05-14
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 Anthropic이 1년치 *가든 가설*을 한꺼번에 **제품 라인업으로 답한 컨퍼런스** — 차별화 축이 "모델 호출 방식"에서 **"어떤 도구·데이터·권한·문맥·메모리를 열어주느냐"**로 공식 이동했고, 새 병목은 **검증·보안·권한·관찰가능성·평가**임을 Anthropic 자신이 명시했다.
 
-## 🧩 핵심 포인트 (메타 요약)
+## 핵심 포인트 (메타 요약)
 
 ### 0. 키노트가 정의한 *새로운 좌표계*
 - **사용 폭증**: API 사용량 **YoY 17배**, Claude Code 평균 사용자 **주당 20시간** 실행.
 - **차별화 축 이동**:
-  > "How you call the model" → **"What tools, data, permissions, and context you open to it."**
+ > "How you call the model" → **"What tools, data, permissions, and context you open to it."**
 - **새 병목** (Anthropic 공식 선언):
-  > 검증 · 보안 · 권한 · 관찰 가능성 · 평가 · 조직 운영.
+ > 검증 · 보안 · 권한 · 관찰 가능성 · 평가 · 조직 운영.
 - **방향**: 더 긴 작업 + 장기 메모리 + 더 많은 도구 + 더 나은 검증.
 
 ### 1. *제품화된 것* — 가든 가설의 확인
@@ -61,8 +61,8 @@ Anthropic이 1년치 *가든 가설*을 한꺼번에 **제품 라인업으로 �
 - **콘텐츠 해시 기반 낙관적 동시성 제어** — 수백 개 에이전트 동시 쓰기.
 - **변경 이력·작성 주체·세션·시점** 감사 로그.
 - **Dreaming** = 비동기 transcript 분석으로 반복 실수·성공 전략·중복/오래된 메모리 정리.
-  - Harvey: 법률 작업 완료율 **6배**.
-  - SRE 데모: 단일 에이전트가 놓치던 *60초 재시도 패턴*을 Dreaming이 발견.
+ - Harvey: 법률 작업 완료율 **6배**.
+ - SRE 데모: 단일 에이전트가 놓치던 *60초 재시도 패턴*을 Dreaming이 발견.
 
 #### Caching, Harnesses, Advisors (GitHub)
 - **캐시 적중률 목표 94~96%**, 70%대면 설계 문제 신호.
@@ -165,7 +165,7 @@ Anthropic이 1년치 *가든 가설*을 한꺼번에 **제품 라인업으로 �
 - **Agent Experience** = 별도 설계 대상 ("work on the factory" 이슈).
 - 최종: **A→D 손으로** 아닌 **A→Z 시스템**.
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "How you call the model" → "**What tools, data, permissions, and context you open to it.**"
 
@@ -179,7 +179,7 @@ Anthropic이 1년치 *가든 가설*을 한꺼번에 **제품 라인업으로 �
 
 > "Model step-changes don't just add features. They let you delete the corrections you wrote." *(Guillermo Rauch / V0)*
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 1. 가든의 *이론 → 제품 확인* 점검표
 이 컨퍼런스는 가든에 *읽는 글*이 아니라 **점검 도구**다. 위 매핑 표가 그 점검 결과 — 가든이 깔아둔 11개 가설 중 거의 전부에 Anthropic이 제품으로 응답했고, 가든에 *없던 결*은 **Dreaming** 한 개.
@@ -219,7 +219,7 @@ BugSip은 기획 단계라 컨퍼런스 발표 **거의 전부를 첫날부터**
 - **Memory-Compounding Posture**: 오늘의 세션이 내일의 에이전트를 자동으로 더 낫게.
 - **Evaluation-as-Engine**: 평가는 출시 관문이 아니라 매일 개선 엔진.
 
-## 🔗 연관 자료
+## 연관 자료
 
 가든 내 *직접 매핑*:
 
@@ -237,7 +237,7 @@ BugSip은 기획 단계라 컨퍼런스 발표 **거의 전부를 첫날부터**
 - 다음 분기 추적 후보: Anthropic의 **Dreaming** 기술 백서 공개 시 가든에 별도 글.
 - **VibeBench** 코드 공개 시 BugSip 자체 벤치 PoC.
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 <!-- 2026-06-14 즈음:
 - CRS에 Auto Mode 분류 도입 PoC 진행 여부
 - BugSip 첫 PR에 CLAUDE.md + Tempor 청사진 깔았는지

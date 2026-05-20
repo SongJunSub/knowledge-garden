@@ -14,10 +14,10 @@ tags: ["오픈소스", "사이드프로젝트", "취미", "수익화", "enshitti
 
 > 출처: [Nonograph — Write Some Software, Give It Away for Free](https://nonogra.ph/write-some-software-give-it-away-for-free-05-05-2026) · 레퍼러: [GeekNews 29269](https://news.hada.io/topic?id=29269) · 정리일 2026-05-08
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 오픈소스 블로그 플랫폼 Nonograph 개발자의 자기 변호 — **취미를 금전화하면 또 하나의 직업이 되고 직업은 재미없다**. $600 만들어서 월 $5 호스팅으로 *수십만 일일 사용자* 운영 중. 수익화 강요 시대에 *그냥 무료로 나눠주는* 선택.
 
-## 🧩 핵심 주장
+## 핵심 주장
 
 ### 1. 사실 — 비용·운영 수치
 - **개발 비용**: ~$600 (대부분 *보안 검토비*)
@@ -41,7 +41,7 @@ tags: ["오픈소스", "사이드프로젝트", "취미", "수익화", "enshitti
 - *생계 직업으로 코딩 + 모든 사이드 프로젝트는 비수익화*라는 균형 모델
 - *90년대 해커 문화*의 공동체 정신과 현재의 상업화 대비
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 시리즈의 *왜 만드는가* 회귀
 가든이 9개 비판 + 1개 SQLite 자산 글로 *어떻게 위험을 피하고 무엇이 시간을 견디는가*에 집중했는데, 이 글은 *그래서 왜 만드는가* 본질 질문. 지금까지 가든의 *왜 만드는가* 글들과 짝:
@@ -105,12 +105,12 @@ tags: ["오픈소스", "사이드프로젝트", "취미", "수익화", "enshitti
 
 → 다음 분기 회고에서 *thematic index* 만들기 강력 후보.
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **BugSip·knowledge-garden·claude-code-docs-ko 각각의 *수익화 정책*을 README에 1줄로 명시** — *기본값 의식적 선택*
 2. **가든 *Anthropic Fairy 후원 받지 않기* 결정** 명시 — 외부 신호로부터의 자유 보존
 3. **사이드 프로젝트 시작 시 *defining constraint*에 *수익화/비수익화* 1줄 박기** 룰
 
-## 🔗 연관 자료
+## 연관 자료
 - [`engineering/2026-04-27-overthinking-scope-creep-structural-diffs.md`](../engineering/2026-04-27-overthinking-scope-creep-structural-diffs.md) — *"가끔은 그냥 선반이 필요할 뿐"*
 - [`engineering/2026-04-28-three-constraints-before-i-build-anything.md`](../engineering/2026-04-28-three-constraints-before-i-build-anything.md) — defining constraint에 수익화 정책 박기
 - [`career/2026-04-23-things-ive-learned-as-a-senior-engineer.md`](2026-04-23-things-ive-learned-as-a-senior-engineer.md) — 싫어하지 않는 일 프레임
@@ -118,7 +118,7 @@ tags: ["오픈소스", "사이드프로젝트", "취미", "수익화", "enshitti
 - [`career/2026-05-08-programming-still-sucks.md`](2026-05-08-programming-still-sucks.md) — 디폴트 변화의 더 강한 비판
 - [`engineering/2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md`](../engineering/2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md) — 무료 = 공유가 잘 일어나는 환경
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] 개인 프로젝트 3개의 *수익화 정책*을 README에 1줄로 명시했는가
 - [ ] 가든 *Fairy 후원 받지 않기* 결정 명시했는가
 - [ ] 사이드 프로젝트 시작 시 *수익화/비수익화 1줄* 룰을 한 번이라도 적용했는가

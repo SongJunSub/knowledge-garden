@@ -14,10 +14,10 @@ tags: ["AI비판", "유지보수", "기술부채", "생산성수학", "James-Sho
 
 > 출처: [James Shore — You need AI that reduces your maintenance costs](https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs) · 레퍼러: [GeekNews 29399](https://news.hada.io/topic?id=29399) · 정리일 2026-05-12
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 **James Shore**(TDD 저자)의 *생산성 산수*: 생산량 2배 + 유지보수 2배 = **부담 4배**. 산출 N배 늘리려면 *유지보수 비용을 1/N로 감소*시켜야 진짜 생산성 향상.
 
-## 🧩 핵심 주장 — 산술 모델
+## 핵심 주장 — 산술 모델
 
 ### 2×2 = 4 부담의 수학
 - 매달 코드 작성 시간 → 향후 *수년간* 유지보수 시간으로 누적
@@ -39,7 +39,7 @@ tags: ["AI비판", "유지보수", "기술부채", "생산성수학", "James-Sho
 - **AI 코드는 *틀렸을 때도 유창하고 확신에 차 있어서* 검토가 더 어려움**
 - 대기업 사례: 코드 배포 증가 → 장애 증가, 레거시 개선이 신규 증가 *상쇄 못함*
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 *AI 비판 시리즈*의 *수학적 보강*
 가든의 *AI 채택 옹호 비판*들이 **직관·서사·일화**였는데, 이 글이 **산술 모델**을 제공:
@@ -104,12 +104,12 @@ tags: ["AI비판", "유지보수", "기술부채", "생산성수학", "James-Sho
 
 [Jevons 역설·생성-검증 비대칭·훈련 위기·기본값 신뢰 가정] 다음으로 5번째.
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **AI 코드 *6개월 후 수정 빈도* 측정 시작** — 사람 코드와 분리해 baseline 수집
 2. **MangoLove `/strict`에 *유지보수 비용 영향* 자문 추가** — *늘리는가/줄이는가?* PR 단계
 3. **CRS·Connectivity 등 레거시 코어에 *AI 도입 가이드* 문서 작성** — *유지보수 감소가 증명된 영역*에 한정 권장
 
-## 🔗 연관 자료
+## 연관 자료
 - [`ai/2026-05-07-claude-code-not-making-your-product-better.md`](../ai/2026-05-07-claude-code-not-making-your-product-better.md) — *코드 줄 수 = 비용*의 직관, 이 글이 수학적 보강
 - [`engineering/2026-05-07-bottleneck-was-never-the-code.md`](2026-05-07-bottleneck-was-never-the-code.md) — Jevons 역설과 결합 (가속 → 더 만들기 → 부담 4배)
 - [`engineering/2026-05-10-probabilistic-engineering-and-24-7-employee.md`](2026-05-10-probabilistic-engineering-and-24-7-employee.md) — Tim Davis의 같은 정신
@@ -118,7 +118,7 @@ tags: ["AI비판", "유지보수", "기술부채", "생산성수학", "James-Sho
 - [`engineering/2026-05-08-lean-analytics-reconsidered.md`](2026-05-08-lean-analytics-reconsidered.md) — 성공 태스크당 비용 + 유지보수 영향 메타데이터
 - 추천 책: James Shore, *The Art of Agile Development* / *Testing Without Mocks*
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] AI 코드 *6개월 후 수정 빈도* baseline 측정을 시작했는가
 - [ ] MangoLove `/strict`에 *유지보수 비용 영향* 자문이 들어갔는가
 - [ ] *AI 도입 가이드* 문서가 *유지보수 감소 영역*에 한정 권장으로 작성됐는가

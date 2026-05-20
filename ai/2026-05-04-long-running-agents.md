@@ -14,10 +14,10 @@ tags: ["AI에이전트", "Long-running", "Brain-Hands-Session", "Ralph-Loop", "C
 
 > 출처: [Addy Osmani — Long-running agents](https://addyo.substack.com/p/long-running-agents) · 레퍼러: [GeekNews 29153](https://news.hada.io/topic?id=29153) · 정리일 2026-05-04
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 Anthropic·Google·Cursor가 **모두 같은 아키텍처로 수렴**: *모델 루프 ↔ 실행 샌드박스 ↔ 지속 세션 로그* 의 3분리. 24시간 자율 실행은 *모델 능력*이 아니라 **상태 관리·세션 지속성·구조화된 핸드오프**로 결정된다.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 ### "Long-running"의 세 가지 의미 분리
 혼동되는 개념을 명확히:
@@ -137,7 +137,7 @@ Anthropic의 프레이밍:
 - **검증 비용**: 24시간 활동 감사의 *인간 시간*
 - **인간 역할 변화**: 에이전트가 실행 가능하도록 *명확한 명세 작성*이 어려움
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "A 24-hour run is not going to fit in any context window the field has on its roadmap. Something has to give."
 
@@ -151,7 +151,7 @@ Anthropic의 프레이밍:
 
 > "Write down the done-condition before the agent starts. This is the single highest-leverage move for long runs."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 하네스 엔지니어링과의 직접 연결
 [1주일 전 정리한 Addy Osmani의 하네스 엔지니어링 글](2026-04-28-agent-harness-engineering.md)의 **직접 후속작**. *하네스가 줄어들지 않고 이동한다*는 결론이 이번엔 *시간 축 확장*으로 구체화됨.
@@ -183,19 +183,19 @@ Anthropic의 프레이밍:
 - 5가지 패턴 모두 *제품화된 시스템*에 잘 맞지만, *내가 쓰는 1인 워크플로*에선 *과한 인프라*가 될 수 있다. 우선순위는 **done-condition 명시**와 **progress.txt 외부화** 두 가지. 나머지는 작업 규모가 *진짜 24시간 단위로* 커질 때 도입.
 - *"같은 작업도 다른 역할에서는 다른 모델"* 통찰은 흥미롭지만, 현재 Claude Code 단일 모델 워크플로에선 직접 활용 어려움. 미래 표준이 될 가능성으로만 인지.
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **MangoLove `/strict` Spec 템플릿에 *done-condition* 항목 명시 추가** — 작업 시작 전에 *외부 파일에 1줄로* 적는 단계
 2. **Append-only progress 로그 패턴 시범** — 가든 큐레이션·BugSip 같은 긴 작업에서 commit 메시지 + 별도 progress.md 조합 시도
 3. **Test ratchet 정책 명문화** — `/strict`에 *"테스트 삭제는 근본 원인 해결이 아니다"* 룰 추가
 
-## 🔗 연관 자료
+## 연관 자료
 - [`ai/2026-04-28-agent-harness-engineering.md`](2026-04-28-agent-harness-engineering.md) — **이 글의 직계 선행작** (Addy Osmani 같은 저자)
 - [`ai/2026-04-29-mattpocock-skills-vs-mangolove.md`](2026-04-29-mattpocock-skills-vs-mangolove.md) — Planner/Worker/Judge 분리는 mattpocock의 *grill→tdd→diagnose* 분리와 통한다
 - [`ai/2026-04-27-ai-agent-deleted-production-database.md`](2026-04-27-ai-agent-deleted-production-database.md) — *Hands 샌드박스의 부재*가 만든 9초 사고
 - [`engineering/2026-05-04-mercury-couple-million-lines-of-haskell.md`](../engineering/2026-05-04-mercury-couple-million-lines-of-haskell.md) — *Records of Functions* + *Temporal durable execution*은 Brain/Hands/Session 분리의 Haskell 표현
 - [`engineering/2026-04-29-yc-rfs-summer-2026-hospitality-it.md`](../engineering/2026-04-29-yc-rfs-summer-2026-hospitality-it.md) — Ambient Processing이 #15 AI OS의 호스피탈리티 적용 후보
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] `/strict` Spec에 *done-condition* 명시 단계 추가했는가
 - [ ] Append-only progress 로그 시범 적용했는가 (가든·BugSip)
 - [ ] Test ratchet 정책 명문화했는가

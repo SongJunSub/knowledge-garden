@@ -14,10 +14,10 @@ tags: ["AI에이전트", "제어흐름", "결정성", "하네스", "오케스트
 
 > 출처: [Brian — Agents need control flow, not more prompts](https://bsuh.bearblog.dev/agents-need-control-flow/) · 레퍼러: [GeekNews 29296](https://news.hada.io/topic?id=29296) · 정리일 2026-05-09
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 프롬프트에 *"반드시(MANDATORY) / 건너뛰지 말 것(DO NOT SKIP)"* 같은 표현을 쓰는 순간 **프롬프팅의 한계에 도달한 신호** — 신뢰성은 *프롬프트 정교화*가 아니라 **소프트웨어에 인코딩된 결정적 제어 흐름**으로만 만들어진다.
 
-## 🧩 핵심 주장
+## 핵심 주장
 
 ### 1. 프롬프트 한계의 신호
 > "If you've ever resorted to MANDATORY or DO NOT SKIP, you've hit the ceiling of prompting."
@@ -34,9 +34,9 @@ tags: ["AI에이전트", "제어흐름", "결정성", "하네스", "오케스트
 ### 3. 3층 구조
 | 층 | 역할 | 결정성 |
 |---|------|--------|
-| **결정적 스캐폴딩** | 제어 흐름·상태 전이·검증 체크포인트 | ✅ |
-| **LLM 의사결정** | 비결정적 *컴포넌트*로 취급 | ❌ |
-| **결정적 도구** | 부수 효과·외부 호출 | ✅ |
+| **결정적 스캐폴딩** | 제어 흐름·상태 전이·검증 체크포인트 | |
+| **LLM 의사결정** | 비결정적 *컴포넌트*로 취급 | |
+| **결정적 도구** | 부수 효과·외부 호출 | |
 
 → 비결정성을 *가운데 좁은 구간*에 가둔다. 들어가는 입력과 나오는 출력은 *결정적 게이트*가 검증.
 
@@ -51,7 +51,7 @@ tags: ["AI에이전트", "제어흐름", "결정성", "하네스", "오케스트
 - *"200개 파일을 처리하는 QA 에이전트가 30개 넘기면서부터 무너졌다"* — 프롬프트 체인의 *조합 불가능성*(non-composability) 사례
 - 해법: **"결정적 하네스 + 비결정적 의사결정 + 결정적 도구"** 다층 구조
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 *방법론 시리즈*의 가장 압축된 한 줄
 지금까지 가든의 AI 방법론 글들이 다양한 각도에서 같은 결론에 도착했는데, 이 글이 가장 **선명한 한 줄**:
@@ -112,12 +112,12 @@ PR이 *비결정적 영역*에 결정적 보장을 요구하면 *경고 신호*.
 - *프롬프트로 충분한 영역*도 분명 존재 (creative·brainstorming·summarization)
 - 핵심: ***critical path*는 코드 / *exploration*은 프롬프트* 명확한 분리
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **MangoLove `strict.md` *MANDATORY·반드시·건너뛸 수 없음* 표현 식별** — 코드(hook·skill·검증 스크립트)로 옮길 후보 매핑
 2. **CRS 결제·재고·권한·OTA 정산 4영역 *결정적 코드 vs 프롬프트* 분리도 작성** — 이미 분리된 곳·미분리 위험 영역 식별
 3. **PR 헤더 스키마에 *결정적/비결정적 영역 분리* 항목 추가 검토** — 가든 PR 메타데이터 5번째 항목
 
-## 🔗 연관 자료
+## 연관 자료
 - [`ai/2026-04-28-agent-harness-engineering.md`](2026-04-28-agent-harness-engineering.md) — Agent = Model + Harness, 같은 정신의 더 큰 프레임
 - [`ai/2026-05-04-long-running-agents.md`](2026-05-04-long-running-agents.md) — Brain/Hands/Session 3분리 + checkpoint
 - [`ai/2026-04-29-mattpocock-skills-vs-mangolove.md`](2026-04-29-mattpocock-skills-vs-mangolove.md) — Skill = 결정적 절차
@@ -126,7 +126,7 @@ PR이 *비결정적 영역*에 결정적 보장을 요구하면 *경고 신호*.
 - [`ai/2026-05-07-ai-didnt-delete-your-database-you-did.md`](2026-05-07-ai-didnt-delete-your-database-you-did.md) — 위험을 코드 차원에서 불가능하게
 - [`engineering/2026-05-08-lean-analytics-reconsidered.md`](../engineering/2026-05-08-lean-analytics-reconsidered.md) — PR 헤더 스키마
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] MangoLove의 *MANDATORY 표현 식별 + 코드 이전 후보* 매핑을 시작했는가
 - [ ] CRS 4영역 결정적/비결정적 분리도를 작성했는가
 - [ ] PR에 *결정적/비결정적 영역 분리* 메타데이터를 한 번이라도 적용했는가

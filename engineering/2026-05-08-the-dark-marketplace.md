@@ -14,10 +14,10 @@ tags: ["AI에이전트", "커머스", "B2B마켓플레이스", "Anthropic", "Pro
 
 > 출처: [Euclid Ventures — The Dark Marketplace](https://insights.euclid.vc/p/the-dark-marketplace) · 레퍼러: [GeekNews 29278](https://news.hada.io/topic?id=29278) · 정리일 2026-05-08
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 *AI 에이전트가 사용자 대신* 상품 발견·가격 협상·구매를 *보이지 않게* 수행하는 **다크 마켓플레이스**가 다음 커머스 패러다임 — 진짜 해자는 UI가 아니라 **사용자별로 축적된 판단 데이터(memory)**. B2B가 소비자보다 먼저 도착할 영역.
 
-## 🧩 핵심 주장
+## 핵심 주장
 
 ### 1. Anthropic *Project Deal* 실험 (사실 수치)
 - **69명 직원, 186건 완료된 거래, 총 $4,000+**
@@ -53,7 +53,7 @@ tags: ["AI에이전트", "커머스", "B2B마켓플레이스", "Anthropic", "Pro
 
 > "The system doesn't just respond to expressed intent, it anticipates latent demand."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 호스피탈리티 IT 직격 — *2번째 OTA 시대*
 이 글의 흐름이 그대로 호스피탈리티에 적용되면:
@@ -77,7 +77,7 @@ tags: ["AI에이전트", "커머스", "B2B마켓플레이스", "Anthropic", "Pro
 → 우리(호스피탈리티 IT)의 가장 큰 위협 = **3-4단계에서 *어느 호텔이 *추천 후보 풀*에 들어가는가***. *호텔 직판 채널*이 *AI 에이전트 친화적*이지 않으면 **에이전트의 *기본 후보*에서 빠진다**.
 
 ### 즉시 적용 액션 — *Agent-First Distribution*
-[YC RFS 호스피탈리티 글](2026-04-29-yc-rfs-summer-2026-hospitality-it.md)에서 #12 *Software for Agents*를 🔴 최상으로 분류했는데, 이번 글이 그 우선순위를 *재확인 + 수치 증거 제공*. 구체화:
+[YC RFS 호스피탈리티 글](2026-04-29-yc-rfs-summer-2026-hospitality-it.md)에서 #12 *Software for Agents*를 최상으로 분류했는데, 이번 글이 그 우선순위를 *재확인 + 수치 증거 제공*. 구체화:
 
 | 후보 | 설명 |
 |------|------|
@@ -111,12 +111,12 @@ tags: ["AI에이전트", "커머스", "B2B마켓플레이스", "Anthropic", "Pro
 - *Memory 해자*가 *몇몇 거대 플랫폼에 집중*되면 호스피탈리티 측에서 *기존 OTA 종속*보다 *더 강한 종속* 형성 가능 — *대안 분산*이 정책 우선순위
 - *4단계 자율*은 호스피탈리티에선 *예약 취소·환불* 같은 *결정적 가역성 낮은* 결정에 신중 필요
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **CRS·Connectivity API의 *Agent-First* 재검토 시범** — MCP 서버 시도 후보 1개 식별 (가용성 read-only가 안전)
 2. **호스피탈리티 *Engagement-Proximity 매트릭스* 작성** — 우리가 *어느 축*이 약한가 1페이지 분석
 3. **B2B(법인·여행사) 채널을 *다크 마켓플레이스 1번 후보*로 분류** — Connectivity 우선순위 재정렬 메모
 
-## 🔗 연관 자료
+## 연관 자료
 - [`engineering/2026-04-29-yc-rfs-summer-2026-hospitality-it.md`](2026-04-29-yc-rfs-summer-2026-hospitality-it.md) — *Software for Agents* 일반 트렌드, 이 글이 호스피탈리티 적용 증거
 - [`ai/2026-04-28-agent-harness-engineering.md`](../ai/2026-04-28-agent-harness-engineering.md) — Long-running agent의 자율 호출 인프라
 - [`ai/2026-05-04-long-running-agents.md`](../ai/2026-05-04-long-running-agents.md) — Brain/Hands/Session 분리가 다크 마켓플레이스 동작 원리
@@ -124,7 +124,7 @@ tags: ["AI에이전트", "커머스", "B2B마켓플레이스", "Anthropic", "Pro
 - [`ai/2026-05-07-appearing-productive-in-the-workplace.md`](../ai/2026-05-07-appearing-productive-in-the-workplace.md) — 신뢰 자산 = 시간을 들여야만
 - [`engineering/2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md`](2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md) — Loop Intelligence의 호텔 버전
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] CRS·Connectivity API *Agent-First* MCP 시범 후보를 식별했는가
 - [ ] Engagement-Proximity 매트릭스 1페이지 분석을 시도했는가
 - [ ] B2B(법인·여행사) 채널을 다크 마켓플레이스 1번 후보로 분류한 메모가 있는가

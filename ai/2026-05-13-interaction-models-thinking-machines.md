@@ -14,10 +14,10 @@ tags: ["멀티모달", "실시간", "마이크로턴", "full-duplex", "음성AI"
 
 > 출처: [Thinking Machines Lab — Interaction Models](https://thinkingmachines.ai/blog/interaction-models/) · 레퍼러: [GeekNews 29441](https://news.hada.io/topic?id=29441) · 정리일 2026-05-13
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 **Thinking Machines Lab (Mira Murati 창업)** 의 첫 큰 발표 — 모델이 *직접* 오디오·비디오·텍스트를 **200ms 마이크로턴**으로 실시간 처리. 기존 *턴 기반 AI*의 협업 병목을 **full-duplex 모델 차원**에서 해결.
 
-## 🧩 핵심 주장
+## 핵심 주장
 
 ### 1. 협업의 본질 — *사람과 사람처럼*
 > "사람들은 서로와 협업하는 방식으로 AI와 협업할 때 가장 효과적 — 메시징, 대화, 청취, 시각적 공유, 필요에 따라 개입하고 모델도 동일하게 대응."
@@ -43,7 +43,7 @@ tags: ["멀티모달", "실시간", "마이크로턴", "full-duplex", "음성AI"
 - 외부 구성 요소(음성 인식·TTS·VAD)를 *바깥*에 두면 *확장 불가*
 - 첫 모델: **TML-Interaction-Small** — full-duplex + 지능 균형
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 *AI 채택 새 방향*의 자연 확장
 가든이 누적한 *AI 비판 11개*는 *현재 모델의 한계* 비판. 이 글은 *모델 자체가 바뀌면* 어떤 가능성이 열리는지 — **비판의 *문제 정의*에 대한 *대안 답*** 형태.
@@ -100,8 +100,8 @@ tags: ["멀티모달", "실시간", "마이크로턴", "full-duplex", "음성AI"
 - MangoLove에 *음성·시각 자료 동시 출력* 옵션 검토는 [HTML 효율성 글](2026-05-10-claude-code-html-effectiveness.md)과 결합 가능
 
 ### 가든 *행동 후보* 결 평가
-- 이 글: 우선순위 ★★ (아직 상용 안정 X)
-- 비교: [Rapid-MLX](2026-05-12-rapid-mlx-apple-silicon-local-ai.md) ★★★★ (즉시 사용 가능)
+- 이 글: 우선순위 (아직 상용 안정 X)
+- 비교: [Rapid-MLX](2026-05-12-rapid-mlx-apple-silicon-local-ai.md) (즉시 사용 가능)
 - → ***인지만, 시도는 보류***. 분기마다 상용화 상태 점검 후보.
 
 ### 가든 메타 — *비판 시리즈에 대한 모델 차원 답변* 추가
@@ -109,12 +109,12 @@ tags: ["멀티모달", "실시간", "마이크로턴", "full-duplex", "음성AI"
 
 → *분기마다 *비판이 여전히 유효한지* 모델 발전 vs 가든 진단 비교* 후보. 이게 [Willison 자기 고백](2026-05-07-vibe-coding-agentic-engineering-converging.md)에서 메모한 *시간이 흐르며 검증*이 가능한 형태.
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **TML-Interaction-Small *공개 시 시범* 일정 등록** — 분기마다 상용화 상태 점검
 2. **MangoLove에 *AI 인터페이스 = 채팅창* 가정 의식적 점검** — 가능한 영역에서 음성·시각 자료 동시 출력 후보 식별
 3. **호스피탈리티 *음성 컨시어지 PoC* 후보 식별** — OpenAI Realtime 차원에서 시작 가능 영역
 
-## 🔗 연관 자료
+## 연관 자료
 - [`architecture/2026-05-05-openai-low-latency-voice-ai-at-scale.md`](../architecture/2026-05-05-openai-low-latency-voice-ai-at-scale.md) — 인프라 차원의 짝
 - [`ai/2026-05-07-claude-code-not-making-your-product-better.md`](2026-05-07-claude-code-not-making-your-product-better.md) — Ferrari 라인의 새 가능성
 - [`engineering/2026-05-08-the-dark-marketplace.md`](../engineering/2026-05-08-the-dark-marketplace.md) — 화면 사라진 후 음성·시각 인터페이스 시대
@@ -122,7 +122,7 @@ tags: ["멀티모달", "실시간", "마이크로턴", "full-duplex", "음성AI"
 - [`ai/2026-05-10-claude-code-html-effectiveness.md`](2026-05-10-claude-code-html-effectiveness.md) — 음성 + 시각 자료 동시 출력 후보
 - 비교: OpenAI gpt-realtime-2, Google Gemini Live 3.1
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] TML 상용화 상태 점검 일정이 등록됐는가
 - [ ] *AI 인터페이스 = 채팅창* 가정을 의식적으로 깨는 사례가 있었는가
 - [ ] 호스피탈리티 음성 컨시어지 PoC 후보를 식별했는가

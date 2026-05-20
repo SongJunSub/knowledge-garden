@@ -14,10 +14,10 @@ tags: ["메트릭", "Lean-Analytics", "제품지표", "가치밀도", "AI시대"
 
 > 출처: [Ben Yoskovitz — Lean Analytics Reconsidered](https://www.focusedchaos.co/p/lean-analytics-reconsidered) · 레퍼러: [GeekNews 29281](https://news.hada.io/topic?id=29281) · 정리일 2026-05-08
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 2013년 *Lean Analytics*의 **프레임워크는 여전히 유효**(5단계·비즈니스 모델·OMTM·벤치마킹)하지만, **구체적 지표 대부분은 재작성** 필요. 핵심 신메트릭 = **가치 밀도** (태스크당 비용 × 수익 포착률 × 사용자 가치).
 
-## 🧩 6가지 제품 지표 변화
+## 6가지 제품 지표 변화
 
 | # | 변화 | 이전 → 현재 |
 |---|------|-----------|
@@ -28,7 +28,7 @@ tags: ["메트릭", "Lean-Analytics", "제품지표", "가치밀도", "AI시대"
 | 5 | **품질의 일급화** | 부수 지표 → *출력 분포 지속 모니터링* (eval 필수) |
 | 6 | **AI 신뢰도·편안함** | 단일 지표 → *AI 친숙도별 코호트 분리* (수용률·거부율) |
 
-## 🧩 3가지 비즈니스 모델 지표 변화
+## 3가지 비즈니스 모델 지표 변화
 
 ### 1. *성공 태스크당 비용* (Cost per Successful Task)
 - 토큰 기반 *변동 비용*이 마진을 직접 침식
@@ -46,7 +46,7 @@ tags: ["메트릭", "Lean-Analytics", "제품지표", "가치밀도", "AI시대"
 
 > "평가 틀 자체가 MVP다. 행동 개선을 자동화하고 측정할 수 있는 최소 집합이다."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 *측정 메트릭* 결의 첫 글
 지금까지 가든이 *어떻게 위험을 다룰까* (비판 9), *무엇이 시간을 견디는가* (자산), *왜 만드는가* (철학)에 집중했는데, 이 글은 **"어떻게 측정할까"** — 가든의 새 결.
@@ -105,12 +105,12 @@ tags: ["메트릭", "Lean-Analytics", "제품지표", "가치밀도", "AI시대"
 - *가치 밀도* 3요소는 *동시 최적화 어려움* — 어떤 시점엔 *수익 포착*만, 어떤 시점엔 *사용자 가치*만 우선이 합리적
 - 한국 IT의 *KPI 문화*는 *전통 지표(매출·MAU)*를 강하게 요구 — 새 메트릭이 *추가*되는 게 아니라 *대체*로 합의되어야 작동
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **CRS·PickMe·Connectivity 각각 *Time to Value 1개 + 성공 태스크당 비용 1개* 정의 시도** — 새 메트릭 후보 1페이지 메모
 2. **PR 헤더 스키마 정리**: *추가/제거 줄 + AI 사용 강도 + 측정 가능한 가치 변화* 3-4 항목
 3. **MangoLove `/strict`에 *Lean Analytics 단계 명시* 옵션 추가 검토** — 어떤 단계의 작업인지 명시하면 우선순위 명확
 
-## 🔗 연관 자료
+## 연관 자료
 - [`engineering/2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md`](2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md) — Token-to-Learning 동일 정신
 - [`career/2026-05-08-programming-still-sucks.md`](../career/2026-05-08-programming-still-sucks.md) — Goodhart 함정 (새 지표도 동일 위험)
 - [`ai/2026-05-07-claude-code-not-making-your-product-better.md`](../ai/2026-05-07-claude-code-not-making-your-product-better.md) — 코드 줄 수 = 비용 정신과 일치
@@ -119,7 +119,7 @@ tags: ["메트릭", "Lean-Analytics", "제품지표", "가치밀도", "AI시대"
 - [`ai/2026-05-07-vibe-coding-agentic-engineering-converging.md`](../ai/2026-05-07-vibe-coding-agentic-engineering-converging.md) — PR 메타데이터 vibe/hybrid/agentic
 - 원전: Alistair Croll·Ben Yoskovitz, *Lean Analytics* (2013)
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] CRS·PickMe·Connectivity 신메트릭 후보 1페이지 메모를 작성했는가
 - [ ] PR 헤더 스키마(추가/제거/AI 강도/가치) 시도했는가
 - [ ] *성공 태스크당 비용* 관점이 한 번이라도 의사결정에 반영됐는가

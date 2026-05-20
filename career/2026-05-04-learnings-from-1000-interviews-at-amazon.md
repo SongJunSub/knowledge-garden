@@ -14,10 +14,10 @@ tags: ["면접", "채용", "Bar-Raiser", "STAR", "스토리텔링", "커리어�
 
 > 출처: [Steve Huynh — Learnings from conducting ~1,000 interviews](https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews) (Pragmatic Engineer) · 레퍼러: [GeekNews 29141](https://news.hada.io/topic?id=29141) · 정리일 2026-05-04
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 Amazon Bar Raiser로 ~1,000건 면접한 Principal Engineer의 결론: **떨어지는 사람들은 실력이 부족해서가 아니라 *자기 경험을 전달하지 못해서* 떨어진다** — 기술 95% / 행동 5% 준비 비율이 잘못됐다.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 ### 컨텍스트
 - 저자: **Steve Huynh** — Amazon에서 17년, 약 1,000건 면접 (그중 ~600건이 Bar Raiser)
@@ -84,9 +84,9 @@ Amazon Bar Raiser로 ~1,000건 면접한 Principal Engineer의 결론: **떨어�
 - **채용담당자(Recruiter)는 정보 채널** — 대부분이 *문지기*로만 보고 활용 안 함
 - 핵심 질문: "이 회사의 *현재 도전*은?", "이 직무에 *가장 중요한 역량*은?", "면접 *준비 자료*가 있나?"
 - 공개 정보:
-  - **엔지니어링 블로그** — 어떤 성과를 자랑하는가? (← 회사가 *가치 있다*고 보는 것)
-  - **기술 발표** — 어떤 주제를 강조하는가?
-  - **오픈소스 / 상태 페이지 / 포스트모템** — 투명성·학습 문화 신호
+ - **엔지니어링 블로그** — 어떤 성과를 자랑하는가? (← 회사가 *가치 있다*고 보는 것)
+ - **기술 발표** — 어떤 주제를 강조하는가?
+ - **오픈소스 / 상태 페이지 / 포스트모템** — 투명성·학습 문화 신호
 - 직원에게 물어볼 것: "*누가* 승진하나요? *어떤 행동*이 부정적 피드백 받나요?"
 
 > "Most candidates treat recruiters as gatekeepers to avoid, but if you do this, you will waste your best source of insider information."
@@ -96,10 +96,10 @@ Amazon Bar Raiser로 ~1,000건 면접한 Principal Engineer의 결론: **떨어�
 - "왜 여기서 일하고 싶나요?" — 회사 조사가 보이도록
 - 커리어의 **5-7개 주요 스토리** — 각각 4축(Scope/Contribution/Impact/Difficulty)을 표현하는 사례
 - 좋은 스토리의 특징:
-  - **구체적·명확한 시작-중간-끝**
-  - **"I" vs "We" 명확히 구분** (자기 기여 분리 못 하는 게 가장 흔한 실수)
-  - **수치화된 임팩트**
-  - **배운 점 포함**
+ - **구체적·명확한 시작-중간-끝**
+ - **"I" vs "We" 명확히 구분** (자기 기여 분리 못 하는 게 가장 흔한 실수)
+ - **수치화된 임팩트**
+ - **배운 점 포함**
 
 #### Step 3. 레벨에 맞게 포지셔닝
 - 같은 프로젝트라도 *Scope·Contribution·Impact·Difficulty* 중 어떤 면을 부각하느냐로 *Mid → Senior → Staff*가 갈린다
@@ -118,7 +118,7 @@ Amazon Bar Raiser로 ~1,000건 면접한 Principal Engineer의 결론: **떨어�
 
 > "I walked out thinking 'I have no idea what it would actually be like to work with this person.'"
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "Technical skills are the ante. They get you into the game. But they're not what wins you the hand."
 
@@ -132,7 +132,7 @@ Amazon Bar Raiser로 ~1,000건 면접한 Principal Engineer의 결론: **떨어�
 
 > "Most candidates treat recruiters as gatekeepers to avoid, but if you do this, you will waste your best source of insider information."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### Jason Cohen 글과의 짝
 - [`career/2026-04-27-how-to-hire-someone-better-than-yourself.md`](2026-04-27-how-to-hire-someone-better-than-yourself.md) — *면접관이 후보를 평가하는 6가지 휴리스틱* (도메인 모름 가정)
@@ -158,20 +158,20 @@ Amazon Bar Raiser로 ~1,000건 면접한 Principal Engineer의 결론: **떨어�
 - 가든에 정리한 [시니어 엔지니어 교훈](2026-04-23-things-ive-learned-as-a-senior-engineer.md)의 *"문서화는 가장 과소평가된 능력"*과 정확히 같은 신호. 일하는 능력 ≠ *일을 보여주는 능력*. 둘은 별개의 스킬이고, 후자도 *연습으로* 는다.
 - [의도 부채](../engineering/2026-04-24-technical-cognitive-intent-debt.md)와도 통한다 — *왜를 남기는 능력*이 면접에서는 *내가 한 일을 명확히 전달하는 능력*으로 나타남.
 
-## 🎯 즉시 적용할 수 있는 액션 4가지
+## 즉시 적용할 수 있는 액션 4가지
 
 1. **개인 스토리 라이브러리** — 가든에 별도 private 폴더 또는 별도 노트로 *5-7개 주요 프로젝트* 정리. 각각 STAR + 배운 점 + 수치 1개. (현재 가든은 public이라 사적 부분은 분리 필요)
 2. **회사 면접에서 4축 매트릭스 시범 도입** — 다음 면접관 라운드에서 시도, 평가 일관성 비교
 3. **"We" 진단법 + 수치 추궁** — 다음 면접에서 의식적으로 적용
 4. **자기 인터뷰 녹화 1회** — *"자신을 소개해주세요"* 1분 녹화 → 보고 *말 더듬는 패턴* 식별
 
-## 🔗 연관 자료
+## 연관 자료
 - [`career/2026-04-27-how-to-hire-someone-better-than-yourself.md`](2026-04-27-how-to-hire-someone-better-than-yourself.md) — 면접관 휴리스틱과 짝
 - [`career/2026-04-23-things-ive-learned-as-a-senior-engineer.md`](2026-04-23-things-ive-learned-as-a-senior-engineer.md) — *"문서화는 과소평가된 스킬"* 같은 결
 - [`engineering/2026-04-24-technical-cognitive-intent-debt.md`](../engineering/2026-04-24-technical-cognitive-intent-debt.md) — 의도를 *전달하는* 능력의 일반화
 - 책: Steve Huynh, *Technical Behavioral Interview: An Insider's Guide*
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] 5-7 스토리 라이브러리 작성했는가
 - [ ] 면접관 라운드에서 4축 매트릭스 시도했는가
 - [ ] "We" 진단법·수치 추궁을 한 번이라도 의식적으로 사용했는가

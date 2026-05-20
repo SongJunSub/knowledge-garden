@@ -14,10 +14,10 @@ tags: ["Claude-Code", "HTML", "Markdown", "시각화", "출력형식", "활용�
 
 > 출처: [@trq212 X 글타래](https://twitter.com/trq212/status/2052809885763747935) · 레퍼러: [GeekNews 29347](https://news.hada.io/topic?id=29347) · 정리일 2026-05-10
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 Claude Code 출력 형식을 *Markdown* 대신 **HTML**로 바꾸면 *표·CSS·SVG·JavaScript*로 *시각화·상호작용*이 풍부해진다 — 다만 *2~4배 시간*과 *버전 관리 어려움*이 트레이드오프.
 
-## 🧩 핵심 — 5가지 활용 방식
+## 핵심 — 5가지 활용 방식
 
 | # | 활용 | HTML이 얻는 것 |
 |---|-----|---------------|
@@ -40,7 +40,7 @@ Claude Code 출력 형식을 *Markdown* 대신 **HTML**로 바꾸면 *표·CSS·
 - **MDX** 같은 *중간 형식*이 대안 — Markdown 가독성 + JSX 컴포넌트
 - *단일 HTML 파일*은 *배포·공유*에서 강한 실용성
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든의 *구체 활용 팁* 결 첫 글
 가든이 *깊은 비판/이론* 위주였는데 이 글은 다른 결 — **"오늘부터 바로 시도할 수 있는 팁"**. [LLM-from-Scratch 워크숍](2026-05-07-llm-from-scratch-workshop.md)이 *행동 후보*였다면, 이 글은 ***일상 활용 팁***. 가든 분류 축이 더 풍부해진다.
@@ -79,7 +79,7 @@ Claude Code 출력 형식을 *Markdown* 대신 **HTML**로 바꾸면 *표·CSS·
 
 ### 가든 PR 헤더 스키마와 결합
 [누적된 PR 헤더 후보](../backend/2026-05-09-ai-breaking-vulnerability-cultures.md)에 새 항목:
-- ***산출물 형식 (md / html / mixed)*** ← 8번째 후보? 
+- ***산출물 형식 (md / html / mixed)*** ← 8번째 후보?
 
 PR 헤더 스키마가 점점 길어지는 신호 — *축약 통합* 작업이 [어제 메모한 가든 메타](../engineering/2026-05-10-probabilistic-engineering-and-24-7-employee.md)에서 더 시급해짐.
 
@@ -93,19 +93,19 @@ PR 헤더 스키마가 점점 길어지는 신호 — *축약 통합* 작업이 
 - *Markdown의 사람-AI 공동 편집* 가치는 무시 못함 — 가든처럼 *글 자체가 자산*인 영역에서는 Markdown 유지
 - **HTML은 *최종 산출물용*, Markdown은 *작업 매개체용***이 자연스러운 분리
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **가든 분기 *단일 HTML export* 시범** — 재참조 인터페이스 (SQLite export와 결합)
 2. **CRS 운영 리포트 1개를 HTML로 시범 생성** — Claude Code로 차트·표 통합 산출물
 3. **MangoLove 3인 페르소나 리뷰 결과를 HTML 형식으로 시도** — 표·앵커·색상이 *진짜 가치*를 추가하는지 검증
 
-## 🔗 연관 자료
+## 연관 자료
 - [`ai/2026-04-29-mattpocock-skills-vs-mangolove.md`](2026-04-29-mattpocock-skills-vs-mangolove.md) — 출력 형식이 skill 자산 형성에 영향
 - [`ai/2026-04-28-agent-harness-engineering.md`](2026-04-28-agent-harness-engineering.md) — 하네스 6영역의 *출력 형식*도 한 변수
 - [`backend/2026-05-08-sqlite-loc-recommended-storage-format.md`](../backend/2026-05-08-sqlite-loc-recommended-storage-format.md) — *재참조용 단일 파일* 사상의 짝
 - [`engineering/2026-05-10-probabilistic-engineering-and-24-7-employee.md`](../engineering/2026-05-10-probabilistic-engineering-and-24-7-employee.md) — 24/7 매니저 triage 인터페이스로 HTML 적합
 - [`engineering/2026-05-08-lean-analytics-reconsidered.md`](../engineering/2026-05-08-lean-analytics-reconsidered.md) — 토큰 비용 vs 가치 트레이드오프
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] 가든 분기 단일 HTML export 시도했는가
 - [ ] CRS 운영 리포트 1개 HTML 시범을 만들었는가
 - [ ] MangoLove 페르소나 리뷰 HTML 시도가 *진짜 가치*를 추가했는가

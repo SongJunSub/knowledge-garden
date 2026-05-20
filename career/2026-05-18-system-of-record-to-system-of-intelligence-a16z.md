@@ -14,21 +14,21 @@ tags: ["a16z", "system-of-intelligence", "crm", "salesforce", "ai-agents", "ente
 
 > 출처: [From System of Record to System of Intelligence — a16z](https://a16z.com/) · GeekNews 경유 [news.hada.io/topic?id=29604](https://news.hada.io/topic?id=29604) · 정리일 2026-05-18
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 a16z의 시장 가설 — 엔터프라이즈 소프트웨어의 *가치 자리*가 *데이터 저장소 CRM(System of Record)*에서 *AI 추론 계층(System of Intelligence)*으로 *위로 이동* 중. *Facebook 친구 네트워크 → 뉴스피드 알고리즘 입력*이라는 정확한 역사적 유추로 *Salesforce·HubSpot도 새 추론 계층의 *데이터 소스 중 하나*로 변환*된다는 명제. **가든의 [Luca Valli *플랫폼 품질 = AI 가치 배수*](../engineering/2026-05-18-platform-engineering-end-to-end-luca-valli.md)가 *엔터프라이즈 SaaS 시장 차원*에서 어떻게 보이는가의 답**.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 - **System of Record → System of Intelligence의 *3가지 이동 축***.
-  - **가치 자리 이동**: 데이터 *저장*에서 데이터 *추론*으로. *Salesforce는 여전히 데이터를 소유*하지만 *가치 창출은 그 위 추론 계층*에서.
-  - **전환 비용 원천 이동**: *데이터 축적*에서 *오케스트레이션(다중 시스템 통합)*으로. CRM 데이터를 *옮기는 비용*보다 *통합된 워크플로를 재구성하는 비용*이 더 큰 시대.
-  - **GTM 지출 구성 이동**: *기존 5~10%*에 머물던 *소프트웨어 비중*이 확대되며 *전체 시장 규모 자체가 성장*. 새 카테고리에 *기존 SaaS가 잠식되지 않고 *추가 지출*로 들어옴.
+ - **가치 자리 이동**: 데이터 *저장*에서 데이터 *추론*으로. *Salesforce는 여전히 데이터를 소유*하지만 *가치 창출은 그 위 추론 계층*에서.
+ - **전환 비용 원천 이동**: *데이터 축적*에서 *오케스트레이션(다중 시스템 통합)*으로. CRM 데이터를 *옮기는 비용*보다 *통합된 워크플로를 재구성하는 비용*이 더 큰 시대.
+ - **GTM 지출 구성 이동**: *기존 5~10%*에 머물던 *소프트웨어 비중*이 확대되며 *전체 시장 규모 자체가 성장*. 새 카테고리에 *기존 SaaS가 잠식되지 않고 *추가 지출*로 들어옴.
 - **AI 에이전트의 *영업 업무 확장 범위***. 리서치·통화 코칭·자동 기록 — *영업 사원의 시간*을 *직접* 흡수하는 영역. *제도적 지식 보존·실시간 우선순위 판단·신입 직원 역량 제고* 등 ***조직의 노하우를 *모델 차원*에 *외화*하는** 새 자리.
 - ***Facebook 친구 네트워크 → 뉴스피드*** 라는 역사적 유추의 정확성. *입력 데이터의 형태가 가치 단위가 아니다*. *그 위*에 *추론·정렬·제공*하는 계층이 *진짜 가치 단위*. CRM에 같은 변환이 진행 중 — *데이터*는 입력이 되고, *추론*이 가치가 됨. **30년 SaaS 산업의 *가장 큰 가치 이동* 중 하나일 수 있음**.
 - **이 변화의 *시점적 위협*** — 기존 CRM 카테고리가 *부가 기능 버킷으로 강등될 위험*. [OnlyCFO 2026 Procurement](2026-05-14-2026-procurement-playbook-onlycfo.md)의 *4 버킷 양극화*가 *AI 추론 계층 등장에 의해 강제 재분류*되는 정확한 메커니즘.
 - **가치는 *위로 가는데 데이터는 아래에 남는다*** — *Salesforce·HubSpot가 죽지 않는다는* 미묘함. 데이터 소유는 그대로이지만 *마진과 차별점*이 *위 계층*으로 흡수. CRM 회사들이 *스스로 System of Intelligence가 되려*는 시도와 *AI 네이티브 신생 기업*의 시도가 *경합*. **[Ries Cloudflare 신뢰 자산](2026-05-14-eric-ries-incorruptible-mission-protection.md)이 *결정 인자*** — *AI 추론 계층의 신뢰 자산*을 *누가 먼저 쌓는가*.
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > Facebook의 친구 네트워크가 *뉴스피드 알고리즘의 입력*이 된 것처럼, CRM도 *지능 시스템의 여러 정보원 중 하나*로 변환된다.
 
@@ -36,7 +36,7 @@ a16z의 시장 가설 — 엔터프라이즈 소프트웨어의 *가치 자리*�
 
 > Salesforce·HubSpot은 여전히 데이터를 소유하나, *가치 창출은 상위 추론 계층*에서 발생한다.
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 **가든의 *5층 추상화*에 *내부/외부 차원*을 더한다 — 10칸 매트릭스 발견.**
 어제 [Luca Valli 플랫폼 엔지니어링](../engineering/2026-05-18-platform-engineering-end-to-end-luca-valli.md)에서 박은 5층:
@@ -80,7 +80,7 @@ Anthropic의 *Managed Agents*는 *Anthropic이 직접 System of Intelligence에 
 
 *외부 사용자가 가든을 자신의 추론 계층에 *입력*으로 쓸 수 있게* 하려면, *frontmatter 구조화*와 *연결성*이 그 자체로 가치. 이게 가든의 *얇은 CLAUDE.md / 메타데이터 레지스트리* 자가 진단 결과와 *동일한 처방*으로 모인다.
 
-## 🔗 연관 자료
+## 연관 자료
 - [Luca Valli — 플랫폼 엔지니어링 End-to-End](../engineering/2026-05-18-platform-engineering-end-to-end-luca-valli.md) — *내부 플랫폼 가치 배수*의 *시장 차원 짝*
 - [무신사 query-engineer](../ai/2026-05-18-musinsa-query-engineer-harness.md) — *내부 하네스 자산*이 *외부 카테고리로 외화*되기 직전의 사례
 - [GN#358 #29486 *AI 다음 해자 = 조직*](../weekly/2026-W20-geeknews-358.md) — *조직 해자의 *시장 측 답***
@@ -91,7 +91,7 @@ Anthropic의 *Managed Agents*는 *Anthropic이 직접 System of Intelligence에 
 - [Claude 월간 크레딧 정책](../ai/2026-05-14-claude-programmatic-monthly-credits.md) — *비대화형 자동화 가격 분리*가 *System of Intelligence 카테고리의 가격 분리 신호*
 - [Eric Ries — Incorruptible Cloudflare](2026-05-14-eric-ries-incorruptible-mission-protection.md) — *AI 추론 계층 신뢰 자산*의 결정 인자
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 <!-- 6월 중순:
 - 가든의 *5층 × 2(내부/외부) = 10칸 매트릭스* 가 *실제로* 다른 글 정리·자문·의사결정에 *쓰였는가*?
 - MangoLove에 *System of Intelligence 진입 가능성 진단 도구*가 들어갔는가?

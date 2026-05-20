@@ -12,12 +12,12 @@ tags: ["AI에이전트", "Claude-Code-Skills", "워크플로우", "MangoLove", "
 
 # mattpocock/skills vs MangoLove — 내 워크플로우와의 비교·합칠 후보
 
-> 출처: [github.com/mattpocock/skills](https://github.com/mattpocock/skills) (37.5k ⭐, MIT) · 한국어 해설: [코난쌤 블로그](https://jkf87.github.io/mattpocock-skills-real-engineers-claude-2026-04-27) · 정리일 2026-04-29
+> 출처: [github.com/mattpocock/skills](https://github.com/mattpocock/skills) (37.5k , MIT) · 한국어 해설: [코난쌤 블로그](https://jkf87.github.io/mattpocock-skills-real-engineers-claude-2026-04-27) · 정리일 2026-04-29
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 Matt Pocock가 매일 쓰는 22개 Claude Code 스킬 모음 — **내 MangoLove `/strict` 워크플로우와 강하게 겹치지만, 합치면 더 강해질 4가지 공백**(grill·CONTEXT.md·diagnose loop·write-a-skill)이 명확히 보인다.
 
-## 🧩 mattpocock/skills 핵심 구조
+## mattpocock/skills 핵심 구조
 
 ### 4가지 문제 프레임 + 처방
 | # | 문제 | 처방 스킬 |
@@ -40,7 +40,7 @@ Matt Pocock가 매일 쓰는 22개 Claude Code 스킬 모음 — **내 MangoLove
 
 ---
 
-## 🔄 MangoLove `/strict` vs mattpocock/skills 매핑
+## MangoLove `/strict` vs mattpocock/skills 매핑
 
 ### A. 겹치는 영역 (둘 다 잘 다루는 것)
 
@@ -95,43 +95,43 @@ Matt Pocock가 매일 쓰는 22개 Claude Code 스킬 모음 — **내 MangoLove
 
 ---
 
-## 🎯 합칠 후보 우선순위
+## 합칠 후보 우선순위
 
-### 🔴 즉시 도입 (High)
+### 즉시 도입 (High)
 1. **`/grill-me` 또는 `/grill-with-docs` 스킬 도입**
-   - MangoLove Spec 작성 단계에서 자동 호출되도록 strict.md 수정
-   - 효과: TBD 잡아내는 정도가 아니라 *결정 트리의 빈 가지*를 채우는 데까지 확장
+ - MangoLove Spec 작성 단계에서 자동 호출되도록 strict.md 수정
+ - 효과: TBD 잡아내는 정도가 아니라 *결정 트리의 빈 가지*를 채우는 데까지 확장
 
 2. **`CONTEXT.md` + `docs/adr/` 표준 도입**
-   - CRS, PickMe, BugSip 각 레포에 `CONTEXT.md` 시드
-   - "되돌리기 어렵고 / 맥락 없이는 이상해 보이고 / 진짜 트레이드오프인" 결정만 ADR
-   - 효과: 의도 부채 *직접* 감소, 토큰 절약은 부산물
+ - CRS, PickMe, BugSip 각 레포에 `CONTEXT.md` 시드
+ - "되돌리기 어렵고 / 맥락 없이는 이상해 보이고 / 진짜 트레이드오프인" 결정만 ADR
+ - 효과: 의도 부채 *직접* 감소, 토큰 절약은 부산물
 
-### 🟡 다음 사이클 도입 (Medium)
+### 다음 사이클 도입 (Medium)
 3. **`/diagnose` 스킬 도입**
-   - 디버깅 트리거(`/strict`의 디버깅 자동 행동) 진입 시 자동 호출
-   - 6단계 SOP를 그대로 활용
+ - 디버깅 트리거(`/strict`의 디버깅 자동 행동) 진입 시 자동 호출
+ - 6단계 SOP를 그대로 활용
 
 4. **`/write-a-skill` + Ratchet 원칙 결합**
-   - "발견된 실수 → 즉시 스킬화" 슬래시 커맨드 자체를 만들기
-   - [하네스 엔지니어링 글](2026-04-28-agent-harness-engineering.md)에서 도출한 `/ratchet` 후보의 구체화
+ - "발견된 실수 → 즉시 스킬화" 슬래시 커맨드 자체를 만들기
+ - [하네스 엔지니어링 글](2026-04-28-agent-harness-engineering.md)에서 도출한 `/ratchet` 후보의 구체화
 
-### 🟢 선택 (Low)
+### 선택 (Low)
 5. **`/caveman` 토큰 절약 모드**
-   - 긴 작업 후반부에 토큰 부족할 때 트리거
-   - 평소엔 가독성 손해라 기본 활성 X
+ - 긴 작업 후반부에 토큰 부족할 때 트리거
+ - 평소엔 가독성 손해라 기본 활성 X
 
 6. **`/zoom-out` (낯선 코드 영역 진입 시)**
-   - 사실 Explore 서브에이전트가 비슷한 역할 — 중복 가능
+ - 사실 Explore 서브에이전트가 비슷한 역할 — 중복 가능
 
-### ⛔ 도입 보류
+### 도입 보류
 - `/triage`, `/to-issues`, `/to-prd`: 내 흐름과 다른 이슈 트래커 운영 방식. 차라리 Linear MCP 활용이 적합.
 - `/migrate-to-shoehorn`, `/scaffold-exercises`: TypeScript 강의용 — 내 컨텍스트에 안 맞음.
 - `/setup-matt-pocock-skills`: 다른 스킬과 결합된 셋업이라 단독 도입 의미 없음.
 
 ---
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "These skills are designed to be small, easy to adapt, and composable. They work with any model."
 
@@ -145,28 +145,28 @@ Matt Pocock가 매일 쓰는 22개 Claude Code 스킬 모음 — **내 MangoLove
 
 > *(코난쌤 블로그)* "신선한 점은 모델이 아니라 워크플로가 자산이라는 사실을 보여준 거"
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 - **이 레포가 GitHub 트렌딩 1위가 된 이유는 모델이 아니라 *공정*이 자산임을 가장 구체적으로 보여줬기 때문**이다. [Addy Osmani의 하네스 엔지니어링](2026-04-28-agent-harness-engineering.md)이 *이론*이라면 mattpocock은 *작품*. 둘은 짝.
 - **CONTEXT.md가 가장 큰 공백**: [인지 부채/의도 부채](../engineering/2026-04-24-technical-cognitive-intent-debt.md) 글에서 경고했던 바로 그 공백을 외부 도구 없이 *문서 한 장*으로 메운다는 게 충격적으로 단순하고 강력하다. CRS/PickMe/BugSip 각각의 도메인 용어를 한 페이지에 박아놓는 작업은 즉시 시도할 가치가 있다.
 - **`/grill-me`의 "한 번에 한 질문" 룰**이 디테일이지만 핵심. 한꺼번에 5-7개 던지면 사용자가 가장 쉬운 것만 답하고 나머지를 잊는다. 한 번에 하나씩이 인터뷰의 디시플린.
 - **`/diagnose`의 Phase 1 강조**가 가장 진짜다 — *피드백 루프가 디버깅의 90%*. 내가 그동안 "버그 추적할 때 가설부터 세우고 logs 뿌리는" 안티패턴을 종종 했는데, **루프 자체를 product처럼 다듬는다**는 발상은 직접적인 개선점.
 - **MangoLove 통합 액션 플랜**:
-  1. `~/.mangolove/methodology/strict.md` 분석 단계에 *grill 모드*를 옵션으로 추가 (Medium 이상 트랙)
-  2. CRS/PickMe/BugSip에 `CONTEXT.md` 초안 작성 (1시간 작업)
-  3. `/diagnose` 스킬을 `~/.mangolove/skills/`에 도입, 디버깅 자동 행동 시 호출
-  4. `/ratchet` 슬래시 커맨드 자체 제작 (write-a-skill 참고)
+ 1. `~/.mangolove/methodology/strict.md` 분석 단계에 *grill 모드*를 옵션으로 추가 (Medium 이상 트랙)
+ 2. CRS/PickMe/BugSip에 `CONTEXT.md` 초안 작성 (1시간 작업)
+ 3. `/diagnose` 스킬을 `~/.mangolove/skills/`에 도입, 디버깅 자동 행동 시 호출
+ 4. `/ratchet` 슬래시 커맨드 자체 제작 (write-a-skill 참고)
 - **반론·균형점**: mattpocock 스킬은 *TypeScript/JS 생태계와 GitHub Issues* 가정이 강하다. 일부는 그대로 차용하기보다 정신만 가져오고 도구는 한국 백엔드(Java/Kotlin/JIRA·Linear) 환경에 맞게 재구성하는 게 맞다.
 - **충돌 없는 결합 가능**: mattpocock의 *내부 작업 방법론* + MangoLove의 *외부 워크플로우 게이트* — 두 층위가 다르다. 서로 잡아먹지 않는다.
 
-## 🔗 연관 자료
+## 연관 자료
 - [`ai/2026-04-28-agent-harness-engineering.md`](2026-04-28-agent-harness-engineering.md) — 하네스 엔지니어링의 *이론*. 이 글은 *실전 모범*
 - [`ai/2026-04-28-ai-should-elevate-your-thinking-not-replace-it.md`](2026-04-28-ai-should-elevate-your-thinking-not-replace-it.md) — `/grill-me`는 사고 위임을 막는 직접 도구
 - [`engineering/2026-04-24-technical-cognitive-intent-debt.md`](../engineering/2026-04-24-technical-cognitive-intent-debt.md) — `CONTEXT.md` + ADR이 의도 부채의 직접 처방
 - [`engineering/2026-04-28-three-constraints-before-i-build-anything.md`](../engineering/2026-04-28-three-constraints-before-i-build-anything.md) — Jordan Lord의 1-pager는 mattpocock의 PRD-grill 방식과 통한다
 - [`weekly/2026-W17-geeknews-355.md`](../weekly/2026-W17-geeknews-355.md) — Skillify(28777)와 같은 흐름의 다음 사례
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] CONTEXT.md를 CRS/PickMe/BugSip에 시드했는가
 - [ ] `/diagnose` 스킬이 실제 디버깅에 진입했는가
 - [ ] `/ratchet` 슬래시 커맨드가 만들어졌는가

@@ -12,12 +12,12 @@ tags: ["로컬AI", "Apple-Silicon", "MLX", "Ollama-대안", "추론엔진", "Ope
 
 # Rapid-MLX — Apple Silicon 전용 초고속 로컬 AI 엔진
 
-> 출처: [raullenchai/Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) (2.1k ⭐, Apache 2.0) · 레퍼러: [GeekNews 29410](https://news.hada.io/topic?id=29410) · 정리일 2026-05-12
+> 출처: [raullenchai/Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) (2.1k , Apache 2.0) · 레퍼러: [GeekNews 29410](https://news.hada.io/topic?id=29410) · 정리일 2026-05-12
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 Apple Silicon Mac에서 **Ollama 대비 4.2배 빠른** 로컬 AI 추론 엔진. **OpenAI API 호환 드롭인 대체**로 Claude Code·Cursor·Aider 등에 *즉시 연결 가능*. 어제 정리한 [*로컬 AI가 표준*](2026-05-11-local-ai-needs-to-be-the-norm.md)의 **실행 도구**.
 
-## 🧩 핵심 사실
+## 핵심 사실
 
 ### 성능 수치 (RAM별)
 | 환경 | 모델 | 속도 |
@@ -46,7 +46,7 @@ Apple Silicon Mac에서 **Ollama 대비 4.2배 빠른** 로컬 AI 추론 엔진.
 - **요구사항**: Python 3.10+
 - **플랫폼**: Apple Silicon (Intel Mac·Windows·Linux X)
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 그래프 — *이론 → 도구* 연결
 어제([로컬 AI 표준](2026-05-11-local-ai-needs-to-be-the-norm.md))가 *왜* 였다면 오늘은 *무엇으로*. 두 글이 짝:
@@ -92,8 +92,8 @@ Apple Silicon Mac에서 **Ollama 대비 4.2배 빠른** 로컬 AI 추론 엔진.
 로컬 100% 강요 X, *고토큰 요청은 클라우드*로 자동 위임. [Ding의 Camry/Ferrari](2026-05-07-claude-code-not-making-your-product-better.md) 라인 분리가 *자동화*된 형태. **로컬 우선 + 클라우드 폴백**이 현실적 모델.
 
 ### 가든 *행동 후보* 결 두 번째 글
-- 1번: [LLM-from-Scratch](2026-05-07-llm-from-scratch-workshop.md) — 학습 (우선순위 ★★★)
-- **2번: 이 글 (Rapid-MLX)** — **실용** (우선순위 ★★★★)
+- 1번: [LLM-from-Scratch](2026-05-07-llm-from-scratch-workshop.md) — 학습 (우선순위 )
+- **2번: 이 글 (Rapid-MLX)** — **실용** (우선순위 )
 
 차이: 학습 워크숍은 *시간 투자 4-8시간*, Rapid-MLX는 *10분 설치 + A/B 즉시 가능*. **우선순위 더 높음**.
 
@@ -106,19 +106,19 @@ Apple Silicon Mac에서 **Ollama 대비 4.2배 빠른** 로컬 AI 추론 엔진.
 - *벤치마크 수치* = 제조사 공개 — 실제 워크로드에서 검증 필요
 - 핵심: ***시도 비용이 너무 낮아서 검증 안 하는 게 손해***
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **이번 주말 실험 슬롯 — Rapid-MLX 설치 + Qwen3.5-14B 가동** (10분-1시간)
 2. **MangoLove `/strict`에 *로컬 우선 라우팅* 후보 도입 검토** — `OPENAI_API_BASE` 환경 변수 전환만으로 가능
 3. **CRS Admin 로컬 AI PoC 1개 시범** — OTA 메시지 1차 분류 같은 *Camry 라인* 작업
 
-## 🔗 연관 자료
+## 연관 자료
 - [`ai/2026-05-11-local-ai-needs-to-be-the-norm.md`](2026-05-11-local-ai-needs-to-be-the-norm.md) — *이론*: 로컬 AI가 표준이 되어야 한다
 - [`ai/2026-05-07-llm-from-scratch-workshop.md`](2026-05-07-llm-from-scratch-workshop.md) — 가든 *행동 후보* 결의 1번
 - [`ai/2026-05-07-claude-code-not-making-your-product-better.md`](2026-05-07-claude-code-not-making-your-product-better.md) — Camry/Ferrari 라인 분리의 *자동 실현*
 - [`engineering/2026-05-08-lean-analytics-reconsidered.md`](../engineering/2026-05-08-lean-analytics-reconsidered.md) — *성공 태스크당 비용* 변동 → 고정 전환
 - 비교 도구: Ollama, LM Studio, Apple FoundationModels
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] Rapid-MLX 설치·가동 시도했는가
 - [ ] MangoLove에 *로컬 우선 라우팅* 옵션이 들어갔는가
 - [ ] CRS·PickMe에서 *Camry 라인 작업*을 로컬로 옮긴 PoC가 있는가

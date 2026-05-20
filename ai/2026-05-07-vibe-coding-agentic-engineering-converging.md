@@ -14,10 +14,10 @@ tags: ["AI코딩", "vibe-coding", "에이전트엔지니어링", "코드검토",
 
 > 출처: [Simon Willison — Vibe coding and agentic engineering are getting closer than I'd like](https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/) · 레퍼러: [GeekNews 29236](https://news.hada.io/topic?id=29236) · 정리일 2026-05-07
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 Simon Willison의 *자기 고백* — 두 방식이 *원래는* 명확히 달랐는데, 에이전트가 신뢰할 만해지면서 *자신조차* 코드를 일일이 검토하지 않는다. 책임·평판 없는 시스템에 의존이 깊어지는 회색지대 진입.
 
-## 🧩 핵심 — 두 방식의 정의
+## 핵심 — 두 방식의 정의
 
 ### Vibe Coding
 - *비-프로그래머*가 코드 품질 이해 없이 *결과만* 받는 방식
@@ -65,7 +65,7 @@ Simon Willison의 *자기 고백* — 두 방식이 *원래는* 명확히 달랐
 - **컴파일·동작하는데 *경계 조건/보안*에서 실패하는 코드**가 가장 위험. 리뷰가 *더* 어려움
 - *유지보수 단계*가 소프트웨어 생애의 대부분이지만 업계가 간과
 
-## 📜 짧은 인용
+## 짧은 인용
 
 > "Claude Code does not have a professional reputation."
 
@@ -75,7 +75,7 @@ Simon Willison의 *자기 고백* — 두 방식이 *원래는* 명확히 달랐
 
 > *(댓글)* "Vibe coding and LLMs didn't create undisciplined practices — they exposed and accelerated existing problems."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 *AI 비판 시리즈* — 이번엔 *옹호자의 자기 고백*
 지금까지 비판 5축은 외부 비판이었다:
@@ -132,12 +132,12 @@ Simon Willison의 *자기 고백* — 두 방식이 *원래는* 명확히 달랐
 - *"vibe coding이 production에 무책임"* 이 너무 단정적 — *내부 도구·자동화 스크립트* 등 *위험이 작은* 영역에서는 가속이 가치
 - *사용량 = 증거*가 매력적이지만 *측정·인증* 어려움 — *내가 매일 쓰는지*는 자기 보고일 뿐
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **PR 설명에 *AI 사용 + 검토 강도* 메타데이터 1줄** — `vibe / hybrid / agentic` 3단계
 2. **CRS의 *경계 조건/보안 5영역* 식별 후 *AI 코드 강제 라인 리뷰* 룰 검토** (race·결제·권한·인벤토리·통화/시간대)
 3. **가든 글에 *재참조 횟수* 가벼운 트래킹 시작** — 한 달 뒤 회고를 *사용량 증거*로 명문화
 
-## 🔗 연관 자료
+## 연관 자료
 - [`ai/2026-05-07-appearing-productive-in-the-workplace.md`](2026-05-07-appearing-productive-in-the-workplace.md) — *외형 동일 = 평가 불가*의 동시 진단
 - [`ai/2026-05-07-ai-didnt-delete-your-database-you-did.md`](2026-05-07-ai-didnt-delete-your-database-you-did.md) — *책임 귀속 불가* = 위임자 책임
 - [`ai/2026-05-07-inverse-laws-of-robotics.md`](2026-05-07-inverse-laws-of-robotics.md) — 책임 포기 금지 원칙
@@ -145,7 +145,7 @@ Simon Willison의 *자기 고백* — 두 방식이 *원래는* 명확히 달랐
 - [`engineering/2026-05-05-redis-array-antirez-4-months-with-ai.md`](../engineering/2026-05-05-redis-array-antirez-4-months-with-ai.md) — *기존 전문성 증폭*의 모범 사례
 - [`ai/2026-05-05-agentic-coding-is-a-trap.md`](2026-05-05-agentic-coding-is-a-trap.md) — 같은 비판 흐름
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] PR 설명에 *vibe/hybrid/agentic* 3단계 메타데이터를 한 번이라도 적용했는가
 - [ ] CRS 경계 조건/보안 5영역 식별 메모를 작성했는가
 - [ ] 이 글이 *재참조 횟수* 1회 이상 발생했는가 (사용량 = 증거 자기 검증)

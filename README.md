@@ -1,4 +1,4 @@
-# 🌱 knowledge-garden
+# knowledge-garden
 
 읽은 좋은 글을 요약하고, 내 생각을 덧붙이며, 시간이 흐르면서 점점 다듬어 나가는 디지털 가든.
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 📚 카테고리
+## 카테고리
 
 - [engineering/](engineering/) — 엔지니어링 원칙, 방법론, 소프트웨어 철학
 - [architecture/](architecture/) — 시스템 설계, 아키텍처 패턴, 분산 시스템
@@ -19,7 +19,7 @@
 
 ---
 
-## 🗂 인덱스 (최신순)
+## 인덱스 (최신순)
 
 ### 2026-05
 - [평범한 데이터 과학자로 10년째 — *번역가의 자리*](career/2026-05-19-mediocre-data-scientist-ten-years.md) — Reddit r/datascience. **가든 *FAANG 편향*에 대한 직접 반례 + *경험 가치 매트릭스* 이항→삼항 확장**. FAANG·SOTA 아닌 *중소 회사에서 막대 그래프와 기본 KPI로 의사결정 견인*하는 10년 자기 보고. *복잡한 개념을 누구나 이해하도록 풀어내는 *번역가의 자리***가 핵심 경쟁력. 댓글 합의: *99% 케이스에서 화려한 모델보다 비즈니스 영향·커뮤니케이션*. [Jay Gup 경험=세금](career/2026-05-14-experience-is-now-a-tax.md)·[Naur 이론 보유](engineering/2026-05-14-naur-programming-as-theory-building.md) 양극단 사이에 ***제3 자리 = 번역가의 자리*** 추가 (모델 기술 깊이가 아니라 *번역 어휘 누적*이 자산). [Tuhin Nair 시니어 커뮤니케이션 실패](career/2026-05-14-why-senior-developers-fail-to-communicate-expertise.md)의 *10년 실증 성공 사례* — 두 글이 같은 한 줄을 양측에서(Tuhin=왜 실패, 이 글=어떻게 성공). [Julia Evans Tailwind 졸업](frontend/2026-05-17-jvns-moving-away-from-tailwind.md)·[Ascetic Computing](engineering/2026-05-17-ascetic-computing-ratfactor.md)과 *기본기 회귀 라인* — 프론트엔드/시스템/데이터 과학 3영역 동시 관찰. [어제 Datatype](frontend/2026-05-18-datatype-variable-font-charts.md)의 ***왜 필요한가* 수요 측 답** (이 글=수요, Datatype=공급). **12번째 가든 자가 진단 = *조직 규모 다양성 시험*** — 가든이 대형 테크·연구 편향(Anthropic·OpenAI·Amazon·a16z·Stanford), 중소·개인 과소. Reddit r/datascience·한국 디스코드 등 *작은 회사 실무 회고* 의도적 큐레이션 후보. CRS 대시보드 *막대 그래프 우선 원칙* + MangoLove 영업 *번역 1점 게이트* + BugSip 가치 제안 *번역가 자리* 재정렬 후보. *25/40칸 매트릭스·6요소 Goal로 환원하면 오버 메타화* — 10번째 자가 진단(자산 크기 다양성)에 따라 *중간 크기*로 정직히 다룸.
@@ -57,7 +57,7 @@
 - [소프트웨어 엔지니어링은 더 이상 평생 직업이 아닐 수 있다](career/2026-05-12-software-engineering-may-no-longer-be-lifetime-career.md) — AI 비판 시리즈 11번째, *경력 수명* 각도. 전동공구·프로 운동선수 비유, ~15년 경력 수명 첫 세대 가능. 한국 IT 듀얼 트랙 부재와 결합 → 2중 위기 + 분기 *AI 없이* 슬롯 룰
 - [코드 작성에 쓰는 AI 코딩 에이전트는 반드시 유지보수 비용을 줄여야 한다](engineering/2026-05-12-ai-must-reduce-maintenance-costs.md) — James Shore의 **2×2=4 부담 수학**. AI 비판 시리즈의 *수학적 보강*. 산출 N배 ↑ → 유지보수 1/N ↓ 필수 + MangoLove *유지보수 영향* 자문 후보
 - [M4 24GB 메모리에서 로컬 모델 실행하기](ai/2026-05-12-running-local-models-on-m4-24gb.md) — *로컬 AI 3부작 완성* (이론·도구·실측). Qwen 3.5-9B Q4 + LM Studio, 40 tok/s + 128K. 가능/불가능 표 + MangoLove 태스크별 권장 라우팅 매트릭스
-- [Rapid-MLX — Apple Silicon 전용 초고속 로컬 AI 엔진](ai/2026-05-12-rapid-mlx-apple-silicon-local-ai.md) — 어제 *로컬 AI 표준* 이론의 **실행 도구**. Ollama 4.2배, OpenAI API 호환 드롭인. 가든 *행동 후보 ★★★★* + MangoLove 로컬 우선 라우팅·CRS PoC 1개 후보
+- [Rapid-MLX — Apple Silicon 전용 초고속 로컬 AI 엔진](ai/2026-05-12-rapid-mlx-apple-silicon-local-ai.md) — 어제 *로컬 AI 표준* 이론의 **실행 도구**. Ollama 4.2배, OpenAI API 호환 드롭인. 가든 *행동 후보 * + MangoLove 로컬 우선 라우팅·CRS PoC 1개 후보
 - [ClickHouse 입문 — 컬럼 지향 OLAP DB의 개념·SQL·사용 사례](backend/2026-05-11-clickhouse-overview.md) — 학습 노트. 컬럼 지향·MergeTree·표준 SQL·자체 분석 함수·OLTP와의 결정적 차이. 호스피탈리티/CRS 적용 후보 5개 + Spring Boot 연동 가이드 + 도입 체크리스트
 - [로컬 AI가 표준이 되어야 한다](ai/2026-05-11-local-ai-needs-to-be-the-norm.md) — *AI 채택의 세 번째 방향: 클라우드를 줄이자*. Apple FoundationModels로 요약·분류·추출. 호스피탈리티 PII 보호와 로컬 AI 자연 결합 + MangoLove *외부 API 필요한가?* 자문 후보
 - [요즘 노트북은 모두 내장 보안 토큰을 갖고 있다](backend/2026-05-11-builtin-security-tokens.md) — *backend 운영 위생 시리즈 5번째*. YubiKey 없이 Secure Enclave/TPM/Windows Hello 활용. SSH·git 서명·sudo 강화 + 회사 *서명된 커밋만 머지* 정책 후보
@@ -78,7 +78,7 @@
 - [직장에서 생산적으로 보이기 — 산출물과 역량의 분리](ai/2026-05-07-appearing-productive-in-the-workplace.md) — *신호 비판*. AI가 산출물-역량 연결 끊음, "느림이 진짜 일이었다", 동의 ≠ 근거, Cross-domain 위험, 신뢰가 새 차별 자산
 - [Claude Code는 당신의 제품을 더 좋게 만들지 않는다](ai/2026-05-07-claude-code-not-making-your-product-better.md) — Ethan Ding의 *기능 비판*. K자형 곡선·복리 효과 부재·코드 줄 수 = 비용 + Camry vs Ferrari 라인 구분, 호스피탈리티 적용
 - [AI의 세 가지 역법칙](ai/2026-05-07-inverse-laws-of-robotics.md) — 의인화/맹목적 신뢰/책임 포기 금지 3원칙. 가든 *Agent-Default Posture 시리즈*의 *원칙 층위* + MangoLove 4번째 원칙 추가 후보
-- [LLM-from-Scratch — 1시간짜리 GPT 학습 워크숍](ai/2026-05-07-llm-from-scratch-workshop.md) — 가든 내 *주말 프로젝트 후보*로 기록. 3 제약 만족 평가 + 우선순위 ★★★ (이번 분기 후순위, Q3 실험 슬롯 후보)
+- [LLM-from-Scratch — 1시간짜리 GPT 학습 워크숍](ai/2026-05-07-llm-from-scratch-workshop.md) — 가든 내 *주말 프로젝트 후보*로 기록. 3 제약 만족 평가 + 우선순위 (이번 분기 후순위, Q3 실험 슬롯 후보)
 - [모두가 AI를 가져도 회사는 여전히 아무것도 배우지 못할 때](engineering/2026-05-07-when-everyone-has-ai-but-company-learns-nothing.md) — *조직 차원 AI 학습*의 빠진 층 채움. Agent Operations / Loop Intelligence / Agent Capabilities 3축 + 회사 자가 진단 + Token-to-Learning 메트릭
 - [AI가 당신의 DB를 삭제한 게 아니라, 당신이 삭제한 것이다](ai/2026-05-07-ai-didnt-delete-your-database-you-did.md) — 9초 사고의 *책임 귀속* 짝. *"왜 그런 API가 존재하는가?"* 한 문장 진단 + CRS·Connectivity·PickMe destructive 엔드포인트 감사 액션
 - [최고의 직원이 최악의 관리자가 되는 이유](career/2026-05-07-best-employee-becomes-worst-manager.md) — Peter Principle, *관리직은 새 직업*, 3축 평가(사회 지능/비즈니스 감각/개인 인성), 행동 기반 인터뷰, 150% 규칙. **채용·관리 4부작 완성** + 진단 매트릭스
@@ -114,14 +114,14 @@
 
 ---
 
-## ✍️ 글 작성 방법
+## 글 작성 방법
 
 1. 분류에 맞는 폴더로 이동 (`engineering/`, `ai/` 등)
 2. `templates/article.md` 를 복사
 3. 파일명: `YYYY-MM-DD-kebab-case-title.md`
 4. 작성 후 이 README의 **인덱스**에 한 줄 추가
 
-## 🏷 태그 사용
+## 태그 사용
 
 글 frontmatter의 `tags` 필드를 활용한다. 자주 쓰는 태그:
 `#원칙` `#아키텍처` `#백엔드` `#프론트엔드` `#AI` `#생산성` `#커리어` `#회고`

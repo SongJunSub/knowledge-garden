@@ -14,10 +14,10 @@ tags: ["programming", "theory-building", "naur", "soft-skill", "tacit-knowledge"
 
 > 출처: [Programming as Theory Building (1985, PDF)](https://gwern.net/doc/cs/algorithm/1985-naur.pdf) · GeekNews 경유 [news.hada.io/topic?id=29501](https://news.hada.io/topic?id=29501) · 정리일 2026-05-14
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 프로그래밍의 본체는 *코드*도 *문서*도 아니라 프로그래머의 머릿속에 살아 있는 "이론(theory)" 이며, 이론을 가진 사람들이 흩어지면 그 프로그램은 텍스트가 멀쩡해도 사실상 죽은 것 — 41년 전 글이지만 AI가 텍스트만 잘 만들어 주는 지금 가장 무겁게 읽혀야 하는 문장이다.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 - **프로그램 = 이론, 코드 = 이론의 부산물.** Naur는 Ryle의 "지식의 유형" 구분을 빌려 프로그래밍을 "특정 문제 영역에 대해 *왜* 그렇게 만들었는지를 설명·정당화·확장할 수 있는 능력"으로 정의한다. 코드 라인 수가 아니라 **설명·정당화·확장 능력**이 프로그래머가 "이론을 가지고 있다"는 증거다.
 - **문서는 이론을 *대신* 할 수 없다.** 문서는 이론을 *지원*할 뿐, 새 사람이 문서만 읽고 원래 설계자의 이론을 복원할 수는 없다. 문서가 있어도 "왜 이 함수가 여기 있는가"는 원작자의 머릿속에만 있다.
@@ -25,7 +25,7 @@ tags: ["programming", "theory-building", "naur", "soft-skill", "tacit-knowledge"
 - **프로그램의 "죽음"이라는 개념.** Naur는 충격적인 표현을 쓴다: 원래 이론을 가진 팀이 해산되면 프로그램은 죽었고, 텍스트로부터 이론을 *재구축*하는 것은 거의 항상 *원래 작성보다 비용이 크다*. 그래서 기업이 흔히 하는 "옛 시스템을 분석해서 재작성하자"는 결정은 보통 잘못된 가격을 매기고 시작한다.
 - **세대 전수는 도제식으로만 가능.** 이론은 글로 압축되지 않으므로, 후임이 이론을 갖게 하려면 *기존 이론 보유자와 함께 일하면서* 결정 과정을 보고, 반론을 듣고, 작은 변경을 해 보는 *수련* 외에는 길이 없다.
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "Programming properly should be regarded as an activity by which the programmers form or achieve a certain kind of insight, a theory, of the matters at hand. This suggests that program text and documentation are merely indirect expressions of this insight."
 
@@ -33,7 +33,7 @@ tags: ["programming", "theory-building", "naur", "soft-skill", "tacit-knowledge"
 
 > "A revival of a program is the rebuilding of its theory by a new programmer team."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 **AI 코딩이 일반화되면서 1985년의 이 글이 오히려 *더* 무거워졌다.** 코드 생성 속도가 100배가 되어도 *이론*은 똑같이 사람 머릿속에서만 자란다. 텍스트가 폭증하지만 그 텍스트를 *정당화*할 수 있는 사람의 밀도는 오히려 옅어지는 구조 — 이것이 이번 달에 정리한 [복잡성 래칫](2026-05-14-ai-coding-complexity-ratchet-garry-tan.md)이 작동하는 정확한 메커니즘이다. AI가 *코드를 쓰지만 이론을 만들지는 못한다*. 시니어가 사라지는 게 아니라 *유일하게 이론을 가진 자*로서 더 비싸진다는 [Tuhin Nair의 진단](../career/2026-05-14-why-senior-developers-fail-to-communicate-expertise.md)이 Naur 위에 그대로 얹힌다.
 
@@ -48,12 +48,12 @@ tags: ["programming", "theory-building", "naur", "soft-skill", "tacit-knowledge"
 
 **BugSip 기획에 그대로 박힌다.** [BugSip](../README.md)이 "코드 리딩 앱"인 이상, 우리가 제공해야 하는 것은 *코드 라인*이 아니라 *그 라인이 왜 거기 있는가에 관한 이론 형성 보조*다. "이 PR이 어떤 가정을 깨고 있는가", "이 함수가 호출되는 *상황의 의미*" — Naur가 말하는 *이론*을 모바일 5분짜리 세션으로 *주입*하는 게 BugSip의 진짜 가치 제안이고, 그게 단순한 코드 뷰어와 갈리는 분기점이다.
 
-## 🔗 연관 자료
+## 연관 자료
 - [복잡성 래칫 — Garry Tan](../ai/2026-05-14-ai-coding-complexity-ratchet-garry-tan.md) — AI 생성 코드가 *이론 없는 코드*를 폭증시키는 구조적 이유
 - [시니어 개발자가 전문성을 전달하지 못하는 이유 — Tuhin Nair](../career/2026-05-14-why-senior-developers-fail-to-communicate-expertise.md) — *이론을 가진 자*가 도제식 전수에 실패하는 메커니즘
 - [Teaching Claude Why — Anthropic](../ai/2026-05-14-teaching-claude-why-alignment-training.md) — *Why*를 가르치면 28x 일반화: Naur의 사람 이론을 LLM에 적용한 동형 발견
 - [Code w/ Claude SF 19개 세션 정리](../ai/2026-05-14-code-with-claude-recap-19-sessions.md) — Agent-Default Posture가 *이론 없는 코드*를 더 빨리 양산할 위험
 - [중국 AI 연구소 내부에서 얻은 교훈 — Nathan Lambert](../ai/2026-05-14-notes-from-inside-chinas-ai-labs.md) — "엔지니어 vs 변호사" 카테고리 차이도 *어떤 이론이 조직 안에서 자라는가*의 차이
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 <!-- 6월 중순: MangoLove 인수인계 또는 CRS 신규 합류 케이스에 "이론 보유자 페어 시간 명시" 견적 방식을 시도해 보고 결과를 기록한다. BugSip MVP 기획서에 "코드 라인 → 이론 보조" 문구를 1차 가치 제안으로 박았는지 확인. -->

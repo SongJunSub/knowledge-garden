@@ -14,10 +14,10 @@ tags: ["AI윤리", "책임", "의인화", "검증", "Asimov", "원칙"]
 
 > 출처: [Susam Pal — Inverse Laws of Robotics](https://susam.net/inverse-laws-of-robotics.html) · 레퍼러: [GeekNews 29223](https://news.hada.io/topic?id=29223) · 정리일 2026-05-07
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 아시모프의 *로봇 행동* 3법칙을 뒤집어 **인간이 AI를 *어떻게 다뤄야 하는가*** 의 3원칙으로 재구성 — *의인화 금지 / 맹목적 신뢰 금지 / 책임 포기 금지*.
 
-## 🧩 핵심 — 역법칙 3가지
+## 핵심 — 역법칙 3가지
 
 ### 1. 의인화 금지 (Non-Anthropomorphism)
 > "Humans must not anthropomorphise AI systems. That is, humans must not attribute emotions, intentions or moral agency to them."
@@ -52,7 +52,7 @@ tags: ["AI윤리", "책임", "의인화", "검증", "Asimov", "원칙"]
 
 저자도 이 3법칙이 *완전한 답*은 아님을 인정. 출발점일 뿐.
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "AI is a tool we choose to use, not an authority we defer to."
 
@@ -64,7 +64,7 @@ tags: ["AI윤리", "책임", "의인화", "검증", "Asimov", "원칙"]
 
 > "No finite set of laws can ever be foolproof for the complex issues we face with AI and robotics."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 *Agent-Default Posture* 시리즈의 *원칙 층위*
 가든 안에서 같은 정신이 여러 층위로 등장:
@@ -112,19 +112,19 @@ tags: ["AI윤리", "책임", "의인화", "검증", "Asimov", "원칙"]
 - *모든 출력 검증* 요구는 *현실적으로 불가능* — *컨텍스트별 적정 검증*(저자도 *"appropriate to its context"* 명시)이 핵심
 - 이 3법칙은 *최소 윤리 베이스라인* — *적용 강도*는 도메인·위험·맥락에 따라 다름
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **MangoLove `strict.md`에 *Inverse Laws 4번째 원칙* 추가 검토** — Agent-Default Posture와 짝
 2. **가든 README에 *맹목적 신뢰 금지* 명시** — *"이 가든은 시작점이지 권위가 아니다"* 1문장
 3. **PR 룰 후보**: *"AI가 제안했다"는 표현은 *근거 X, 출처 메타데이터 O***
 
-## 🔗 연관 자료
+## 연관 자료
 - [`career/2026-05-05-rise-of-the-probabilistic-founder.md`](../career/2026-05-05-rise-of-the-probabilistic-founder.md) — *Agent-Default Posture* (조직 적용)
 - [`ai/2026-05-07-ai-didnt-delete-your-database-you-did.md`](2026-05-07-ai-didnt-delete-your-database-you-did.md) — *책임 포기 금지*의 인프라 사례
 - [`ai/2026-04-28-ai-should-elevate-your-thinking-not-replace-it.md`](2026-04-28-ai-should-elevate-your-thinking-not-replace-it.md) — *맹목적 신뢰 금지*의 사고 차원
 - [`ai/2026-05-05-agentic-coding-is-a-trap.md`](2026-05-05-agentic-coding-is-a-trap.md) — 같은 비판적 흐름
 - [`engineering/2026-04-23-laws-of-software-engineering.md`](../engineering/2026-04-23-laws-of-software-engineering.md) — *법칙 모음* 형식의 짝
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] *4번째 원칙* MangoLove 추가 검토 했는가
 - [ ] 가든 README *시작점이지 권위 아님* 추가했는가
 - [ ] *"AI가 제안했다"* 책임 회피 표현이 PR/회의에서 등장한 사례를 1회라도 *지적했는가*

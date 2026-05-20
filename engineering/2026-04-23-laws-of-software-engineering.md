@@ -13,10 +13,10 @@ tags: ["원칙", "아키텍처", "팀", "의사결정", "레퍼런스"]
 
 > 출처: [Laws of Software Engineering](https://lawsofsoftwareengineering.com) · 레퍼러: [GeekNews 28760](https://news.hada.io/topic?id=28760) · 정리일 2026-04-23
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 팀, 계획, 아키텍처, 품질, 의사결정 전반을 관통하는 **56가지 원칙**을 한 곳에 모아둔 엔지니어링 사고의 체크리스트.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 ### 왜 읽을 가치가 있나
 - 개별 법칙들은 대부분 한 번쯤 들어본 것들이지만, **한 페이지에서 카테고리별로 훑을 수 있다**는 점이 이 사이트의 진짜 가치.
@@ -53,7 +53,7 @@ tags: ["원칙", "아키텍처", "팀", "의사결정", "레퍼런스"]
 - **Pareto Principle (80/20)** — 결과의 80%는 원인의 20%에서 나온다. 레버리지 지점을 찾는 렌즈.
 - **Murphy's Law** — 잘못될 수 있는 건 결국 잘못된다. 실패를 예외가 아니라 전제로 설계하라.
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "Any organization that designs a system will produce a design whose structure is a copy of the organization's communication structure."
 > — **Conway's Law**
@@ -61,16 +61,16 @@ tags: ["원칙", "아키텍처", "팀", "의사결정", "레퍼런스"]
 > "A complex system that works is invariably found to have evolved from a simple system that worked."
 > — **Gall's Law**
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 - **체크리스트로 쓰기**: 설계 문서나 RFC를 쓸 때 이 56개를 빠르게 훑으며 "이 원칙과 충돌하는 부분은 없는가?"를 확인하면, 의사결정의 사각지대가 줄어든다. 특히 **Hyrum / Conway / Gall**은 API와 조직 경계를 넘나드는 결정에서 거의 매번 소환된다.
 - **법칙 간 긴장 인지**: 이 법칙들은 상황에 따라 서로 충돌한다 (예: YAGNI vs. 초기 아키텍처 투자, DRY vs. 성급한 추상화). 실력 차이는 **법칙을 아느냐가 아니라 언제 어떤 걸 꺼내드느냐**에서 나온다는 것을 계속 의식해야 한다.
 - **실무 직결**: Conway's Law는 조직 설계 논의에서, Hyrum's Law는 공개 API 수정 시에, Gall's Law는 새 시스템을 한 번에 크게 설계하려는 유혹이 생길 때마다 떠올릴 것.
 - **아쉬운 점**: 각 법칙의 출처/인용이 얕다. 심도 있는 학습을 원하면 원본 논문이나 책을 따로 찾아봐야 한다.
 
-## 🔗 연관 자료
+## 연관 자료
 - 원문의 **References / Further Reading** 섹션에서 각 법칙의 원 출처로 드릴다운 가능
 - 관련 도서: *The Mythical Man-Month* (Brooks), *The Pragmatic Programmer* (DRY/Boy Scout), *A Philosophy of Software Design* (Ousterhout)
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 <!-- 적용해본 결과를 나중에 덧붙인다. -->

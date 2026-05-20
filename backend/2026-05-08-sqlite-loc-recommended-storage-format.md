@@ -14,10 +14,10 @@ tags: ["SQLite", "데이터보존", "아카이빙", "장기보관", "파일포�
 
 > 출처: [SQLite — Recommended Storage Format](https://sqlite.org/locrsf.html) · 레퍼러: [GeekNews 29264](https://news.hada.io/topic?id=29264) · 정리일 2026-05-08
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 미국 의회도서관(Library of Congress)이 *데이터셋 장기 보존*을 위한 **단 4개 권장 저장 형식**(XML, JSON, CSV, **SQLite**) 중 하나로 SQLite 채택 — *데이터베이스가 아카이브 형식*으로 인정받은 사례.
 
-## 🧩 평가 기준 7가지
+## 평가 기준 7가지
 
 의회도서관이 *수십 년 단위 보존* 관점에서 평가한 항목:
 
@@ -35,7 +35,7 @@ tags: ["SQLite", "데이터보존", "아카이빙", "장기보관", "파일포�
 - **SQLite는 *임베디드 DB*가 아니라 *애플리케이션 파일 포맷*** 이다 — 의회도서관이 *XML·JSON·CSV*와 동급으로 분류한 이유
 - *가장 오래 살아남을 형식*에 들어간 것 → **수십 년 후에도 읽힐 가능성이 가장 높은 데이터베이스**
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 *기술 자산* 글의 위치
 지금까지 가든 *비판 시리즈*가 9개 누적되며 *어떻게 위험을 다룰까* 위주였다. 이 글은 다른 결 — **"무엇이 시간을 견디는가"**. 두 시리즈가 가든의 *균형 축*이 됨:
@@ -88,19 +88,19 @@ tags: ["SQLite", "데이터보존", "아카이빙", "장기보관", "파일포�
 - *클라우드 네이티브 분석*(BigQuery·Athena)에 비해 *통합 도구 부족*
 - *권장 형식이라는 사실*이 *반드시 좋은 선택*을 보장하진 않음 — 워크로드 특성이 우선
 
-## 🎯 즉시 시도할 수 있는 액션 3가지
+## 즉시 시도할 수 있는 액션 3가지
 1. **가든 분기 SQLite export 시범** — 재참조·재검색 효율화 도구
 2. **CRS *Cold Storage 후보 데이터* 식별** — 2년 이상 미접근 + 보존 의무 있는 데이터
 3. **OTA 정산 *봉인 아카이브* 정책 검토** — 변경 불가 SQLite로 분기 봉인
 
-## 🔗 연관 자료
+## 연관 자료
 - [`career/2026-05-08-programming-still-sucks.md`](../career/2026-05-08-programming-still-sucks.md) — Sara cron 같은 *기관 지식*의 기계 가독 보존 수단
 - [`engineering/2026-04-24-technical-cognitive-intent-debt.md`](../engineering/2026-04-24-technical-cognitive-intent-debt.md) — 의도 메타데이터 함께 보존
 - [`ai/2026-05-07-appearing-productive-in-the-workplace.md`](../ai/2026-05-07-appearing-productive-in-the-workplace.md) — 신뢰 자산의 한 축 = 데이터 무결성·접근성
 - [`backend/2026-05-04-email-addresses-deep-dive.md`](2026-05-04-email-addresses-deep-dive.md) / [`backend/2026-05-03-credit-cards-vulnerable-to-brute-force.md`](2026-05-03-credit-cards-vulnerable-to-brute-force.md) — 백엔드 운영 위생 시리즈
 - 비교 형식: XML, JSON, CSV (의회도서관 권장 4종)
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] 가든 분기 SQLite export 시도했는가
 - [ ] CRS Cold Storage 후보 데이터 식별 메모를 작성했는가
 - [ ] *권장 형식 ≠ 좋은 선택* 균형 감각을 의사결정에 적용했는가

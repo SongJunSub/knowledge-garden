@@ -14,10 +14,10 @@ tags: ["보안", "FIDO2", "U2F", "TPM", "SSH인증", "git서명", "Secure-Enclav
 
 > 출처: [Andrew Helwer — Your laptop already has a built-in security token](https://ahelwer.ca/post/2026-05-08-builtin-u2f/) · 레퍼러: [GeekNews 29359](https://news.hada.io/topic?id=29359) · 정리일 2026-05-11
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 **YubiKey 살 필요 없다** — macOS Secure Enclave, Windows Hello, TPM이 *이미 내장된 보안 토큰*. SSH 인증·git 커밋 서명·로컬 로그인을 *생체 인식 + 개인키 비유출* 보장으로 즉시 가능.
 
-## 🧩 핵심 — 작동 원리
+## 핵심 — 작동 원리
 
 ### 내장 보안 하드웨어
 - **macOS**: Secure Enclave / Secure Element
@@ -32,7 +32,7 @@ tags: ["보안", "FIDO2", "U2F", "TPM", "SSH인증", "git서명", "Secure-Enclav
 
 ### 1. SSH 인증
 ```bash
-ssh-keygen -t ed25519-sk    # 또는 ecdsa-sk
+ssh-keygen -t ed25519-sk # 또는 ecdsa-sk
 ```
 - `sk-` 접두사 = FIDO2/U2F Security Key
 - 원격 서버에 SSH 접근할 때마다 *생체 확인* 요구
@@ -64,7 +64,7 @@ git config --global commit.gpgsign true
 - 생체 인식 = *편의성과 운영 안정성의 갈림길*
 - rebase·반복 서명 = *대량 작업 시 마찰*
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 *backend 운영 위생 시리즈* 5번째
 - 1번: [신용카드 브루트포스](2026-05-03-credit-cards-vulnerable-to-brute-force.md) — 외부 공격 표면
@@ -117,12 +117,12 @@ git config --global commit.gpgsign true
 - *모든 보안 결정이 기기 의존*이면 *기기 교체 시 마찰* 큼
 - 핵심: ***높은 가치 키*는 내장 + 두 번째 백업, *일상 키*는 내장만***으로 분리
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **내 GitHub 인증을 *ed25519-sk*로 재발급** — BugSip·knowledge-garden·docs-ko·CRS 개인 계정
 2. **회사 *서명된 커밋만 머지* 정책 검토 후보 메모** — CRS 결제 영향 모듈부터 시범
 3. **운영 서버 sudo에 FIDO2 도입 후보 식별** — 가장 민감한 영역 1개부터
 
-## 🔗 연관 자료
+## 연관 자료
 - [`backend/2026-05-04-email-addresses-deep-dive.md`](2026-05-04-email-addresses-deep-dive.md) — 백엔드 위생 시리즈 2
 - [`backend/2026-05-09-ai-breaking-vulnerability-cultures.md`](2026-05-09-ai-breaking-vulnerability-cultures.md) — 9시간 윈도우와 같은 보안 시리즈
 - [`backend/2026-05-10-falsehoods-programmers-believe-about-names.md`](2026-05-10-falsehoods-programmers-believe-about-names.md) — Falsehoods 패턴의 보안 영역 응용
@@ -130,7 +130,7 @@ git config --global commit.gpgsign true
 - [`ai/2026-05-07-vibe-coding-agentic-engineering-converging.md`](../ai/2026-05-07-vibe-coding-agentic-engineering-converging.md) — 서명된 커밋이 vibe/agentic 메타데이터와 결합
 - [`ai/2026-05-07-ai-didnt-delete-your-database-you-did.md`](../ai/2026-05-07-ai-didnt-delete-your-database-you-did.md) — 위험을 기술 차원에서 불가능하게
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] GitHub 인증을 ed25519-sk로 재발급했는가
 - [ ] 회사 *서명된 커밋만 머지* 정책 검토 메모를 작성했는가
 - [ ] 운영 서버 sudo FIDO2 도입 후보를 식별했는가

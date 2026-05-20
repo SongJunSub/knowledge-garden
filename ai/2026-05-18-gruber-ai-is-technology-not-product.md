@@ -14,17 +14,17 @@ tags: ["john-gruber", "daring-fireball", "apple", "ai-product", "contrarian", "c
 
 > 출처: [AI Is a Technology, Not a Product — Daring Fireball](https://daringfireball.net/) · GeekNews 경유 [news.hada.io/topic?id=29614](https://news.hada.io/topic?id=29614) · 정리일 2026-05-18
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 John Gruber(Daring Fireball, Apple 평론으로 25년)가 Steven Levy의 *"Apple은 킬러 AI 제품을 출시해야 한다"*를 정면 반박 — *Apple은 기술을 출시하지 않고 *기술을 감춘 경험*을 출시*해 왔으며, **AI는 *별도 제품 카테고리*가 아니라 *무선 네트워킹처럼 모든 곳에 스며드는 *보편적 기반 기술***. 가든의 [a16z System of Intelligence·Agent-Default Posture·하네스 운영 단위] 라인에 *세 번째 의도적 반대 명제 자산*.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 - ***Apple은 기술을 출시하지 않는다, *기술을 감춘 경험*을 출시한다***. Gruber의 25년 일관된 명제. *Touch ID·Face ID·Apple Silicon* 모두 *기술적 혁신*이지만 *제품 마케팅은 *경험* 중심*. 같은 논리로 *킬러 AI 제품*은 Apple 철학과 충돌. *킬러 AI 디바이스*는 존재하지 않을 것.
 - **AI는 *무선 네트워킹처럼 모든 곳에 침투*하는 *보편적 기반 기술***. 비교 프레임이 결정적 — *소셜 미디어*(별도 카테고리)와 다르고 *무선 네트워킹*(인프라)에 가깝다. **인프라는 *눈에 안 띄어야 좋은 인프라***. *AI 제품*이라는 카테고리화 자체가 *기술과 제품의 혼동*.
 - ***항상 켜진 AI 에이전트*** 시나리오 비판. Levy의 *AI 에이전트가 *목적지를 미리 파악*해 *차량을 대기시킨다** 시나리오를 *비현실적*으로 본다. *2030년에도 *차량 호출의 주된 수단은 휴대폰**. **[Code w/ Claude의 Agent-Default Posture](2026-05-14-code-with-claude-recap-19-sessions.md)에 *소비자 시각 견제***.
 - ***AI의 진짜 가치는 *기존 기능을 제대로 작동시키는* 데***. 댓글 핵심 종합. Siri 같은 *기존 인프라*가 *제대로 작동*하면 그게 *AI의 가치*. *별도 AI 제품*을 만드는 게 아니라 *기존 제품을 더 잘 작동시키는* 것.
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > Apple은 *기술을 출시하지 않는다* — *기술을 감춘 경험*을 출시한다.
 
@@ -32,7 +32,7 @@ John Gruber(Daring Fireball, Apple 평론으로 25년)가 Steven Levy의 *"Apple
 
 > AI의 진짜 가치는 *기존 기능을 제대로 작동시키는* 데 있다.
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 **가든의 *세 번째 의도적 반대 명제 자산*** — 가든이 *균형 잡힌 사고 시스템*임을 또 한 번 확인.
 
@@ -99,7 +99,7 @@ OnlyCFO는 *AI 기능의 *차별성을 증명*하라*고 했다. Gruber는 *AI�
 - **BugSip의 *세 갈래 시나리오 비교 결정***. 위 3개 (소비자/기업/하이브리드) 중 어느 것을 *처음부터* 박을지. 이게 *6월 기획 1순위 의사결정*.
 - **가든 자체의 *AI 키워드 절제***. 가든이 *AI 시대*·*하네스*·*Agent-Default Posture*라는 키워드를 자주 쓴다. 이게 *Gruber 명제에서 보면 *기술 마케팅 편향*에 가까울 수 있음*. **글 정리 시 *AI* 키워드 사용 빈도를 *분기 1회 정직히 점검*** — 가든 자체에 *Gruber 친화적 *조절*이 필요한가?
 
-## 🔗 연관 자료
+## 연관 자료
 - [a16z — System of Intelligence](../career/2026-05-18-system-of-record-to-system-of-intelligence-a16z.md) — *정면 충돌 짝*: 별도 SaaS 카테고리 vs 기반 기술
 - [Code w/ Claude SF Agent-Default](2026-05-14-code-with-claude-recap-19-sessions.md) — Gruber의 *항상 켜진 AI 에이전트* 비판이 향하는 자리
 - [무신사 query-engineer](2026-05-18-musinsa-query-engineer-harness.md) — *하네스 = 인프라*가 Gruber 명제의 부분 일치
@@ -110,7 +110,7 @@ OnlyCFO는 *AI 기능의 *차별성을 증명*하라*고 했다. Gruber는 *AI�
 - [Jay Gup 경험=세금](../career/2026-05-14-experience-is-now-a-tax.md) — 가든의 *첫 번째 의도적 반대 명제 자산*
 - [Tuhin Nair 시니어 전수 실패](../career/2026-05-14-why-senior-developers-fail-to-communicate-expertise.md) — *비즈니스 언어 번역*이 *AI는 인프라이지 제품 아님*과 같은 형식
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 <!-- 6월 중순:
 - 9번째 자가 진단 *카테고리화 편향 시험* — 가든의 *AI 키워드 빈도*를 한 달 동안 *몇 번 점검*했는가?
 - MangoLove 자문 도구에 *Gruber/a16z 분기 질문*이 *실제 클라이언트 대화*에 사용되었는가?

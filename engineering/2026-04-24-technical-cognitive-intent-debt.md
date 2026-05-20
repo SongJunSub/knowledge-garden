@@ -14,10 +14,10 @@ tags: ["부채", "LLM", "검증", "아키텍처", "엔지니어링문화", "추�
 
 > 출처: [Technical Debt, Cognitive Debt, Intent Debt](https://martinfowler.com/fragments/2026-04-02.html) · 레퍼러: [GeekNews 28824](https://news.hada.io/topic?id=28824) · 정리일 2026-04-24
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 LLM이 코드를 대량 생성하는 시대엔 **코드(기술)·사람(인지)·산출물(의도)** 세 층위의 부채를 구분해야 하며, 엔지니어링의 무게중심은 **구현 → 검증**으로 이동한다.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 ### 세 가지 부채 (Margaret-Anne Storey 모델)
 
@@ -43,7 +43,7 @@ LLM이 코드를 대량 생성하는 시대엔 **코드(기술)·사람(인지)�
 - **추상화 vs 중복**: AI가 코드를 값싸게 뽑아내는 시대에 DRY가 여전히 최우선인지 재검토 필요.
 - 진짜 병목은 코드가 아니라 **요구사항 → 스펙 → 수용 기준** 사이의 전이 과정이다.
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "Technical debt lives in code. It accumulates when implementation decisions compromise future changeability."
 
@@ -53,7 +53,7 @@ LLM이 코드를 대량 생성하는 시대엔 **코드(기술)·사람(인지)�
 
 > "If agents handle execution, the human job becomes designing verification systems, defining quality, and handling the ambiguous cases agents can't resolve."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 - **가장 쓸모 있는 렌즈는 "의도 부채"**다. 우리 팀에서 실제로 사고를 일으키는 건 코드가 아니라 "왜 이렇게 정했는지 아무도 모르게 된 결정"들이다. RFC/ADR, PR 설명, Spec 문서를 실체 있게 남기는 습관이 앞으로 더 비싸진다.
 - **AI 에이전트에게 맡기는 일이 늘어날수록 "의도 기록"이 더 중요**하다. 나도 Claude에게 코드를 위임할 때, 단순히 "~해줘"가 아니라 **제약·목표·수용 기준**까지 남기는 식으로 프롬프트 구조를 바꿔야 한다 (이미 MangoLove Spec 템플릿이 이 방향인데, 강화할 명분이 생겼다).
@@ -61,10 +61,10 @@ LLM이 코드를 대량 생성하는 시대엔 **코드(기술)·사람(인지)�
 - **엔지니어링 가치의 이동**: "빨리 만든다" → "빠르게 검증 가능한 형태로 만든다". 팀 평가 지표나 PR 템플릿을 이 방향으로 손볼 여지가 있다. 수용 기준을 자동 검증 가능한 형태로 요구하는 체크리스트 추가.
 - **추상화 vs 중복 논쟁**도 실무에 울림이 있다. 예전엔 중복을 보면 반사적으로 추상화했지만, AI가 쉽게 양산하는 코드에선 **섣부른 추상화의 인지 부채가 더 비쌀 수 있다**. "같은 코드 3번 = 추상화" 규칙은 그대로 두되, 그 추상화의 **의도**를 남기는 데 에너지를 더 쓴다.
 
-## 🔗 연관 자료
+## 연관 자료
 - Martin Fowler, *Refactoring* / *Patterns of Enterprise Application Architecture*
 - Margaret-Anne Storey의 엔지니어링 생산성·시스템 건강 연구
 - [`engineering/2026-04-23-laws-of-software-engineering.md`](2026-04-23-laws-of-software-engineering.md) — "기술 부채", "Hyrum's Law", "Conway's Law" 등과 직접 연결
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 <!-- 우리 팀 Spec/ADR 습관을 의도 부채 관점에서 재점검해본 결과를 나중에 덧붙인다. -->

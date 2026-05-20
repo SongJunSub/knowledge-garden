@@ -14,10 +14,10 @@ tags: ["보안", "결제", "PCI-DSS", "3D-Secure", "PG", "호스피탈리티", "
 
 > 출처: [Metin Ozyildirim — Credit Cards Are Vulnerable To Brute Force](https://metin.nextc.org/posts/Credit_Cards_Are_Vulnerable_To_Brute_Force_Kind_Attacks.html) · 레퍼러: [GeekNews 29085](https://news.hada.io/topic?id=29085) · 정리일 2026-05-03
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 **PCI DSS가 허용한 마스킹 정보(BIN + 마지막 4자리 + 만료일)만 있으면**, PAN 중간 10자리는 단계적 PG 응답을 신호로 삼아 ~6시간만에 유도 가능 — 3D Secure는 **PAN 유도 자체를 막지 못한다**.
 
-## 🧩 공격 파이프라인 (실제 사례)
+## 공격 파이프라인 (실제 사례)
 
 | 단계 | 행위 | 핵심 |
 |---|------|------|
@@ -37,9 +37,9 @@ Luhn 체크디지트는 *유효성 1차 필터*에 불과 — **랜덤 10자리 
 
 ### PG 응답이 *공격을 도와준다*
 ```
-"카드가 유효하지 않음"     → PAN이 틀림
-"카드 만료됨"              → 만료일이 틀림
-"모든 OK인데 CVV만 틀림"   → PAN + 만료일 정답
+"카드가 유효하지 않음" → PAN이 틀림
+"카드 만료됨" → 만료일이 틀림
+"모든 OK인데 CVV만 틀림" → PAN + 만료일 정답
 ```
 **단계적 피드백**이 공격자에게 *진행 신호*를 그대로 준다. 저자의 한 마디:
 
@@ -56,7 +56,7 @@ Luhn 체크디지트는 *유효성 1차 필터*에 불과 — **랜덤 10자리 
 - 매 요청 IP 프록시 변경
 - PAN을 매번 바꾸므로 *동일 카드에 대한 반복 시도* 시그널이 안 잡힘
 
-## 🛡 각 주체별 방어
+## 각 주체별 방어
 
 ### 발급은행
 - **CVV 무차별에 강한 rate limit** — 저자도 *"내 은행은 여전히 관대"* 라고 비판
@@ -73,7 +73,7 @@ Luhn 체크디지트는 *유효성 1차 필터*에 불과 — **랜덤 10자리 
 - 카드 한도 낮게 유지, 거래 모니터링 알림
 - 가능하면 *가상 카드 / 일회용 카드 / Apple Pay·Google Pay 토큰* 사용
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "PCI DSS is the widely known and implemented industry standard for defining bare-minimum security measures."
 
@@ -85,33 +85,33 @@ Luhn 체크디지트는 *유효성 1차 필터*에 불과 — **랜덤 10자리 
 
 > "Honestly I'm impressed, this is a well designed pipeline, with more untraceability than I expected."
 
-## 🏨 호스피탈리티/CRS 결제 시스템 적용 분석
+## 호스피탈리티/CRS 결제 시스템 적용 분석
 
 *전제: 호텔 예약·결제(CRS·부킹엔진·PickMe 등)에서 PG·3DS·카드토큰을 다루는 백엔드 관점.*
 
 ### 직접 점검 포인트
 
-#### 1. **PG 응답 코드 통합 점검** 🔴
+#### 1. **PG 응답 코드 통합 점검**
 - 우리 측 결제 API가 `INVALID_PAN / EXPIRED / CVV_MISMATCH / 3DS_FAIL` 같은 *정밀한* 거절 사유를 외부(클라이언트·OTA·앱)에 그대로 노출하는가?
 - **외부 응답은 "결제 실패" 단일 사유로 통합**, 내부 로그/지표에서만 정밀 분류 유지.
 - *Postel's Law*([어제 UX 글](../frontend/2026-04-30-laws-of-ux.md))의 "출력 보수적" 원칙이 여기서 보안과 직결.
 
-#### 2. **카드 검증성 거래 패턴 탐지** 🔴
+#### 2. **카드 검증성 거래 패턴 탐지**
 - $1·100원 같은 소액 *카드 활성성 검증* 결제가 우리 가맹점에서 가능한가?
 - 그렇다면 **동일 BIN·만료일에 대해 다수 PAN을 짧은 시간에 시도하는 패턴**을 *가맹점 단위로* 탐지하는 룰이 있는가?
 - *체인·호텔 단위가 아닌 BIN+만료일 그룹 단위* 탐지가 핵심.
 
-#### 3. **3DS 적용 정책 재검토** 🟡
+#### 3. **3DS 적용 정책 재검토**
 - 한국 환경은 ISP/3DS 채택률이 비교적 높지만, **OTA 채널·B2B 채널·외국인 카드**에서는 면제되는 경우가 많다.
 - *3DS 면제 결제의 비율*과 *그 채널들의 사기율* 데이터를 한 번 뽑아볼 가치 있음.
 - 면제 비율 높은 채널 = 본 글의 공격이 마지막에 활용한 *바로 그 면제 가맹점*.
 
-#### 4. **회원 계정 침해 → 결제 정찰 연쇄 차단** 🟡
+#### 4. **회원 계정 침해 → 결제 정찰 연쇄 차단**
 - 호텔 회원/예약 사이트의 *비밀번호 정책* + *2FA 강제 영역*
 - 침해된 계정으로 *예약 시도 → 3DS 페이지 → 카드 정보 일부 수집* 시나리오 점검
 - 특히 OTA 통합 로그인을 통해 들어오는 트래픽의 검증 강도
 
-#### 5. **저장 카드(Token) 운영** 🟢
+#### 5. **저장 카드(Token) 운영**
 - 우리 측 토큰 vault에서 *마스킹 정보가 어디까지 보이는가*
 - 직원·고객지원·관리자 화면에 BIN+last4+exp가 *함께* 노출되는 곳이 있다면 위험
 - *직원 화면에서도 last4만 / 필요 시 BIN 또는 exp 별도 권한* 으로 분리
@@ -130,7 +130,7 @@ Luhn 체크디지트는 *유효성 1차 필터*에 불과 — **랜덤 10자리 
 - [`frontend/2026-04-30-laws-of-ux.md`](../frontend/2026-04-30-laws-of-ux.md) — Postel's Law (입력 관대/출력 엄격)는 보안 관점에서도 동일 원칙.
 - [`engineering/2026-04-29-yc-rfs-summer-2026-hospitality-it.md`](../engineering/2026-04-29-yc-rfs-summer-2026-hospitality-it.md) — 호스피탈리티 IT 위협 모델의 한 축으로 추가.
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 - **PG 응답 정밀도가 보안 결함이라는 통찰**이 가장 인상적이다. *디버깅 친화적 응답*이 *공격 친화적 응답*이 되는 정확한 사례. 우리 결제 시스템도 *내부용 정밀 코드*와 *외부용 통합 코드*를 분리할 명분이 분명해졌다.
 - **"단일 가드레일 ≠ 가드레일"**: 이 공격은 PCI DSS도, 3DS도, Luhn 체크도 각각 *기술적으로* 작동하는데 *시스템 전체*로는 뚫린다. [9초 사고](../ai/2026-04-27-ai-agent-deleted-production-database.md)와 동일한 다층 실패 패턴.
@@ -140,13 +140,13 @@ Luhn 체크디지트는 *유효성 1차 필터*에 불과 — **랜덤 10자리 
 - **반론·균형점**: 응답 코드를 통합하면 *고객 지원 디버깅*이 어려워진다. 그래서 *외부 응답은 통합 / 내부 로그는 정밀* 분리가 답. 사용자 채널과 운영 채널이 같은 정보를 보면 안 된다.
 - **개인 레벨**: 영수증 파기·가상카드·낮은 한도는 *나도* 즉시 적용 가능. 영수증 사진 공유 자제 (last4·만료일이 함께 보이는 사진은 특히 위험).
 
-## 🔗 연관 자료
+## 연관 자료
 - [`ai/2026-04-27-ai-agent-deleted-production-database.md`](../ai/2026-04-27-ai-agent-deleted-production-database.md) — 5겹의 실패 / 동일한 다층 가드레일 구조
 - [`frontend/2026-04-30-laws-of-ux.md`](../frontend/2026-04-30-laws-of-ux.md) — Postel's Law는 보안 원칙이기도
 - [`engineering/2026-04-23-laws-of-software-engineering.md`](../engineering/2026-04-23-laws-of-software-engineering.md) — Murphy / Hyrum / Leaky Abstraction
 - [`engineering/2026-04-29-yc-rfs-summer-2026-hospitality-it.md`](../engineering/2026-04-29-yc-rfs-summer-2026-hospitality-it.md) — 호스피탈리티 IT 위협 모델
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] 결제 거절 응답 외부 통합화 검토 진행 여부
 - [ ] 3DS 면제 결제 사기율 대시보드 조사 결과
 - [ ] 소액 검증성 결제 모니터링 룰 도입 여부

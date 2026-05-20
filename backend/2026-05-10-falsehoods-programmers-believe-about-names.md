@@ -14,10 +14,10 @@ tags: ["이름처리", "국제화", "i18n", "DB설계", "유니코드", "호스�
 
 > 출처: [Patrick McKenzie — Falsehoods Programmers Believe About Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/) · 레퍼러: [GeekNews 29350](https://news.hada.io/topic?id=29350) · 정리일 2026-05-10
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 2010년에도, 2026년에도 *여전히 유효한* 클래식 — 이름에 대한 **40가지 오해**. 핵심 메시지: *"어떤 컴퓨터 시스템도 이름을 제대로 처리하지 못한다."* 호스피탈리티처럼 *글로벌 고객 이름*을 다루는 산업에 직격.
 
-## 🧩 영향력 큰 오해들 (선별)
+## 영향력 큰 오해들 (선별)
 
 ### 구조 가정 오해
 1. 사람은 *하나의* 정식 이름을 가진다
@@ -45,7 +45,7 @@ tags: ["이름처리", "국제화", "i18n", "DB설계", "유니코드", "호스�
 
 — *이름이 없거나, 임시이거나, 비공개인 경우*가 분명 존재. 시스템은 *그 가능성*을 처리해야 한다.
 
-## 📜 짧은 인용
+## 짧은 인용
 
 > "어떤 컴퓨터 시스템도 이름을 제대로 처리하지 못한다."
 
@@ -53,7 +53,7 @@ tags: ["이름처리", "국제화", "i18n", "DB설계", "유니코드", "호스�
 
 > "이름은 우리의 정체성에 중심적이다."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 가든 *backend/ 운영 위생 시리즈* 4번째
 - 1번: [신용카드 브루트포스](2026-05-03-credit-cards-vulnerable-to-brute-force.md) — 외부 공격 표면
@@ -120,12 +120,12 @@ tags: ["이름처리", "국제화", "i18n", "DB설계", "유니코드", "호스�
 - *현실 인정*과 *실용적 제약* 사이에 *합리적 절충점*이 필요
 - 핵심: ***기본값으로 가정하지 말고 *명시적으로 선택*하라***
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **CRS·PMS 게스트 데이터 모델 *Falsehoods 8개 점검*** 1페이지 메모 (위 표의 8가지)
 2. **OTA 통합에서 *동일 게스트 식별 정확도*** 측정 — Booking·Agoda·자사 표기 차이로 인한 누락 비율
 3. **가든에 *Falsehoods 시리즈* 인덱스** 만들기 — 이름·시간·주소·전화·통화 5개
 
-## 🔗 연관 자료
+## 연관 자료
 - [`backend/2026-05-04-email-addresses-deep-dive.md`](2026-05-04-email-addresses-deep-dive.md) — 이메일 = 기술 표준 회색지대 / 이 글 = 사회 표준 회색지대 (짝)
 - [`backend/2026-05-03-credit-cards-vulnerable-to-brute-force.md`](2026-05-03-credit-cards-vulnerable-to-brute-force.md) — 백엔드 운영 위생 시리즈 1
 - [`backend/2026-05-09-ai-breaking-vulnerability-cultures.md`](2026-05-09-ai-breaking-vulnerability-cultures.md) — 백엔드 운영 위생 시리즈 3
@@ -133,7 +133,7 @@ tags: ["이름처리", "국제화", "i18n", "DB설계", "유니코드", "호스�
 - [`ai/2026-05-07-appearing-productive-in-the-workplace.md`](../ai/2026-05-07-appearing-productive-in-the-workplace.md) — 정확한 이름 표기 = 신뢰 자산
 - [`engineering/2026-05-10-probabilistic-engineering-and-24-7-employee.md`](../engineering/2026-05-10-probabilistic-engineering-and-24-7-employee.md) — 위험 인덱스에 *Falsehoods* 추가 후보
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] CRS 게스트 데이터 모델 Falsehoods 8개 점검 메모 작성했는가
 - [ ] OTA 통합 *동일 게스트 식별 정확도* 측정을 시도했는가
 - [ ] 가든 *Falsehoods 시리즈 인덱스*를 만들었는가

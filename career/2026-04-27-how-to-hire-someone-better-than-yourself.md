@@ -14,10 +14,10 @@ tags: ["채용", "리더십", "매니지먼트", "조직", "면접", "레퍼런�
 
 > 출처: [Jason Cohen — How to hire someone better than yourself](https://longform.asmartbear.com/hire-better-than-you/) · 레퍼러: [GeekNews 28923](https://news.hada.io/topic?id=28923) · 정리일 2026-04-27
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 **내가 이해 못 하는 분야의 인재**를 어떻게 평가할 것인가? — 도메인 지식이 부족해도 작동하는 6가지 휴리스틱과 레퍼런스 체크의 재설계.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 ### 왜 이 문제가 중요한가
 - 회사가 성장하려면 **자신이 못하는 분야의 전문가**를 뽑아야 한다.
@@ -62,7 +62,7 @@ tags: ["채용", "리더십", "매니지먼트", "조직", "면접", "레퍼런�
 
 > "You will never have the counterfactual."
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "If you don't hire people better than you, the organization gets bigger, not better."
 
@@ -74,7 +74,7 @@ tags: ["채용", "리더십", "매니지먼트", "조직", "면접", "레퍼런�
 
 > "You will never have the counterfactual."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 - **"면접 중 내가 배웠는가" 휴리스틱이 가장 강력**하다. 채용을 평가할 때 이력서나 답변의 일관성보다 **"이 1시간 동안 내가 뭘 배웠지?"** 한 줄을 인터뷰 직후 적어보면 의외로 명확하게 갈린다. 채용 외에도 외부 컨설턴트·자문 평가에 그대로 쓸 수 있다.
 - **"바로 실행하고 싶은 아이디어"가 나왔는가**도 비슷한 결의 휴리스틱. 도메인을 모를 때는 *결과의 정확성*을 평가할 수 없으니 *결과의 구체성·맞춤성*으로 대체한다는 발상이 좋다.
@@ -83,10 +83,10 @@ tags: ["채용", "리더십", "매니지먼트", "조직", "면접", "레퍼런�
 - **반사실의 부재**는 의사결정의 모든 영역에 적용되는 위로이자 경고. 다른 선택이 더 좋았을지 모르므로 자책은 무의미하지만, 동시에 "그때 그 선택이 옳았다"고 자기정당화하기도 무리다. 의사결정의 *과정 품질*을 따지는 게 유일한 학습 방법.
 - **연결**: 어제 정리한 [Kevin Lynagh의 글](../engineering/2026-04-27-overthinking-scope-creep-structural-diffs.md)의 *"성공 기준 내면화"* 와 같은 결. 채용도 결국 **"이 사람이 합류해서 무엇이 되면 성공인가"** 한 줄을 못 적으면 평가 자체가 흔들린다.
 
-## 🔗 연관 자료
+## 연관 자료
 - [`career/2026-04-23-things-ive-learned-as-a-senior-engineer.md`](2026-04-23-things-ive-learned-as-a-senior-engineer.md) — "주변에서 내가 가장 똑똑하면 떠날 시간"이 같은 동전의 양면
 - 관련 도서: *Who: The A Method for Hiring* (Smart & Street), *The Hard Thing About Hard Things* (Horowitz)
 - Jason Cohen의 다른 글: [longform.asmartbear.com](https://longform.asmartbear.com)
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 <!-- 다음 면접/협업 평가에서 6가지 휴리스틱을 적용해본 결과를 나중에 덧붙인다. -->

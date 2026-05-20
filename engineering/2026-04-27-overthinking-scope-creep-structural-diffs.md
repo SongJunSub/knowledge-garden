@@ -14,10 +14,10 @@ tags: ["YAGNI", "범위확장", "프로젝트관리", "실행", "생산성", "�
 
 > 출처: [Kevin Lynagh — How I sabotage projects](https://kevinlynagh.com/newsletter/2026_04_overthinking/) · 레퍼러: [GeekNews 28865](https://news.hada.io/topic?id=28865) · 정리일 2026-04-27
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 프로젝트가 망하는 건 실력 부족이 아니라 **명확한 성공 기준의 부재** 때문이다 — 과도한 리서치·범위 확장·완벽한 도구 찾기에 빠지는 순간 원래 목적은 사라진다.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 ### 두 종류의 프로젝트
 저자(Kevin Lynagh, Clojure/Rust 개발자)는 자신의 프로젝트가 두 극단으로 나뉜다고 진단한다.
@@ -77,7 +77,7 @@ Emacs용 파일 검색 도구(Finda 후속) 사례:
 
 > "Sometimes I just want a shelf."
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "I prefer the first outcome, and I think the pivotal factor is how well I've internalized my own success criteria."
 
@@ -89,7 +89,7 @@ Emacs용 파일 검색 도구(Finda 후속) 사례:
 
 > "Sometimes I just want a shelf."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 - **"성공 기준의 내면화"가 모든 차이를 만든다**는 진단이 가장 핵심. 사이드 프로젝트가 늪에 빠지는 패턴을 정확히 묘사한다. 시작할 때 **"무엇이 되면 끝인가"**를 한 문장으로 적어두지 않으면 100% 범위 확장으로 미끄러진다. **MangoLove의 Spec 템플릿에서 "수용 기준"을 고집하는 것도 같은 동기**.
 - **Scope Creep 보존 법칙**은 LLM 시대에 더 위험하다. AI로 코드를 빨리 짤수록 "이왕 시작한 김에 이것도"가 폭발한다. 어제 정리한 [기술/인지/의도 부채](2026-04-24-technical-cognitive-intent-debt.md)와 정확히 같은 결론 — **속도가 올라갈수록 의도 기록과 범위 통제가 중요**.
@@ -98,10 +98,10 @@ Emacs용 파일 검색 도구(Finda 후속) 사례:
 - **"Sometimes I just want a shelf"** — 도구·인프라·플랫폼을 만들고 싶은 욕구가 있을 때 자주 떠올릴 만한 문장. 대부분의 경우 **선반이면 충분하다**.
 - **반론 메모**: 저자는 의도적으로 행동 편향(action bias)을 옹호하지만, **아키텍처 단계의 사전 검토**까지 모두 "overthinking"으로 보면 위험하다. 이 글은 *사이드 프로젝트와 같이 책임 범위가 작은 작업*에 잘 맞고, 결정 비용이 큰 시스템 설계에선 "충분한 사전 분석"의 비중이 더 높아져야 한다.
 
-## 🔗 연관 자료
+## 연관 자료
 - [`engineering/2026-04-23-laws-of-software-engineering.md`](2026-04-23-laws-of-software-engineering.md) — **YAGNI / Premature Optimization / Gall's Law**가 정확히 이 글의 토대
 - [`engineering/2026-04-24-technical-cognitive-intent-debt.md`](2026-04-24-technical-cognitive-intent-debt.md) — 의도 부채 = 성공 기준의 외부화 실패
 - [`career/2026-04-23-things-ive-learned-as-a-senior-engineer.md`](../career/2026-04-23-things-ive-learned-as-a-senior-engineer.md) — "최고의 코드는 코드가 없는 것"
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 <!-- BugSip / 사이드 프로젝트에서 "성공 기준 한 줄"을 실제로 적용해본 결과를 나중에 덧붙인다. -->

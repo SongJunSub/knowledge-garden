@@ -14,10 +14,10 @@ tags: ["Redis", "antirez", "AI협업", "시스템프로그래밍", "Spec-Driven"
 
 > 출처: [antirez — Redis array: a long development, the short story](https://antirez.com/news/164) · 레퍼러: [GeekNews 29173](https://news.hada.io/topic?id=29173) · 정리일 2026-05-05 · PR: [redis/redis#15162](https://github.com/redis/redis/pull/15162)
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 Redis 창시자가 4개월간 AI(Opus → Codex/GPT 5.x)와 협업해 새 Array 데이터 타입을 만든 경험기 — **AI가 *없었다면 회피했을 복잡도*에 도전했다**는 한 문장이 핵심.
 
-## 🧩 개발 일정과 방법론
+## 개발 일정과 방법론
 
 ### 1개월차 — 명세 작성
 - **수작업으로 장문 설계 문서** (Opus와 함께 다듬음)
@@ -40,7 +40,7 @@ Redis 창시자가 4개월간 AI(Opus → Codex/GPT 5.x)와 협업해 새 Array 
 - *희소 배열 표현*: `ARSET myarray 293842948324 foo` 같은 *극단적 인덱스*도 메모리 효율적으로
 - 동적 변형으로 *선형 스캔 복잡도*도 보장
 
-## 🛠 antirez의 AI 협업 패턴 4단계
+## antirez의 AI 협업 패턴 4단계
 
 | 단계 | 사람 | AI |
 |------|------|-----|
@@ -62,7 +62,7 @@ Redis 창시자가 4개월간 AI(Opus → Codex/GPT 5.x)와 협업해 새 Array 
 
 복잡한 알고리즘의 *피로도 높은 검증 작업*을 AI가 담당함으로써, 사람은 *판단·설계·구조 결정*에 집중.
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "Because I had AI, I took no compromises, and I decided to go the extra mile."
 
@@ -72,7 +72,7 @@ Redis 창시자가 4개월간 AI(Opus → Codex/GPT 5.x)와 협업해 새 Array 
 
 > "Sometimes to detach yourself from the keyboard is complicated."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 어제 글의 정확한 반대 사례 — *균형 보강*
 어제 정리한 [Agentic Coding은 함정이다](../ai/2026-05-05-agentic-coding-is-a-trap.md)와 정확히 *대척점*. 두 글을 같이 읽어야 그림이 완성된다.
@@ -124,12 +124,12 @@ antirez의 4단계가 [MangoLove `/strict`](../ai/2026-04-29-mattpocock-skills-v
 - 4개월간 *한 사람의 인지 부하*가 어떻게 유지됐는지는 글에 안 나옴. 일반화 가능성에 한계.
 - 결과물(Redis Array)이 *진짜로 잘 설계됐는지*는 시간이 검증할 것. 단기 PR 머지 = 장기 검증 X.
 
-## 🎯 즉시 시도할 액션 3가지
+## 즉시 시도할 액션 3가지
 1. **다음 큰 CRS 작업(긴 마이그레이션 또는 새 통합)에 *antirez 4단계*를 시범 적용** — 손작성 명세 → AI 자동 코딩 → 라인 단위 수동 리뷰 → AI 재작성
 2. **"AI 덕분에 *못 건드릴 영역*에 도전한다"는 프레임을 의식적으로 사용** — 평소 회피했던 리팩토링·최적화·복잡한 비즈니스 로직 후보 1개 선정
 3. **"AI 위임 비율" + "수동 리뷰 시간" 동시 측정** — 가든·BugSip·CRS에서. *Lars vs antirez*의 차이를 만드는 핵심 변수가 바로 이것
 
-## 🔗 연관 자료
+## 연관 자료
 - [`ai/2026-05-05-agentic-coding-is-a-trap.md`](../ai/2026-05-05-agentic-coding-is-a-trap.md) — **정확한 대척점**. 같이 읽어야 균형
 - [`ai/2026-04-28-ai-should-elevate-your-thinking-not-replace-it.md`](../ai/2026-04-28-ai-should-elevate-your-thinking-not-replace-it.md) — antirez = *"Elevate, not replace"의 실제 사례*
 - [`ai/2026-05-04-long-running-agents.md`](../ai/2026-05-04-long-running-agents.md) — 4개월 자동 코딩 = checkpoint·done-condition 패턴의 실전
@@ -137,7 +137,7 @@ antirez의 4단계가 [MangoLove `/strict`](../ai/2026-04-29-mattpocock-skills-v
 - [`engineering/2026-04-27-overthinking-scope-creep-structural-diffs.md`](2026-04-27-overthinking-scope-creep-structural-diffs.md) — Lynagh의 *성공 기준 내면화*가 antirez의 *손작성 명세*에 정확히 대응
 - 도구: [TRE](https://laurikari.net/tre/) (정규식 라이브러리)
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] 다음 큰 CRS 작업에 *antirez 4단계* 시범 적용했는가
 - [ ] *"AI 덕분에 더 어려운 도전"* 프레임으로 시도한 작업이 있는가
 - [ ] AI 위임 비율 + 수동 리뷰 시간 측정 시작했는가

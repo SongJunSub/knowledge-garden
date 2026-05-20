@@ -14,10 +14,10 @@ tags: ["이메일", "RFC", "보안", "Gmail", "SPF-DMARC", "검증버그", "호�
 
 > 출처: [Lasan — A Deep Dive into Email Addresses](https://lasans.blog/articles/misc/email-addresses-deep-dive/) · 레퍼러: [GeekNews 29144](https://news.hada.io/topic?id=29144) · 정리일 2026-05-04
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 이메일 주소는 *username@domain* 보다 훨씬 복잡하다 — **RFC와 실무의 차이 / Gmail의 침묵 정규화 / 두 개의 발신자(envelope vs From) / 검증기 버그**가 모두 보안 사고로 이어진다.
 
-## 🧩 핵심 개념
+## 핵심 개념
 
 ### 1. RFC 5321 vs 5322 — 두 표준
 | RFC | 역할 |
@@ -35,7 +35,7 @@ tags: ["이메일", "RFC", "보안", "Gmail", "SPF-DMARC", "검증버그", "호�
 
 > "Most people think an email address is just a username and a domain. It is a lot more than that."
 
-### 3. Gmail의 *침묵* 정규화 ⚠️
+### 3. Gmail의 *침묵* 정규화
 ```
 johndoe@gmail.com
 john.doe@gmail.com
@@ -68,7 +68,7 @@ j.o.h.n.d.o.e@gmail.com
 대량 발송에서 *어느 수신자가* 반송시켰는지 추적:
 ```
 bounces+alice=gmail.com@newsletter.com
-        ↑ @ 기호를 = 로 치환
+ ↑ @ 기호를 = 로 치환
 ```
 *Mailchimp, SendGrid, Amazon SES 등 ESP 표준*.
 
@@ -96,9 +96,9 @@ HMAC으로 위조 방지·유효기간 제한.
 
 ### 7. 보안 위협
 - **표시 이름 스푸핑**: 클라이언트 일부가 *display name만* 보여줌
-  ```
-  "PayPal Security <paypal@paypal.com>" <attacker@evil.com>
-  ```
+ ```
+ "PayPal Security <paypal@paypal.com>" <attacker@evil.com>
+ ```
 - **호모그래프 공격(Punycode)**: 시각적 동일 도메인. 브라우저는 경고하지만 **이메일 클라이언트는 방어 부족**.
 - **Gmail 점 우회**: 위 #3
 - **주소 재할당**: Gmail 외 일부 제공자는 *미사용 주소를 새 사용자에게 재할당* → **비밀번호 재설정 이메일 가로채기 위험**
@@ -118,7 +118,7 @@ HMAC으로 위조 방지·유효기간 제한.
 3. 선택적 MX 조회
 4. **최종 신뢰는 *실제 배달*로만** — 확인 이메일이 진짜 검증
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "Most people think an email address is just a username and a domain. It is a lot more than that."
 
@@ -130,33 +130,33 @@ HMAC으로 위조 방지·유효기간 제한.
 
 > "This is a real attack vector." (Gmail 점 변형 가입에 대해)
 
-## 🏨 호스피탈리티/CRS 적용 분석
+## 호스피탈리티/CRS 적용 분석
 
 *전제: CRS·부킹엔진·PickMe·OTA Connectivity가 회원가입·비밀번호 재설정·예약 확정·OTA 알림에서 이메일을 운영 계층의 핵심으로 사용.*
 
 ### 직접 점검 포인트 5가지
 
-#### A. **Gmail 점·플러스 정규화 정책 결정** 🔴
+#### A. **Gmail 점·플러스 정규화 정책 결정**
 - 회원 가입 시 `john.doe@gmail.com` ≠ `johndoe@gmail.com`으로 *별도 계정*을 만들고 있는가?
 - 이게 가능하면 [신용카드 브루트포스 글](2026-05-03-credit-cards-vulnerable-to-brute-force.md)에서 본 *계정 침해 → 결제 정찰* 1단계가 더 쉬워진다.
 - **권고**: 가입 단계에서 Gmail 점 제거·플러스 태그 제거를 *백엔드에서 정규화한 키*를 unique 키로 사용. 사용자에게 보여주는 주소는 원본 유지.
 
-#### B. **이메일 검증기 버그 감사** 🔴
+#### B. **이메일 검증기 버그 감사**
 - 회원가입·예약·문의·메일링 모든 입력 폼의 검증 로직 점검
 - 특히 *`+` 거부 / TLD 4-6자 제한 / 254 초과 / 대문자 거부* 4가지가 가장 흔한 버그
 - B2B(여행사·법인) 주소에 `_`·`+`·새 gTLD를 쓰는 비율이 높음 — *놓친 가입·예약*이 직접 매출 손실
 
-#### C. **DMARC + SPF + DKIM 강제** 🟡
+#### C. **DMARC + SPF + DKIM 강제**
 - 두 발신자(envelope vs From) 분리는 *우리도 당하고 우리 이름으로 누가 보낼 수도 있다*
 - 우리 도메인(*.shilla.net, *.josunhotel.com 등)에 **DMARC `p=reject` 정책** 적용 여부 확인
 - 미적용이면 *호스피탈리티 브랜드 사칭 피싱*에 무방비
 - *호텔·항공* 같은 산업은 피싱 표적 1순위 — 같은 해(2026)에 GeekNews에서도 호스피탈리티 피싱 사례가 자주 나옴
 
-#### D. **이메일 변경 = 보안 사건으로 취급** 🟡
+#### D. **이메일 변경 = 보안 사건으로 취급**
 - 사용자가 이메일을 변경할 때 *기존 이메일 + 새 이메일*에 *둘 다* 변경 알림 + 일정 시간 *동시 유효*
 - *이메일 가로채기 공격*에서 가장 핵심 가드레일
 
-#### E. **Role-Based 주소 운영 위생** 🟢
+#### E. **Role-Based 주소 운영 위생**
 - 우리 도메인에 `postmaster@`·`abuse@`·`security@` 가 *작동*하는가?
 - 이게 없으면 *해외 보안 연구자가 우리 취약점을 알려주려 해도 길이 없다*
 
@@ -174,7 +174,7 @@ HMAC으로 위조 방지·유효기간 제한.
 - [`engineering/2026-04-23-laws-of-software-engineering.md`](../engineering/2026-04-23-laws-of-software-engineering.md) — Hyrum's Law: *문서화되지 않은 동작에 모두가 의존* — Gmail 점 정규화가 그 자체로 Hyrum 사례.
 - [`engineering/2026-05-04-mercury-couple-million-lines-of-haskell.md`](../engineering/2026-05-04-mercury-couple-million-lines-of-haskell.md) — *경계의 출력은 보수적*이라는 Mercury Pattern 1과 직접 통한다.
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 - **"두 개의 발신자" 개념이 가장 중요**하다. 우리 백엔드 메일 발송 코드를 한 번 점검할 때 *envelope sender와 From 헤더가 의도적으로 분리되어 있는지* 명시적으로 확인할 가치가 있다. 무의식적으로 같은 주소로 두는 게 *오히려* 문제일 수 있다 (반송 처리·DMARC 정합성·ESP 룰).
 - **Gmail 점 우회는 호스피탈리티에서 더 위험**: 호텔 예약은 *예약자 = 결제자 = 투숙자*가 다를 수 있고, 이메일은 *유일한 비대면 식별자*다. 점 변형으로 *동일 사용자가 두 계정*을 만들면 *프로모션 중복 사용*은 기본이고 *환불·민원* 추적이 끊긴다.
@@ -183,20 +183,20 @@ HMAC으로 위조 방지·유효기간 제한.
 - **반론·균형점**: 너무 깊게 RFC 따르면 *실용성 잃음*. 저자도 강조하듯 *완전한 RFC 준수보다 실용적 검증이 낫다*. 우리 컨텍스트에서 *지원해야 할 부분집합*을 명시하고 *나머지는 명시적으로 거부 사유 안내*가 답.
 - **개인 적용**: 새 서비스 가입 시 `+서비스명` 태그 사용 습관. 유출 추적이 한 줄로 가능 — 가든·BugSip·CRS 등 개인 프로젝트별로 분리해두면 spam 추적도 쉽다.
 
-## 🎯 우리 회사 즉시 적용 액션 5가지
+## 우리 회사 즉시 적용 액션 5가지
 1. **이메일 정규화 유닛** 도입 (Gmail 점·서브어드레싱) → DB unique key는 정규화 / 표시는 원본
 2. **사내 이메일 검증 라이브러리 표준화** → +/_/대문자/254/PSL/`.co.uk` 모두 통과
 3. **DMARC/SPF/DKIM 정책 감사** → 모든 발송 도메인 매트릭스 점검
 4. **이메일 변경 워크플로 강화** → 다층 알림 + grace period
 5. **`abuse@` / `security@` 활성화** → 외부 신고 채널 보장
 
-## 🔗 연관 자료
+## 연관 자료
 - [`backend/2026-05-03-credit-cards-vulnerable-to-brute-force.md`](2026-05-03-credit-cards-vulnerable-to-brute-force.md) — 시리즈 첫 글, 계정 침해 1단계와 결합
 - [`frontend/2026-04-30-laws-of-ux.md`](../frontend/2026-04-30-laws-of-ux.md) — Postel's Law 가이드
 - [`engineering/2026-04-23-laws-of-software-engineering.md`](../engineering/2026-04-23-laws-of-software-engineering.md) — Hyrum's Law 사례
 - [`engineering/2026-05-04-mercury-couple-million-lines-of-haskell.md`](../engineering/2026-05-04-mercury-couple-million-lines-of-haskell.md) — 경계의 출력 보수성
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] 회원 이메일 정규화 유닛 시범 적용했는가
 - [ ] 사내 이메일 검증 라이브러리 통일 진행 여부
 - [ ] DMARC/SPF/DKIM 정책 매트릭스 도큐먼트가 있는가

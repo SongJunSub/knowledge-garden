@@ -14,10 +14,10 @@ tags: ["제약", "제품설계", "원페이저", "core-tech", "디자인", "스�
 
 > 출처: [Jordan Lord — 3 constraints before I build anything](https://jordanlord.co.uk/blog/3-constraints/) · 레퍼러: [GeekNews 28954](https://news.hada.io/topic?id=28954) · 정리일 2026-04-28
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 무언가 만들기 전에 **① one-pager로 압축할 수 있는가 ② 제품과 분리 가능한 코어 기술이 있는가 ③ 사용자가 계속 마주하는 단 하나의 제약을 정의했는가** — 셋 중 하나라도 실패하면 만들지 않는다.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 저자(Jordan Lord)는 10년간 건축을 한 경험을 바탕으로, **창의성을 막는 게 아니라 활성화하는** 3가지 제약을 제시한다.
 
@@ -48,9 +48,9 @@ tags: ["제약", "제품설계", "원페이저", "core-tech", "디자인", "스�
 - 사용자 경험 전반에 스며들어 제품의 "느낌(feel)"을 만든다
 - 의사결정 공간을 압축해 정말 중요한 문제에 집중하게 한다
 - 사례:
-  - **Minecraft** = 블록 기반 구성
-  - **IKEA** = 조립식 가구
-  - **Notion** = 블록 (뒤에서 다룬 product primitive 논점과 연결)
+ - **Minecraft** = 블록 기반 구성
+ - **IKEA** = 조립식 가구
+ - **Notion** = 블록 (뒤에서 다룬 product primitive 논점과 연결)
 
 > "A good constraint gives your product a feel, it permeates through all parts of the user experience."
 
@@ -65,7 +65,7 @@ tags: ["제약", "제품설계", "원페이저", "core-tech", "디자인", "스�
 - **반론**: 제약이 좋아도 *"우리가 틀린 걸 만들고 있었다"* 수준의 발견을 막진 못한다 — 즉, 제약은 **방향성**을 보장하지 *진실성*을 보장하진 않는다
 - **보편성**: 주방 리모델링 같은 비-소프트웨어 디자인에도 동일하게 적용 가능
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "Constraints help us collapse the search space, and figure out innovative solutions to problems."
 
@@ -77,7 +77,7 @@ tags: ["제약", "제품설계", "원페이저", "core-tech", "디자인", "스�
 
 > "When it comes to deciding what to build, if it fails any of these constraints, then I don't build it."
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 - **세 제약은 사실상 "Spec / Asset / Identity"의 3-차원 점검**이다. 빌드 결정을 다음 한 문장으로 압축할 수 있다 — *"한 페이지로 적을 수 있고(Spec), 만들면서 분리 가능한 자산이 남고(Asset), 사용자에게 일관된 느낌을 주는(Identity) 일이 아니면 시작하지 않는다."* MangoLove Spec 템플릿의 수용 기준 옆에 같이 박아두기 좋은 체크리스트.
 - **"1페이지에 없으면 싸울 가치가 없다"** 가 가장 즉시 쓸모 있다. 디자인 미팅에서 끝없이 도는 논쟁의 90%는 *공식 문서에 적혀 있지 않은 합의*에 대한 것. 한 페이지 안에 들어가지 못한 안건은 *그 자체로 이미 경고 신호*.
@@ -87,11 +87,11 @@ tags: ["제약", "제품설계", "원페이저", "core-tech", "디자인", "스�
 - **반론 메모**: 댓글의 지적처럼 제약은 *방향*을 압축하지 *진실성*은 보장하지 않는다. 1페이지에 잘 적힌 잘못된 비전도 그럴듯하게 보인다. **"이게 맞는 문제인가?"는 별도 질문**으로 따로 검증해야 한다 (사용자 인터뷰·시장 신호 등).
 - **즉시 적용 후보**: 다음 BugSip 마일스톤 또는 사이드 프로젝트 시작 시 README의 첫 1페이지에 (1) 한 줄 비전 (2) 코어 자산 (3) 정의 제약 — 세 항목을 강제로 쓰게 한다.
 
-## 🔗 연관 자료
+## 연관 자료
 - [`engineering/2026-04-27-overthinking-scope-creep-structural-diffs.md`](2026-04-27-overthinking-scope-creep-structural-diffs.md) — 성공 기준 내면화의 *형식*을 이 글이 채운다
 - [`engineering/2026-04-23-laws-of-software-engineering.md`](2026-04-23-laws-of-software-engineering.md) — YAGNI / KISS / Gall's Law와 직접 통한다
 - [`engineering/2026-04-24-technical-cognitive-intent-debt.md`](2026-04-24-technical-cognitive-intent-debt.md) — 1페이저는 의도 부채에 대한 가장 단순한 백신
 - [`ai/2026-04-28-ai-should-elevate-your-thinking-not-replace-it.md`](../ai/2026-04-28-ai-should-elevate-your-thinking-not-replace-it.md) — 제품도 *무엇을 안 하는지*가 정체성
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 <!-- BugSip / 사이드 프로젝트 시작 시 README 첫 1페이지에 3-제약을 강제 적용해본 결과를 나중에 덧붙인다. -->

@@ -14,10 +14,10 @@ tags: ["venture-capital", "fund-structure", "evergreen-capital", "secondary-mark
 
 > 출처: [The Disappearance of the Ten-Year Fund — Odin Blog](https://blog.joinodin.com/p/the-disappearance-of-the-ten-year) · GeekNews 경유 [news.hada.io/topic?id=29520](https://news.hada.io/topic?id=29520) · 정리일 2026-05-14
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 Stanford Law의 Bartlett & Ramella 논문을 풀어, VC의 *10년 펀드* 라는 표준이 *2010~2014 빈티지조차 10년 차에 미실현 NAV가 약정 자본을 넘는* 현실에 의해 깨졌음을 보여주는 글 — 시장은 *메가펀드(영구자본 전환)* 와 *소규모 펀드(10년 규율 + 세컨더리 유동성)* 로 양극화되고, *단일 표준 펀드 상품*이라는 픽션이 끝나는 중.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 - **10년 펀드는 *현실에서 이미* 16~20년 펀드.** Bartlett & Ramella의 핵심 데이터: *2010~2014년 빈티지*조차 10년 차 시점에 *미실현 NAV가 총 약정 자본을 초과*. 즉 *10년이라는 약속은 회계적으로 한 번도 지켜지지 않았다*. 포트폴리오 기업의 *비상장 유지 기간 연장*이 펀드 수명을 1.6~2배로 늘림.
 - **메가펀드의 출구 = *영구자본*.** Sequoia 같은 메가펀드는 *10년 펀드 픽션을 포기*하고 *영구자본(evergreen capital) 구조*로 전환. *공개 시장 상장 + 비상장 보유*를 동시에 운용하는 구조. [Ries Incorruptible](2026-05-14-eric-ries-incorruptible-mission-protection.md)에서 본 *Novo Nordisk industrial foundation*·*Anthropic LTBT*와 같은 *시간 축이 긴 자본*의 다른 변형.
@@ -26,7 +26,7 @@ Stanford Law의 Bartlett & Ramella 논문을 풀어, VC의 *10년 펀드* 라는
 - **파킨슨의 법칙 — *펀드는 운용 가능한 자본만큼 팽창*.** 본문이 직접 인용하는 메커니즘: *자본이 늘면 펀드 규모가 그만큼 자라고*, 큰 펀드일수록 *돈을 한꺼번에 풀기 어려워* 자연히 *기간이 길어진다*. 즉 *10년 펀드 픽션의 깨짐은 자본 환경의 자동 귀결*. 누가 잘못한 게 아니라 *구조가 결과를 강제*.
 - **시장 양극화의 수치.** 2025년 미국 벤처 투자금의 *33%가 상위 1% 기업에 집중*. *중간이 사라지는* 양극화는 VC만의 현상이 아니라 [OnlyCFO 2026 Procurement](2026-05-14-2026-procurement-playbook-onlycfo.md)에서 본 *SaaS 벤더 4 버킷 양극화*·*Jay Gup 시니어/주니어 비대칭*과 같은 시기에 같은 방향으로 일어남.
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > 2010~2014 빈티지 펀드도 10년 차 시점에 *미실현 NAV가 총 약정 자본을 초과* — 10년 약속은 회계상 한 번도 지켜지지 않았다.
 
@@ -34,7 +34,7 @@ Stanford Law의 Bartlett & Ramella 논문을 풀어, VC의 *10년 펀드* 라는
 
 > 단일 표준 펀드 상품이라는 표면을 유지하되, 실제로는 *펀드 상품의 분화*가 필요하다.
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 **가든의 *시간 축* 주제가 *자본 구조*로 확장된다.** [Naur](../engineering/2026-05-14-naur-programming-as-theory-building.md)는 *코드 이론*의 시간 축, [Ries Incorruptible](2026-05-14-eric-ries-incorruptible-mission-protection.md)은 *조직 거버넌스*의 시간 축이었다. Bartlett & Ramella는 *자본 자체*의 시간 축. 같은 *재구축 비용 > 신규 비용* 메커니즘이 자본에도 적용된다 — *10년 펀드는 *재구축*이 *새 펀드 시작*보다 비싸기 때문에* 영구자본으로 진화한다. 세 가지가 모두 *시점이 비용 변수*라는 같은 진단의 다른 적용 영역.
 
@@ -53,7 +53,7 @@ Stanford Law의 Bartlett & Ramella 논문을 풀어, VC의 *10년 펀드* 라는
 - **CRS 운영의 *기능 분리 점검*.** 호텔 예약·결제 같은 *미션 크리티컬* 기능과 *부가 운영 도구*를 *코드/배포/계약 모두에서 갈라 두는 것*이 양극화 시대의 안전망. *중간 분리*가 어중간하면 *부가 도구의 부식이 미션 크리티컬을 끌고 들어간다*.
 - **BugSip 처음부터 *소규모 펀드의 무기 전략*.** *작은 규모를 약점이 아니라 규율로* 마케팅. *광고 없음·1년 단위·미션이 정관에 박힘·MCP 커넥터 첫날부터* 같은 정밀한 *제약 = 차별점* 라인업.
 
-## 🔗 연관 자료
+## 연관 자료
 - [Eric Ries — Incorruptible](2026-05-14-eric-ries-incorruptible-mission-protection.md) — *영구자본*(Novo Nordisk·Anthropic LTBT)이 *시장 진화의 자연 귀결* 이라는 데이터적 보강
 - [OnlyCFO — 2026 Procurement Playbook](2026-05-14-2026-procurement-playbook-onlycfo.md) — *SaaS 양극화*와 *같은 시기 같은 방향*, 중간이 사라지는 메커니즘
 - [Jay Gup — 경험은 이제 세금이다](2026-05-14-experience-is-now-a-tax.md) — *시니어/주니어 양극화*는 *시장 양극화*와 같은 가족
@@ -61,5 +61,5 @@ Stanford Law의 Bartlett & Ramella 논문을 풀어, VC의 *10년 펀드* 라는
 - [Naur — Programming as Theory Building](../engineering/2026-05-14-naur-programming-as-theory-building.md) — *시간 축*에서 *재구축 비용 > 신규 비용* 동형 메커니즘
 - [Code w/ Claude SF — Managed Agents](../ai/2026-05-14-code-with-claude-recap-19-sessions.md) — Anthropic LTBT가 *제품적 일관성*을 *영구자본 시간 축*에서 가능케 한 사례
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 <!-- 6월 중순: 개인 자산을 *바닥(1년)/머리(10년+)* 양극화 분배로 한 번 줄 세웠는가? MangoLove 자문 도구에 *"중간을 줄여라"* 한 줄이 들어갔는가? BugSip 초기 마케팅에 *제약을 규율로* 라인이 박혔는가? YC가 *영구자본/세컨더리 정책* 을 어떻게 운용하는지 확인했는가? -->

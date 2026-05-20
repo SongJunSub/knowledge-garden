@@ -14,10 +14,10 @@ tags: ["codex", "openai", "harness", "agent-protocol", "completion-verification"
 
 > 출처: [How to use Goals in Codex](https://developers.openai.com/codex/goals) · GeekNews 정리일 2026-05-19
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 **Codex Goals는 *완료 환각*을 프로토콜 차원에서 풀려는 OpenAI의 답** — *단일 프롬프트 1회로 끝나는 작업*이 아닌 *프로파일링·패치·벤치마킹 같은 장기 다단계 작업*을 위해 *결과·검증면·제약·경계·반복 정책·중단 조건* 6요소를 사전 정의받고 *증거 기반으로 자체 완료를 판정*하는 *영속적 목표(persistent objective)* 1차 프리미티브 — *무제한 자율*이 아니라 *사용자 통제 하의 지속성*.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 - **Goals = 영속적 목표 프리미티브** — 한 프롬프트에 안 들어가는 *반복·다단계 작업*을 단일 단위로 묶어 *세션 간에도 살아남는 1급 객체*로 만듦. 클로드 코드의 *Tasks/Skills*에 대응하는 *Codex 쪽 답*이자, *프롬프트→대화→세션→하네스→Goal*로 *운영 단위가 한 칸 더 위로 이동*한 사건.
 - **자율 완료 평가 (Evidence-based completion)** — *"아마 끝났을 것 같다"*는 모델의 *주관적 종료* 금지. **결과·검증면·제약을 사전 정의받으면 *그 검증면의 증거*로만 완료 판정**. *Goal: work → check → continue or complete* 루프가 명시.
@@ -28,17 +28,17 @@ tags: ["codex", "openai", "harness", "agent-protocol", "completion-verification"
 - **연구·벤치마크 분야에서 가치** — *과대 주장 방지*. *근사 재현*과 *정확 재현*의 경계를 *명시적으로 박는다*. 학술 코드의 *재현 가능성 위기*에 대한 작은 처방.
 - **"끝났다는 것의 의미를 알려주는 것"** — *Goal은 끝내라고 시키는 게 아니라, 끝났음을 정의해 주는 것* — *완료의 정의권*이 *모델→사용자*로 명시 이전. 가든이 추적해온 *결정권 이동*의 한 사례.
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "Goal: work → check → continue or complete." (Goal은 *작업 → 검증 → 계속 또는 완료* 루프다)
 
-> "A good Goal isn't simply asking Codex to finish — it's telling Codex what *finished* means."  
+> "A good Goal isn't simply asking Codex to finish — it's telling Codex what *finished* means."
 > (좋은 Goal은 Codex에게 *끝내라*고 요청하는 게 아니라, *끝났다*는 게 무엇인지 알려 주는 것이다)
 
-> "Narrow enough to be auditable, broad enough to allow the model to choose its next action."  
+> "Narrow enough to be auditable, broad enough to allow the model to choose its next action."
 > (감사 가능할 만큼 좁고, 모델이 다음 행동을 선택할 수 있을 만큼 넓어야 한다)
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### *공급자 간 하네스 수렴(Vendor Harness Convergence)* — 가든이 추적해온 가설의 확증
 
@@ -76,8 +76,8 @@ tags: ["codex", "openai", "harness", "agent-protocol", "completion-verification"
 - v1 (가격): 인터랙티브엔 영향 적음
 - v2 (모델 품질): Reddit 회귀 감지 우위 일부 수용
 - **v3 (프로토콜): Goals가 *장기 작업의 완료 정의 강제*에서 우위 — 옮길 가치 있는 작업 종류가 *구체적으로 식별됨***
-  - **옮길 후보**: 프로파일링·벤치마킹·대규모 리팩터링·재현 가능성 검증 등 *Goal 6요소가 자연스럽게 정의 가능한 작업*
-  - **옮기지 말 후보**: 인터랙티브 탐색·일회성 코드 수정·디자인 결정 — *Goal 6요소가 모호한 작업*
+ - **옮길 후보**: 프로파일링·벤치마킹·대규모 리팩터링·재현 가능성 검증 등 *Goal 6요소가 자연스럽게 정의 가능한 작업*
+ - **옮기지 말 후보**: 인터랙티브 탐색·일회성 코드 수정·디자인 결정 — *Goal 6요소가 모호한 작업*
 
 ### [[2026-05-18-eugene-yan-compounding-with-ai]] *5원칙 중 3번 (검증 자동화)*의 *공급자 측 표준화*
 
@@ -107,12 +107,12 @@ Ascetic은 *기본 도구에 머무르라*고 한다. Goals는 *새 추상화 �
 ### CRS / 사이드 프로젝트 *즉시 적용 후보 4건*
 
 1. **CRS 슬로우 쿼리 6요소 Goal 템플릿** — 무신사 정찰조 패턴을 *Goal 1개로 표현*:
-   - *Outcome*: P95 < 200ms 달성
-   - *Verification surface*: EXPLAIN 실행 계획 + 실측 응답시간
-   - *Constraints*: 비즈니스 로직 변경 금지, 인덱스만
-   - *Boundaries*: 특정 테이블 한정
-   - *Iteration policy*: 최대 3회 변경 시도
-   - *Blocked stop condition*: P99 회귀 발생 시
+ - *Outcome*: P95 < 200ms 달성
+ - *Verification surface*: EXPLAIN 실행 계획 + 실측 응답시간
+ - *Constraints*: 비즈니스 로직 변경 금지, 인덱스만
+ - *Boundaries*: 특정 테이블 한정
+ - *Iteration policy*: 최대 3회 변경 시도
+ - *Blocked stop condition*: P99 회귀 발생 시
 2. **CRS 결제 idempotency Goal** — [[2026-05-14-ai-coding-complexity-ratchet-garry-tan]]의 *결제 idempotency AI 위임 PoC*에 *완료 조건 강제*를 박는다.
 3. **[[project_bugsip]] 코드 리딩 세션 5분 Goal** — *5분 세션 종료*를 *Goal 6요소*로 정의 (Outcome=핵심 함수 1개 이해, Verification=요약 정확도 자가 채점 ≥4/5).
 4. **가든 *주간 정리 Goal*** — *매주 5건 정리 + 자가 진단 1건 추가 + 큰 메타 프레임 0~1건* (자산 크기 다양성 시험과 결합).
@@ -131,17 +131,17 @@ Ascetic은 *기본 도구에 머무르라*고 한다. Goals는 *새 추상화 �
 
 가든의 정리본은 *내가 끝났음을 어떻게 알았는가*를 어디서 박고 있나?
 
-지금 가든의 정리본은 *💭 내 생각·적용점*과 *📝 한 달 뒤 회고*만 있고 *"이 정리는 무엇을 만족시키면 완료인가"*가 빠져있다. **Goal 6요소를 *가든 정리 템플릿에 적용*하는 옵션 검토**:
-- *Outcome*: 한 줄 요약 (이미 있음 ✓)
+지금 가든의 정리본은 * 내 생각·적용점*과 * 한 달 뒤 회고*만 있고 *"이 정리는 무엇을 만족시키면 완료인가"*가 빠져있다. **Goal 6요소를 *가든 정리 템플릿에 적용*하는 옵션 검토**:
+- *Outcome*: 한 줄 요약 (이미 있음 )
 - *Verification surface*: ?? (없음 — 추가 후보: *한 달 뒤 1개 이상 의사결정에 영향*)
 - *Constraints*: ?? (없음 — 추가 후보: *원문 직접 인용 5문장 이내*)
-- *Boundaries*: 카테고리 1개 (이미 있음 ✓)
+- *Boundaries*: 카테고리 1개 (이미 있음 )
 - *Iteration policy*: ?? (없음 — 추가 후보: *한 달 뒤·분기 뒤 회고 2회만*)
 - *Blocked stop condition*: ?? (없음 — 추가 후보: *원문 fetch 불가 시 사용자에게 본문 요청*)
 
 → **가든 템플릿 *v2 후보*: 6요소 중 부족한 4개를 frontmatter에 옵션 필드로 추가**. *작은 자산엔 안 박고, 중·대 자산엔 박는다*.
 
-## 🔗 연관 자료
+## 연관 자료
 - [How to use Goals in Codex (OpenAI Cookbook)](https://developers.openai.com/codex/goals)
 - [GeekNews — 29639](https://news.hada.io/topic?id=29639)
 - [[2026-05-18-musinsa-query-engineer-harness]] — Agent=Model+Harness *(공급자 간 수렴 짝)*
@@ -154,5 +154,5 @@ Ascetic은 *기본 도구에 머무르라*고 한다. Goals는 *새 추상화 �
 - [[2026-05-17-ascetic-computing-ratfactor]] — Ascetic Computing *(미묘한 긴장)*
 - [[2026-05-14-ai-coding-complexity-ratchet-garry-tan]] — 복잡성 래칫 *(결제 idempotency PoC 짝)*
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 *(2026-06-19 즈음 — CRS 슬로우 쿼리에 실제로 Codex Goal을 박았는지, 가든 템플릿 v2의 4개 새 필드가 정리 품질을 높였는지 vs 정리 비용을 늘렸는지, Anthropic이 Goal-동등 통합 인터페이스를 발표했는지 정직히 기록.)*

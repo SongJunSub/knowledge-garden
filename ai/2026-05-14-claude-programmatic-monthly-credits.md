@@ -13,10 +13,10 @@ tags: ["AI", "Anthropic", "Claude", "가격정책", "AgentSDK", "ClaudeCode", "�
 
 > 출처: [GeekNews 29494](https://news.hada.io/topic?id=29494) (Anthropic 공지 + X 커뮤니티 반응 통합) · 정리일 2026-05-14
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 **2026-06-15부터** Anthropic이 `claude -p`·Agent SDK·GitHub Actions 같은 **비대화형/프로그래밍 사용량**을 일반 채팅 구독 한도에서 **분리**, 플랜별 *월간 크레딧*으로 따로 청구한다 — 크레딧 소진 후엔 표준 API 요금으로 과금. 커뮤니티 평가: **사실상 자동화 사용자에 대한 실질 10배 인상**.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 ### 1. 일정
 - **2026-06-08**: 크레딧 청구 안내 이메일 발송.
@@ -58,7 +58,7 @@ tags: ["AI", "Anthropic", "Claude", "가격정책", "AgentSDK", "ClaudeCode", "�
 - **Codex 등 대안으로의 이탈 추세** 언급.
 - 현재 Max 사용자 기준 API 비용 환산 시 **월 $1,000 수준**으로 튈 수 있다는 우려.
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "Programmatic usage gets its own monthly credit bucket. Once it's gone, you continue at standard API rates." *(공지 요약)*
 
@@ -66,7 +66,7 @@ tags: ["AI", "Anthropic", "Claude", "가격정책", "AgentSDK", "ClaudeCode", "�
 
 > "Can't pay $1,000/mo just to run my overnight tasks." *(개별 사용자)*
 
-## 💭 내 생각 · 적용점
+## 내 생각 · 적용점
 
 ### 1. *대화형 사용자*에게는 변화 없음
 중요한 분리:
@@ -107,7 +107,7 @@ CRS·Connectivity에 *Claude 기반 자동화*를 도입하려 했다면, **6월
 - *"당신의 Claude 사용량 중 `claude -p`/SDK/Actions 비중은? 50% 초과면 6/15 영향 시뮬레이션 필수."*
 - *"인터랙티브 vs 자동화 비율을 분리 측정하고 있는가?"*
 
-## 🔗 연관 자료
+## 연관 자료
 
 - [Code w/ Claude 19개 세션 통합 정리](2026-05-14-code-with-claude-recap-19-sessions.md) — **같은 날 발표된 운영용 에이전트 비전**. 본 글은 그 비전의 *가격 측면 모순*.
 - [Claude Code는 당신의 제품을 더 좋게 만들지 않는다](2026-05-07-claude-code-not-making-your-product-better.md) — Ethan Ding의 *K자형 곡선·코드 줄 수 = 비용*. 본 글이 그 명제에 *과금까지 비용*을 추가.
@@ -115,7 +115,7 @@ CRS·Connectivity에 *Claude 기반 자동화*를 도입하려 했다면, **6월
 - [로컬 AI가 표준이 되어야 한다](2026-05-11-local-ai-needs-to-be-the-norm.md) · [Rapid-MLX](2026-05-12-rapid-mlx-apple-silicon-local-ai.md) — 자동화 비용 직격 시의 **대안 경로**.
 - 외부 추적 후보: Anthropic의 공식 변경 페이지(6/8 안내 이메일), 6/15 이후 커뮤니티의 실제 청구서 데이터.
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 <!-- 2026-06-14~2026-06-30 즈음:
 - 6/15 적용 후 실제 청구액과 사전 시뮬레이션 차이
 - 월간 보고서 자동화 / GitHub Actions / Routines가 영향권에 있다면 실측치

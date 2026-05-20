@@ -14,10 +14,10 @@ tags: ["프로덕션엔지니어링", "Haskell", "타입시스템", "Temporal", 
 
 > 출처: [Ian Duncan — A Couple Million Lines of Haskell](https://blog.haskell.org/a-couple-million-lines-of-haskell/) · 레퍼러: [GeekNews 29137](https://news.hada.io/topic?id=29137) · 정리일 2026-05-04
 
-## 🔖 한 줄 요약
+## 한 줄 요약
 **Haskell의 가치는 *순수성*이 아니라 *운영 지식을 타입에 인코딩하는 능력*** — 인력이 매년 두 배가 되는 핀테크에서 컴파일러로 *제도적 지식*을 강제하는 6가지 패턴.
 
-## 🧩 핵심 포인트
+## 핵심 포인트
 
 ### 컨텍스트
 - **Mercury**: 30만+ 비즈니스 대상 핀테크, 2025년 거래량 **$248B (~340조 원)**
@@ -43,8 +43,8 @@ tags: ["프로덕션엔지니어링", "Haskell", "타입시스템", "Temporal", 
 ### 패턴 2. 안전한 경로 = 쉬운 경로 (Make the Right Thing Easy)
 - 운영 절차를 *타입에 박아* 문서·구두 전승 의존을 끊는다
 - 예: "이벤트 발행은 DB 쓰기와 *트랜잭션*으로 묶여야 한다"
-  - **나이브**: `writeTransaction` + `publishEvents` 따로 두고 *개발자가 둘 다 부르길 기대*
-  - **개선**: `Transact` 모나드를 *원자 핸들러*를 통해서만 commit 가능하게 재설계 → 타입 시스템이 정합성 강제
+ - **나이브**: `writeTransaction` + `publishEvents` 따로 두고 *개발자가 둘 다 부르길 기대*
+ - **개선**: `Transact` 모나드를 *원자 핸들러*를 통해서만 commit 가능하게 재설계 → 타입 시스템이 정합성 강제
 
 ### 패턴 3. Temporal로 지속 실행 (Durable Execution)
 - 결제·정산처럼 *여러 서비스·여러 실패 지점*을 가로지르는 워크플로에 [Temporal](https://temporal.io) 채택
@@ -58,7 +58,7 @@ tags: ["프로덕션엔지니어링", "Haskell", "타입시스템", "Temporal", 
 - **개선**:
 ```haskell
 data PaymentError = InsufficientFunds | DuplicateRequest | PartnerTimeout
-toHttpError      :: PaymentError -> HttpResponse
+toHttpError :: PaymentError -> HttpResponse
 toWorkerStrategy :: PaymentError -> WorkerAction
 ```
 - 도메인 타입으로 모델 → *경계에서* 전송 형태로 번역. 전송 계층 교체에도 살아남고 *컨텍스트별 처리* 가능
@@ -82,14 +82,14 @@ toWorkerStrategy :: PaymentError -> WorkerAction
 - 해결: **함수 레코드**
 
 ```haskell
--- ❌ Bad
+-- Bad
 sendRequest :: Request -> IO Response
 
--- ✅ Good
+-- Good
 data HttpClient = HttpClient
-  { sendRequest :: Request -> IO Response
-  , ...
-  }
+ { sendRequest :: Request -> IO Response
+ , ...
+ }
 ```
 
 - 런타임에 wrapping → 트레이싱·결함 주입·모킹 가능 (라이브러리 fork 없이)
@@ -114,12 +114,12 @@ appInterceptors = mconcat [retargetingInterceptor, otelInterceptor, sentryInterc
 ### Haskell이 가치 있나?
 - **첫날엔 아니다** — 온보딩 느림, 라이브러리 부족, 에러 메시지 난해
 - **수개월 안에 ROI** — 특히 *데이터 무결성 실패의 비용이 큰* 금융 서비스에서:
-  - **기계적 리팩터링**: 타입 변경 → 컴파일러가 *놓친 호출 사이트* 전부 알려줌
-  - **온보딩 레버리지**: 신입이 타입 시그니처 읽고 계약 이해 → 질문 줄어듦
-  - **사고 예방**: 불가능한 상태가 *드문 게 아니라 진짜 불가능*
+ - **기계적 리팩터링**: 타입 변경 → 컴파일러가 *놓친 호출 사이트* 전부 알려줌
+ - **온보딩 레버리지**: 신입이 타입 시그니처 읽고 계약 이해 → 질문 줄어듦
+ - **사고 예방**: 불가능한 상태가 *드문 게 아니라 진짜 불가능*
 - 채용: Haskell이 *큰 풀*을 끌지 않지만 **성향(disposed) 풀*을 끈다*. 다만 *순수성·타입 우아함*에 대한 이상주의는 *제품을 파는 일에 부담* — 실용주의 배양 필요
 
-## 📜 인상 깊은 문장
+## 인상 깊은 문장
 
 > "Reliability is not just the absence of failure. It is the presence of adaptive capacity."
 
@@ -131,7 +131,7 @@ appInterceptors = mconcat [retargetingInterceptor, otelInterceptor, sentryInterc
 
 > "I mean in the much less romantic and much more useful sense that we run this language in production, at scale, with a rapidly changing team."
 
-## 💭 내 생각 · 적용점 (언어 무관)
+## 내 생각 · 적용점 (언어 무관)
 
 이 글의 진짜 가치는 *Haskell 옹호*가 아니라 **언어 무관 운영 엔지니어링 패턴 6개**다. Java/Kotlin/TypeScript 환경에서도 그대로 적용 가능.
 
@@ -147,9 +147,9 @@ appInterceptors = mconcat [retargetingInterceptor, otelInterceptor, sentryInterc
 - Kotlin 적용:
 ```kotlin
 sealed class BookingError {
-  object DuplicateRequest : BookingError()
-  data class InsufficientInventory(val roomType: String) : BookingError()
-  data class PartnerTimeout(val partner: String) : BookingError()
+ object DuplicateRequest : BookingError()
+ data class InsufficientInventory(val roomType: String) : BookingError()
+ data class PartnerTimeout(val partner: String) : BookingError()
 }
 fun BookingError.toHttpResponse(): ResponseEntity<*> = ...
 fun BookingError.toRetryStrategy(): RetryStrategy = ...
@@ -188,20 +188,20 @@ val client = TracingOtaClient(RetryOtaClient(realOtaClient))
 - [채용 글](../career/2026-04-27-how-to-hire-someone-better-than-yourself.md): *"성향 풀(disposed pool)"* 개념이 정확히 일치 — 사람을 거르는 게 아니라 *자기-선별된 풀*을 만나는 효과
 - [신용카드 브루트포스](../backend/2026-05-03-credit-cards-vulnerable-to-brute-force.md): "출력 메시지가 공격 신호"였던 것의 일반화 — *경계의 출력은 보수적이어야 한다*
 
-## 🎯 즉시 시도할 수 있는 액션 3가지
+## 즉시 시도할 수 있는 액션 3가지
 
 1. **CRS 도메인 에러 sealed 계층 시범 도입** — 한 모듈(예: 환불) 골라 `RefundError` sealed class 도입 → HTTP/배치/Kafka에서 *동일한 도메인 에러 재사용* 검증
 2. **OTA Connectivity 클라이언트 인터셉터 합성 패턴** — 트레이싱·재시도·서킷브레이커를 *AOP가 아닌 by-delegation 합성*으로 재구성. 디버깅 가능성 비교
 3. **타입 인코딩 감사 1회** — 현재 sealed class·Result type·NonEmpty 같은 *타입 보호* 중 "진짜 silent corruption 방어"인 것과 "관습"인 것 구분. 후자는 단순화 후보
 
-## 🔗 연관 자료
+## 연관 자료
 - [`engineering/2026-04-24-technical-cognitive-intent-debt.md`](2026-04-24-technical-cognitive-intent-debt.md) — 타입 = 의도 부채에 대한 강한 백신
 - [`ai/2026-04-27-ai-agent-deleted-production-database.md`](../ai/2026-04-27-ai-agent-deleted-production-database.md) — *위험을 좁은 경계 뒤에* 두지 않은 사례
 - [`backend/2026-05-03-credit-cards-vulnerable-to-brute-force.md`](../backend/2026-05-03-credit-cards-vulnerable-to-brute-force.md) — 경계 출력의 보수성
 - [`engineering/2026-04-23-laws-of-software-engineering.md`](2026-04-23-laws-of-software-engineering.md) — Tesler's Law(고유 복잡성)과 직결
 - 도구: [Temporal](https://temporal.io), [hs-temporal-sdk](https://github.com/MercuryTechnologies/hs-temporal-sdk)
 
-## 📝 한 달 뒤 회고
+## 한 달 뒤 회고
 - [ ] CRS 한 모듈에 sealed `DomainError` 계층 시범
 - [ ] OTA 클라이언트 by-delegation 인터셉터 합성 시도
 - [ ] 우리 타입 보호 감사 결과
