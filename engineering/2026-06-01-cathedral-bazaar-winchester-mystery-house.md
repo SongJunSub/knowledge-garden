@@ -45,7 +45,7 @@ tags: ["software-development-model", "code-price-collapse", "review-bottleneck",
 
 ### *윈체스터 하우스 = sprawl 경고*
 
-세 번째 모델은 *축복이자 경고* — *일관된 설계 없는 무한 증축*은 [[2026-05-29-choose-boring-technology-2015]] *혁신 토큰 낭비*·[[2026-05-29-favorite-developer-tools]] *좋은 기본값*의 반대. **AI sprawl을 막으려면 *boring한 뼈대 + 주의력 도구*가 필요** — 무한 증축을 *검토 가능한 구조*로 가둬야.
+세 번째 모델은 *축복이자 경고* — *일관된 설계 없는 무한 증축*은 [[2026-05-29-choose-boring-technology-2015]] *혁신 토큰 낭비*·[[2026-05-28-favorite-developer-tools]] *좋은 기본값*의 반대. **AI sprawl을 막으려면 *boring한 뼈대 + 주의력 도구*가 필요** — 무한 증축을 *검토 가능한 구조*로 가둬야.
 
 ### 호스피탈리티 / CRS 적용 포인트
 
@@ -58,7 +58,7 @@ tags: ["software-development-model", "code-price-collapse", "review-bottleneck",
 - [[2026-06-01-domain-expertise-is-the-real-moat]]·[[2026-06-01-engineering-in-the-era-of-llms]]·[[2026-06-01-harness-era-software-after-ai]] — 판단·휴먼 컨텍스트·하네스 *(주의력 도구)*
 - [[2026-06-01-harness-for-every-task-dynamic-workflows]] — 자동 검증 *(주의력 절감)*
 - [[2026-06-01-codex-for-every-role]]·[[2026-06-01-what-matters-when-anyone-can-build]] — 도구 폭증 *(윈체스터 sprawl)*
-- [[2026-05-29-choose-boring-technology-2015]]·[[2026-05-29-favorite-developer-tools]] — boring 뼈대 *(sprawl 방지)*
+- [[2026-05-29-choose-boring-technology-2015]]·[[2026-05-28-favorite-developer-tools]] — boring 뼈대 *(sprawl 방지)*
 
 ## 한 달 뒤 회고
 *(2026-07-01 즈음 — "주의력을 싸게 만드는 도구"를 실제로 도입했는지(요약·우선순위·자동 검증), AI sprawl(윈체스터 하우스)을 boring 뼈대로 가뒀는지, 병목이 검토에 있다는 인식이 운영을 바꿨는지 기록.)*
