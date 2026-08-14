@@ -17,6 +17,7 @@ tags: ["grok", "xai", "post-training", "benchmarks", "agentic-rl", "model-releas
 > **이해관계 고지**: 제작사 발표문이고 **벤치마크는 자체 보고**다.
 > **hada 댓글 1개**(GN⁺ 의 HN 큐레이션), 그리고 **댓글이 발표문보다 흥미롭다**.
 > **표기 안내**: em dash 를 쓰지 않는다(사용자 전역 규칙).
+> **[2026-08-14 정정]** 이 노트는 xAI 발표를 근거로 순위를 ***"Fable 5 Max(62) 바로 아래"***라고 적었다. 지수의 원 출처인 Artificial Analysis 기준 실제 순위는 **Opus 5(63) > Fable 5(62) > Grok 4.6 = GPT-5.6 Sol(61)** 이다. **"바로 아래"가 아니라 두 모델 아래**이고, 모델명도 **Fable 5 Max 가 아니라 Fable 5** 다. 아래 본문의 해당 표기는 기록으로 남겨둔다. → [[2026-08-14-grok-4-6-cost-efficiency-frontier]]
 
 ## 한 줄 요약
 
