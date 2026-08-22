@@ -50,7 +50,7 @@
 3. **README 인덱스 갱신** — 해당 월 섹션 최상단에 그날 다이제스트 한 줄 추가.
 4. **커밋** — 다이제스트 파일 커밋 1개 + README 커밋 1개(위 커밋 규칙과 동일하게 분리). 커밋 메시지 트레일러도 동일.
 5. **PR 생성 → main 머지까지 자동 완료.** 이 스케줄 루틴의 세션은 지정된 개발 브랜치에서 작업하도록 제약되는 경우가 있다(하네스 지시). 그 경우 main 직접 push 대신: 지정 브랜치로 push → GitHub PR 생성(base: `main`) → **즉시 squash 머지**까지 전부 자율로 수행한다. PR 생성·머지 여부를 사용자에게 묻지 않는다 — 이 파이프라인에서는 "PR 생성 후 머지"가 곧 "정리해줘" 워크플로우의 "main에 push"와 동급이다.
-6. **다음 실행 준비** — PR이 머지된 뒤 지정 브랜치는 이미 머지된 히스토리이므로, 다음 실행 시작 시 `origin/main` 기준으로 브랜치를 재설정(`git fetch origin main && git checkout -B <지정 브랜치> origin/main`)하고 이어간다.
+6. **다음 실행 준비** — PR이 머지된 뒤 지정 브랜치는 이미 머지된 히스토리이므로, 다음 실행 시작 시 `origin/main` 기준으로 브랜치를 재설정(`git fetch origin main && git checkout -B <지정 브랜치> origin/main`)하고 이어간다. **이 재설정은 로컬에서 끝나지 않는다** — `git push origin <지정 브랜치> --force-with-lease` 로 원격 브랜치도 같은 커밋으로 맞춰야 stop hook의 "unpushed commit" 경고가 안 뜬다.
 
 ## 요약 노트 형식
 
