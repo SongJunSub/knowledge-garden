@@ -1,8 +1,8 @@
 {
   "channel_id": "C0AJL0096H4",
   "channel_name": "개발-뉴스-dev-news",
-  "last_message_ts": "1788160220.208519",
-  "last_run_summarized_at": "2026-08-31",
-  "last_run_article_count": 22,
+  "last_message_ts": "1788246612.258879",
+  "last_run_summarized_at": "2026-09-01",
+  "last_run_article_count": 25,
   "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고."
 }
