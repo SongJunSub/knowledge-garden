@@ -16,7 +16,7 @@ tags: ["aiops", "agentcore", "multi-agent", "blackboard-pattern", "samsung", "in
 
 ## 한 줄 요약
 
-**삼성계정 서비스가 AWS Bedrock AgentCore 기반 Multi-Agent AIOps를 실전 운영에 투입한 후속편. 운영자는 웹 콘솔과 Slack 양쪽에서 자연어로 에이전트에 질의·지시하고, MAIN 대시보드에서 시스템 현황을, AGENTS 탭에서 에이전트별 성능을 실시간으로 본다. 핵심은 "블랙보드 기반 작업 흐름"이다 — 에이전트가 조사 결과를 공유 작업판에 올리면 사람이 단계별로 검토·승인하며 자율성이 확장되는 구조로 읽힌다.**
+**[[2026-09-04-samsung-agentcore-aiops-01]](같은 시리즈 1부, 아키텍처·설계 편)의 후속편으로, 삼성계정 서비스가 AWS Bedrock AgentCore 기반 Multi-Agent AIOps를 실전 운영에 투입한 이야기다. 운영자는 웹 콘솔과 Slack 양쪽에서 자연어로 에이전트에 질의·지시하고, MAIN 대시보드에서 시스템 현황을, AGENTS 탭에서 에이전트별 성능을 실시간으로 본다. 핵심은 "블랙보드 기반 작업 흐름"이다 — 에이전트가 조사 결과를 공유 작업판에 올리면 사람이 단계별로 검토·승인하며 자율성이 확장되는 구조로 읽힌다.**
 
 ## 핵심 포인트
 
@@ -53,6 +53,7 @@ CRS 인시던트 대응에 멀티 에이전트를 투입한다면, "대시보드
 
 ## 연관 자료
 
+- [[2026-09-04-samsung-agentcore-aiops-01]] — 같은 시리즈 1부, 이 글이 다루는 실전 운영 체계의 아키텍처·설계 편
 - [[2026-09-01-samsung-log-analysis-agent-verifiable-evidence]] — 같은 삼성전자, "규칙 기반 선별 + LLM 판정" 같은 문법을 로그 분석이라는 다른 문제에 적용한 자매 사례
 - [[2026-08-31-kris-deploy-review-kakao-incident-prevention]] — 같은 시기 카카오가 독립적으로 도달한 같은 2단계 구조
 - [[2026-08-24-srelens-kubernetes-control-room]] — 사람-에이전트 협업의 승인 게이트를 "세션 단위 이진"으로 설계한 대비 사례
