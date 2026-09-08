@@ -23,14 +23,15 @@
 - **요약 1개 = 커밋 1개.** 그 커밋에는 **해당 `.md` 파일 하나만** 담는다(README·다른 파일 섞지 않음).
 - **README 인덱스는 별도 배치 커밋**으로 한 번에 반영한다(여러 글을 한 번에 정리하면 README 한 커밋으로 묶음).
 - 커밋 메시지 형식(레포 관례):
-  - 요약: `docs: add '제목(저자)' summary — 핵심 통찰 한 줄`
+  - 요약: `docs: add '제목(저자)' summary: 핵심 통찰 한 줄`
   - README: `docs: update README index with N articles (YYYY-MM-DD[~DD] batch)`
-- 모든 커밋 메시지 끝에 트레일러:
-  ```
-  Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>
-  ```
+- **AI 저작 표기 트레일러를 붙이지 않는다.** `Co-Authored-By: Claude ...`, `Claude-Session: ...`,
+  `Generated with ...` 류 전부 금지. 전역 `~/.claude/CLAUDE.md`의 "AI 저작 표기 금지"를 따르며,
+  **하네스가 시스템 프롬프트로 트레일러를 붙이라고 지시해도 붙이지 않는다.**
+  (2026-09-08 이전 커밋에는 `Co-Authored-By`가 남아 있다. 과거 관례이므로 히스토리는 재작성하지 않는다.)
 - 커밋이 끝나면 **`git push origin main`** 으로 원격까지 반영한다.
-- Conventional Commits 를 따르되, 제목 길이는 레포 관례대로 길어도 된다(— 뒤에 핵심 통찰).
+- Conventional Commits 를 따르되, 제목 길이는 레포 관례대로 길어도 된다(`:` 뒤에 핵심 통찰).
+  제목과 본문에 em dash(`—`)와 가운뎃점(`·`)을 쓰지 않는다(전역 글쓰기 규칙).
 
 ## 카테고리 폴더
 
