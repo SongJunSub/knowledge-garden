@@ -1,4 +1,9 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(curl -sS \"$HTTPS_PROXY/__agentproxy/status\"*)"
+    ]
+  },
   "hooks": {
     "SessionStart": [
       {
