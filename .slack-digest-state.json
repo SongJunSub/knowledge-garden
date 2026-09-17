@@ -1,8 +1,8 @@
 {
   "channel_id": "C0AJL0096H4",
   "channel_name": "개발-뉴스-dev-news",
-  "last_message_ts": "1789557015.231219",
-  "last_run_summarized_at": "2026-09-16",
-  "last_run_article_count": 20,
-  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-16 실행: 21개 링크 중 1개(Claude Code Week 33 changelog)는 2026-09-03에 이미 정리된 중복이라 노트 생성 생략, 나머지 20개만 정리."
+  "last_message_ts": "1789643411.282219",
+  "last_run_summarized_at": "2026-09-17",
+  "last_run_article_count": 17,
+  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-17 실행: GeekNews 15개 + Slack TechArticles 봇 직링크 2개(SK플래닛, 삼성전자) 총 17개 전부 신규(중복 없음)로 정리."
 }
