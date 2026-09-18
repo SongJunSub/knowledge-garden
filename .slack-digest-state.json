@@ -1,8 +1,8 @@
 {
   "channel_id": "C0AJL0096H4",
   "channel_name": "개발-뉴스-dev-news",
-  "last_message_ts": "1789643411.282219",
-  "last_run_summarized_at": "2026-09-17",
-  "last_run_article_count": 17,
-  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-17 실행: GeekNews 15개 + Slack TechArticles 봇 직링크 2개(SK플래닛, 삼성전자) 총 17개 전부 신규(중복 없음)로 정리."
+  "last_message_ts": "1789729815.394749",
+  "last_run_summarized_at": "2026-09-18",
+  "last_run_article_count": 25,
+  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-18 실행: GeekNews 18개 + Slack TechArticles 봇 직링크 7개(카카오, 구글디벨로퍼스, 올리브영, 데브시스터즈, 컴투스 2건, 데보션, 라인) 총 25개 전부 신규(중복 없음)로 정리."
 }
