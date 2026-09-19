@@ -1,8 +1,8 @@
 {
   "channel_id": "C0AJL0096H4",
   "channel_name": "개발-뉴스-dev-news",
-  "last_message_ts": "1789729815.394749",
-  "last_run_summarized_at": "2026-09-18",
-  "last_run_article_count": 25,
-  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-18 실행: GeekNews 18개 + Slack TechArticles 봇 직링크 7개(카카오, 구글디벨로퍼스, 올리브영, 데브시스터즈, 컴투스 2건, 데보션, 라인) 총 25개 전부 신규(중복 없음)로 정리."
+  "last_message_ts": "1789786895.772109",
+  "last_run_summarized_at": "2026-09-19",
+  "last_run_article_count": 17,
+  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-19 실행: GeekNews 17개(33875, 33878, 33880, 33884, 33887, 33890, 33895, 33899, 33904, 33905, 33909, 33915, 33917, 33918, 33919, 33920, 33925) 전부 신규(중복 없음)로 정리. 이번 회차는 news.hada.io 및 대부분의 원문 도메인이 egress 정책으로 차단되어 Slack GN⁺ 발췌 + WebSearch 교차확인 위주로 재구성했다(각 노트 '출처 한계' 블록에 상세 명시). macOS 27 Golden Gate(id=33875)는 기존 2026-09-15 노트와 주제가 겹치나 실사용 리뷰라는 새 정보가 있어 별도 노트로 유지."
 }
