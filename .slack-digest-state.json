@@ -1,8 +1,8 @@
 {
   "channel_id": "C0AJL0096H4",
   "channel_name": "개발-뉴스-dev-news",
-  "last_message_ts": "1789786895.772109",
-  "last_run_summarized_at": "2026-09-19",
-  "last_run_article_count": 17,
-  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-19 실행: GeekNews 17개(33875, 33878, 33880, 33884, 33887, 33890, 33895, 33899, 33904, 33905, 33909, 33915, 33917, 33918, 33919, 33920, 33925) 전부 신규(중복 없음)로 정리. 이번 회차는 news.hada.io 및 대부분의 원문 도메인이 egress 정책으로 차단되어 Slack GN⁺ 발췌 + WebSearch 교차확인 위주로 재구성했다(각 노트 '출처 한계' 블록에 상세 명시). macOS 27 Golden Gate(id=33875)는 기존 2026-09-15 노트와 주제가 겹치나 실사용 리뷰라는 새 정보가 있어 별도 노트로 유지."
+  "last_message_ts": "1789902612.973259",
+  "last_run_summarized_at": "2026-09-20",
+  "last_run_article_count": 14,
+  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-20 실행: GeekNews 13개(33922, 33930, 33939, 33944, 33945, 33950, 33953, 33956, 33959, 33964, 33967, 33973, 33975) + Slack TechArticles 봇 직링크 1개(AWS DevOps Agent VPC Lattice, GeekNews 아님) 전부 신규(중복 없음)로 정리. news.hada.io 및 거의 모든 원문 도메인이 egress 정책으로 차단되어 Slack GN⁺ 발췌 + WebSearch 교차확인 위주로 재구성했다(각 노트 '출처 한계' 블록에 상세 명시). 오늘 배치에는 TypeSafe Jev 관련 글이 4개(구조화 출력 재조명·개인 글 평가 실험·아키텍처 역추적·오픈소스 대안 Laya) 몰려 있었는데, 기존 2개 노트(typesafe-ai-jev-typed-judgments, jevlike-open-source-jev-probability-model)와 겹치지 않는 별개 주제임을 확인하고 각각 별도 노트로 정리했다. Jalapeño 칩 소식도 기존 2개 노트와 겹치지만 이번 IEEE Spectrum 기사는 설계 과정(XLS·팀 분업) 자체를 다뤄 새 정보로 판단해 별도 노트 유지."
 }
