@@ -1,8 +1,8 @@
 {
   "channel_id": "C0AJL0096H4",
   "channel_name": "개발-뉴스-dev-news",
-  "last_message_ts": "1789902612.973259",
-  "last_run_summarized_at": "2026-09-20",
-  "last_run_article_count": 14,
-  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-20 실행: GeekNews 13개(33922, 33930, 33939, 33944, 33945, 33950, 33953, 33956, 33959, 33964, 33967, 33973, 33975) + Slack TechArticles 봇 직링크 1개(AWS DevOps Agent VPC Lattice, GeekNews 아님) 전부 신규(중복 없음)로 정리. news.hada.io 및 거의 모든 원문 도메인이 egress 정책으로 차단되어 Slack GN⁺ 발췌 + WebSearch 교차확인 위주로 재구성했다(각 노트 '출처 한계' 블록에 상세 명시). 오늘 배치에는 TypeSafe Jev 관련 글이 4개(구조화 출력 재조명·개인 글 평가 실험·아키텍처 역추적·오픈소스 대안 Laya) 몰려 있었는데, 기존 2개 노트(typesafe-ai-jev-typed-judgments, jevlike-open-source-jev-probability-model)와 겹치지 않는 별개 주제임을 확인하고 각각 별도 노트로 정리했다. Jalapeño 칩 소식도 기존 2개 노트와 겹치지만 이번 IEEE Spectrum 기사는 설계 과정(XLS·팀 분업) 자체를 다뤄 새 정보로 판단해 별도 노트 유지."
+  "last_message_ts": "1789974616.986869",
+  "last_run_summarized_at": "2026-09-21",
+  "last_run_article_count": 23,
+  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-21 실행: GeekNews 18개(33986, 34000, 34001, 34004, 34014, 34016, 34017, 34018, 34025, 34026, 34027, 34033, 34034, 34036, 34038, 34040, 34041, weekly#376) + Slack TechArticles 봇 직링크 5개(데보션 K8s AI 추론, Rebellions AWS EDA NPU, AWS 네트워크 데이터 전송 1~3부, GeekNews 아님) 전부 신규(중복 없음)로 정리. news.hada.io 및 거의 모든 원문 도메인이 egress 정책으로 차단되어 Slack GN⁺/TechArticles 발췌 + WebSearch 교차확인 위주로 재구성했다(각 노트 '출처 한계' 블록에 상세 명시). 일부 GeekNews 토픽(경쟁 해자, 시니어 엔지니어 악순환, 프롬프트는 실재하지 않는다, AI가 무너뜨리는 공유의 문화, Boris Cherny 인터뷰)은 원 매체·저자를 WebSearch로도 확정하지 못해 노트 상단에 명시하고 Slack 발췌 중심으로 재구성했다. Laya Mac 이식판 소식으로 Jev/System One Model 계열 노트가 8개로 늘었다. AWS 네트워크 데이터 전송 3부작은 각각 별도 노트(1개 메시지=1개 노트=1개 커밋 원칙)로 정리하되 서로 위키링크로 연결했다."
 }
