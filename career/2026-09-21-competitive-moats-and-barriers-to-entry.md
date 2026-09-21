@@ -39,7 +39,7 @@ tags: ["moat", "barrier-to-entry", "switching-cost", "system-of-record", "ai-eco
 
 ### 핵심 전이 — "데이터 해자" 계열 career 노트들과 정확히 같은 결론에 다른 근거를 더함
 
-가든에는 이미 해자를 다룬 노트가 다수 쌓여 있다 — [[2026-07-20-data-is-your-only-moat]](데이터만이 유일한 해자), [[2026-06-01-domain-expertise-is-the-real-moat]](도메인 전문성이 진짜 해자), [[2026-09-12-creativity-is-the-new-moat]](창의성이 새 해자), [[2026-06-01-app-layer-not-dead-system-of-work-moat]](업무 시스템 자체가 해자). 이 글은 그 결론들에 **"전환 비용"이라는 구체적 메커니즘**을 더한다 — 해자가 왜 유지되는지를 "데이터가 좋아서"가 아니라 "옮기는 수고가 커서"로 설명한다는 점이 다른 노트들과 미묘하게 다른 각도다. 특히 system-of-record 언급은 [[2026-06-01-system-of-record-to-system-of-intelligence-a16z]]의 a16z 프레임과 직접 연결된다.
+가든에는 이미 해자를 다룬 노트가 다수 쌓여 있다 — [[2026-07-20-data-is-your-only-moat]](데이터만이 유일한 해자), [[2026-06-01-domain-expertise-is-the-real-moat]](도메인 전문성이 진짜 해자), [[2026-09-12-creativity-is-the-new-moat]](창의성이 새 해자), [[2026-06-01-app-layer-not-dead-system-of-work-moat]](업무 시스템 자체가 해자). 이 글은 그 결론들에 **"전환 비용"이라는 구체적 메커니즘**을 더한다 — 해자가 왜 유지되는지를 "데이터가 좋아서"가 아니라 "옮기는 수고가 커서"로 설명한다는 점이 다른 노트들과 미묘하게 다른 각도다. 특히 system-of-record 언급은 [[2026-05-18-system-of-record-to-system-of-intelligence-a16z]]의 a16z 프레임과 직접 연결된다.
 
 ## 호스피탈리티 / CRS 적용 포인트
 
@@ -49,7 +49,7 @@ tags: ["moat", "barrier-to-entry", "switching-cost", "system-of-record", "ai-eco
 
 - [[2026-07-20-data-is-your-only-moat]] — 데이터 해자를 다룬 선행 노트, 이 글의 "전환 비용" 메커니즘과 상호 보완
 - [[2026-06-01-domain-expertise-is-the-real-moat]] — 도메인 전문성 해자, 이 글의 "system of record" 논거와 인접
-- [[2026-06-01-system-of-record-to-system-of-intelligence-a16z]] — 이 글이 직접 언급한 system-of-record 개념의 원 프레임
+- [[2026-05-18-system-of-record-to-system-of-intelligence-a16z]] — 이 글이 직접 언급한 system-of-record 개념의 원 프레임
 
 ## 한 달 뒤 회고
 
