@@ -1,8 +1,8 @@
 {
   "channel_id": "C0AJL0096H4",
   "channel_name": "개발-뉴스-dev-news",
-  "last_message_ts": "1789974616.986869",
-  "last_run_summarized_at": "2026-09-21",
-  "last_run_article_count": 23,
-  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-21 실행: GeekNews 18개(33986, 34000, 34001, 34004, 34014, 34016, 34017, 34018, 34025, 34026, 34027, 34033, 34034, 34036, 34038, 34040, 34041, weekly#376) + Slack TechArticles 봇 직링크 5개(데보션 K8s AI 추론, Rebellions AWS EDA NPU, AWS 네트워크 데이터 전송 1~3부, GeekNews 아님) 전부 신규(중복 없음)로 정리. news.hada.io 및 거의 모든 원문 도메인이 egress 정책으로 차단되어 Slack GN⁺/TechArticles 발췌 + WebSearch 교차확인 위주로 재구성했다(각 노트 '출처 한계' 블록에 상세 명시). 일부 GeekNews 토픽(경쟁 해자, 시니어 엔지니어 악순환, 프롬프트는 실재하지 않는다, AI가 무너뜨리는 공유의 문화, Boris Cherny 인터뷰)은 원 매체·저자를 WebSearch로도 확정하지 못해 노트 상단에 명시하고 Slack 발췌 중심으로 재구성했다. Laya Mac 이식판 소식으로 Jev/System One Model 계열 노트가 8개로 늘었다. AWS 네트워크 데이터 전송 3부작은 각각 별도 노트(1개 메시지=1개 노트=1개 커밋 원칙)로 정리하되 서로 위키링크로 연결했다."
+  "last_message_ts": "1790075416.920839",
+  "last_run_summarized_at": "2026-09-22",
+  "last_run_article_count": 19,
+  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-22 실행: GeekNews 16개(34090, 34046, 34059, 34065, 34093, 34095, 34076, 34077, 34079, 34080, 34081, 34085, 34087, 34091, 34092, 34096) + Slack TechArticles 봇 직링크 3개(AWS Strands+Bedrock AgentCore 발전설비진단, 베스핀글로벌 B2B Tech Blog 자산론, flex 알림 타이밍, GeekNews 아님) 전부 신규(중복 없음)로 정리. 베스핀글로벌 글은 같은 내용이 16:10과 20:10 두 차례(슬러그 오타 수정 후 재발행 추정) 게시돼 1건으로 통합했다. news.hada.io 및 거의 모든 원문 도메인이 egress 정책으로 차단되어 Slack GN⁺/TechArticles 발췌 + WebSearch 교차확인 위주로 재구성했다(각 노트 '출처 한계' 블록에 상세 명시). 일부 GeekNews 토픽(이제 인간 수학자가 왜 필요한가, MCP는 처음부터 잘못된 아이디어였을까, 주의력은 당신이 가진 전부다, 확산 언어 모델을 만드는 방법, Fable 5 추론량 감소 분석, 당신이 직접 쓰지 않은 글은 읽고 싶지 않다, 나만의 디자인 하네스 만들기)은 원 매체·저자를 WebSearch로도 확정하지 못해 노트 상단에 명시하고 Slack 발췌 중심으로 재구성했다. Kev(오픈소스 Jev 대안) 소식으로 Jev/System One Model 계열 노트가 9개로 늘었다. pdfcn과 Kev 노트에서는 WebSearch 결과 동일 설명의 레포가 여러 GitHub 계정에 동시 존재하는 패턴(레포 팜 가능성)을 확인해 출처 한계로 명시했고, Kev는 최초 커밋 시 오기재된 출처 URL을 후속 커밋으로 정정했다."
 }
