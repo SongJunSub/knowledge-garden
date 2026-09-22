@@ -1,7 +1,7 @@
 ---
 title: "Kev — 직접 학습하고 실행할 수 있는 Jev 방식 의사결정 모델 (Qwen3.5 기반 오픈소스)"
 source_title: "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5"
-source_url: "https://github.com/shadcn-labs/kev"
+source_url: "https://github.com/singzhou/kev"
 source_name: "GitHub, WebSearch(Hacker News·explainx.ai) 교차확인, GeekNews(id=34065) 경유"
 referrer_url: "https://news.hada.io/topic?id=34065"
 published_at: "확인 불가(2026-09 공개 추정)"
@@ -12,7 +12,7 @@ tags: ["jev", "decision-model", "qwen3.5", "structured-output", "open-source", "
 
 # Kev — 직접 학습하고 실행할 수 있는 Jev 방식 의사결정 모델
 
-> 출처: [GeekNews 토픽](https://news.hada.io/topic?id=34065) · [GitHub(kev)](https://github.com/shadcn-labs/kev) (WebSearch 교차확인) · 정리일 2026-09-22
+> 출처: [GeekNews 토픽](https://news.hada.io/topic?id=34065) · [GitHub(kev)](https://github.com/singzhou/kev) (WebSearch 교차확인) · 정리일 2026-09-22
 >
 > **출처 한계**: `news.hada.io`와 GitHub 상세 페이지 egress 차단으로 원문 접근 불가. WebSearch 결과 동일 설명("tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own")을 가진 레포가 `singzhou`, `mobailabs`, `cyanheads` 등 다수 계정에 동시 존재해(가든의 다른 Jev 계열 노트에서도 반복 관찰된 패턴) 원저작자를 완전히 확정하지 못했다. Slack GN⁺ 발췌 + WebSearch(Hacker News, explainx.ai) 로 재구성했다.
 
