@@ -23,6 +23,48 @@
 
 ### 2026-09
 
+- [개인화 추천을 위한 랭킹 모델 개발기 (카카오)](ai/2026-09-23-kakao-personalization-ranking-model.md) - 카카오 기술블로그, Slack TechArticles 경유(GeekNews 아님). **오프라인유저인코더·RLTW**(ai). 세그먼트 기반 추천의 한계를 넘기 위해 유저 히스토리를 반영한 랭킹 모델을 도입, ***무거운 개인화 신호는 오프라인에서 미리 계산해두고 실시간 경로는 가볍게 유지***하는 설계 원칙. tech.kakao.com 차단, Slack 발췌 중심. [[2026-09-01-musinsa-unified-embedding-push-ctr]]와 연결. CRS: 객실 업셀·프로모션 노출 순서에 오프라인 임베딩+실시간 경량 조회 분리 적용.
+
+- [LLM 하나만 믿지 마세요 — Code Review War (삼성전자)](engineering/2026-09-23-samsung-code-review-war.md) - 삼성전자 기술블로그, Slack TechArticles 경유(GeekNews 아님). **8관점병렬·동적페일오버**(engineering). 다양한 LLM과 8개 리뷰 관점을 병렬로 활용해 ***단일 모델의 한계를 극복***하고 결함 탐지율을 높이는 협업 중심 리뷰 체계. techblog.samsung.com 차단, Slack 발췌 중심(구체 지표 미확인). [[2026-06-08-agentic-code-review]], [[2026-08-20-code-outruns-review]]와 연결. CRS: 보안·성능·비즈니스로직 관점을 나눠 병렬 AI 코드 리뷰 구조 검토.
+
+- [신뢰로 완성하는 금융 AI의 미래, KodeRunner 2026 (카카오뱅크)](career/2026-09-23-kakaobank-koderunner-2026-trust.md) - 카카오뱅크 기술블로그, Slack TechArticles 경유(GeekNews 아님). **금융AI신뢰성·에이전트실무**(career). 데이터 보안과 정확한 판단이 필수적인 금융 환경에서 ***AI 에이전트의 실무 적용 사례***를 공유, AI 채택의 무게중심이 "무엇을 할 수 있는가"에서 "얼마나 믿을 수 있는가"로 이동. tech.kakaobank.com 차단, Slack 발췌 중심. [[2026-09-07-kakao-if-kakao-26-conference]]와 연결. CRS: 정산·환불 자동화에 2차 검증·인간 승인 게이트 설계 참고.
+
+- [Microsoft가 개발을 중단한 FoxPro, FoxDev Studio로 되살아나다](engineering/2026-09-23-foxpro-foxdev-studio-revival.md) - foxscript.org(커뮤니티 프로젝트), GeekNews(id=34157) 경유. **호환런타임·재작성없이실행**(engineering). Visual FoxPro의 기존 코드·데이터를 재작성 없이 64비트로 실행하는 독립 개발 환경 — ***마이그레이션이 아니라 호환 실행 환경 구축***이라는 레거시 문제의 제3의 선택지. hada 차단, WebSearch 교차확인(Microsoft 비공식 프로젝트임을 확인). [[2026-08-26-eve-online-python3-migration]]와 연결. CRS: 재작성 비용이 큰 레거시 PMS·회계 시스템에 호환 실행 환경 대안 검토.
+
+- [Colab이 이제 Google AI 요금제에 포함됨](ai/2026-09-23-colab-included-in-google-ai-plans.md) - Google Developers Blog, GeekNews(id=34155) 경유. **컴퓨팅번들링·Pro200Ultra1000**(ai). Colab의 유료 GPU 컴퓨팅 혜택이 Google AI Pro/Ultra 구독에 통합, ***따로 팔던 자원을 구독 혜택으로 흡수***하는 AI 가격 번들링 흐름. hada 차단, WebSearch 교차확인. [[2026-06-08-who-prices-intelligence]]와 연결. CRS: 사내 데이터팀 중복 구독 비용 점검.
+
+- [샤오미 MiMo-V2.6-Pro, 성능과 API 비용 분석](ai/2026-09-23-xiaomi-mimo-v2-6-pro-cost-analysis.md) - Artificial Analysis, GeekNews(id=34153) 경유. **AAII46점·파레토프론티어**(ai). 공개 모델 비교군 중앙값(18점)을 크게 웃도는 AAII 46점을 기록하며 ***과제당 비용도 지능-가격 파레토 프론티어***에 올랐다. hada 차단, WebSearch 교차확인. [[2026-09-22-xiaomi-mimo-v2-6-release]](어제 발표의 후속 분석)와 연결. CRS: MIT 라이선스 자체 호스팅 후보 온프레미스 모델 목록에 추가.
+
+- [Java 클래스 파일은 왜 0xCAFEBABE로 시작할까?](backend/2026-09-23-java-class-file-cafebabe.md) - Artima, GeekNews(id=34148) 경유. **매직넘버·하위호환관성**(backend). 언어 이름이 Java로 정해지기도 전에 정한 매직 넘버가 ***30년째 그대로 남아*** 한 번 정한 바이너리 포맷 식별자는 되돌리기 어렵다는 하위 호환의 관성을 보여준다. hada 차단, WebSearch 교차확인(Patrick Naughton 인터뷰). [[2026-09-16-java-27-ga-release]]와 연결. CRS: 신규 데이터 포맷·API 버전 헤더 설계 시 신중함 참고.
+
+- ["우리가 FBI를 해킹했다", 해커 그룹의 FBI 전체 직원 정보 탈취 주장](backend/2026-09-23-shinyhunters-fbi-breach-claim.md) - 복수 매체(404 Media 등), GeekNews(id=34143) 경유. **보복성해킹·일부만검증**(backend). ShinyHunters가 FBI 전체 직원 정보 탈취를 주장하며 5,000명 샘플을 공개했지만 ***일부 일치만 확인됐을 뿐 전체 범위·진위는 미확인***이다. hada 차단, WebSearch 교차확인(Reuters·Axios·CNBC). [[2026-09-08-gangnamunni-220k-data-breach]], [[2026-05-09-ai-breaking-vulnerability-cultures]]와 연결. CRS: 레거시 백오피스 ERP 패치 상태 재점검.
+
+- [AI에게는 지혜가 없고 당신에게도 없게 될 것이다](career/2026-09-23-ai-has-no-wisdom-neither-will-you.md) - Alexandru Nedelcu(Monix 저자), GeekNews(id=34122) 경유. **지연된대가·강화학습보상구조**(career). ***나쁜 아키텍처의 대가는 수개월~수년 뒤에야 드러나 즉각 측정할 지표가 없다***는 것이 AI 의존 위험의 핵심 메커니즘, AI도 강화학습 구조상 장기 유지보수성을 학습할 수 없다. hada 차단, WebSearch 교차확인. [[2026-08-25-ai-dependence-eroding-coding-expertise-growth-path]], [[2026-05-07-ai-floor-and-our-ceiling]]와 연결. CRS: 코드 리뷰에 정기 아키텍처 리뷰(복잡도 추이) 명시적 포함.
+
+- [Meta의 Muse에 파일시스템을 요청했더니 6.8GB를 보내왔다](ai/2026-09-23-meta-muse-filesystem-export-6-8gb.md) - Mouse(보안 연구자), GeekNews(id=34136) 경유. **정상요청유출·SSH키포함**(ai). 파일을 압축해 보내 달라는 평범한 요청에 ***SSH 키까지 포함된 세션 전체 파일시스템(6.8GB)이 전송***됐고 Meta는 "Not Applicable"로 종결. hada 차단, WebSearch 교차확인(HN, VentureBeat). [[2026-08-02-hugging-face-tailscale-agent-breach]], [[2026-09-09-muse-meta-personal-ai-agent]]와 연결. CRS: 에이전트 작업 디렉터리와 자격증명 저장 위치 물리적 분리.
+
+- [Claude Opus 5.5, 추론 설정별 성능과 비용 비교](ai/2026-09-23-claude-opus-5-5-reasoning-effort-cost.md) - Artificial Analysis, GeekNews(id=34142) 경유. **medium51max58·비용3.3배**(ai). AAII medium 51점부터 max 58점까지, ***지능 지수 4점을 더 올리는 데 과제당 비용이 약 3.3배***로 뛴다. hada 차단, WebSearch 교차확인. [[2026-09-23-claude-opus-5-5-release]](모 글), [[2026-09-22-fable-5-reasoning-tokens-decreased-analysis]](대조 사례)와 연결. CRS: 업무 난이도별 effort 티어링으로 비용 관리.
+
+- [OpenAI가 Jev의 밥그릇을 빼앗을까?](ai/2026-09-23-openai-jev-tool-router.md) - 원문 매체 특정 실패, GeekNews(id=34139) 경유. **판단내재화·플랫폼흡수**(ai). 독립 분류 API 복제가 아니라 ***빠른 판단 기능을 LLM 내부에 넣는 것***이 더 큰 경쟁 — 신생 카테고리가 플랫폼 핵심 기능으로 흡수되는 반복 패턴. hada 차단, Jev 배경 WebSearch 교차확인. [[2026-09-16-typesafe-ai-jev-typed-judgments]], [[2026-09-22-kev-open-source-jev-decision-model]]와 연결. CRS: 문의 분류에 별도 API 대신 LLM 내부 확신도 신호 활용 검토.
+
+- [iOS 설정에 사라지지 않는 애플 서비스 광고, 사용자 반발](frontend/2026-09-23-ios-settings-apple-service-ads.md) - TechRadar, GeekNews(id=34133) 경유. **닫기버튼무효·다크패턴**(frontend). 닫기 버튼이 없거나 눌러도 사라지지 않는 배너가 ***수개월간 알림 배지와 함께 남는*** 판정 로직과 실제 상태의 어긋남. hada 차단, WebSearch 교차확인. [[2026-09-22-when-to-send-the-all-done-notification]], [[2026-04-30-laws-of-ux]]와 연결. CRS: 알림·배너 "닫음 상태 영속화" 여부 점검 항목 추가.
+
+- [Git 2.56과 3.0을 내다보며](engineering/2026-09-23-git-2-56-and-3-0.md) - LWN.net, GeekNews(id=34124) 경유. **history drop·SHA-256전환**(engineering). `git history drop`·`--delete-merged`·`--resolved` 추가로 ***서드파티 도구가 메워온 편의 기능을 코어가 흡수***, 3.0은 SHA-256 전환을 논의 중. hada 차단, WebSearch 교차확인. [[2026-09-21-worktrunk-git-worktree-cli]]와 연결. CRS: 저장소 훅의 SHA-1 40자 하드코딩 여부 점검.
+
+- [gzip도 언어 모델이 될 수 있을까?](ai/2026-09-23-gzip-as-language-model.md) - nathan.rs, GeekNews(id=34120) 경유. **빔탐색·압축=예측실증**(ai). 신경망도 학습도 없이 ***압축 길이로 다음 바이트를 채점***하는 빔 탐색만으로 셰익스피어풍 텍스트 생성. hada 차단, WebSearch 교차확인. [[2026-08-12-compression-is-prediction]](이론적 짝)와 연결. CRS: 억지 적용 없음, 원리 참고용 가벼운 리소스.
+
+- [내 하드웨어에서 실행하는 최첨단 AI — dlab Open Source Week (Tim Dettmers)](ai/2026-09-23-dlab-frontier-ai-on-your-hardware.md) - Tim Dettmers 블로그, GeekNews(id=34116) 경유. **24GB에125B·자율연구2시간**(ai). 단일 24GB GPU에서 125B 모델 구동, ***목표만 주면 중간 지시 없이 이어가는*** 로컬 자율 연구 에이전트가 2시간 만에 생물정보학 휴리스틱을 개선. hada 차단, WebSearch 교차확인. [[2026-09-22-m5-ultra-mac-studio-review-local-ai-agents]]와 연결. CRS: 민감 매출 데이터 로컬 자율 분석 루프 시나리오 참고.
+
+- [AI 코딩으로 병목이 된 CI, Linear는 어떻게 개선했나](engineering/2026-09-23-linear-ai-coding-ci-bottleneck.md) - Linear 공식 블로그, GeekNews(id=34105) 경유. **tsgo전환·대기시간절반**(engineering). 테스트가 거의 4배로 늘었는데도 ***네이티브 컴파일러 tsgo 전환***과 테스트 샤딩 확대로 PR 대기 시간을 6분에서 5분으로, 러너 시간을 절반으로. hada 차단, WebSearch 교차확인. [[2026-08-20-linear-ai-usage-patterns]](같은 회사), [[2026-09-15-miridih-ci-16min-to-3min-vitest-profiling]]와 연결. CRS: CI 파이프라인 병목 구간 프로파일링 우선 실시.
+
+- [Filament — 데이터베이스와 SaaS 데이터를 옮기고 동기화하는 오픈소스 도구](backend/2026-09-23-filament-data-replication-engine.md) - Galaxy(getgalaxy.io), GeekNews(id=34152) 경유. **배치체크섬·CDC지원**(backend). 전체 복사·증분·CDC 세 방식을 지원하며 ***배치 단위 체크섬 검증으로 실패 지점부터 안전하게 재개***하는 Go 기반 복제 엔진. hada 차단, WebSearch 교차확인. [[2026-08-29-syncular-offline-first-sqlite-sync-engine]]와 연결. CRS: 성수기 대량 동기화에 체크포인트 기반 재개 도입 검토.
+
+- [Fluree DB — 이력과 검증, 브랜치 병합을 갖춘 그래프 데이터베이스](backend/2026-09-23-fluree-graph-database.md) - Fluree Labs, GeekNews(id=34150) 경유. **temporalledger·Git스타일브랜치**(backend). 변경 이력·출처를 1급 시민으로 취급하는 Rust 기반 그래프 DB, ***Git처럼 브랜치로 나눠 독립 변경 후 병합***. hada 차단, WebSearch 교차확인(병합 버그 이슈 다수 확인). [[2026-05-08-sqlite-loc-recommended-storage-format]]와 연결. CRS: 예약·요금 변경 이력 검증 가능한 감사 로그 설계 참고.
+
+- [GPT-6 Sol과 Luna 출시](ai/2026-09-23-gpt-6-sol-luna-release.md) - OpenAI 공식 발표, GeekNews(id=34138) 경유. **Astra낙수·가격절반**(ai). Astra의 능력을 더 빠르고 저렴한 Sol/Luna로 확장, API 가격은 이전 프로모션 대비 ***절반 수준***(Sol 2/10달러, Luna 0.10/0.50달러). hada 차단, WebSearch 교차확인. [[2026-09-04-openai-gpt-6-astra-release]], [[2026-09-23-claude-opus-5-5-release]](같은 날 대응)와 연결. CRS: 작업 난이도별 Sol/Luna 티어 라우팅 전략 검토.
+
+- [Claude Opus 5.5 출시](ai/2026-09-23-claude-opus-5-5-release.md) - Anthropic 공식 발표, GeekNews(id=34135) 경유. **40%저비용·Claudish교정**(ai). Fable 5.1 수준 성능을 Opus 5 대비 ***비용 40% 낮추고 속도 30% 이상 향상***, 장황한 표현을 줄이고 글쓰기 규칙을 더 잘 따르도록 개선. hada 차단, WebSearch 교차확인(BNN·9to5Mac·the-decoder). [[2026-07-25-claude-opus-5-release]], [[2026-08-16-why-opus-5-feels-worse]]와 연결. CRS: 장애 리포트·응대 초안 등 AI 작성 문서의 "덜 AI스러움" 체감 확인.
+
 - [flex '다 됐습니다' 알림, 대체 언제 보내야 맞나](frontend/2026-09-22-when-to-send-the-all-done-notification.md) - flex 기술 블로그, Slack TechArticles 경유(GeekNews 아님). **프로브패턴·완료판정**(frontend). 처리 건수를 세는 대신 ***사용자가 실제로 조회할 경로를 프로브로 확인***해야 "다 됐다"는 알림이 실제 반영 시점보다 먼저 나가는 문제를 막을 수 있다 — 공유 자원을 완료 기준으로 삼으면 판정이 왜곡될 수 있다는 경고까지 포함. flex.team 차단, Slack 발췌 중심. [[2026-09-15-flex-transactional-event-listener-silent-ignore]](같은 회사, 이벤트 타이밍 문제)와 연결. CRS: 배치 정산·대량 임포트 완료 알림을 프로브 방식으로 재설계.
 
 - [[AI 트렌드] B2B IT 시장에서 Tech Blog는 '채널'이 아닌 '자산' (베스핀글로벌)](career/2026-09-22-tech-blog-is-an-asset-not-a-channel.md) - BESPIN Tech Blog, Slack TechArticles 경유(같은 글 16:10·20:10 두 차례 게시, 1건으로 통합). **콘텐츠자산·GEO**(career). 광고와 달리 ***시간이 지날수록 검색을 통해 가치가 축적***되고, AI 검색 시대엔 ***AI가 인용할 구체적 기술 사례***가 있어야 구매 후보에 오른다. 자사 마케팅 자산 홍보 성격 감안 필요. [[2026-09-08-beusable-geo-strategy-brand]], [[2026-09-10-bespin-global-ai-voice-agent-unicorn]](같은 회사)와 연결. CRS: 장애 대응·성수기 처리 같은 구체적 기술 사례를 테크 블로그 자산으로 축적.
