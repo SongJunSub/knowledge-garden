@@ -1,8 +1,8 @@
 {
   "channel_id": "C0AJL0096H4",
   "channel_name": "개발-뉴스-dev-news",
-  "last_message_ts": "1790147439.361819",
-  "last_run_summarized_at": "2026-09-23",
-  "last_run_article_count": 21,
-  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-23 실행: GeekNews 18개(34135, 34138, 34150, 34152, 34105, 34116, 34120, 34124, 34133, 34139, 34142, 34136, 34143, 34148, 34153, 34155, 34157, 34122) + Slack TechArticles 봇 직링크 5개 중 3개 신규(카카오뱅크 KodeRunner 2026, 삼성전자 Code Review War, 카카오 개인화 추천 랭킹 모델) 정리. 나머지 TechArticles 직링크 2개는 어제(2026-09-22) 이미 정리한 글의 재발행/재게시로 확인해 건너뛰었다 — AWS Strands+Bedrock AgentCore 발전설비진단(오늘 온 URL이 어제 노트의 미확인 출처 URL을 확정해줌, architecture/2026-09-22-aws-strands-agentcore-power-plant-diagnostics.md)과 미리디 SVG 필터 활용기(source_url 완전 동일, frontend/2026-09-08-miridih-svg-filter-image-correction.md — 9/8에 이미 정리됨을 재확인). news.hada.io 및 거의 모든 원문 도메인이 egress 정책으로 차단되어 Slack GN⁺/TechArticles 발췌 + WebSearch 교차확인 위주로 재구성했다(각 노트 '출처 한계' 블록에 상세 명시). OpenAI-Jev 글은 원 매체를 WebSearch로도 확정하지 못했다. 삼성전자 Code Review War, 카카오 개인화 추천, 카카오뱅크 KodeRunner 2026 3건은 Slack 발췌 3줄만으로 재구성해 다른 글보다 출처 한계가 크다(techblog.samsung.com, tech.kakao.com, tech.kakaobank.com 모두 egress 차단 + WebSearch로도 원문 특정 실패)."
+  "last_message_ts": "1790217697.770939",
+  "last_run_summarized_at": "2026-09-24",
+  "last_run_article_count": 16,
+  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-24 실행: GeekNews 14개(34198, 34195, 34193, 34194, 34187, 34182, 34181, 34180, 34176, 34167, 34166, 34160, 34163, 34204) + Slack TechArticles 봇 직링크 2개(올리브영 취소 정책 개선, 올리브영 CDC/Kafka 오버엔지니어링) 전부 신규로 정리, 스킵 없음. news.hada.io 및 원문 도메인 대부분(langchain.com, jyn.dev, blog.google, drivingbench.com, geekwire.com, businessinsider.com, nobodywho.ai, unreallabs.ai, oliveyoung.tech 등)이 egress 차단되어 WebFetch가 실패했고, WebSearch 교차확인 위주로 재구성했다(anthropic.com·GitHub 보안 권고·GitHub 저장소 등 일부는 직접 확인 성공). '이젠 짓기 이제 못 해 먹겠다'(id=34176)와 '일반 텍스트 파일이 위기에 처해 있다'(id=34166)는 원문 매체·저자를 WebSearch로도 특정하지 못해 Slack 발췌만으로 재구성했고, 상충하는 검색 결과는 인용을 보류했다. 삼성 스마트 냉장고 기사는 원 기사 URL 특정에 실패해 ZDNET Korea로 추정만 표기했다. 이번 배치는 Jev 계열 스레드에 2건(jyn.dev 토큰가격 글, Python 25줄 Jev 패러디)이 더해져 10번째 안팎까지 이어졌다."
 }
