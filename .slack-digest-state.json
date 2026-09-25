@@ -1,8 +1,8 @@
 {
   "channel_id": "C0AJL0096H4",
   "channel_name": "개발-뉴스-dev-news",
-  "last_message_ts": "1790217697.770939",
-  "last_run_summarized_at": "2026-09-24",
-  "last_run_article_count": 16,
-  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-24 실행: GeekNews 14개(34198, 34195, 34193, 34194, 34187, 34182, 34181, 34180, 34176, 34167, 34166, 34160, 34163, 34204) + Slack TechArticles 봇 직링크 2개(올리브영 취소 정책 개선, 올리브영 CDC/Kafka 오버엔지니어링) 전부 신규로 정리, 스킵 없음. news.hada.io 및 원문 도메인 대부분(langchain.com, jyn.dev, blog.google, drivingbench.com, geekwire.com, businessinsider.com, nobodywho.ai, unreallabs.ai, oliveyoung.tech 등)이 egress 차단되어 WebFetch가 실패했고, WebSearch 교차확인 위주로 재구성했다(anthropic.com·GitHub 보안 권고·GitHub 저장소 등 일부는 직접 확인 성공). '이젠 짓기 이제 못 해 먹겠다'(id=34176)와 '일반 텍스트 파일이 위기에 처해 있다'(id=34166)는 원문 매체·저자를 WebSearch로도 특정하지 못해 Slack 발췌만으로 재구성했고, 상충하는 검색 결과는 인용을 보류했다. 삼성 스마트 냉장고 기사는 원 기사 URL 특정에 실패해 ZDNET Korea로 추정만 표기했다. 이번 배치는 Jev 계열 스레드에 2건(jyn.dev 토큰가격 글, Python 25줄 Jev 패러디)이 더해져 10번째 안팎까지 이어졌다."
+  "last_message_ts": "1790320210.636019",
+  "last_run_summarized_at": "2026-09-25",
+  "last_run_article_count": 17,
+  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-25 실행: GeekNews 15개(34247, 34245, 34243, 34242, 34240, 34234, 34230, 34227, 34216, 34210, 34222, 34224, 34208, 34206, 34248) + Slack TechArticles 봇 직링크 2개(구글디벨로퍼스 9월 넷째 주 위클리 업데이트, 게임빌컴투스플랫폼 Cilium eBPF 2편) 전부 신규로 정리, 스킵 없음. news.hada.io 및 원문 도메인 거의 전부(developers-kr.googleblog.com, on.com2us.com, transluce.org, bleepingcomputer.com, qualcomm.com, tailscale.com, f-droid.org, utah.edu, github.com/HN 일부 등)가 egress 차단되어 WebFetch가 실패했고, WebSearch 교차확인 위주로 재구성했다. 이번 배치는 중요한 '전날 배치(2026-09-24, 16건)가 로컬에만 커밋되고 원격에 push되지 않은 채 남아 있던 것'을 이 실행 시작 시점에 발견해 먼저 push로 복구했다(PR #38이 머지 없이 closed된 상태였으나 main 브랜치는 이미 별도 경로로 같은 커밋을 반영하고 있었음을 확인) — 이번 실행부터는 매 실행 시작 시 origin/main과 로컬 브랜치의 diff를 먼저 확인하는 습관이 필요하다. OpenAI 관련 두 사건(id=34227 Transluce 보고서의 AI 에이전트 해킹 시도, id=34216 Medicare 포털 무단 침입)은 시기·조직·주제가 겹치지만 '계열은 같으나 동일 사건은 아님'을 WebSearch로 확인해 두 노트에 명시적으로 관계를 남겼다. Jev 계열에 CLM(id=34240, 대조학습 기반 이중 인코더)이 새로 추가됐다 — 기존 Jev/Kev류가 입출력 형태를 재현하는 방식이었다면 CLM은 아키텍처 자체를 공개하는 다른 경로다."
 }
