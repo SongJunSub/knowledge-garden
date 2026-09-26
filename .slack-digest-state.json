@@ -1,8 +1,8 @@
 {
   "channel_id": "C0AJL0096H4",
   "channel_name": "개발-뉴스-dev-news",
-  "last_message_ts": "1790320210.636019",
-  "last_run_summarized_at": "2026-09-25",
-  "last_run_article_count": 17,
-  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-25 실행: GeekNews 15개(34247, 34245, 34243, 34242, 34240, 34234, 34230, 34227, 34216, 34210, 34222, 34224, 34208, 34206, 34248) + Slack TechArticles 봇 직링크 2개(구글디벨로퍼스 9월 넷째 주 위클리 업데이트, 게임빌컴투스플랫폼 Cilium eBPF 2편) 전부 신규로 정리, 스킵 없음. news.hada.io 및 원문 도메인 거의 전부(developers-kr.googleblog.com, on.com2us.com, transluce.org, bleepingcomputer.com, qualcomm.com, tailscale.com, f-droid.org, utah.edu, github.com/HN 일부 등)가 egress 차단되어 WebFetch가 실패했고, WebSearch 교차확인 위주로 재구성했다. 이번 배치는 중요한 '전날 배치(2026-09-24, 16건)가 로컬에만 커밋되고 원격에 push되지 않은 채 남아 있던 것'을 이 실행 시작 시점에 발견해 먼저 push로 복구했다(PR #38이 머지 없이 closed된 상태였으나 main 브랜치는 이미 별도 경로로 같은 커밋을 반영하고 있었음을 확인) — 이번 실행부터는 매 실행 시작 시 origin/main과 로컬 브랜치의 diff를 먼저 확인하는 습관이 필요하다. OpenAI 관련 두 사건(id=34227 Transluce 보고서의 AI 에이전트 해킹 시도, id=34216 Medicare 포털 무단 침입)은 시기·조직·주제가 겹치지만 '계열은 같으나 동일 사건은 아님'을 WebSearch로 확인해 두 노트에 명시적으로 관계를 남겼다. Jev 계열에 CLM(id=34240, 대조학습 기반 이중 인코더)이 새로 추가됐다 — 기존 Jev/Kev류가 입출력 형태를 재현하는 방식이었다면 CLM은 아키텍처 자체를 공개하는 다른 경로다."
+  "last_message_ts": "1790402872.736869",
+  "last_run_summarized_at": "2026-09-26",
+  "last_run_article_count": 16,
+  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-26 실행: GeekNews 16개(34310, 34296, 34274, 34272, 34282, 34278, 34277, 34295, 34288, 34271, 34268, 34264, 34256, 34253, 34251, 34290) 전부 신규로 정리, 스킵 없음. news.hada.io 및 서브도메인/미러(es., fr., pt.)는 이번 세션에서도 egress 전면 차단, 원문 도메인 대부분(blog.google, blogs.microsoft.com, go.dev, factorio.com, inkandswitch.com, jardo.dev, jadarma.github.io, theguardian.com, newsletter.pragmaticengineer.com 등)도 WebFetch 차단이었고 github.com만 예외적으로 통과됐다 — 4개 조사 에이전트 모두 WebSearch 교차확인, 일부는 GitHub에 미러된 개인 TIL 저장소(ahastudio/til)나 HN 다이제스트 미러 이슈로 원문을 역추적해 재구성했다(id=34268 'What About Rails?', id=34264 'That's so AI' 두 건은 2차 재구성 한계가 특히 크다는 점을 노트에 명시). id=34310(Gergely Orosz 글)은 2026년 1월 최초 게시 후 DHH Rails World 2026 키노트(2026-09-25 노트) 직후 페이월이 풀리며 재유통된 것으로 확인했다. id=34268은 바로 그 키노트에 대한 하루 늦은 비판 반응으로 확인됐다. Jev 계열에 Ollaya(id=34288)가 새로 추가됐다 — 개별 오픈소스 재구현(Laya, Kev 등)들을 Ollama 스타일 CLI/API로 통합한 첫 유통 계층이라는 점에서 이전 재구현들과 성격이 다르다. 멀티 에이전트 오케스트레이터 니치(Orca/Paseo/Proliferate)에 Ordewell(id=34290)이 네 번째로 합류했다."
 }
