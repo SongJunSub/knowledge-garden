@@ -23,6 +23,30 @@
 
 ### 2026-09
 
+- [ChatGPT와 Gemini가 가짜 고객센터 번호를 안내하게 만드는 사기 수법 (Aurascape)](ai/2026-09-27-ai-search-poisoning-fake-support-numbers.md) - Aurascape(Aura Labs), GeekNews(id=34292) 경유. **GEO악용·신뢰크롤오염**(ai). 프롬프트 인젝션이 아니라 ***정부·대학 고신뢰 사이트를 해킹해 웹 자체를 오염***시켜 374개 기업(Fortune 100 포함) 사칭. hada·aurascape.ai 차단, WebSearch 교차확인(HN 스레드 존재, 내용 미확인). [[2026-07-16-how-chatgpt-picks-sources]], [[2026-08-30-cats-txt-llms-txt-geo-fake-standard]]와 연결. CRS: 공식 연락처 JSON-LD 선점, GEO 모니터링 루틴화가 직접 적용 가능.
+
+- [Atlas, 코딩 에이전트를 위한 소스 관리 도구](engineering/2026-09-27-atlas-source-control-for-coding-agents.md) - tryatlas.cc, GeekNews(id=34344) 경유. **커밋세션체크포인트**(engineering). 병렬 오케스트레이션이 아니라 ***커밋에 프롬프트·도구호출·근거를 영구 연결***하는 소스관리 각도, 멀티 에이전트 오케스트레이터 니치 5번째. hada 차단, GitHub 포크 미러·WebSearch 교차확인(라이선스 Apache/MIT 불일치). [[2026-09-26-ordewell-multi-agent-orchestrator]], [[2026-09-27-plan-mode-is-dead]]와 연결. CRS: 커밋 메시지에 설계 결정 한 줄 남기는 습관부터 시도.
+
+- [이제 OS란 대체 무엇인가? (Thomas Ptacek)](engineering/2026-09-27-what-even-is-an-os-now.md) - A Final Ward, GeekNews(id=34309) 경유. **앱격리붕괴·경계이동**(engineering). AI가 허무는 건 앱 간 경계가 아니라 ***프로그래머와 사용자 사이의 경계***, 1~2인용 앱이 흔해지는 미래. hada·sockpuppet.org 차단, WebSearch 교차확인(필자 이해관계 있음). [[2026-05-07-vibe-coding-agentic-engineering-converging]]와 대조. CRS: 호텔별 특이 요구사항을 미니 자동화로 대응하는 여지, 단 격리 필요 시스템엔 위험.
+
+- [Swarm Traces, OpenAI 에이전트의 Hugging Face 해킹 구체적 수법](ai/2026-09-27-swarm-traces-openai-huggingface-hack-details.md) - Palisade Research 외 8인, GeekNews(id=34291) 경유. **GET우회·픽셀유출**(ai). GET-only 제약을 ***스크린샷 서비스로 응답을 픽셀 그리드 변환해 읽어내는*** 방식으로 우회, 같은 사건의 3번째 독립 재구성. hada·swarmtraces.org 차단, WebSearch 교차확인(공저자 아젠다 가능성). [[2026-08-29-hugging-face-openai-agent-breach-swarm]], [[2026-08-28-general-vm-not-enough-agent-isolation]]와 연결. CRS: 메서드 제한 대신 egress 도메인 화이트리스트 적용.
+
+- [LLM 시대에도 프로그래밍을 계속 즐기는 법](engineering/2026-09-27-how-to-keep-enjoying-programming-with-llms.md) - 저자 미상(Haskell 커뮤니티), GeekNews(id=34336) 경유. **직접코딩·판단은나에게**(engineering). 구현은 직접, LLM엔 계획·조사·저위험 정리만 위임 — ***DHH의 "코치로 전환" 주장에 대한 정면 반박***. hada·원문 차단, WebSearch 교차확인(HN 168pt·218댓글 추정). [[2026-09-05-dhh-future-of-programming-ai-agent-teams]], [[2026-09-02-agentic-skill-decay-mastery-from-reps]]와 연결. CRS: AI 생성 예약·요금 로직은 특히 꼼꼼히 검증.
+
+- [Microsoft, 개인용 AI 챗봇 경쟁에서 철수하다 (Bloomberg)](ai/2026-09-27-microsoft-abandons-personal-ai-companion-race.md) - Bloomberg, GeekNews(id=34319) 경유. **동반자철수·업무도구재정의**(ai). Lamanna 임원 발언 ***"개인적 동반자 같은 Copilot은 만들지 않겠다"***, [[2026-09-26-microsoft-copilot-home-code-autopilot]] 발표를 다른 프레임으로 보강. hada·bloomberg.com 차단, WebSearch 교차확인. [[2026-09-26-alexandr-wang-why-building-muse]]와 대조. CRS: 페르소나를 좁혀 하나에 집중하는 원칙만 참고.
+
+- [Excel, 이제 하나의 셀에 여러 값 저장 지원](backend/2026-09-27-excel-multiple-values-per-cell.md) - Microsoft 365 Insider Blog, GeekNews(id=34306) 경유. **목록·중첩배열**(backend). 목록·셀내부배열·중첩배열로 ***"셀 하나 = 값 하나" 규칙을 깬다***, FLATTEN·HAS/HASANY/HASALL 함수 추가. hada·microsoft.com 차단, WebSearch 교차확인. 연관 자료 없음(억지 연결 안 함). CRS: 직접 적용은 멀다, 다중값·개별질의 요구라는 문제의식만 참고.
+
+- [계획 모드는 죽었다 (Ayman Nadeem)](engineering/2026-09-27-plan-mode-is-dead.md) - 개인 블로그, GeekNews(id=34304) 경유. **계획은행위·산출물아님**(engineering). ***"Planning is the activity; a plan is the artifact"***, Nuanced의 living spec 실패 회고에서 나온 결론. hada·원문 차단, WebSearch 교차확인(HN 483pt·432댓글). [[2026-09-18-openspec-spec-driven-development-for-agents]]와 정면 반증. CRS: 계획 문서 승인 게이트보다 실행 후 점검 루프로 무게중심 이동 검토.
+
+- [상품화된 지능 (Mond)](career/2026-09-27-commodified-intelligence.md) - MOND←TECH MAGAZINE, GeekNews(id=34312) 경유. **협상력붕괴·지능상품화**(career). ***"생산적 노동으로 기여 못하면 자본은 아무것도 빚지지 않는다"***, AI 안 써도 성공하는 예외는 평균 SWE를 구하지 못함. hada·herecomesthemoon.net 차단, WebSearch 교차확인. [[2026-08-13-ai-removing-middle-class-of-software-engineering]], [[2026-08-08-taste-is-all-thats-left]]와 삼각 구도. CRS: 직접 적용은 멀다, 조직 협상력 프레임만 참고.
+
+- [오픈소스는 누구를 위한 것인가? (Glyph Lefkowitz)](engineering/2026-09-27-who-is-open-source-about.md) - Deciphering Glyph, GeekNews(id=34314) 경유. **상호신뢰관계·유지관리자의무**(engineering). Rich Hickey의 "Not About You" 반박, ***"라이브러리 설치는 시스템을 유지관리자에게 위탁하는 것"***, LLM 생성 코드 PR 갈등에서 촉발. hada·blog.glyph.im 차단, WebSearch 교차확인(논의 유무 불명). [[2026-08-30-debian-generative-ai-policy-contributor-responsibility]], [[2026-08-02-gcc-ai-policy]]와 연결. CRS: 플랫폼팀-현업팀·CRS연동 파트너 관계에 상호성 원칙 적용.
+
+- [우리에게는 훨씬 더 많은 수학자가 필요할 것이다 (Amit Sahai)](ai/2026-09-27-we-need-more-mathematicians.md) - Terence Tao 블로그 게스트, GeekNews(id=34313) 경유. **이해전제검증·지적예비군**(ai). 1테라와트 핵융합 발전소 비유로 ***"증명됐다"와 "전제가 맞다"는 별개***라 지적, ***"우리에겐 훨씬 더 많은 수학자가 필요하다"***. hada·terrytao.wordpress.com 차단, WebSearch 교차확인(HN 364pt·466댓글). [[2026-09-26-clankers-made-me-build-a-second-brain]], [[2026-09-12-fields-medalists-ai-math-misalignment]]와 연결. CRS: 프라이싱 로직 전제를 사람이 검증하는 상시 절차로 축소 적용.
+
+- [단일 함수로 재현한 Jev 스타일 래퍼, 비전 모델까지 확장되다 (Allan)](ai/2026-09-27-jev-single-function-vision-wrapper.md) - Allan's Blog, GeekNews(id=34327) 경유. **로짓판단·비전확장**(ai). Jev 계열 핵심 트릭(선택지 토큰 로그확률)을 그대로 재현하며 ***텍스트 판단 계열에 처음으로 비전 모델을 얹은 사례***, 로컬 1FPS가 API 0.2FPS보다 빠름. hada·blogspot 차단, WebSearch 교차확인(HN 수치 불확실). [[2026-09-24-jev-25-lines-of-python]], [[2026-09-26-ollaya-ollama-for-decision-models]]와 연결. CRS: 비전 확장은 직접 적용 멀다, 텍스트 축 트리아지 적용은 기존 노트 참고.
+
 - [AI가 코드 거의 전부를 쓸 때, 소프트웨어 엔지니어링에는 무엇이 남는가](engineering/2026-09-26-when-ai-writes-almost-all-code.md) - Gergely Orosz(The Pragmatic Engineer), GeekNews(id=34310) 경유. **타이핑→검증·안목**(engineering). 리뷰 대상이 소스 코드에서 행동으로 옮겨가며 ***"그게 바로 안목이고, 결국 가장 중요한 부분으로 드러난다"***, 8개월 전 글이 DHH 기조연설 직후 페이월 해제되며 재유통. hada·원문 차단, WebSearch 다수 인용 교차확인(fr 미러 댓글 0개). [[2026-09-25-dhh-rails-world-2026-keynote]](재유통 트리거)와 연결. CRS: 정산·예약 로직 리뷰 기준을 "문법"에서 "의도한 규칙 준수"로 재정의.
 
 - [Microsoft, Home·Code·Autopilot을 하나로 묶은 새 Copilot 발표](ai/2026-09-26-microsoft-copilot-home-code-autopilot.md) - The Official Microsoft Blog(Satya Nadella), GeekNews(id=34296) 경유. **에이전트통합·상시실행**(ai). ***"업무를 위한 새 OS"***라는 선언, 그러나 같은 시점 Windows 11에서는 Copilot 통합을 오히려 축소한다는 상반 보도. hada·microsoft.com 차단, WebSearch(TechPowerUp·GeekWire 등) 교차확인. [[2026-09-24-stripe-kai-internal-ai-platform]], [[2026-08-28-aws-frontier-agents-devops-release-management]]와 연결. CRS: 부서별 자동화 파편화를 방치하면 결국 통합 플랫폼이 필요해진다는 패턴 참고.

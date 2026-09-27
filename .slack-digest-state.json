@@ -1,8 +1,8 @@
 {
   "channel_id": "C0AJL0096H4",
   "channel_name": "개발-뉴스-dev-news",
-  "last_message_ts": "1790402872.736869",
-  "last_run_summarized_at": "2026-09-26",
-  "last_run_article_count": 16,
-  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-26 실행: GeekNews 16개(34310, 34296, 34274, 34272, 34282, 34278, 34277, 34295, 34288, 34271, 34268, 34264, 34256, 34253, 34251, 34290) 전부 신규로 정리, 스킵 없음. news.hada.io 및 서브도메인/미러(es., fr., pt.)는 이번 세션에서도 egress 전면 차단, 원문 도메인 대부분(blog.google, blogs.microsoft.com, go.dev, factorio.com, inkandswitch.com, jardo.dev, jadarma.github.io, theguardian.com, newsletter.pragmaticengineer.com 등)도 WebFetch 차단이었고 github.com만 예외적으로 통과됐다 — 4개 조사 에이전트 모두 WebSearch 교차확인, 일부는 GitHub에 미러된 개인 TIL 저장소(ahastudio/til)나 HN 다이제스트 미러 이슈로 원문을 역추적해 재구성했다(id=34268 'What About Rails?', id=34264 'That's so AI' 두 건은 2차 재구성 한계가 특히 크다는 점을 노트에 명시). id=34310(Gergely Orosz 글)은 2026년 1월 최초 게시 후 DHH Rails World 2026 키노트(2026-09-25 노트) 직후 페이월이 풀리며 재유통된 것으로 확인했다. id=34268은 바로 그 키노트에 대한 하루 늦은 비판 반응으로 확인됐다. Jev 계열에 Ollaya(id=34288)가 새로 추가됐다 — 개별 오픈소스 재구현(Laya, Kev 등)들을 Ollama 스타일 CLI/API로 통합한 첫 유통 계층이라는 점에서 이전 재구현들과 성격이 다르다. 멀티 에이전트 오케스트레이터 니치(Orca/Paseo/Proliferate)에 Ordewell(id=34290)이 네 번째로 합류했다."
+  "last_message_ts": "1790475686.626599",
+  "last_run_summarized_at": "2026-09-27",
+  "last_run_article_count": 12,
+  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-27 실행: GeekNews 12개(34292, 34344, 34309, 34291, 34336, 34319, 34306, 34304, 34312, 34314, 34313, 34327) 전부 신규로 정리, 스킵 없음. news.hada.io는 이번 세션에서도 egress 전면 차단, 원문 도메인 대부분(sockpuppet.org, swarmtraces.org, herecomesthemoon.net, blog.glyph.im, terrytao.wordpress.com, allanrbo.blogspot.com, aurascape.ai, tryatlas.cc, bloomberg.com 등)도 WebFetch 차단이었다 — 12개 조사 에이전트 전부 WebSearch 교차확인으로 재구성했고, 원문 URL조차 특정하지 못한 경우(id=34336 'How to keep enjoying programming'은 저자·정확한 URL 미상)도 있었다. id=34319(Microsoft 개인 AI 챗봇 경쟁 철수, Bloomberg)는 같은 날 발표 자체를 다룬 기존 노트(2026-09-26-microsoft-copilot-home-code-autopilot, id=34296)와 발표 내용이 겹치지만, Bloomberg의 다른 프레임(Lamanna 임원 발언, Suleyman 소비자 베팅 실패 서사)을 보강하는 별도 노트로 처리했다. 멀티 에이전트 오케스트레이터 니치(Orca/Paseo/Proliferate/Ordewell)에 Atlas(id=34344)가 다섯 번째로 합류했는데, 오케스트레이션이 아니라 '커밋-세션 체크포인트'라는 소스관리 축이라는 차별점이 있다. Jev 계열(id=34327, Allan)은 처음으로 비전 모델 확장 사례가 등장했다. 수학자 노트(id=34313, Amit Sahai)는 Terence Tao 블로그의 게스트 포스트임에 유의(Tao 본인 저작 아님)."
 }
