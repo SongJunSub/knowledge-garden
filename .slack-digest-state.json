@@ -1,8 +1,8 @@
 {
   "channel_id": "C0AJL0096H4",
   "channel_name": "개발-뉴스-dev-news",
-  "last_message_ts": "1790475686.626599",
-  "last_run_summarized_at": "2026-09-27",
-  "last_run_article_count": 12,
-  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-27 실행: GeekNews 12개(34292, 34344, 34309, 34291, 34336, 34319, 34306, 34304, 34312, 34314, 34313, 34327) 전부 신규로 정리, 스킵 없음. news.hada.io는 이번 세션에서도 egress 전면 차단, 원문 도메인 대부분(sockpuppet.org, swarmtraces.org, herecomesthemoon.net, blog.glyph.im, terrytao.wordpress.com, allanrbo.blogspot.com, aurascape.ai, tryatlas.cc, bloomberg.com 등)도 WebFetch 차단이었다 — 12개 조사 에이전트 전부 WebSearch 교차확인으로 재구성했고, 원문 URL조차 특정하지 못한 경우(id=34336 'How to keep enjoying programming'은 저자·정확한 URL 미상)도 있었다. id=34319(Microsoft 개인 AI 챗봇 경쟁 철수, Bloomberg)는 같은 날 발표 자체를 다룬 기존 노트(2026-09-26-microsoft-copilot-home-code-autopilot, id=34296)와 발표 내용이 겹치지만, Bloomberg의 다른 프레임(Lamanna 임원 발언, Suleyman 소비자 베팅 실패 서사)을 보강하는 별도 노트로 처리했다. 멀티 에이전트 오케스트레이터 니치(Orca/Paseo/Proliferate/Ordewell)에 Atlas(id=34344)가 다섯 번째로 합류했는데, 오케스트레이션이 아니라 '커밋-세션 체크포인트'라는 소스관리 축이라는 차별점이 있다. Jev 계열(id=34327, Allan)은 처음으로 비전 모델 확장 사례가 등장했다. 수학자 노트(id=34313, Amit Sahai)는 Terence Tao 블로그의 게스트 포스트임에 유의(Tao 본인 저작 아님)."
+  "last_message_ts": "1790579416.439069",
+  "last_run_summarized_at": "2026-09-28",
+  "last_run_article_count": 18,
+  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-28 실행: GeekNews 13개(34390,34381,34379,34375,34372,34368,34363,34353,34352,34397,34394,34392,34395) + Slack TechArticles 봇 4개(베스핀글로벌 블로그, AWS 블로그 x2, NHN Cloud Meetup) + GeekNews Weekly #377(W40) 총 18개 전부 신규로 정리, 스킵 없음. news.hada.io는 이번 세션에서도 egress 전면 차단, 원문 도메인 대부분(blog.bespinglobal.com, aws.amazon.com, meetup.nhncloud.com, tinyaiarena.com, pixelambacht.nl, fireworks.ai, substack, ihatethefuture.com, cybernews, privatemode.ai, appleinsider, authorsguild.org, developing.dev, primary.vc, X 등)도 차단이었다 — GitHub만 예외적으로 열려 BrowserSkill 노트는 README 직접 확인. 4개 병렬 리서치 에이전트(배치 A~D)가 WebSearch 교차확인으로 재구성했고, 위클리 #377은 Slack 서문 발췌(절단)만 확보해 원문 미확인. Apple Pay 반독점(id=34353)은 career 카테고리로, EKS+FLARE 연합학습(TechArticles)은 architecture로 분류. Weekly #377이 인용한 「시니어 엔지니어의 파멸적 악순환」(id=34027)은 가든이 이미 9/21 당일 정리해둔 기사라 위클리는 재확인 성격."
 }
