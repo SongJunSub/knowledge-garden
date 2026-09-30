@@ -1,8 +1,8 @@
 {
   "channel_id": "C0AJL0096H4",
   "channel_name": "개발-뉴스-dev-news",
-  "last_message_ts": "1790680214.360939",
-  "last_run_summarized_at": "2026-09-29",
-  "last_run_article_count": 23,
-  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-29 실행: GeekNews 16개(34463,34459,34458,34457,34456,34455,34454,34453,34452,34444,34443,34440,34439,34435,34428,34424) + Slack TechArticles 봇 7개(AWS 블로그 x3, 네이버 D2, flex, 삼성전자, 데보션) 총 23개 전부 신규로 정리, 스킵 없음. news.hada.io는 이번 세션에서도 egress 전면 차단. 원문 도메인은 세션마다 변동이 있었다 — anthropic.com·platform.claude.com·GitHub는 이례적으로 열람 가능(Sonnet 5.5·Opus 5.5 프롬프트 가이드·NobodyWho/Jeff 노트는 원문 직접 확인), 반면 aws.amazon.com·d2.naver.com·flex.team·techblog.samsung.com·devocean.sk.com·softwaremill.com·boringsql.com·motherduck.com·mubi.com·calnewport.com·blog.glyph.im·worldlabs.ai 등은 전부 차단돼 Slack 발췌+WebSearch 교차확인으로 재구성했다(각 노트 '출처 한계'에 구체 명시). 5개 병렬 리서치 에이전트(ai 2팀, backend, architecture, engineering+career)가 작업했고, 완료 후 메인 세션이 각 파일의 위키링크 전수 검증(총 90여 개, dead link 0)과 published_at 누락 보정을 거쳐 커밋했다. 'MVNT' 회사명은 Slack 발췌가 '무버트'로 오기한 것을 WebSearch로 정정(Mubert 아님, K팝 안무가 창업 댄스 인텔리전스 스타트업으로 추정, 확정 아님). '해적판을 해적질하다'(id=34443)·'Valve Pyrowave 코덱'(id=34428)은 CRS 접점이 옅은 가벼운 픽으로 분류, 억지 연결 없이 engineering에 배치."
+  "last_message_ts": "1790766611.623429",
+  "last_run_summarized_at": "2026-09-30",
+  "last_run_article_count": 21,
+  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-09-30 실행: GeekNews 17개(34521,34520,34513,34512,34511,34510,34509,34505,34501,34500,34496,34478,34475,34473,34470,34468,34517) + Slack TechArticles 봇 4개(올리브영 디컴파일러, 당근 오버레이 제어, 네이버 D2 에이전트 개념, 요기요 Product Engineer) 총 21개 전부 신규로 정리, 스킵 없음. news.hada.io는 이번 세션에서도 egress 전면 차단. 원문 도메인은 세션마다 변동 — anthropic.com·github.com·engadget.com·digitaltrends.com·vellum.ai·kciter.so(URL만)·아시아경제/Axios 등 뉴스매체는 대체로 WebSearch 교차확인이 가능했지만, openai.com·nvidia.com·blog.cloudflare.com·oliveyoung.tech·medium.com(당근)·techblog.yogiyo.co.kr·d2.naver.com·stateofutopia.com·bain.com은 전부 직접 차단돼 WebSearch 2차 보도 교차확인 또는 Slack 발췌만으로 재구성했다(각 노트 '출처 한계'에 구체 명시). 특히 d2.naver.com(네이버 D2 에이전트 개념 노트)은 WebSearch로도 원문을 전혀 특정하지 못해 이 가든의 기존 하네스 지식으로 '배경지식 재구성' 절을 별도 표기했다 — 이번 배치 중 출처 한계가 가장 큰 노트. 4개 병렬 리서치 에이전트(그룹당 5~6개)가 초안을 작성했고, 완료 후 메인 세션이 각 파일을 직접 정독하며 품질 확인 + 위키링크 전수 검증(총 90여 개, dead link 0)을 거쳐 커밋했다. Jev 계열 재구현 계보에 Jeeves(추론 단계 추가)가 새 갈래로 추가됐고, OpenAI DevDay의 Decisions API가 같은 카테고리를 플랫폼 기능으로 흡수한 사례와 나란히 연결했다."
 }
