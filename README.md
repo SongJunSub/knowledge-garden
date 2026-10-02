@@ -23,6 +23,8 @@
 
 ### 2026-10
 
+- [Whiteboard 출시 스레드 다시 읽기 (/dev/fast, HN 142댓글)](ai/2026-10-02-whiteboard-hn-launch-plan-review-gap.md) - Hacker News Show HN(Algolia API 전문), README 원문, GeekNews(id=34245) 경유. **계획리뷰간극, 다이어그램휘발성**(ai). 창업자는 ***"구현 없는 계획 리뷰는 쓸모없다, 코드는 스펙을 다듬는 싼 탐침"***이라 했고, 다이어그램 표류 비판에는 "남는 건 내 머릿속 모델"이라 인정했다. 반론은 "구현은 이미 초인적"과 "계획만 보다 5만 줄 걷어냈다"로 갈렸고, 데모 GIF가 코드에 없는 전이를 그린 개념용 그림이었다는 지적도 나왔다(코드 연결은 존재를 보장할 뿐 화살표의 의미는 보장 안 함). IDE에서 canvas로 개명, 423점. hada 차단, 창업자 상주 스레드라 로드맵 약속 다수. [[2026-09-25-whiteboard-ai-code-diff-canvas]]의 후속, [[2026-09-27-plan-mode-is-dead]]와 연결. CRS: 요금, 정산, 할당 PR은 경로 규칙으로 깊은 리뷰에 올리고, 예약 상태 다이어그램은 화살표 라벨부터 대조.
+
 - [모바일 라이브커머스 송출 파이프라인 다시 설계하기 1부 (CJ온스타일)](architecture/2026-10-01-cj-onstyle-elemental-live-redesign-part1.md) - CJ온스타일 테크블로그(Medium), Slack TechArticles 경유. **완전관리형트레이드오프·이중화**(architecture). AWS IVS의 비용·리전장애 취약성과 이중화 복잡성 때문에 온프레미스 Elemental Live로 ***인코딩 파이프라인을 재설계하고 백업 이중화***를 갖췄다. medium.com 전면 차단, Slack 발췌+봇 확장설명 문단만 근거(정량 수치 없음). [[2026-10-01-cj-onstyle-elemental-live-rebroadcast-automation-part2]], [[2026-09-28-woongjin-preedlife-aws-elastic-disaster-recovery]]와 연결. CRS: 예약 채널 이중화 전환 임계점(장애빈도·비용)을 피크 시즌 전 정의.
 
 - [전시 MLC 2부 AWS Elemental Live를 활용한 재방송 송출 개선 (CJ온스타일)](architecture/2026-10-01-cj-onstyle-elemental-live-rebroadcast-automation-part2.md) - CJ온스타일 테크블로그(Medium), Slack TechArticles 경유. **상태머신자동화·프리롤검증**(architecture). 1부의 이중화 위에서 ***등록→검증→스케줄→사전구동→전환 5단계***를 자동화, 프리롤 재생으로 본편 전환 전 리허설하는 카나리 배포형 설계. medium.com 차단, Slack 발췌만 근거. [[2026-10-01-cj-onstyle-elemental-live-redesign-part1]], [[2026-08-20-hive-internal-user-exclusion]]과 연결. CRS: 신규 파트너·채널 온보딩 파이프라인에 "등록-검증-사전구동-전환" 상태머신 그대로 적용 가능.
