@@ -41,7 +41,7 @@ tags: ["multi-agent", "claude-code", "codex", "agent-orchestration", "tmux", "ya
 
 ### 핵심 전이 1 — "여러 코딩 에이전트를 병렬로 돌리는" 니치의 다섯 번째 사례, 이번엔 "팀 조직 모델"이 차별점
 
-이 가든은 이미 [[2026-08-08-orca-parallel-coding-agents-ade]](MIT), [[2026-08-08-paseo-coding-agent-orchestrator]](AGPL), [[2026-09-10-proliferate-parallel-coding-agents-ide]](AGPL, YC), [[2026-10-01-traycer-multi-agent-orchestration]](MIT, "문맥 공유"가 차별점), [[2026-10-05-offrun-multi-agent-workspace]](Mac GUI, worktree 격리)까지 같은 니치의 다섯 경쟁자를 추적해왔다. OpenRig은 여섯 번째 진입자이면서, 앞선 도구들이 "worktree 격리"나 "문맥 공유"를 내세운 것과 달리 **Seat·Pod·starter/workshop/factory라는 명시적 조직 모델**을 차별점으로 내세운다 — 경쟁 축이 "격리 기술"에서 "팀 설계 템플릿"으로 한 단계 옮겨간 것으로 읽힌다.
+이 가든은 이미 [[2026-08-08-orca-parallel-coding-agents-ade]](MIT, engineering), [[2026-08-08-paseo-coding-agent-orchestrator]](AGPL, engineering), [[2026-09-10-proliferate-parallel-coding-agents-ide]](AGPL, YC), [[2026-10-01-traycer-multi-agent-orchestration]](MIT, "문맥 공유"가 차별점), [[2026-10-05-offrun-multi-agent-workspace]](Mac GUI, worktree 격리)까지 같은 니치의 다섯 경쟁자를 추적해왔다. OpenRig은 여섯 번째 진입자이면서, 앞선 도구들이 "worktree 격리"나 "문맥 공유"를 내세운 것과 달리 **Seat·Pod·starter/workshop/factory라는 명시적 조직 모델**을 차별점으로 내세운다 — 경쟁 축이 "격리 기술"에서 "팀 설계 템플릿"으로 한 단계 옮겨간 것으로 읽힌다.
 
 ### 핵심 전이 2 — Ordewell의 자동 의존성 그래프, Offrun의 사람 주도 분배와 또 다른 제3의 축
 
