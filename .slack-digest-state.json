@@ -1,8 +1,8 @@
 {
   "channel_id": "C0AJL0096H4",
   "channel_name": "개발-뉴스-dev-news",
-  "last_message_ts": "1791598266.460639",
-  "last_run_summarized_at": "2026-10-10",
-  "last_run_article_count": 11,
-  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-10-10 실행: 2026-10-10 09:34~11:11 KST 사이 올라온 GeekNews 토픽 11건(35087,35086,35070,35085,35079,35073,35094,35060,35046,35047,35088)을 전부 신규로 정리했다. 3개 병렬 리서치 에이전트(4+4+3개)가 각자 맡은 기사의 원문 확보·분류·초안 작성·위키링크 검증을 수행하고 메인 세션이 파일 존재·wikilink dead link 0 전수 재검증 후 11개를 개별 커밋했다. 이번 실행에서는 news.hada.io뿐 아니라 이 세션의 WebFetch 자체가 시도한 모든 외부 도메인에서 getaddrinfo ENOTFOUND로 전면 실패했다(blog.glyph.im, borretti.me, iminafleeting.com, python.org, letsencrypt.org 등 포함) — GitHub README(vgpu)만 예외적으로 WebFetch 성공해 1차 소스를 확보했고, 나머지 10건은 전부 WebSearch 교차확인으로 재구성했다. 특히 Python 3.15는 '정식 출시'라는 제목과 달리 10/9 최종 출시가 실제로 완료됐는지조차 이 세션에서 직접 확인하지 못했음을 노트에 명시했고, Windows/Mac 키보드 글은 저자(Marcin Wichary)도 추정 수준으로만 밝혔다. AI 생성곡 스트리밍 사기 사건은 매체마다 피해 금액이 $8M~$12M로 편차가 있어 그 불일치를 그대로 노출했다. 전체 11개 노트의 위키링크를 전수 검증(dead link 0)한 뒤 README '2026-10' 섹션 최상단에 11개 항목을 Slack 타임스탬프 역순으로 배치 추가했다."
+  "last_message_ts": "1791683475.606699",
+  "last_run_summarized_at": "2026-10-11",
+  "last_run_article_count": 9,
+  "note": "다음 실행은 slack_read_channel(channel_id, oldest=last_message_ts) 로 이 시점 이후 새 메시지만 수집한다. CLAUDE.md의 '자동 스케줄 워크플로우 — Slack 뉴스 다이제스트' 절 참고. 2026-10-11 실행: 2026-10-11 09:34~10:51 KST 사이 올라온 GeekNews 토픽 9건(35140,35092,35099,35100,35104,35105,35127,35124,35089)을 전부 신규로 정리했다. 3개 병렬 리서치 에이전트(각 3개씩)가 각자 맡은 기사의 원문 확보·분류·초안 작성·위키링크 검증을 수행하고 메인 세션이 파일 존재·wikilink dead link 0 전수 재검증 후 9개를 개별 커밋했다. 이번 실행에서도 news.hada.io를 포함한 대다수 외부 도메인이 WebFetch에서 ENOTFOUND로 전면 차단됐다 — github.com만 예외적으로 열려 MXC(microsoft/mxc)·Eve(vercel/eve) 두 건은 GitHub README를 1차 소스로 확보했고, 나머지 7건은 전부 WebSearch 교차확인으로 재구성했다. TypeSafe AI(Jev) Series A 노트는 투자사 자신의 벤치마크 대시보드조차 Jev의 정확도 열세(67.8% vs 74%)를 자인한다는 점을 강조했고, Microsoft-Decision-1은 가격이 Jev와 소수점까지 동일해 명시적 벤치마킹으로 판단했다. REA 노트는 과업 설명에 있던 예시(크롬 공룡 게임·Calculator)가 실제 README 쇼케이스와 일치하지 않는다는 점, 스타 수가 출처 간(85.6k vs 14.9k) 불일치한다는 점을 그대로 노출했다. 전체 9개 노트의 위키링크를 전수 검증(dead link 0)한 뒤 README '2026-10' 섹션 최상단에 9개 항목을 Slack 타임스탬프 역순으로 배치 추가했다."
 }
