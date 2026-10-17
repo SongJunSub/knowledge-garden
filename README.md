@@ -23,6 +23,38 @@
 
 ### 2026-10
 
+- [iroh 1.0까지의 여정](architecture/2026-10-17-iroh-1-0-journey-ipfs-to-pubkey.md) - hada 차단, iroh.computer 블로그로 배경 교차확인. **IPFS포기QUIC전환**(architecture). 모바일용 IPFS 구현이었다가 Delta Chat 채팅 동기화 요구 앞에서 IPFS 호환성을 버리고 QUIC·BLAKE3 기반 공개키 연결로 4년간 전환. [[2026-08-27-tailcat-tailscale-without-account]]와 같은 "계정 없는 P2P" 지향. CRS: 직접 적용은 멀다, 범용 목표에 갇히지 않고 실제 사례 기준으로 스코프를 좁힌 결정 패턴만 전이 가능.
+
+- [Linus Torvalds "AI 사용을 금지하지 않겠다"](engineering/2026-10-17-linus-torvalds-ai-use-understand-your-work.md) - hada 차단, WebSearch로 2026-07 발언 교차확인(동일 발언인지 미확정). **도구아닌이해기준**(engineering). 기여자 역량을 도구 사용 여부로 판단하지 않고 제출 코드의 이해·책임 여부로만 판단. [[2026-07-17-linus-torvalds-llm-in-kernel-development]]·[[2026-10-13-linus-torvalds-claude-code-kernel-folio-refcount]] 연결. CRS: AI 코딩 도구 허용 정책을 "이해·설명 가능 여부" 기준으로 세울 때 직접 적용.
+
+- [B2B에서 YouTube로 잠재 고객을 확보하는 방법](career/2026-10-17-b2b-youtube-lead-generation.md) - hada 차단, Slack 발췌(끊김)가 유일 근거. **도달아닌적합성**(career). 구독자·바이럴이 아니라 적합한 잠재고객 이메일·매출전환이 지표, 영상당 단일 목표+LinkedIn 검증 후 확장+구매키워드 역산. [[2026-10-15-b2b-gtm-playbook-2026]]과 같은 account-based 결론. CRS: 온다 B2B 세일즈에 직접 전이, 호텔 CRS 담당자가 실제 검색하는 키워드로 콘텐츠 역산 가능.
+
+- [Apache Spark 리소스 최적화(Salesforce Data 360)](backend/2026-10-17-salesforce-data360-spark-resource-waste.md) - hada 차단, WebSearch로 찾은 후보글이 수치 불일치해 동일 글 확정 못함. **성공은적정성증거아님**(backend). 애플리케이션 코드 수정 없이 공통 제출 경로에 계측 주입, 유휴 실행기와 과다할당을 구분해 자원 낭비 추적. [[2026-09-29-naver-hive-spark-get-table-rpc-recovery]]·[[2026-10-17-nvidia-runai-kubernetes-gpu-scheduling]] 연결. CRS: 배치 성공 여부와 적정 자원 사용 여부를 분리 모니터링하는 원칙 직접 전이.
+
+- [PostgreSQL 무중단 스키마 변경 실무 가이드](backend/2026-10-17-postgresql-zero-downtime-schema-migration-guide.md) - hada 차단, 업계 공통 주제라 원문 특정 못함. **확장축소lock_timeout**(backend). 신구버전 동시 지원 전제로 확장-전환-축소 5단계 분리, 짧은 lock_timeout과 동시 인덱스 생성으로 락 전염을 끊음. [[2026-06-30-postgresql-19-beta-deep-dive]]·[[2026-10-13-postgres-storage-not-slow]] 연결. CRS: 예약·요금·재고 테이블 마이그레이션 표준 절차로 직접 채택 가능.
+
+- [PS5LM](ai/2026-10-17-ps5lm-ps5-llamacpp-home-model-server.md) - hada 차단, WebSearch 교차확인 결과 성능 수치가 내부 모순(9B가 0.8B보다 빠름)임을 발견해 정직하게 기록. **콘솔을모델서버로**(ai). 탈옥 PS5에 llama.cpp를 Vulkan 백엔드로 포팅, OpenAI/Anthropic 호환 API와 브라우저 채팅 제공. [[2026-09-17-ps5-linux-theflow-quits-llm-vibe-coding]]과 "AI를 향한" vs "AI로 만든" 대조. CRS: 직접 적용 없음, 벤더 수치의 내부 일관성 검증 습관만 전이.
+
+- [Claude Code 팀의 코드 리뷰 방식(Anthropic)](ai/2026-10-17-claude-code-review-process.md) - hada 차단, Anthropic 공식 블로그 수치와 Slack 수치가 1:1로 안 맞음을 밝힘. **리뷰목적을위험판단으로**(ai). 코드읽기 자동화, 사람은 위험판단·책임에 집중, PR생성전-AI리뷰-보안검사-CI-점진배포까지 다층 방어. [[2026-06-08-agentic-code-review]]·[[2026-10-17-postgresql-19-release-delay-ai-review-bugs]] 연결(같은 AI리뷰 개입의 정반대 체감효과 대조). CRS: 온다 자체 리뷰 프로세스에 직접 적용, 빠른 롤백이 전제조건.
+
+- [Claude, NIST 타원곡선 암호 시드 출처 규명](ai/2026-10-17-claude-nist-curve-seed-origin.md) - hada 차단, "Claude가 30분에 풀었다"는 핵심 주장 자체를 WebSearch로 전혀 검증 못해 미확인 주장으로 표시. **lrand48가설미검증**(ai). 25년 미제 NIST 곡선 시드 생성 방식을 lrand48 난수생성기+격자알고리즘으로 역산했다는 주장, 연관자료 없이 솔직히 비워둠. CRS: 직접 적용 없음, "AI가 수십년 미제를 빠르게 푼다"는 역량 시사점만.
+
+- [Postgres 19 출시 지연](backend/2026-10-17-postgresql-19-release-delay-ai-review-bugs.md) - hada 차단, "AI 리뷰가 원인"이라는 핵심 인과관계는 Stork.ai의 미검증 추측("Whispers suggest") 외엔 확인 못함. **발견시점이당겨짐**(backend). 지연·기능철회 8~10개는 복수 출처로 확인되나 원인은 미확정, 버그 총량보다 발견 시점이 앞당겨졌다는 해석. [[2026-06-30-postgresql-19-beta-deep-dive]]·[[2026-10-17-claude-code-review-process]] 연결(같은 AI리뷰가 반대 맥락서 다르게 체감). CRS: AI리뷰 도입 초기 "이슈 급증=품질 저하" 오해를 막는 내부 공유에 전이.
+
+- [MLX로 Mac Studio 4대에서 Muse Spark Open 돌리기](ai/2026-10-17-mlx-mac-studio-cluster-muse-spark-open.md) - hada 차단, Apple MLX 공식 자료로 수치(493GB·36.73토큰/초) 교차확인 성공. **로컬이클러스터로확장**(ai). 단일 장비 메모리 한계(493GB, 512GB 여유 부족)로 Thunderbolt5 RDMA 기반 파이프라인·텐서 병렬화 필요. [[2026-10-16-meta-muse-spark-open-weights]]·[[2026-09-22-m5-ultra-mac-studio-review-local-ai-agents]]·[[2026-10-14-apple-minions-idle-mac-gpu-inference]] 연결. CRS: 직접 적용은 멀다, "더 큰 서버 대신 수평 확장" 사고방식만 전이.
+
+- [Sill](frontend/2026-10-17-sill-remote-mac-windows-iphone-ipad.md) - hada 차단, WebSearch로 앱 자체는 확인되나 오픈소스 여부는 미확정. **전체아닌개별창전송**(frontend). 전체 화면 미러링 대신 Mac 개별 창 하나만 터치·펜슬·키보드로 조작, 기기 폼팩터별 레이아웃 재구성. 연관 자료 없음, 가볍게 다룸. CRS: 프런트 직원용 모바일 보조화면에 "작업단위 전송" UX 원칙 전이 가능.
+
+- [종교학으로 바라본 소프트웨어 공학](engineering/2026-10-17-religious-studies-lens-on-software-engineering.md) - hada 차단, 에세이 글이라 원문 저자·매체 특정 못함. **개발자는내부자다**(engineering). 프로그램과 종교·이데올로기 모두 "규칙과 실천"이라는 공통점, 개발자는 디지털세계의 믿음·권력에 참여하는 내부자. [[2026-10-10-programming-isnt-special]]·[[2026-09-28-ten-lines-of-code-that-changed-my-world]] 연결. CRS: 직접 적용은 멀다, "검증됨≠실제로 옳음" 상식 재확인 정도.
+
+- [AI로 하드웨어 역공학하기(Phoronix 추정)](engineering/2026-10-17-ai-hardware-reverse-engineering-scanner-camera.md) - hada 차단, Phoronix 2차보도로 Christian Schaller/Red Hat 사례와 높은 확신도로 교차확인. **참조데이터확보가먼저**(engineering). Windows VM의 정상 USB 통신 캡처로 수개월 막힌 필름스캐너 드라이버가 몇시간만에 돌파, AI는 해독·가설검증, 사람은 방향·실물확인. [[2026-08-25-reverse-engineering-my-peripherals-ownership]]·[[2026-10-11-rea-reverse-engineer-anything]] 연결. CRS: 레거시 연동 통신패턴 분석에 "정상 참조데이터 먼저 확보" 원칙 전이.
+
+- [NVIDIA Run:ai(오픈소스)](architecture/2026-10-17-nvidia-runai-kubernetes-gpu-scheduling.md) - hada 차단, 전체 플랫폼 오픈소스화 정확한 날짜 확정 못함. **동적회수가핵심**(architecture). GPU를 쪼개는 기술보다 정적 할당량과 실사용 간극을 동적으로 회수하는 정책이 핵심, 우선순위·공정배분·선점 복합. [[2026-10-17-salesforce-data360-spark-resource-waste]]·[[2026-10-14-intel-d270-inference-gpu-480gb-lpddr5x]] 연결. CRS: 고객사별 정적 할당량 중 유휴분을 피크시간대에 동적 재배분하는 정책으로 전이.
+
+- [Gemini 4 Argon 등 10월 셋째 주 Google for Developers 위클리](ai/2026-10-17-google-developers-weekly-week3-october.md) - TechArticles 직공유, developers-kr.googleblog.com도 전면 차단(지난주와 같은 패턴). **매주막히는시리즈**(ai). Gemini 4 Argon 출시는 WebSearch로 교차확인, OAuth DPoP·Googlebook 2건은 Slack 발췌만 근거. [[2026-10-09-google-developers-weekly-week2-october]]·[[2026-09-25-google-for-developers-weekly-update-week4-september]] 연결. CRS: DPoP가 실재한다면 파트너 OAuth 인증의 리프레시 토큰 탈취 방어에 검토 가치.
+
+- [Bedrock AgentCore 데이터 분석 에이전트(SD바이오센서, AWS)](architecture/2026-10-17-aws-bedrock-agentcore-sdbiosensor-data-analysis-agent.md) - TechArticles 직공유, aws.amazon.com 전면 차단으로 Slack 3문장이 유일 근거. **AgentCore생태계시리즈**(architecture). 대화형 데이터분석 에이전트를 프로토타입에서 프로덕션 아키텍처로 전환, 구체 내용 미확인. [[2026-10-16-aws-vod-auto-chapter-mediaconvert-bedrock]]·[[2026-10-16-cj-oliveyoung-incident-analysis-agent]]·[[2026-10-06-gs-energy-smus-agentcore-data-platform]] 연결. CRS: 운영데이터(예약·매출·재고) 자연어 질의 인터페이스로 전이 가능한 상위 패턴.
+
 - [VOD 자동 챕터 생성(AWS)](architecture/2026-10-16-aws-vod-auto-chapter-mediaconvert-bedrock.md) - TechArticles 직공유, aws.amazon.com 전면 차단으로 Slack 요약 4문장이 유일 근거. **결정론적후보+AI선택**(architecture). MediaConvert+Transcribe+Bedrock 조합, 샷전환 후보군 중 AI가 최종 지점을 고르고 Transcribe 전사로 챕터 제목·요약 생성, 서버리스로 업로드~저장 자동화. [[2026-08-20-aws-scte35-ai-ad-insertion]]과 같은 "결정론적 신호+AI 보정" 패턴. CRS: AI에 전체판단 안 맡기고 후보군 중 선택만 맡기는 구조를 요금안 생성에 적용 가능.
 
 - [모두의주차장 AI 음성 주차 개발기(AWS AI-DLC, 쏘카)](engineering/2026-10-16-modooparking-ai-voice-parking-ai-dlc.md) - TechArticles 직공유, aws.amazon.com 차단이나 국내 언론보도로 서비스 세부 보완. **12단계1회대화·결제는AI제외**(engineering). 최대 12단계 구매과정을 대화 한 번으로 줄이되 결제 확정은 끝까지 버튼+금액 재검증으로 AI에게 맡기지 않음. [[2026-09-16-gs-shop-ai-dlc-search-recommendation]]·[[2026-09-14-celltrion-pharm-ai-dlc-kiro-oms]]와 같은 AI-DLC 시리즈. CRS: 음성 예약변경에 추천은 AI, 확정은 사람확인이라는 안전장치 직접 전이.
