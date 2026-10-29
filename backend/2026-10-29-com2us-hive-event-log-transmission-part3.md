@@ -1,5 +1,5 @@
 ---
-title: "게임 데이터를 이벤트 로그로 전송하기 (게임빌컴투스플랫폼 Hive) — 이벤트 로그 전송 3편: 필수 속성 규칙이 지켜지지 않으면 "언제 보낼지"는 무의미해진다"
+title: "게임 데이터를 이벤트 로그로 전송하기 (게임빌컴투스플랫폼 Hive) — 이벤트 로그 전송 3편: 필수 속성 규칙이 지켜지지 않으면 \"언제 보낼지\"는 무의미해진다"
 source_title: "[게임빌컴투스플랫폼] 게임 데이터를 이벤트 로그로 전송하기: 이벤트 로그 전송 3편"
 source_url: "https://on.com2us.com/tech/event-game-data-transmission/"
 source_name: "게임빌컴투스플랫폼 Hive 애널리틱스 (Com2uS ON Tech)"

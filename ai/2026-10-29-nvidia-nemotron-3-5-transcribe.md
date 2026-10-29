@@ -1,5 +1,5 @@
 ---
-title: "NVIDIA Nemotron 3.5 Transcribe (GeekNews) — 한국어 포함 40개 언어를 한 체크포인트에 담았지만, 그 "40개"가 언어인지 로케일인지부터 출처마다 다르게 센다"
+title: "NVIDIA Nemotron 3.5 Transcribe (GeekNews) — 한국어 포함 40개 언어를 한 체크포인트에 담았지만, 그 \"40개\"가 언어인지 로케일인지부터 출처마다 다르게 센다"
 source_title: "NVIDIA Nemotron 3.5 Transcribe - 한국어 포함 40개 언어를 지원하는 공개 음성 인식 모델"
 source_url: "https://news.hada.io/topic?id=36196"
 source_name: "GeekNews"
