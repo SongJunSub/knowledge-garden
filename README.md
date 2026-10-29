@@ -23,6 +23,58 @@
 
 ### 2026-10
 
+- [AWS Lambda Web Functions 실전 가이드 2부: Amazon Bedrock AgentCore Runtime V2 에이전트를 위한 BFF 구성(AWS 기술 블로그)](architecture/2026-10-29-aws-lambda-web-functions-guide-part2.md) - aws.amazon.com 차단, Slack 스레드 상세로 작성. **에이전트를브라우저에서직접부르지않는다**(architecture). 브라우저-AgentCore 사이에 BFF를 끼워 보안·세션 매핑을 책임지게 하고, 에이전트 응답 대기 시간은 거의 비용이 들지 않는다는 설계. [[2026-10-29-aws-lambda-web-functions-guide-part1]](같은 시리즈 1부) 연결. CRS: 직접 적용 가능성 있음, 챗봇/컨시어지를 BFF 뒤에 두는 패턴.
+
+- [Product Engineer 도전: 업무 영역의 확장(요기요)](career/2026-10-29-yogiyo-product-engineer-scope-expansion.md) - techblog.yogiyo.co.kr 차단, Slack 스레드 상세로 작성. **코드는AI에게나는문제정의에**(career). 기능조직 경계를 넘어 문제 정의부터 배포까지 책임지는 PE 파일럿, 코드는 AI에 맡기고 데이터 분석·PRD·검증에 집중. [[2026-10-29-oliveyoung-pm-ai-workflow]] 연결. CRS: PE 파일럿 시험 후보.
+
+- [사이드카의 선언적 관리: OpenKruise SidecarSet 도입과 운영(네이버)](architecture/2026-10-29-naver-sidecarset-declarative-management.md) - d2.naver.com 차단, Slack 스레드 상세로 작성. **수동주입을선언적리소스로대체한다**(architecture). 파드마다 수동 설정하던 사이드카를 쿠버네티스 커스텀 리소스로 선언해 대규모 환경에서 일관된 배포·업데이트를 달성. [[2026-09-21-devocean-kubernetes-ai-inference-infra]] 연결. CRS: 멀티 테넌시 사이드카 롤아웃에 참고.
+
+- [블로그 발행 MCP를 직접 만들며 확인한 AI 에이전트 실무 원칙(데보션)](ai/2026-10-29-devocean-mcp-blog-publishing-agent-principles.md) - devocean.sk.com 차단, Slack 스레드 상세로 작성. **챗봇이아니라루프다**(ai). 완전 자율 대신 결정론적 자동화에 LLM 판단 지점을 하나씩 추가하고, 사람 승인 지점을 명확히 설계하라는 실무 원칙. [[2026-09-30-naver-d2-agent-concepts-workflow-harness-context-memory-mcp-a2a]] 연결. CRS: 직접 적용 가능성 높음, 예약 자동화에 그대로 적용.
+
+- [파일에서 테이블로: Parquet, Iceberg, Delta Lake와 데이터 레이크하우스(GeekNews GeekCast)](architecture/2026-10-29-geeknews-data-infra-lakehouse-s2ep03.md) - news.hada.io 차단, 발췌 일부 끊김. **형식·테이블·카탈로그3단구분**(architecture). 데이터 레이크 시즌2 EP03, 파일 형식/테이블 형식/카탈로그를 구분하는 지도. [[2026-10-22-geeknews-data-infra-warehouse-lake-s2ep02]](직속 전편) 연결. CRS: 레이크하우스 레이어 점검 체크리스트로 참고.
+
+- [더 중요한 고민에 집중하는 올리브영 PM이 AI로 일하는 방식(올리브영)](career/2026-10-29-oliveyoung-pm-ai-workflow.md) - oliveyoung.tech 차단, Slack 스레드 상세로 작성. **정보탐색30분을10분으로**(career). 반복적인 정보 수집·데이터 정리를 AI에 맡기고 절감한 시간을 전략적 판단에 투입. [[2026-10-29-yogiyo-product-engineer-scope-expansion]] 연결. CRS: PM 반복 업무 자동화에 직접 적용 가능.
+
+- [AAII v5 공개(GeekNews)](ai/2026-10-29-artificial-analysis-aaii-v5.md) - news.hada.io 차단, WebSearch로 v4.2(40%) 교차확인, v5(60%) 수치는 미확인. **비공개비중이또20%p올랐다**(ai). Claude Opus 5.5(max) 58점 1위, 오픈웨이트와 격차는 v4.3의 3점에서 12점으로 확대. [[2026-09-07-artificial-analysis-aaii-v4-2]] 연결. CRS: 직접 적용은 멀다, 사내 평가셋 비공개 유지 원칙만.
+
+- [게임 데이터를 이벤트 로그로 전송하기: 이벤트 로그 전송 3편(게임빌컴투스플랫폼)](backend/2026-10-29-com2us-hive-event-log-transmission-part3.md) - on.com2us.com 차단, Slack 스레드 상세로 작성. **전송시점도설계대상이다**(backend). 행동 확정 직후 전송해야 하며 너무 이르면 미완료가, 늦으면 누락이 집계된다는 타이밍 규칙과 필수 속성 강제. [[2026-10-22-com2us-hive-event-template-collection-structure]]·[[2026-10-29-com2us-hive-event-log-storage-rescue-part4]](같은 시리즈) 연결. CRS: 직접 적용 가능성 높음, 예약 상태 전이 이벤트에 동일 원칙.
+
+- [이벤트 로그 저장 구조와 적재 실패 데이터 확인하기: 이벤트 로그 전송 4편(게임빌컴투스플랫폼)](backend/2026-10-29-com2us-hive-event-log-storage-rescue-part4.md) - on.com2us.com 차단, Slack 스레드 상세로 작성. **격리는삭제가아니라대기실이다**(backend). 필수 속성 누락·형식 오류 데이터를 원본+오류사유와 함께 격리 테이블에 보존해 수정 후 재전송하는 복구 경로. [[2026-10-29-com2us-hive-event-log-transmission-part3]] 연결. CRS: 직접 적용 가능성 높음, 예약 이벤트 실패를 조용히 드롭하지 않는 패턴.
+
+- [AWS Lambda Web Functions 실전 가이드 1부: 실행 모델, 과금, CloudFront 오리진 구성(AWS 기술 블로그)](architecture/2026-10-29-aws-lambda-web-functions-guide-part1.md) - aws.amazon.com 차단, Slack 스레드 상세로 작성. **대기시간은과금하지않는다**(architecture). 어댑터 없이 표준 HTTP 서버를 그대로 배포하고 "활성 CPU 과금"으로 대기 시간 비용을 없앤 새 실행 모델. [[2026-10-29-aws-lambda-web-functions-guide-part2]] 연결. CRS: 외부 API 대기가 긴 BFF 계층에 비용 절감 후보.
+
+- [NVIDIA Nemotron 3.5 Transcribe(GeekNews)](ai/2026-10-29-nvidia-nemotron-3-5-transcribe.md) - news.hada.io 차단, WebSearch로 동일 모델명의 6월 공개 정황 발견(신규 여부 불확실). **40개언어도분모확인전엔의미없다**(ai). 전사+화자구분+번역+질의응답 통합, "40개 언어"는 로케일 포함 수치일 가능성. [[2026-10-29-artificial-analysis-aaii-v5]] 연결. CRS: 부분 적용, 다국어 상담 전사 후보(직접 WER 측정 필요).
+
+- [이대로는 지속 가능하지 않다(GeekNews)](engineering/2026-10-29-vulnerability-disclosure-velocity-crisis.md) - news.hada.io 차단, WebSearch로 CSA/Rapid7/FIRST 실제 수치 다수 교차확인. **병목은패치개발이아니라트리아지다**(engineering). Project Glasswing 1,596건 신고 중 97건만 패치, Rapid7도 "문제는 트리아지"라고 결론. [[2026-10-23-zdi-linux-kernel-unpatched-vulnerabilities-lkml]] 연결. CRS: 부분 적용, 외부 의존성 CVE 트리아지 역량 점검.
+
+- [Cursor Agent SDK(GeekNews)](ai/2026-10-29-cursor-agent-sdk.md) - news.hada.io 차단, WebSearch로 SDK 실체 확인(시점 불확실). **에이전트행동을코드로버전관리한다**(ai). Markdown 지침+TypeScript 도구, 로컬/클라우드/자체호스팅 선택 가능. [[2026-10-16-strands-harness-sdk]] 연결. CRS: 직접 적용 가능성 있음, 에이전트 정책을 PR 리뷰 대상으로.
+
+- [AlpineBSD(GeekNews)](engineering/2026-10-29-alpinebsd-netbsd-alpine-userland.md) - news.hada.io 차단, WebSearch 독립 검증 실패(프로젝트 미확인). **사전분리로AI생성물을격리한다**(engineering). NetBSD 커널+Alpine 사용자공간, AI 생성 패키지는 `tainted` 저장소로 구분. [[2026-10-28-wikipedia-ai-cleanup-detection]]·[[2026-10-28-apple-iphone-duo-screen-crack-applecare]] 연결. CRS: 직접 적용은 멀다, AI 생성 코드 출처 추적 원칙만.
+
+- [winevdm - 64비트 Windows에서 16비트 Windows 프로그램 실행하기(GeekNews)](engineering/2026-10-29-winevdm-16bit-windows-64bit.md) - news.hada.io 차단, WebSearch로 GitHub 프로젝트(otya128/winevdm) 교차확인. **Wine코드로사라진지원을되살린다**(engineering). 64비트 Windows가 버린 16비트 프로그램 지원을 Wine의 변환 코드로 메운 오픈소스 프로젝트. [[2026-10-20-wine-openbsd-port-64bit-windows-apps]](Wine을 반대 방향으로 쓰는 선행 사례) 연결. CRS: 직접 적용은 멀다.
+
+- [이 브라우저 지문 수집 스크립트는 왜 생물무기를 만들고 있을까?(GeekNews)](ai/2026-10-29-fingerprinting-script-llm-jailbreak-strings.md) - news.hada.io 차단, WebSearch 교차확인 실패. **위험한이름자체가AI분석방어막이다**(ai). 안티봇 스크립트에 생물무기 연상 함수명을 심어 AI의 안전장치를 역이용해 역공학을 차단, 모델마다(Astra 차단·GLM-5.3 수행) 반응이 다르다. 직접 연결 노트 없음. CRS: 직접 적용은 멀다, 숨겨진 프롬프트 인젝션 경계심만.
+
+- [Gemini 4 Carbon(GeekNews)](ai/2026-10-29-gemini-4-carbon.md) - news.hada.io 차단, WebSearch로도 "Carbon" 공식 발표 확인 못함(Argon만 확인). **한달전Argon각본을재방송한다**(ai). 공식 발표 자체를 독립 검증 못했다는 점을 정직하게 전제로 깔았다. [[2026-10-14-google-gemini-4-argon-general-availability]]·[[2026-10-01-google-gemini-4-argon]] 연결. CRS: 직접 적용은 멀다.
+
+- [Apple, 터치를 지원하는 PROLED XDR 디스플레이 탑재 MacBook Pro 공개(GeekNews)](frontend/2026-10-29-apple-macbook-pro-proled-xdr-touch.md) - news.hada.io 차단, WebSearch로 사전보도 교차확인. **AI배수대신니트와명암비를센다**(frontend). 같은 주 네 번째 Apple 발표, Mac 최초 터치 지원과 탠덤 OLED. [[2026-10-28-apple-m6-macbook-pro-14]]·[[2026-10-28-apple-m6-imac]]·[[2026-10-28-apple-ipad-mini-oled-a20-pro]] 연결. CRS: 직접 적용은 멀다.
+
+- [사모펀드 투자 기업에 다가오는 3,000억 달러 규모의 부채 만기(GeekNews)](career/2026-10-29-private-equity-debt-maturity-wall.md) - news.hada.io 차단, WebSearch로 더 큰 범위의 유사 수치만 확인(정확한 금액 미검증). **금리오르자돌려막기비용도올랐다**(career). 2021년 저금리 LBO 대출이 고금리 시대에 만기를 맞고, 소프트웨어 섹터에 집중+AI 경쟁 압박 겹침. 직접 연결 노트 없음. CRS: 부분 적용, PE 소유 벤더 리스크 평가 참고.
+
+- [Emacs, 50주년을 맞다(GeekNews)](engineering/2026-10-29-emacs-50th-anniversary.md) - news.hada.io 차단, WebSearch로 MIT Tech Review·Wikipedia·ACM 역사자료 풍부히 교차확인. **매크로를매크로로짠1976년임시방편**(engineering). Steele이 시작, Stallman이 완성·명명, Control-R 확장이 핵심 발명. 직접 연결 노트 없음. CRS: 거의 없음.
+
+- [경쟁사들은 4F² DRAM에 집중하는데, Micron은 왜 포기했나?(GeekNews)](backend/2026-10-29-micron-abandons-4f2-dram.md) - news.hada.io 차단, WebSearch로 Micron 웨비나 복수 매체 교차확인. **밀도이득은신화다**(backend). 트랜지스터를 4F²로 줄여도 커패시터 치수가 비례해 줄지 않아 Micron은 6F²+웨이퍼본딩+3D DRAM으로 전환, Samsung/SK hynix는 반대로 4F² 추진. [[2026-10-02-micron-ceo-memory-shortage-2027-2028]] 연결. CRS: 직접 적용은 멀다.
+
+- [UEFI 펌웨어의 코드 실행 취약점, 전 세계 서버 대부분을 위협(GeekNews)](backend/2026-10-29-uefi-tianocore-edk2-pxe-vulnerability.md) - news.hada.io 차단, WebSearch로 CVE-2026-97631 9개 매체 교차확인(패치 상태는 보도 간 불일치 그대로 명시). **방어가켜지기전에끝난다**(backend). TianoCore EDK II PXE 코드의 16년 묵은 버퍼 오버플로, CVSS 9.5, Secure Boot 작동 전 코드 실행. [[2026-10-29-vulnerability-disclosure-velocity-crisis]]·[[2026-10-29-php2shell-exploitation-kev-update]] 연결. CRS: 부분 적용, 온프레미스 PXE 부팅 장비 점검.
+
+- [AI 에이전트가 코드를 작성해도 개발자는 무엇을 알아야 할까?(GeekNews)](engineering/2026-10-29-ai-agent-code-what-developers-must-know.md) - news.hada.io 차단, 저자 미확인. **모든줄대신필요할때깊이**(engineering). 모든 코드를 이해해야 한다/전혀 안 봐도 된다 두 극단 모두 틀렸고, 기초지식은 조용한 실패 감지의 토대. [[2026-07-14-understanding-is-the-new-bottleneck]]·[[2026-10-17-linus-torvalds-ai-use-understand-your-work]] 연결. CRS: 부분 적용, 코드리뷰에 실패신호 질문 추가.
+
+- [Anthropic, Claude를 활용한 신약 개발 초기 성과 공개(GeekNews)](ai/2026-10-29-anthropic-claude-drug-discovery-partnerships.md) - news.hada.io 차단, WebSearch로 6개 매체 교차확인. **검증작업에서먼저신뢰를얻는다**(ai). 6개 파트너사(BigHat·BMS·Divergence·Enveda·Generate·Column Group)+Mithril 인수, Enveda는 1,061쪽 문서에서 사람이 못 찾은 오류 7개 추가 발견. [[2026-09-24-claude-art-enzyme-discovery]] 연결. CRS: 직접 적용은 멀다.
+
+- [PHP2Shell: 악용 시도와 취약점 조치 동향(GeekNews)](backend/2026-10-29-php2shell-exploitation-kev-update.md) - news.hada.io 차단, WebSearch로 CISA KEV 공시 등 9개 매체 교차확인. **공격이패치보다나흘빨랐다**(backend). CVE-2026-109618/109619 CVSS 9.2, 10/17 공격 시작(패치는 10/21), 10/26 KEV 등재로 연방 3일 데드라인. [[2026-10-22-wiz-php2shell-ai-exploit-chain]]·[[2026-10-23-amazon-madpot-php2shell-pre-disclosure-attacks]] 연결. CRS: 직접 적용 가능성 높음, PHP 버전 선제 스캔.
+
+- [kern - AI 생성 코드를 매번 새 컨테이너에서 실행하는 경량 루트리스 런타임(GeekNews)](engineering/2026-10-29-kern-rootless-ai-code-runtime.md) - news.hada.io 차단, WebSearch로 GitHub(getkern/kern, 453 stars) 확인. **데몬없이정적바이너리하나로**(engineering). root 권한 없이 수 밀리초에 뜨는 컨테이너, docker run 대비 자체측정 80~130배. [[2026-08-28-general-vm-not-enough-agent-isolation]]·[[2026-10-24-docker-is-weird-container-runtime-internals]] 연결. CRS: 직접 적용 가능성 있음, AI 코드 CI 격리 실행 후보.
+
 - [팀이 신뢰할 수 있는 AI 분석 환경 만들기(카카오)](ai/2026-10-28-kakao-trustworthy-ai-analysis-context-design.md) - tech.kakao.com 차단, Slack 원글+스레드 상세로 작성. **세컨텍스트로쪼갠다**(ai). 분석가마다 다른 데이터 해석·분석 기준 불일치를 Data Catalog(What)·Analyst Persona(How)·Task Context(Why)로 분리하고, Task Context는 Jira와 실시간 연동한다. [[2026-10-02-kakao-data-analysis-agent-context-design]](같은 회사, 3주 전 선행편을 더 구체화) 연결. CRS: 직접 적용 가능성 높음, 예약 분석 에이전트에 세 컨텍스트 체크리스트 그대로 적용 가능.
 
 - [Amazon MSK Express Broker에서 Kafka 트랜잭션 워크로드를 최적화하는 방법(AWS)](backend/2026-10-28-aws-msk-express-broker-kafka-transactional-workload.md) - aws.amazon.com 차단, Slack 스레드 상세 발췌로 작성. **고정복제가커밋경로에선비용으로돌아온다**(backend). 운영 복잡성을 낮추는 고정 복제 설정이 트랜잭션의 `__transaction_state` 오버헤드 앞에서는 병목이 되며, 프로듀서 수만 늘려서는 해결되지 않는다. [[2026-09-29-diskless-kafka-object-storage]](Kafka 운영 복잡성을 줄이는 반대 방향 접근과 대비) 연결. CRS: 부분 적용, 원자성이 꼭 필요한 경로(결제 확정·재고 차감)만 선별해 트랜잭션 적용.
