@@ -23,6 +23,40 @@
 
 ### 2026-10
 
+- [CJ대한통운 해외 IDC의 AWS 전환기 1편: 의존성 분석과 랜딩존 설계(AWS 기술 블로그)](architecture/2026-10-30-cj-logistics-aws-migration-part1-landing-zone.md) - aws.amazon.com 차단, Slack 스레드 상세로 작성. **외부수행사없이내재화한다**(architecture). AWS EBA 8주 스프린트로 워크로드 분석·보안 아키텍처·운영 체계를 내부 인력만으로 구축. [[2026-10-30-cj-logistics-aws-migration-part2-cutover]](같은 시리즈 2부) 연결. CRS: 해외 리전 전환 시 내부 스프린트 방식 참고.
+
+- [CJ대한통운 해외 IDC의 AWS 전환기 2편: 컷오버와 안정화(AWS 기술 블로그)](architecture/2026-10-30-cj-logistics-aws-migration-part2-cutover.md) - aws.amazon.com 차단, Slack 스레드 상세로 작성. **문서대신도구로의존성을확인한다**(architecture). AWS ADS로 문서에 없던 연계 시스템을 찾아 장애를 예방하고 실사용량 기반으로 자원을 재설계. [[2026-10-30-cj-logistics-aws-migration-part1-landing-zone]](같은 시리즈 1부) 연결. CRS: 레거시 연계 시스템을 문서 대신 자동 탐지 도구로 먼저 확인.
+
+- [OpenAI, Pro와 Business Premium 사용량 한도 2배 확대(GeekNews)](ai/2026-10-30-openai-pro-business-premium-usage-limit-doubled.md) - news.hada.io 차단, WebSearch로 정확한 발표 시점 특정 못함(선행 사건들과 혼재). **한도는약속이아니라레버다**(ai). 전 요금제 한도 2배 확대, 검토 중이던 Pro 200 축소 계획은 번복. [[2026-09-01-codex-20x-weekly-vs-claude-20x-5-hour]] 연결. CRS: 적용은 멀다, 벤더 사용량 정책을 장기 약속으로 믿지 않는 원칙만.
+
+- [모두가 함께 성장하는 기술 축제, NAVER Engineering Day 10년의 여정(NAVER D2)](career/2026-10-30-naver-engineering-day-10th-anniversary.md) - d2.naver.com 차단, Slack 스레드 상세로 작성. **연례행사로10년째푼문제**(career). 발표자·청중 경계를 허무는 선순환 문화, 올해는 AI 오픈 코칭데이 도입. [[2026-08-29-miridih-ai-know-how-team-wide-spread]](상시 조직이라는 다른 해법) 연결. CRS: 조직 규모에 맞는 소규모 정기 공유 세션 참고.
+
+- [9비트 AES 키 사건, PDF 암호화를 무력화한 취약한 난수 생성(GeekNews)](backend/2026-10-30-pdf-encryption-9-bit-aes-key-weak-rng.md) - news.hada.io 차단, 2차 보도 하나만 확인(1차 출처·CVE 미확인). **자물쇠는튼튼한데열쇠기계가예측가능하다**(backend). MuPDF는 9비트 난수를 11밀리초에, Foxit은 타임스탬프 하나로 4.85초에 뚫린다. 직접 연결 노트 없음. CRS: 부분 적용, 암호화 PDF 라이브러리 버전 점검(1차 출처 확인 전 조치는 보류).
+
+- [좀비 통계, AI가 인용하는 숫자는 어디에서 오는가(GeekNews)](ai/2026-10-30-zombie-statistics-ai-citation-provenance.md) - news.hada.io 차단, 발췌 말줄임. **인용링크가있어도출처를보장하지않는다**(ai). 5개 AI 서비스 통계 인용 1,285건 중 원연구 일치는 40%, 직접 인용은 21%뿐. [[2026-10-30-php2shell-chained-attack-government-servers]](같은 교훈이 바로 실증된 사례) 연결. CRS: 적용 없음, AI가 인용한 숫자·검증 서술을 그대로 믿지 않는 습관 참고.
+
+- [마틴 파울러, LLM 문체가 만드는 글의 불쾌한 골짜기(GeekNews)](ai/2026-10-30-martin-fowler-llm-prose-tells.md) - news.hada.io 차단, 9월 에세이의 재조명인지 새 글인지 확인 못함. **초안을통째로맡기지말라**(ai). AI 판별 결과와 무관하게 LLM 특유 문체가 거부감을 일으키니 개요만 맡기고 본문은 직접 쓰길 권함. [[2026-09-18-martin-fowler-i-dont-like-llms]](같은 저자·같은 표현, 재조명 의심) 연결. CRS: 고객 대면 문장은 직접 다듬는 2단계 워크플로 참고.
+
+- [NetBSD, 48KB 경량 편집기 atto 기본 시스템 추가(GeekNews)](engineering/2026-10-30-netbsd-atto-lightweight-editor.md) - news.hada.io 차단, 발췌 말줄임. **2000줄제약이깊이를만든다**(engineering). vi 모드 전환이 낯선 사용자를 위한 Emacs 키바인딩 편집기, 48KB라 복구 시스템에도 적합. [[2026-05-17-ascetic-computing-ratfactor]] 연결. CRS: 적용은 멀다, 신규 직원을 위한 경량 뷰 추가 패턴 참고.
+
+- [Google 검색, 처음으로 Alphabet 매출 절반 아래로(GeekNews)](career/2026-10-30-google-search-revenue-share-below-half.md) - news.hada.io 차단, WebSearch로 실적 수치(SEC 공시) 교차확인. **비중감소는매출감소가아니다**(career). 검색 매출은 전년比 12% 성장했지만 Cloud가 103% 성장해 전체 비중이 49.7%로 내려감. 직접 연결 노트 없음. CRS: 적용 없음, 비중 지표를 절대 지표로 오독하지 않는 원칙 참고.
+
+- [PHP2Shell 연쇄 공격으로 정부 서버 포함 25대 루트 권한 탈취(GeekNews)](backend/2026-10-30-php2shell-chained-attack-government-servers.md) - news.hada.io 차단, WebSearch로 "Unit 42가 검증했다"는 Slack 서술이 실제로는 Unit 42의 철회와 반대임을 확인. **검증했다는말자체를검증해야한다**(backend). Fragnesia 커널 취약점과 결합해 방화벽 24대에 영구 웹셸, 관리 인터페이스 노출이 핵심 위험. [[2026-10-29-php2shell-exploitation-kev-update]] 연결. CRS: 관리 인터페이스를 인터넷에 노출하지 않는 원칙 재확인.
+
+- [IPv4가 땅이라면, 국가별 IPv4 주소 세계지도(GeekNews)](engineering/2026-10-30-ipv4-address-map-by-country.md) - news.hada.io 차단, 발췌 말줄임. **주소밀도로다시그린세계지도**(engineering). 한국 43배·네덜란드 48.2배로 커지고 몽골은 219분의 1로 줄어드는 비례 지도. 가벼운 리소스, 억지 연결 없음. CRS: 적용 없음.
+
+- [DoorDash, Instacart 인수 확정 계약(GeekNews)](career/2026-10-30-doordash-acquires-instacart.md) - news.hada.io 차단, WebSearch로 SEC 공시 대조해 수치 정정. **3분의1밸류로5년만에재성사**(career). 주당 65달러·총 170억 달러, 2021년 깨졌던 합병이 낮은 밸류로 다시 성사. [[2026-10-16-platforms-still-best-business-model]] 연결. CRS: 벤더 생태계 통합 가능성 참고.
+
+- [Mistral Large 4(Le Chonk) 가중치 공개(GeekNews)](ai/2026-10-30-mistral-large-4-le-chonk-weights.md) - news.hada.io 차단, WebSearch로 공개 시점 교차확인. **오픈웨이트간극이라이선스조항으로옮겨갔다**(ai). 프리뷰 3주 후 가중치 공개, 라이선스는 Apache 2.0에서 커스텀으로 변경 보도. [[2026-10-07-mistral-large-4-le-chonk]] 연결. CRS: 적용은 멀다, 오픈웨이트 라이선스 조항 확인 원칙만.
+
+- [Gemini 4 Carbon, AAII v5 1위(GeekNews)](ai/2026-10-30-gemini-4-carbon-aaii-v5-benchmark.md) - news.hada.io 차단, WebSearch로 실존 확인(어제 노트의 의심을 정정). **어제의심한모델을오늘다수매체가확인했다**(ai). AAII 59점 1위, 코딩 에이전트 평가는 Claude Code(62점)에 뒤진 2위. [[2026-10-29-gemini-4-carbon]] 연결. CRS: 벤치마크 1위 타이틀과 실사용 가능 여부를 분리하는 원칙.
+
+- [Claude Code, 각 에이전트 대화 기록을 30초마다 전송함(GeekNews)](ai/2026-10-30-claude-code-30-second-conversation-sync.md) - news.hada.io 차단, 발췌 말줄임. **패널상태줄하나가토큰15~20퍼센트를먹는다**(ai). 백그라운드 에이전트 전체 대화를 30초마다 재전송해 상태 요약을 만들고, 세션 로그에 안 남아 비용 도구로도 안 보임. [[2026-09-02-aws-claude-code-token-economy-part1]] 연결. CRS: 팀 단위 Claude 비용 예산에 에이전트 수x세션 길이 변수로 반영.
+
+- [StackOverflow 월간 질문 수 1,000건 미만(GeekNews)](ai/2026-10-30-stackoverflow-monthly-questions-under-1000.md) - news.hada.io 차단, WebSearch로 감소 방향성만 확인. **사라진질문은사유화된지식이다**(ai). 2026년 9월 969건으로 전년比 81% 감소. [[2026-10-30-claude-code-30-second-conversation-sync]](같은 배치, 대화가 비공개 세션에 흡수되는 또 다른 손실) 연결. CRS: 사내 암묵지를 의도적으로 문서화하는 습관 원칙만.
+
+- [BookOrbit, 전자책과 오디오북 셀프 호스팅 도서관(GeekNews)](engineering/2026-10-30-bookorbit-self-hosted-ebook-audiobook-library.md) - news.hada.io 차단, 발췌 말줄임. **읽은위치를서버가들고있으면기기는창이된다**(engineering). 전자책·오디오북을 서버에 모아 웹·Kobo·KOReader·모바일에서 이어 읽는 셀프호스팅 도서관. [[2026-10-15-n100-mini-pc-selfhosting-28-services]] 연결. CRS: 적용 없음.
+
 - [AWS Lambda Web Functions 실전 가이드 2부: Amazon Bedrock AgentCore Runtime V2 에이전트를 위한 BFF 구성(AWS 기술 블로그)](architecture/2026-10-29-aws-lambda-web-functions-guide-part2.md) - aws.amazon.com 차단, Slack 스레드 상세로 작성. **에이전트를브라우저에서직접부르지않는다**(architecture). 브라우저-AgentCore 사이에 BFF를 끼워 보안·세션 매핑을 책임지게 하고, 에이전트 응답 대기 시간은 거의 비용이 들지 않는다는 설계. [[2026-10-29-aws-lambda-web-functions-guide-part1]](같은 시리즈 1부) 연결. CRS: 직접 적용 가능성 있음, 챗봇/컨시어지를 BFF 뒤에 두는 패턴.
 
 - [Product Engineer 도전: 업무 영역의 확장(요기요)](career/2026-10-29-yogiyo-product-engineer-scope-expansion.md) - techblog.yogiyo.co.kr 차단, Slack 스레드 상세로 작성. **코드는AI에게나는문제정의에**(career). 기능조직 경계를 넘어 문제 정의부터 배포까지 책임지는 PE 파일럿, 코드는 AI에 맡기고 데이터 분석·PRD·검증에 집중. [[2026-10-29-oliveyoung-pm-ai-workflow]] 연결. CRS: PE 파일럿 시험 후보.
