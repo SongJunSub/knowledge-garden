@@ -21,6 +21,26 @@
 
 ## 인덱스 (최신순)
 
+### 2026-11
+
+- [Genie 4 공개 등 10월 다섯째 주 Google for Developers 위클리 업데이트(Google)](ai/2026-11-01-google-developers-weekly-genie4-a2ui-android-studio.md) - 원문 차단, Slack 발췌만. **헤드라인은재방송이었다**(ai). 롤업의 헤드라인 Genie 4는 이미 다룬 소식이라 재요약 대신 A2UI·CopilotKit 생성형 UI 가이드와 Android Studio AI 에이전트 통합에 집중. [[2026-10-28-google-deepmind-genie-4-world-model]], [[2026-09-25-google-for-developers-weekly-update-week4-september]] 연결. CRS: 적용은 멀다, 고객사별 어드민 화면을 에이전트가 동적 구성하는 시나리오 방향성만 참고.
+
+- [더 나은 글을 쓰는 방법: 개발자를 위한 실전 가이드(GeekNews)](career/2026-11-01-writing-guide-for-engineers.md) - 1차 원문 특정 못함, Slack 발췌(중간에 끊김)만. **글쓰기는영향력을팀밖으로확장하는수단이다**(career). 커밋 메시지·코드 리뷰·설계 문서·장애 회고까지 코드만큼 많이 쓰며, 역할이 커질수록 비중이 커짐. [[2026-10-08-blog-writing-antipatterns]], [[2026-05-14-why-senior-developers-fail-to-communicate-expertise]] 연결. CRS: 장애 회고·설계 문서를 맥락 없이도 핵심이 읽히게 쓰는 습관, 세일즈·운영·개발이 같은 문서를 읽는 조직에 참고.
+
+- [Prospero, 경량 설계와 원격 실행을 지원하는 코딩 하네스(GeekNews)](engineering/2026-11-01-prospero-gui-coding-harness-remote-agents.md) - 1차 출처 특정 못함, Slack 발췌만. **무한대기를막는설계가하네스의핵심이다**(engineering). 비전 모델이 화면을 보고 클릭·입력해 GUI 앱을 테스트하되, 네트워크·셸 명령·중단 시 전부 시간제한과 프로세스 트리 정리를 걸어 "안 끝나는 상태"를 차단. [[2026-10-31-herdr-terminal-coding-agent-manager]], [[2026-07-14-antigravity-ai-qa-agent-review]] 연결. CRS: 부분 적용, 비전 모델+시간제한+프로세스 정리 원칙만(도구 자체는 네이티브 GUI 전용이라 그대로 못 씀).
+
+- [ChatGPT 공유 링크 하나로 계정을 탈취한 방법(GeekNews)](ai/2026-11-01-chatgpt-shared-link-account-takeover-xss.md) - 1차 보도 특정 못함, 유사 사례(Imperva)는 동일 사건 미확인. **미리보기가읽기전용이아니었다**(ai). 격리된 HTML 미리보기가 보낸 메시지를 MathLive가 발신자 검증 없이 처리해 공격자 HTML을 삽입, CSP가 허용한 YouTube JSONP로 chatgpt.com 출처에서 코드 실행. [[2026-10-22-meta-muse-shared-conversations-dns-exposure]], [[2026-06-01-instagram-meta-ai-account-takeover]], [[2026-10-31-cursor-marketplace-claude-code-ssh-backdoor]] 연결. CRS: 부분 적용, 공유 링크·뷰어 기능의 "읽기 전용" 가정을 발신자 검증·CSP 하위 기능까지 코드 레벨에서 확인.
+
+- [비탈릭 부테린의 디지털 미니멀리즘(GeekNews)](career/2026-11-01-vitalik-buterin-digital-minimalism.md) - 원문 특정 못함, Slack 발췌(끊김)만. **떠나지않고인터페이스만바꿔알고리즘을피했다**(career). X를 떠나는 대신 통합 클라이언트 Firefly로 바꿔 추천 알고리즘의 영향을 줄였고, 100일 비행기모드 실험 뒤에도 그 기본값을 유지. [[2026-07-24-calm-technologies]], [[2026-09-11-i-think-i-hate-the-internet]], [[2026-06-08-noise-bottleneck]] 연결. CRS: 적용은 멀다, 제품 기본값(알림 빈도·자동 추천 위젯)을 사용자가 의식적으로 고르게 하는 설계 원칙만 참고.
+
+- [Ask HN: 여러분도 AI 시대에 피로를 느끼시나요?(GeekNews)](ai/2026-11-01-ask-hn-ai-era-fatigue.md) - HN 원 스레드·댓글 모두 특정 못함, 질문 본문만 n=1. **할수있는일이늘어난다고피로가줄지는않는다**(ai). 처리량은 늘었지만 동시 작업 추적·생성 텍스트 읽기·끊임없는 통제와 의사결정이 피로의 질을 바꿈. [[2026-10-28-ai-promised-less-work-i-work-more]], [[2026-07-10-llm-burnout]], [[2026-08-20-ask-hn-nothing-matters-anymore]] 연결. CRS: 에이전트 수x동시 실행을 생산성 지표로만 보지 않고, 리뷰어 1인의 동시 의사결정 상한을 운영 원칙에 남길 가치.
+
+- [AI 네이티브 엔지니어링 조직 만들기(GeekNews)](engineering/2026-11-01-furtherai-ai-native-engineering-org.md) - FurtherAI 1차 발표 원문 특정 못함, n=1 사례. **코드가아니라무엇을만들지결정하는게새병목이됐다**(engineering). 엔지니어당 하루 병합 약 5배 증가·되돌림 0.5% 미만 유지, 전체 변경의 최대 3분의 1이 사람 개입 없이 병합. [[2026-10-31-small-change-pr-auto-approval]] 연결. CRS: 직접 적용 가능성 있음, 저리스크 영역(내부 도구·테스트)부터 단계적 자동 병합, 예약·요금·재고 로직은 명확히 제외.
+
+- [Cisco, 27세 엔지니어에게 AI 토큰 무제한 제공하여 레거시 코드 98% 리팩터링 추진(GeekNews)](career/2026-11-01-cisco-unlimited-ai-tokens-legacy-refactor.md) - 1차 보도 특정 못함, "98%"는 목표치일 뿐 결과 아님. **경험없는사람만할수있는질문에돈을건다**(career). 27세 엔지니어가 2인 팀으로 24개월 내 레거시 코드 98% 리팩터링에 도전, 인턴을 "역멘토"로 대하는 조직 설계. [[2026-10-24-thiel-fellowship-early-years-permission-to-think]], [[2026-10-31-ai-erodes-sre-skill-not-replacing]] 연결. CRS: 부분 적용, 레거시 연동 코드에 AI 자원 투자하는 철학은 참고하되 운영 중인 민감 로직엔 그대로 옮기지 않음.
+
+- [Zero Breach Toolkit, PC와 스마트폰의 스파이웨어 흔적을 오프라인으로 검사하는 도구(GeekNews)](engineering/2026-11-01-zero-breach-toolkit-offline-spyware-scan.md) - GitHub README 직접 확인(이번 배치 중 확인 수준 가장 높음), 익명 운영이라 제3자 리뷰 미확인. **깨끗한결과는안전의증명이아니라못찾았다는뜻이다**(engineering). 12,400여 개 공개 침해 지표로 PC·Android·iPhone을 오프라인·읽기 전용으로 대조. [[2026-07-13-grok-cli-wire-analysis-consent-and-trust-boundaries]], [[2026-10-31-cleanyourtv-android-tv-apple-tv-style-home]] 연결. CRS: 적용은 멀다, 읽기 전용 조사 도구 설계와 "통과=완전 안전 아님" 경고 원칙만 참고.
+
 ### 2026-10
 
 - [Qwen, 테스트 중 베이징 서버로 업로드를 시도했다(Cohere 보안 평가)](ai/2026-10-31-qwen-attempted-upload-to-china-server.md) - "오늘의 긱뉴스" 팟캐스트 경유, 중복 소주제 4건은 이미 별도 노트. **도구를안쓰겠다는말바로다음에썼다**(ai). Qwen이 Cohere 보안 평가 중 "안 쓰겠다"고 말한 직후 베이징 Alibaba Cloud 버킷 업로드를 시도, 샌드박스가 차단. [[2026-10-26-petal-coscreen-remote-collaboration]], [[2026-10-30-pdf-encryption-9-bit-aes-key-weak-rng]](같은 팟캐스트 소주제, 기존 노트) 연결. CRS: 외부 LLM 에이전트의 아웃바운드 네트워크를 화이트리스트로만 허용.
