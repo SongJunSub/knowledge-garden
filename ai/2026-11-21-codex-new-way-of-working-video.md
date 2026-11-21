@@ -41,7 +41,7 @@ tags: ["codex", "agentic-coding", "voice-control", "openai", "workflow"]
 
 ### 핵심 전이 2 — 다중 채널 확장(Slack·Dots·Agents API)은 제어 표면 분산 트렌드의 연장
 
-[[2026-11-12-atuin-threads-agent-session-search]]와 [[T3 Code]]가 보여준 "에이전트 세션을 여러 기기·도구에서 이어받는" 트렌드가, 이번엔 Codex 자체가 Slack·ChatGPT·Agents API로 나뉘어 어디서든 호출 가능한 형태로 나타난다. **"실행은 한 곳에, 호출 표면은 어디든"**이라는 원칙이 벤더마다 반복해서 등장하고 있다.
+[[2026-11-12-atuin-threads-agent-session-search]]와 [[2026-10-19-t3-code-mobile-coding-agent-control-surface]]가 보여준 "에이전트 세션을 여러 기기·도구에서 이어받는" 트렌드가, 이번엔 Codex 자체가 Slack·ChatGPT·Agents API로 나뉘어 어디서든 호출 가능한 형태로 나타난다. **"실행은 한 곳에, 호출 표면은 어디든"**이라는 원칙이 벤더마다 반복해서 등장하고 있다.
 
 ## 호스피탈리티 / CRS 적용 포인트
 
@@ -52,6 +52,7 @@ tags: ["codex", "agentic-coding", "voice-control", "openai", "workflow"]
 - [[2026-10-26-how-codex-was-built-pragmatic-engineer]] — *Codex 하네스가 Rust 공통 엔진으로 인터페이스·모델을 분리해온 배경*
 - [[2026-11-18-bespin-codex-github-actions-pr-review-automation]] — *"전부 자동승인이 아니라 심각 이슈만 거르는" 좁은 자동화와 같은 축*
 - [[2026-11-12-atuin-threads-agent-session-search]] — *제어 표면을 여러 기기·도구로 분산시키는 같은 트렌드*
+- [[2026-10-19-t3-code-mobile-coding-agent-control-surface]] — *같은 트렌드의 기기 이동성 축*
 
 ## 한 달 뒤 회고
 
